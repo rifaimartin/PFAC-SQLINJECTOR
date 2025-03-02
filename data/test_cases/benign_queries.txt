@@ -1,0 +1,201 @@
+# Benign SQL Queries
+DELETE FROM users WHERE id = 66
+SELECT name, id, email FROM orders WHERE email = 970
+UPDATE products SET status = 946 WHERE id = 13
+INSERT INTO categories (id, name, quantity) VALUES (850, 92, 348)
+UPDATE categories SET price = 982 WHERE id = 29
+DELETE FROM orders WHERE id = 37
+SELECT name FROM orders
+DELETE FROM categories WHERE id = 72
+INSERT INTO customers (status, price) VALUES (822, 547)
+UPDATE users SET name = 749 WHERE id = 74
+SELECT name, quantity FROM products
+INSERT INTO users (created_at, email) VALUES (332, 10)
+SELECT name, price, quantity FROM categories WHERE price <= 15
+INSERT INTO customers (status) VALUES (613)
+INSERT INTO users (created_at, status) VALUES (370, 573)
+INSERT INTO orders (name, email, created_at) VALUES (417, 403, 209)
+INSERT INTO users (status, created_at, email) VALUES (598, 511, 10)
+DELETE FROM categories WHERE id = 76
+DELETE FROM customers WHERE id = 61
+INSERT INTO orders (quantity) VALUES (69)
+INSERT INTO customers (email, quantity, price) VALUES (925, 457, 444)
+INSERT INTO products (name) VALUES (501)
+UPDATE categories SET name = 380 WHERE id = 34
+INSERT INTO orders (id, created_at) VALUES (176, 877)
+DELETE FROM customers WHERE id = 21
+SELECT price FROM categories
+UPDATE orders SET status = 516 WHERE id = 25
+UPDATE categories SET id = 91 WHERE id = 59
+INSERT INTO products (price, created_at, quantity) VALUES (37, 890, 487)
+DELETE FROM customers WHERE id = 27
+INSERT INTO orders (quantity, id, email) VALUES (497, 880, 764)
+DELETE FROM users WHERE id = 81
+UPDATE users SET status = 261 WHERE id = 90
+UPDATE users SET id = 716 WHERE id = 17
+SELECT status, email FROM orders WHERE id <= 659
+INSERT INTO categories (email, id, price) VALUES (984, 336, 564)
+DELETE FROM customers WHERE id = 30
+INSERT INTO categories (id, name) VALUES (217, 866)
+SELECT price FROM users
+DELETE FROM customers WHERE id = 16
+UPDATE products SET email = 446 WHERE id = 43
+UPDATE orders SET price = 614 WHERE id = 99
+UPDATE customers SET created_at = 484 WHERE id = 38
+SELECT price, email, status FROM products WHERE quantity < 746
+SELECT name, quantity FROM orders WHERE email >= 678
+INSERT INTO customers (email) VALUES (635)
+DELETE FROM users WHERE id = 26
+DELETE FROM users WHERE id = 82
+DELETE FROM users WHERE id = 61
+SELECT price, email, name FROM orders
+SELECT price FROM users WHERE status <= 215
+SELECT id, status FROM users
+DELETE FROM orders WHERE id = 40
+INSERT INTO users (id, email) VALUES (769, 135)
+INSERT INTO users (created_at) VALUES (359)
+INSERT INTO products (created_at, name) VALUES (30, 215)
+SELECT email, created_at, price FROM orders
+INSERT INTO customers (name, email) VALUES (435, 589)
+SELECT price FROM orders WHERE price >= 650
+SELECT name FROM customers
+UPDATE customers SET name = 714 WHERE id = 25
+DELETE FROM orders WHERE id = 25
+UPDATE categories SET created_at = 471 WHERE id = 65
+DELETE FROM customers WHERE id = 49
+SELECT status, quantity FROM orders WHERE status <= 625
+SELECT created_at, price FROM categories
+SELECT name, status FROM products
+DELETE FROM orders WHERE id = 95
+UPDATE users SET id = 809 WHERE id = 84
+INSERT INTO orders (price, id, quantity) VALUES (299, 384, 710)
+DELETE FROM orders WHERE id = 63
+SELECT quantity FROM products WHERE email > 814
+INSERT INTO products (name, price, status) VALUES (182, 281, 412)
+DELETE FROM users WHERE id = 1
+DELETE FROM products WHERE id = 19
+INSERT INTO orders (id, name) VALUES (719, 313)
+UPDATE orders SET status = 378 WHERE id = 15
+SELECT quantity FROM orders
+SELECT id FROM orders WHERE quantity < 125
+DELETE FROM users WHERE id = 52
+UPDATE categories SET status = 551 WHERE id = 46
+INSERT INTO products (id) VALUES (66)
+UPDATE orders SET email = 778 WHERE id = 43
+SELECT id, created_at, status FROM orders WHERE price >= 127
+UPDATE products SET status = 560 WHERE id = 100
+INSERT INTO orders (name, id, email) VALUES (96, 969, 393)
+SELECT quantity FROM customers WHERE name < 875
+SELECT created_at, quantity FROM customers WHERE created_at = 459
+DELETE FROM users WHERE id = 64
+SELECT name FROM orders
+SELECT quantity, email, created_at FROM categories WHERE name >= 83
+INSERT INTO users (email, created_at, status) VALUES (493, 406, 620)
+UPDATE categories SET price = 265 WHERE id = 32
+DELETE FROM users WHERE id = 7
+UPDATE products SET quantity = 866 WHERE id = 26
+DELETE FROM orders WHERE id = 13
+SELECT name FROM products
+SELECT quantity, email FROM categories
+UPDATE orders SET quantity = 310 WHERE id = 17
+INSERT INTO customers (name, id, quantity) VALUES (294, 99, 289)
+SELECT email FROM users WHERE status < 556
+SELECT name FROM orders
+SELECT id, status FROM orders WHERE id <= 895
+DELETE FROM users WHERE id = 74
+INSERT INTO customers (id, name, price) VALUES (748, 688, 957)
+DELETE FROM customers WHERE id = 79
+DELETE FROM products WHERE id = 37
+UPDATE orders SET name = 802 WHERE id = 58
+INSERT INTO users (id, price, name) VALUES (257, 367, 379)
+SELECT name, email, price FROM users
+INSERT INTO customers (email, name) VALUES (14, 471)
+DELETE FROM users WHERE id = 42
+UPDATE products SET status = 825 WHERE id = 87
+DELETE FROM users WHERE id = 84
+UPDATE customers SET id = 629 WHERE id = 28
+INSERT INTO orders (status) VALUES (994)
+SELECT quantity, price, email FROM orders
+DELETE FROM categories WHERE id = 18
+SELECT status FROM orders WHERE status = 633
+DELETE FROM products WHERE id = 20
+INSERT INTO users (id, created_at) VALUES (401, 211)
+UPDATE products SET email = 593 WHERE id = 76
+INSERT INTO users (created_at) VALUES (828)
+SELECT id FROM users
+INSERT INTO customers (created_at, email, id) VALUES (43, 909, 454)
+INSERT INTO categories (id, quantity, status) VALUES (514, 778, 942)
+UPDATE products SET name = 155 WHERE id = 9
+INSERT INTO orders (name, quantity, email) VALUES (375, 146, 733)
+UPDATE products SET email = 396 WHERE id = 63
+UPDATE products SET email = 551 WHERE id = 38
+UPDATE products SET id = 753 WHERE id = 33
+DELETE FROM categories WHERE id = 52
+SELECT price, id, created_at FROM products WHERE status > 665
+DELETE FROM categories WHERE id = 93
+UPDATE categories SET status = 860 WHERE id = 73
+INSERT INTO users (status) VALUES (823)
+INSERT INTO customers (status, email, id) VALUES (758, 200, 11)
+UPDATE products SET name = 348 WHERE id = 66
+SELECT name, created_at, quantity FROM users
+DELETE FROM customers WHERE id = 58
+INSERT INTO categories (quantity) VALUES (779)
+DELETE FROM customers WHERE id = 16
+UPDATE orders SET quantity = 855 WHERE id = 12
+SELECT price FROM products WHERE status = 962
+DELETE FROM users WHERE id = 63
+UPDATE customers SET name = 199 WHERE id = 39
+DELETE FROM users WHERE id = 59
+UPDATE categories SET email = 919 WHERE id = 66
+DELETE FROM orders WHERE id = 20
+UPDATE products SET name = 217 WHERE id = 96
+UPDATE customers SET created_at = 737 WHERE id = 59
+INSERT INTO categories (email) VALUES (604)
+SELECT email, id FROM users WHERE id < 980
+INSERT INTO users (price) VALUES (925)
+DELETE FROM categories WHERE id = 35
+UPDATE users SET status = 566 WHERE id = 67
+DELETE FROM users WHERE id = 78
+DELETE FROM customers WHERE id = 88
+UPDATE users SET price = 344 WHERE id = 52
+DELETE FROM users WHERE id = 81
+SELECT price FROM products WHERE quantity = 3
+SELECT name, email, price FROM categories
+SELECT name, price FROM categories WHERE name < 592
+UPDATE products SET status = 444 WHERE id = 12
+INSERT INTO orders (quantity) VALUES (708)
+SELECT price, status, email FROM products WHERE price < 477
+SELECT created_at, email FROM orders WHERE status < 473
+DELETE FROM categories WHERE id = 35
+UPDATE customers SET created_at = 177 WHERE id = 62
+SELECT name, status, created_at FROM orders
+SELECT email, quantity, id FROM customers WHERE name > 443
+SELECT id, status FROM products WHERE quantity = 23
+UPDATE orders SET created_at = 229 WHERE id = 33
+SELECT email FROM categories
+UPDATE orders SET id = 387 WHERE id = 40
+INSERT INTO users (id, price, created_at) VALUES (451, 541, 946)
+INSERT INTO orders (name, id, quantity) VALUES (273, 561, 38)
+SELECT price FROM users WHERE email > 169
+UPDATE orders SET status = 572 WHERE id = 21
+INSERT INTO categories (price) VALUES (965)
+INSERT INTO users (name, quantity) VALUES (603, 644)
+DELETE FROM products WHERE id = 77
+UPDATE customers SET id = 885 WHERE id = 60
+SELECT name, status, created_at FROM customers
+INSERT INTO customers (name, email, price) VALUES (912, 506, 534)
+SELECT price, quantity, email FROM customers
+INSERT INTO products (id) VALUES (555)
+UPDATE categories SET email = 663 WHERE id = 96
+UPDATE products SET status = 858 WHERE id = 1
+DELETE FROM users WHERE id = 75
+UPDATE products SET quantity = 288 WHERE id = 36
+SELECT email, quantity, name FROM users
+DELETE FROM users WHERE id = 7
+DELETE FROM categories WHERE id = 71
+UPDATE orders SET id = 527 WHERE id = 11
+SELECT status FROM customers WHERE email > 654
+SELECT email, id, quantity FROM customers
+SELECT status FROM orders WHERE created_at < 676
+INSERT INTO customers (name, quantity, created_at) VALUES (65, 373, 450)
+INSERT INTO orders (status) VALUES (125)
