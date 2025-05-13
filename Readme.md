@@ -22,6 +22,9 @@ cd PFAC-SQLINJECTOR
 # Compile with NVCC (NVIDIA CUDA Compiler)
 nvcc -o Aho-Corasick Aho-Corasick.cu
 
+# Create Nsys-Report
+nsys profile -o Aho-Corasick-[Level_SQL]-[LengthDatSize] --stats=true ./Aho-Corasick.exe
+
 nvcc -o PFAC PFAC.cu
 ```
 
