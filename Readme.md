@@ -1,78 +1,68 @@
-# Parallel String Matching Algorithm Comparison: Aho-Corasick vs Rabin-Karp using CUDA
+# PFAC-SQLINJECTOR
 
-This project implements and compares two popular string matching algorithms (Aho-Corasick and Rabin-Karp) in parallel using CUDA for high-performance DNA sequence analysis. The implementation focuses on leveraging GPU acceleration to significantly improve the processing speed of large-scale genomic data.
+A high-performance SQL injection detection tool using parallel pattern matching algorithms on CUDA.
 
-## CUDA Implementations
+## Overview
 
-### Rabin-Karp Cuda :
-~~~bash
-nvcc -o rabinKarpCuda rabinKarpCuda.cu
-nsys profile -o report-robinKarp-8-10m --stats=true ./rabinKarpCuda.exe
-nsys stats report-robinKarp-8-10m.nsys-rep --report summary --format csv -o summary_output_report-robinKarp-8-10m.nsys-rep
-~~~
+PFAC-SQLINJECTOR utilizes the Parallel Failure-less Aho-Corasick (PFAC) algorithm implemented on NVIDIA CUDA to efficiently detect potential SQL injection patterns in large query datasets. The project employs GPU acceleration to significantly improve the processing speed of query validation compared to traditional CPU-based methods.
 
-### Aho-Corasick Cuda : 
-~~~bash
-nvcc -o AhoCorasickCuda AhoCorasickCuda.cu
-nvcc -o PFAC-ahoCorasick PFAC-ahoCorasick.cu
-nsys profile -o report-AhoCorasickCuda-1juta --stats=true ./AhoCorasickCuda.exe
-nsys stats report-AhoCorasickCuda-1juta.nsys-rep --report summary --format csv -o summary_output_report-AhoCorasickCuda-1juta.nsys-rep
-~~~
+## Requirements
 
-## Sequential Implementations
+- NVIDIA CUDA Toolkit (12.0 or newer recommended)
+- NVIDIA GPU with Compute Capability 3.5 or higher
+- C++ compiler with C++11 support
 
-### Rabin-Karp Sequence :
-~~~bash
-gcc -o rabinKarp rabinKarp.cpp
-~~~
+## Cuda Implementation
 
-### Aho-Corasick Sequence :
-~~~bash
-g++ -o AhoCorasickFixed AhoCorasickFixed.cpp
-~~~
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/PFAC-SQLINJECTOR.git
+cd PFAC-SQLINJECTOR
 
-## Compilation and Profiling Instructions
+# Compile with NVCC (NVIDIA CUDA Compiler)
+nvcc -o Aho-Corasick Aho-Corasick.cu
 
-- Ensure CUDA Toolkit and necessary compilers are installed
+nvcc -o PFAC PFAC.cu
+```
 
-# Dataset :
-https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/
-
-extracted -> GCA_000001405.29_GRCh38.p14_genomic  -> extract_sequence.py -> python -u extract_sequence.py (lowe & upper data)
-extracted -> GCA_000001405.29_GRCh38.p14_genomic  -> extract_sequence_upperchar.py -> python -u extract_sequence_upperchar.py (upper data)
-
-# Overview
-String matching is a fundamental operation in bioinformatics, especially for DNA sequence analysis. Traditional sequential approaches often struggle with scalability when dealing with large datasets. This project explores how parallelization using NVIDIA's CUDA can enhance the performance of two fundamentally different string-matching approaches:
-
-* Aho-Corasick: A finite state machine-based algorithm for efficient multi-pattern matching
-* Rabin-Karp: A hashing-based algorithm that uses rolling hash functions for pattern identification
-
-# Results
-Our research demonstrates significant performance improvements using GPU parallelization:
-
-| Algorithm    | Dataset Size | Sequential Time (ms) | CUDA Time (ms) | Speedup |
-|--------------|--------------|----------------------|----------------|---------|
-| Aho-Corasick | 10M        | 1,656                  | 3.51            | 471.5×     |
-| Rabin-Karp   | 10M        | 3,288                  | 13.49            | 243.7×    |
-
-GPU: NVIDIA GeForce GTX 1660 Ti (6GB VRAM, CUDA 12.8)
-
-The dataset used was NCBI GenBank human genome sequence (10 million base pairs). Both algorithms found identical matches (361,590) across all tested patterns, confirming implementation correctness. Aho-Corasick achieved superior performance in both sequential and parallel implementations, with the GPU-accelerated version demonstrating a remarkable 471.5× speedup over its sequential counterpart.
-
-## Technical Insights
-
-- Aho-Corasick's finite state machine structure creates irregular memory access patterns, potentially leading to thread divergence in CUDA implementations
-- Rabin-Karp's hash computation is highly parallelizable but faces challenges in managing hash collisions efficiently
-- Memory management strategies significantly impact performance for both algorithms
-- Algorithm selection should consider pattern quantity, distribution, and specific DNA sequence characteristics
-
-### Contributors
-
-* Christoffel H. Moekoe (christoffelhm@gmail.com)
-* Muhammad Rifai (rifaimartinjham@gmail.com)
-* Ilham I. Saputra (pewililham13@gmail.com)
-* Sofia K. Hanim (Kartikasofia35@gmail.com)
+## Algorithm Details
 
 
-License
-This project is part of academic research at UPH Tangerang, Indonesia.
+## Performance
+
+Performance metrics on a test dataset:
+
+| Dataset Size | Processing Time | Queries/Second |
+|-------------|-----------------|---------------|
+| - | - | - |
+| - | - | - |
+| - | - | - |
+
+*Tested on NVIDIA GeForce GTX 1660 Ti (benchmarks may vary based on hardware)*
+
+## Project Structure
+
+
+## SQL Injection Pattern Categories
+
+
+## Risk Classification System
+
+- **Low Risk (≤30)**: Potential SQL keywords detected but likely benign
+- **Medium Risk (31-70)**: Multiple SQL patterns detected that might indicate an attack
+- **High Risk (71-90)**: Clear evidence of SQL manipulation attempts
+- **Critical Risk (>90)**: Destructive operations or command execution attempts detected
+
+## Authors
+
+- Robertus Hudi - Universitas Pelita Harapan
+- Kennedy Suganto - Universitas Pelita Harapan
+- Muhammad Rifai - Universitas Pelita Harapan
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+This research was supported by Universitas Pelita Harapan and the Institute of Research and Community Services (LPPM UPH) with research number P-92-SISTech-VII/2023.
