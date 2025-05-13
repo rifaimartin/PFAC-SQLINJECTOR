@@ -1,9 +1,0 @@
-Benign SQL Queries
-SELECT * FROM users WHERE username = 'john';
-SELECT id, name, email FROM customers WHERE country = 'US';
-UPDATE users SET last_login = CURRENT_TIMESTAMP WHERE id = 123;
-INSERT INTO logs (user_id, action, timestamp) VALUES (456, 'login', NOW());
-DELETE FROM sessions WHERE expired_at < CURRENT_TIMESTAMP;
-SELECT COUNT(*) FROM orders WHERE status = 'pending';
-SELECT product_name, price FROM products WHERE category_id = 5 ORDER BY price DESC;
-SELECT u.name, o.order_date FROM users u JOIN orders o ON u.id = o.user_id;

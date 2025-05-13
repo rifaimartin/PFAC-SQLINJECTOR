@@ -2,5 +2,7 @@
     "files.associations": {
         "*.embeddedhtml": "html",
         "string.h": "c"
-    }
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.default.compilerPath": "cl.exe"
 }

