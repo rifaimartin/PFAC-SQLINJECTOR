@@ -1,6 +1,3 @@
-// aho_cuda_full.cu
-// Parallel Aho–Corasick SQLi risk detection using CUDA.
-
 #include <iostream>
 #include <vector>
 #include <string>
@@ -17,7 +14,7 @@ using namespace std;
 
 #define ALPHABET_SIZE 128
 #define MAX_NODES     8192    // adjust as needed
-#define MAX_PATTERNS  256     // adjust as needed
+#define MAX_PATTERNS  1024     // adjust as needed
 
 // Macro for CUDA error checking
 #define CUDA_CHECK(call)                                                         \
@@ -206,14 +203,95 @@ void flattenAutomaton(
     }
 }
 
-int main() {
+// Function to read patterns from file
+bool readPatternsFromFile(const string& filename, vector<string>& patterns) {
+    ifstream infile(filename);
+    if (!infile.is_open()) {
+        cerr << "Error: could not open patterns file: " << filename << endl;
+        return false;
+    }
+    
+    patterns.clear();  // Clear any existing patterns before adding new ones
+    string line;
+    while (getline(infile, line)) {
+        // Skip empty lines and comment lines
+        if (line.empty() || line[0] == '#') continue;
+        
+        // Handle quoted patterns with commas
+        // Format expected: "pattern", or just pattern
+        string pattern = line;
+        
+        // Remove leading/trailing whitespace
+        pattern = pattern.substr(pattern.find_first_not_of(" \t\r\n"), 
+                     pattern.find_last_not_of(" \t\r\n") - pattern.find_first_not_of(" \t\r\n") + 1);
+        
+        // Remove quotes and comma if present
+        if (pattern.size() >= 2 && pattern.front() == '"' && 
+            (pattern.back() == '"' || (pattern.size() >= 3 && pattern[pattern.size()-2] == '"' && pattern.back() == ','))) {
+            
+            // Remove opening quote
+            pattern = pattern.substr(1);
+            
+            // Remove closing quote and optional comma
+            if (pattern.back() == ',') {
+                pattern = pattern.substr(0, pattern.size() - 2);  // Remove both " and ,
+            } else if (pattern.back() == '"') {
+                pattern = pattern.substr(0, pattern.size() - 1);  // Remove just "
+            }
+        } else if (pattern.back() == ',') {
+            // If only comma present at end with no quotes
+            pattern = pattern.substr(0, pattern.size() - 1);
+        }
+        
+        // Add pattern if it's not empty after processing
+        if (!pattern.empty()) {
+            patterns.push_back(pattern);
+        }
+    }
+    
+    infile.close();
+    return !patterns.empty();  // Return true only if we found at least one pattern
+}
 
+// Function to assign weights to patterns
+void assignWeights(const vector<string>& patterns, vector<int>& weights) {
+    weights.resize(patterns.size());
+    
+    for (size_t i = 0; i < patterns.size(); ++i) {
+        const auto &pat = patterns[i];
+        
+        // High-risk patterns (weight 100)
+        if (pat.find("; drop") != string::npos || 
+            pat.find("xp_cmdshell") != string::npos ||
+            pat.find("; exec") != string::npos || 
+            pat.find("outfile") != string::npos ||
+            pat.find("load_file") != string::npos) {
+            weights[i] = 100;
+        }
+        // Medium-risk patterns (weight 15)
+        else if (pat.find("; delete") != string::npos || 
+                 pat.find("; insert") != string::npos ||
+                 pat.find("; truncate") != string::npos || 
+                 pat.find("; update") != string::npos ||
+                 pat.find("sleep(") != string::npos || 
+                 pat.find("version(") != string::npos ||
+                 pat.find("current_user") != string::npos) {
+            weights[i] = 15;
+        }
+        // Low-risk patterns (weight 10)
+        else {
+            weights[i] = 10;
+        }
+    }
+}
+
+int main() {
     ofstream out("results.txt");
     streambuf* coutbuf = cout.rdbuf(); // save old buf
     cout.rdbuf(out.rdbuf());
 
-    // 1) Define and weight patterns (expanded list)
-    vector<string> rawPatterns = {
+    // default patterns
+    vector<string> defaultPatterns = {
         "' or", "\" or", "' ||", "\" ||", "= or", "= ||", "' =", "' >=", "' <=", "' <>",
         "\" =", "\" !=", "= =", "= <", " >=", " <=", "' union", "' select", "' from",
         "union select", "select from", "' convert(", "' avg(", "' round(", "' sum(", "' max(", "' min(",
@@ -224,11 +302,54 @@ int main() {
         "sleep(", "benchmark(", "count(*)", "information_schema.schemata", "null", "version(", "current_user",
         "outfile", "load_file"
     };
+    
+    vector<string> rawPatterns;
+    
+    // Try to read from file
+    bool useDefaultPatterns = true;
+    ifstream patternFile("patterns.txt");
+    if (patternFile.is_open()) {
+        if (readPatternsFromFile("patterns.txt", rawPatterns) && !rawPatterns.empty()) {
+            cout << "Successfully read " << rawPatterns.size() << " patterns from patterns.txt" << endl;
+            useDefaultPatterns = false;
+        } else {
+            cout << "Warning: patterns.txt exists but contains no valid patterns" << endl;
+        }
+        patternFile.close();
+    } else {
+        cout << "patterns.txt not found, using default patterns" << endl;
+    }
+    
+    if (useDefaultPatterns) {
+        rawPatterns = defaultPatterns;
+        cout << "Using " << rawPatterns.size() << " default patterns" << endl;
+    }
+    
+    // Debug: Print raw patterns to verify
+    cout << "First 5 raw patterns:" << endl;
+    for (int i = 0; i < min(5, (int)rawPatterns.size()); i++) {
+        cout << "[DEBUG] Raw pattern " << i << ": '" << rawPatterns[i] << "'" << endl;
+    }
+    
+    // Print some statistics about patterns
+    cout << "Pattern stats: Total=" << rawPatterns.size() << endl;
+    
     int P = rawPatterns.size();
     vector<string> patterns(P);
     vector<int> weights(P);
+    
+    // Normalize patterns
     for (int i = 0; i < P; ++i) {
         patterns[i] = normalize(rawPatterns[i]);
+    }
+    
+    // Debug: Print normalized patterns to verify
+    cout << "First 5 normalized patterns:" << endl;
+    for (int i = 0; i < min(5, P); i++) {
+        cout << "[DEBUG] Normalized pattern " << i << ": '" << patterns[i] << "'" << endl;
+    }
+
+    for (int i = 0; i < P; ++i) {
         const auto &pat = patterns[i];
         if (pat.find("; drop")!=string::npos || pat.find("xp_cmdshell")!=string::npos ||
             pat.find("; exec")!=string::npos || pat.find("outfile")!=string::npos ||
@@ -255,6 +376,21 @@ int main() {
     vector<uint64_t> h_maskLow, h_maskHigh;
     flattenAutomaton(ac, h_children, h_fail, h_maskLow, h_maskHigh);
     int N = ac.nodeCount();
+    
+    // Make sure we don't exceed MAX_NODES or MAX_PATTERNS
+    if (N > MAX_NODES) {
+        cerr << "Error: Automaton has " << N << " nodes, exceeding MAX_NODES (" << MAX_NODES << ")" << endl;
+        cout.rdbuf(coutbuf);
+        return EXIT_FAILURE;
+    }
+    if (P > MAX_PATTERNS) {
+        cerr << "Error: Pattern count " << P << " exceeds MAX_PATTERNS (" << MAX_PATTERNS << ")" << endl;
+        cout.rdbuf(coutbuf);
+        return EXIT_FAILURE;
+    }
+    
+    cout << "Automaton built with " << N << " nodes for " << P << " patterns." << endl;
+    
     CUDA_CHECK(cudaMemcpyToSymbol(d_children, h_children.data(), N * ALPHABET_SIZE * sizeof(int)));
     CUDA_CHECK(cudaMemcpyToSymbol(d_fail,     h_fail.data(),     N * sizeof(int)));
     CUDA_CHECK(cudaMemcpyToSymbol(d_maskLow,  h_maskLow.data(),  N * sizeof(uint64_t)));
@@ -262,7 +398,7 @@ int main() {
     CUDA_CHECK(cudaMemcpyToSymbol(d_patternWeights, weights.data(), P * sizeof(int)));
 
     // 4) Read queries and expected risks
-    ifstream infile("sqli_dataset_Low_New.csv");
+    ifstream infile("sql_dataset_Critical_10000.csv");
     if (!infile.is_open()) {
         cerr << "Error: could not open CSV file.\n";
         return EXIT_FAILURE;
@@ -319,13 +455,18 @@ int main() {
     CUDA_CHECK(cudaMemcpy(h_results.data(), d_results, Q * sizeof(int), cudaMemcpyDeviceToHost));
 
     int correct = 0;
-    for (int i = 0; i < Q; ++i) {
+    for (int i = 0; i < Q; ++i)
+    {
         string compRisk = classifyRisk(h_results[i]);
         bool match = (compRisk == expected[i]);
-        if (match) ++correct;
-        cout << "Query " << i << ": computed=" << compRisk
-                  << ", expected=" << expected[i]
-                  << (match ? " [OK]" : " [Mismatch]") << "\n";
+        if (match)
+            ++correct;
+        if (i < 10)
+        {
+            cout << "Query " << i << ": computed=" << compRisk
+                 << ", expected=" << expected[i]
+                 << (match ? " [OK]" : " [Mismatch]") << "\n";
+        }
     }
     double accuracy = Q ? (100.0 * correct / Q) : 0.0;
     cout << "\nTotal: " << Q << ", Correct: " << correct

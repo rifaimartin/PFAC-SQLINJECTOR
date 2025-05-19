@@ -1,0 +1,11 @@
+query,risk,score
+'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users; --,critical,100
+'; SELECT * FROM mysql.user; --,critical,100
+'; DROP TABLE users; -- /* test */,critical,100
+'; USE information_schema; SELECT table_schema FROM tables; --,critical,100
+'; DECLARE @cmd VARCHAR(4000); SET @cmd = 'xp_cmdshell ''dir'''; EXEC(@cmd); --,critical,100
+'; DECLARE @cmd VARCHAR(4000); SET @cmd = 'xp_cmdshell ''dir'''; EXEC(@cmd); --,critical,100
+'; EXEC xp_cmdshell('net user hack hack /add'); --,critical,100
+'; CREATE TRIGGER malicious_trigger BEFORE INSERT ON users FOR EACH ROW SET NEW.admin = 1; --,critical,100
+'; SELECT * FROM mysql.user; --,critical,100
+'; DECLARE @cmd VARCHAR(4000); SET @cmd = 'xp_cmdshell ''dir'''; EXEC(@cmd); --,critical,100
