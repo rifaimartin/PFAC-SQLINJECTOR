@@ -1,57 +1,58 @@
-=== Optimized Sparse PFAC for SQL Injection Detection ===
-Extracted 1007 patterns using regex
-Successfully read 1007 patterns from patterns.txt
+Extracted 304 patterns using regex
+Successfully read 304 patterns from patterns.txt
 First 10 patterns:
-1. ' or
-2. \
-3. ,
+1.  <=
+2. 1=1
+3. ' =
+4. = =
+5. = <
+6. \
+7. ,
 
-4. ,
+8. ,
 
-5.  ||
-6. = or
-7. = ||
-8. ' =
-9. ' >=
-10. ' <=
-... and 997 more patterns
-Weight distribution: 10=847, 15=108, 100=52
-Trie node count: 492
-Transitions count: 491
-Average transitions per node: 0.997967
+9. ,
+
+10. ,
+
+... and 294 more patterns
+Weight distribution: 10=244, 15=16, 100=44
+Trie node count: 4948
+Transitions count: 4947
+Average transitions per node: 0.999798
 Loaded 10000 queries.
 Launching kernel with 40 blocks and 256 threads per block...
 Query 0: "'; EXEC xp_cmdshell('net user hack hack /add'); --"
   Normalized: "'; exec xp_cmdshell('net user hack hack /add'); --"
-  Score: 565, computed risk: critical, expected: critical [OK]
+  Score: 260, computed risk: critical, expected: critical [OK]
 Query 1: "' INTO OUTFILE '/var/www/shell.php' --"
   Normalized: "' into outfile '/var/www/shell.php' --"
-  Score: 185, computed risk: critical, expected: critical [OK]
+  Score: 150, computed risk: critical, expected: critical [OK]
 Query 2: "'; SELECT * FROM users INTO OUTFILE '/tmp/dump.txt'; --"
   Normalized: "'; select * from users into outfile '/tmp/dump.txt'; --"
-  Score: 280, computed risk: critical, expected: critical [OK]
+  Score: 195, computed risk: critical, expected: critical [OK]
 Query 3: "'; SELECT * FROM mysql.user; --"
   Normalized: "'; select * from mysql.user; --"
-  Score: 145, computed risk: critical, expected: critical [OK]
+  Score: 260, computed risk: critical, expected: critical [OK]
 Query 4: ""'; CALL mysql.lambda_async('127.0.0.1'"
   Normalized: ""'; call mysql.lambda_async('127.0.0.1'"
-  Score: 0, computed risk: low, expected:  1234 [Mismatch]
+  Score: 40, computed risk: medium, expected:  1234 [Mismatch]
 Query 5: "'; DROP TABLE users; -- /* test */"
   Normalized: "'; drop table users; -- /* test */"
-  Score: 820, computed risk: critical, expected: critical [OK]
+  Score: 185, computed risk: critical, expected: critical [OK]
 Query 6: "'; SELECT load_file('/etc/passwd'); #"
   Normalized: "'; select load_file('/etc/passwd'); #"
-  Score: 780, computed risk: critical, expected: critical [OK]
+  Score: 170, computed risk: critical, expected: critical [OK]
 Query 7: "'; DROP TABLE users; -- /* test */"
   Normalized: "'; drop table users; -- /* test */"
-  Score: 820, computed risk: critical, expected: critical [OK]
+  Score: 185, computed risk: critical, expected: critical [OK]
 Query 8: "'; SELECT * FROM mysql.user; --"
   Normalized: "'; select * from mysql.user; --"
-  Score: 145, computed risk: critical, expected: critical [OK]
+  Score: 260, computed risk: critical, expected: critical [OK]
 Query 9: "'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users; --"
   Normalized: "'; load data infile '/etc/passwd' into table users; --"
-  Score: 50, computed risk: medium, expected: critical [Mismatch]
+  Score: 100, computed risk: critical, expected: critical [OK]
 
-Total: 10000, Correct: 7537, Accuracy: 75.37%
-Queries with zero score: 651 (6.51%)
-Optimized Sparse PFAC kernel execution time: 0.388096 ms
+Total: 10000, Correct: 7976, Accuracy: 79.76%
+Queries with zero score: 0 (0%)
+Optimized Sparse PFAC kernel execution time: 1.54317 ms

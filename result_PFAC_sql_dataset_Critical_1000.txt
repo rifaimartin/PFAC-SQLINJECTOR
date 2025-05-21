@@ -1,0 +1,58 @@
+Extracted 304 patterns using regex
+Successfully read 304 patterns from patterns.txt
+First 10 patterns:
+1.  <=
+2. 1=1
+3. ' =
+4. = =
+5. = <
+6. \
+7. ,
+
+8. ,
+
+9. ,
+
+10. ,
+
+... and 294 more patterns
+Weight distribution: 10=244, 15=16, 100=44
+Trie node count: 4948
+Transitions count: 4947
+Average transitions per node: 0.999798
+Loaded 1000 queries.
+Launching kernel with 4 blocks and 256 threads per block...
+Query 0: "'; CREATE TRIGGER malicious_trigger BEFORE INSERT ON users FOR EACH ROW SET NEW.admin = 1; --"
+  Normalized: "'; create trigger malicious_trigger before insert on users for each row set new.admin = 1; --"
+  Score: 115, computed risk: critical, expected: critical [OK]
+Query 1: "'; CREATE USER 'hack'@'%' IDENTIFIED BY 'hack'; GRANT ALL PRIVILEGES ON *.* TO 'hack'@'%'; --"
+  Normalized: "'; create user 'hack'@'%' identified by 'hack'; grant all privileges on *.* to 'hack'@'%'; --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 2: "'; CREATE TRIGGER malicious_trigger BEFORE INSERT ON users FOR EACH ROW SET NEW.admin = 1; --"
+  Normalized: "'; create trigger malicious_trigger before insert on users for each row set new.admin = 1; --"
+  Score: 115, computed risk: critical, expected: critical [OK]
+Query 3: "'; WITH REC AS (SELECT 1 a UNION ALL SELECT a+1 FROM REC WHERE a<100) SELECT * FROM REC; --"
+  Normalized: "'; with rec as (select 1 a union all select a+1 from rec where a<100) select * from rec; --"
+  Score: 110, computed risk: critical, expected: critical [OK]
+Query 4: ""' UNION SELECT username"
+  Normalized: ""' union select username"
+  Score: 20, computed risk: low, expected:  password FROM users /**/ /*" [Mismatch]
+Query 5: "'; SELECT load_file('/etc/passwd'); #"
+  Normalized: "'; select load_file('/etc/passwd'); #"
+  Score: 170, computed risk: critical, expected: critical [OK]
+Query 6: ""'; SELECT MD5(BENCHMARK(100000"
+  Normalized: ""'; select md5(benchmark(100000"
+  Score: 40, computed risk: medium, expected: MD5('x'))); --" [Mismatch]
+Query 7: "'; SELECT load_file('/etc/passwd'); #"
+  Normalized: "'; select load_file('/etc/passwd'); #"
+  Score: 170, computed risk: critical, expected: critical [OK]
+Query 8: ""'; CALL mysql.lambda_async('127.0.0.1'"
+  Normalized: ""'; call mysql.lambda_async('127.0.0.1'"
+  Score: 40, computed risk: medium, expected:  1234 [Mismatch]
+Query 9: "'; SELECT load_file('/etc/passwd'); #"
+  Normalized: "'; select load_file('/etc/passwd'); #"
+  Score: 170, computed risk: critical, expected: critical [OK]
+
+Total: 1000, Correct: 795, Accuracy: 79.5%
+Queries with zero score: 0 (0%)
+Optimized Sparse PFAC kernel execution time: 1.408 ms

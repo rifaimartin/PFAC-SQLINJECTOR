@@ -1,0 +1,27 @@
+Successfully read 300 patterns from patterns.txt
+First 5 raw patterns:
+[DEBUG] Raw pattern 0: ' <='
+[DEBUG] Raw pattern 1: '1=1'
+[DEBUG] Raw pattern 2: '' ='
+[DEBUG] Raw pattern 3: '= ='
+[DEBUG] Raw pattern 4: '= <'
+Pattern stats: Total=300
+First 5 normalized patterns:
+[DEBUG] Normalized pattern 0: ' <='
+[DEBUG] Normalized pattern 1: '1=1'
+[DEBUG] Normalized pattern 2: '' ='
+[DEBUG] Normalized pattern 3: '= ='
+[DEBUG] Normalized pattern 4: '= <'
+Automaton built with 4966 nodes for 300 patterns.
+Query 0: computed=low, expected=MD5('x'))); --" [Mismatch]
+Query 1: computed=critical, expected=critical [OK]
+Query 2: computed=critical, expected=critical [OK]
+Query 3: computed=critical, expected=critical [OK]
+Query 4: computed=low, expected= password FROM users /**/ /*" [Mismatch]
+Query 5: computed=critical, expected=critical [OK]
+Query 6: computed=critical, expected=critical [OK]
+Query 7: computed=critical, expected=critical [OK]
+Query 8: computed=critical, expected=critical [OK]
+Query 9: computed=high, expected=critical [Mismatch]
+
+Total: 5000, Correct: 3362, Accuracy: 67.24%

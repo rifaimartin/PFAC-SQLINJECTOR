@@ -1,7 +1,9 @@
 {
     "files.associations": {
         "*.embeddedhtml": "html",
-        "string.h": "c"
+        "string.h": "c",
+        "iosfwd": "cpp",
+        "iostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.default.compilerPath": "cl.exe"

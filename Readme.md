@@ -26,7 +26,20 @@ nvcc -o Aho-Corasick Aho-Corasick.cu
 nsys profile -o Aho-Corasick-[Level_SQL]-[LengthDatSize] --stats=true ./Aho-Corasick.exe
 
 nvcc -o PFAC PFAC.cu
+
+# Run with dataset[size]
+PFAC.exe -d sql_dataset_Low_5000
+
+Aho-Corasick -d sql-dataset_Low_5000
+
+
 ```
+
+# Untuk PFAC
+./PFAC.exe -d sql_dataset_Low_5000
+
+# Untuk Aho-Corasick
+./Aho-Corrasick.exe -d sql_dataset_High_1000
 
 ## Algorithm Details
 

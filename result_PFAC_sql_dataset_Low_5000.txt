@@ -1,0 +1,58 @@
+Extracted 304 patterns using regex
+Successfully read 304 patterns from patterns.txt
+First 10 patterns:
+1.  <=
+2. 1=1
+3. ' =
+4. = =
+5. = <
+6. \
+7. ,
+
+8. ,
+
+9. ,
+
+10. ,
+
+... and 294 more patterns
+Weight distribution: 10=244, 15=16, 100=44
+Trie node count: 4948
+Transitions count: 4947
+Average transitions per node: 0.999798
+Loaded 5000 queries.
+Launching kernel with 20 blocks and 256 threads per block...
+Query 0: "1' or true --"
+  Normalized: "1' or true --"
+  Score: 30, computed risk: low, expected: low [OK]
+Query 1: "' OR 1=1 --"
+  Normalized: "' or 1=1 --"
+  Score: 60, computed risk: medium, expected: low [Mismatch]
+Query 2: "1' or 1=1 --"
+  Normalized: "1' or 1=1 --"
+  Score: 90, computed risk: high, expected: low [Mismatch]
+Query 3: "admin' /**/"
+  Normalized: "admin' /**/"
+  Score: 20, computed risk: low, expected: low [OK]
+Query 4: "' OR 1=1 --"
+  Normalized: "' or 1=1 --"
+  Score: 60, computed risk: medium, expected: low [Mismatch]
+Query 5: "' OR 'x'='x"
+  Normalized: "' or 'x'='x"
+  Score: 20, computed risk: low, expected: low [OK]
+Query 6: "' OR 'a'='a"
+  Normalized: "' or 'a'='a"
+  Score: 30, computed risk: low, expected: low [OK]
+Query 7: "1' or '1'='1"
+  Normalized: "1' or '1'='1"
+  Score: 60, computed risk: medium, expected: low [Mismatch]
+Query 8: "' or 'a'='a"
+  Normalized: "' or 'a'='a"
+  Score: 30, computed risk: low, expected: low [OK]
+Query 9: "1' OR '1'='1"
+  Normalized: "1' or '1'='1"
+  Score: 60, computed risk: medium, expected: low [Mismatch]
+
+Total: 5000, Correct: 2138, Accuracy: 42.76%
+Queries with zero score: 0 (0%)
+Optimized Sparse PFAC kernel execution time: 0.356352 ms

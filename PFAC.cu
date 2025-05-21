@@ -305,16 +305,54 @@ vector<string> readPatternsFromFile(const string& filename) {
     return patterns;
 }
 
-int main() {
+void printUsage(const char* programName) {
+    cout << "Usage: " << programName << " [options]" << endl;
+    cout << "Options:" << endl;
+    cout << "  -d, --dataset <file>   CSV dataset file to process (default: sql_dataset_Critical_10000.csv)" << endl;
+    cout << "  -p, --patterns <file>  Pattern file to use (default: patterns.txt)" << endl;
+    cout << "  -o, --output <file>    Output file for results (default: results.txt)" << endl;
+    cout << "  -h, --help             Show this help message" << endl;
+}
+
+int main(int argc, char** argv) {
+    // Default filenames
+    string datasetFile = "sql_dataset_Critical_10000";
+    // string patternFile = "patterns.txt";
+    // string outputFile = "results_pfac.txt";
+
+    for (int i = 1; i < argc; i++)
+    {
+        string arg = argv[i];
+
+        if (arg == "-h" || arg == "--help")
+        {
+            printUsage(argv[0]);
+            return 0;
+        }
+        else if (arg == "-d" || arg == "--dataset")
+        {
+            datasetFile = argv[++i];
+        }
+        // else if (arg == "-o" || arg == "--output") {
+        //     outputFile = argv[++i];
+        // }
+        else
+        {
+            cerr << "Unknown option: " << arg << endl;
+            printUsage(argv[0]);
+            return 1;
+        }
+    }
+
     cudaEvent_t start, stop;
     cudaEventCreate(&start);
     cudaEventCreate(&stop);
     
-    ofstream out("results_pfac.txt");
+    ofstream out("result_PFAC_" + datasetFile + ".txt");
     streambuf* coutbuf = cout.rdbuf(); 
     cout.rdbuf(out.rdbuf());
 
-    cout << "=== Optimized Sparse PFAC for SQL Injection Detection ===" << endl;
+    // cout << "=== Optimized Sparse PFAC for SQL Injection Detection ===" << endl;
 
     // 1. Load patterns
     vector<string> rawPatterns;
@@ -432,7 +470,7 @@ int main() {
     CUDA_CHECK(cudaMemcpyToSymbol(d_pattern_weights, weights.data(), 
                                 P * sizeof(int)));
     
-    ifstream infile("sql_dataset_Critical_10000.csv");
+    ifstream infile(datasetFile+".csv");
     if (!infile.is_open()) {
         cerr << "Error: could not open CSV file.\n";
         return EXIT_FAILURE;
