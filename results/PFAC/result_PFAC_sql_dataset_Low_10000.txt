@@ -1,0 +1,54 @@
+Extracted 73 patterns using regex
+Successfully read 73 patterns from patterns.txt
+First 10 patterns:
+1. xp_cmdshell
+2. exec xp_
+3. into outfile
+4. load_file
+5. load data infile
+6. /etc/passwd
+7. shell.php
+8. net user hack
+9. lambda_async
+10. create user
+... and 63 more patterns
+Weight distribution: 1=0, 2=0, 4=0, 6=0, 12=0, 30=10
+Trie node count: 489
+Transitions count: 488
+Average transitions per node: 0.997955
+Loaded 10000 queries.
+Launching kernel with 40 blocks and 256 threads per block...
+Query 0: "' = 1"
+  Normalized: "' = 1"
+  Score: 11, computed risk: low, expected: low [OK]
+Query 1: "' <> 1"
+  Normalized: "' <> 1"
+  Score: 5, computed risk: low, expected: low [OK]
+Query 2: "' OR 1=1"
+  Normalized: "' or 1=1"
+  Score: 26, computed risk: medium, expected: low [Mismatch]
+Query 3: "' OR 1=1"
+  Normalized: "' or 1=1"
+  Score: 26, computed risk: medium, expected: low [Mismatch]
+Query 4: "' <= 1"
+  Normalized: "' <= 1"
+  Score: 8, computed risk: low, expected: low [OK]
+Query 5: "= 1"
+  Normalized: "= 1"
+  Score: 3, computed risk: low, expected: low [OK]
+Query 6: "' <> 1"
+  Normalized: "' <> 1"
+  Score: 5, computed risk: low, expected: low [OK]
+Query 7: "' <= 1"
+  Normalized: "' <= 1"
+  Score: 8, computed risk: low, expected: low [OK]
+Query 8: "' <> 1"
+  Normalized: "' <> 1"
+  Score: 5, computed risk: low, expected: low [OK]
+Query 9: "= 1"
+  Normalized: "= 1"
+  Score: 3, computed risk: low, expected: low [OK]
+
+Total: 10000, Correct: 6897, Accuracy: 68.97%
+Queries with zero score: 0 (0%)
+Optimized Sparse PFAC kernel execution time: 0.084992 ms

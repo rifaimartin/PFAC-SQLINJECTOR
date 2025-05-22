@@ -15,7 +15,7 @@ using namespace std;
 
 #define ALPHABET_SIZE 128
 #define MAX_NODES     8192    // adjust as needed
-#define MAX_PATTERNS  1024     // adjust as needed
+#define MAX_PATTERNS  250     // adjust as needed
 #define THREADS_PER_BLOCK 256
 
 // Sparse transition representation
@@ -218,12 +218,12 @@ string normalize(const string &s) {
     return r;
 }
 
-// Risk classification
+// Updated risk classification
 string classifyRisk(int score) {
-    if (score <= 30)   return "low";
-    if (score <= 70)   return "medium";
-    if (score <= 90)   return "high";
-    return "critical";
+    if (score <= 20)   return "low";       // 0-20 (basic injection attempts)
+    if (score <= 45)   return "medium";    // 21-45 (union attacks, info disclosure)  
+    if (score <= 75)   return "high";      // 46-75 (destructive operations)
+    return "critical";                     // 76+ (system-level attacks)
 }
 
 // Function to read patterns from file
@@ -300,7 +300,6 @@ vector<string> readPatternsFromFile(const string& filename) {
         file.close();
         cout << "Secondary extraction found " << patterns.size() << " patterns" << endl;
     }
-   
     
     return patterns;
 }
@@ -317,8 +316,6 @@ void printUsage(const char* programName) {
 int main(int argc, char** argv) {
     // Default filenames
     string datasetFile = "sql_dataset_Critical_10000";
-    // string patternFile = "patterns.txt";
-    // string outputFile = "results_pfac.txt";
 
     for (int i = 1; i < argc; i++)
     {
@@ -333,9 +330,6 @@ int main(int argc, char** argv) {
         {
             datasetFile = argv[++i];
         }
-        // else if (arg == "-o" || arg == "--output") {
-        //     outputFile = argv[++i];
-        // }
         else
         {
             cerr << "Unknown option: " << arg << endl;
@@ -351,8 +345,6 @@ int main(int argc, char** argv) {
     ofstream out("result_PFAC_" + datasetFile + ".txt");
     streambuf* coutbuf = cout.rdbuf(); 
     cout.rdbuf(out.rdbuf());
-
-    // cout << "=== Optimized Sparse PFAC for SQL Injection Detection ===" << endl;
 
     // 1. Load patterns
     vector<string> rawPatterns;
@@ -383,44 +375,114 @@ int main(int argc, char** argv) {
         cout << "... and " << (P-10) << " more patterns" << endl;
     }
 
-    // Normalize patterns and assign weights
     vector<string> patterns(P);
     vector<int> weights(P);
     
     for (int i = 0; i < P; ++i) {
         patterns[i] = normalize(rawPatterns[i]);
         const auto &pat = patterns[i];
-        
-        // Assign weights based on pattern content
-        if (pat.find("; drop") != string::npos || 
-            pat.find("xp_cmdshell") != string::npos ||
-            pat.find("; exec") != string::npos || 
-            pat.find("outfile") != string::npos ||
-            pat.find("load_file") != string::npos) {
-            weights[i] = 100;
-        }
-        else if (pat.find("; delete") != string::npos || 
-                 pat.find("; insert") != string::npos ||
-                 pat.find("; truncate") != string::npos || 
-                 pat.find("; update") != string::npos ||
-                 pat.find("sleep(") != string::npos || 
-                 pat.find("version(") != string::npos ||
-                 pat.find("current_user") != string::npos) {
-            weights[i] = 15;
-        }
-        else {
-            weights[i] = 10;
-        }
-    }
 
-    // Print weights statistics
-    int weight10 = 0, weight15 = 0, weight100 = 0;
-    for (int w : weights) {
-        if (w == 10) weight10++;
-        else if (w == 15) weight15++;
-        else if (w == 100) weight100++;
+         // CRITICAL RISK (80-100 points) - System-level attacks
+    if (pat.find("xp_cmdshell") != string::npos ||
+        pat.find("exec xp_") != string::npos ||
+        pat.find("into outfile") != string::npos ||
+        pat.find("load_file") != string::npos ||
+        pat.find("load data infile") != string::npos ||
+        pat.find("/etc/passwd") != string::npos ||
+        pat.find("shell.php") != string::npos ||
+        pat.find("net user hack") != string::npos ||
+        pat.find("lambda_async") != string::npos ||
+        pat.find("create user") != string::npos ||
+        pat.find("grant all privileges") != string::npos ||
+        pat.find("create trigger") != string::npos) {
+        weights[i] = 90;
     }
-    cout << "Weight distribution: 10=" << weight10 << ", 15=" << weight15 << ", 100=" << weight100 << endl;
+    
+    // HIGH RISK (40-60 points) - Destructive operations
+    else if (pat.find("drop table") != string::npos ||
+             pat.find("drop database") != string::npos ||
+             pat.find("drop procedure") != string::npos ||
+             pat.find("delete from") != string::npos ||
+             pat.find("alter table") != string::npos ||
+             pat.find("insert into") != string::npos ||
+             pat.find("update users") != string::npos ||
+             pat.find("exec(@cmd)") != string::npos ||
+             pat.find("exec sp_") != string::npos ||
+             pat.find("exec master") != string::npos ||
+             pat.find("pg_sleep") != string::npos ||
+             pat.find("sleep(") != string::npos ||
+             pat.find("waitfor delay") != string::npos ||
+             pat.find("benchmark(") != string::npos ||
+             pat.find("@@version") != string::npos ||
+             pat.find("mysql.user") != string::npos) {
+        weights[i] = 50;
+    }
+    
+    // MEDIUM-HIGH RISK (25-35 points) - Advanced injection
+    else if (pat.find("union select") != string::npos ||
+             pat.find("union all select") != string::npos ||
+             pat.find("information_schema") != string::npos ||
+             pat.find("password from users") != string::npos ||
+             pat.find("from users") != string::npos ||
+             pat.find("table_name") != string::npos ||
+             pat.find("table_schema") != string::npos ||
+             pat.find("count(*)") != string::npos ||
+             pat.find("group by") != string::npos ||
+             pat.find("having") != string::npos) {
+        weights[i] = 30;
+    }
+    
+    // MEDIUM RISK (15-20 points) - Union and basic attacks  
+    else if (pat.find("union") != string::npos ||
+             pat.find("select from") != string::npos ||
+             pat.find("' select") != string::npos ||
+             pat.find("username") != string::npos ||
+             pat.find("admin' --") != string::npos ||
+             pat.find("convert(") != string::npos ||
+             pat.find("cast(") != string::npos ||
+             pat.find("md5(") != string::npos ||
+             pat.find("limit 1") != string::npos) {
+        weights[i] = 18;
+    }
+    
+    // LOW-MEDIUM RISK (8-12 points) - Basic injection patterns
+    else if (pat.find("1=1") != string::npos ||
+             pat.find("' or") != string::npos ||
+             pat.find("\" or") != string::npos ||
+             pat.find("' and") != string::npos ||
+             pat.find("\" and") != string::npos ||
+             pat.find("'='") != string::npos ||
+             pat.find("\"=\"") != string::npos ||
+             pat.find("true=true") != string::npos ||
+             pat.find("' ||") != string::npos ||
+             pat.find("\" ||") != string::npos ||
+             pat.find("'a'='a") != string::npos ||
+             pat.find("'x'='x") != string::npos ||
+             pat.find("'1'='1") != string::npos) {
+        weights[i] = 10;
+    }
+    
+    // LOW RISK (3-6 points) - Comments and basic operators
+    else if (pat.find("--") != string::npos ||
+             pat.find("/**/") != string::npos ||
+             pat.find("/* test */") != string::npos ||
+             pat.find("' =") != string::npos ||
+             pat.find("\" =") != string::npos ||
+             pat.find(" <=") != string::npos ||
+             pat.find(" >=") != string::npos ||
+             pat.find(" <>") != string::npos ||
+             pat.find("= =") != string::npos ||
+             pat.find("= <") != string::npos ||
+             pat.find("= or") != string::npos ||
+             pat.find("= ||") != string::npos) {
+        weights[i] = 5;
+    }
+    
+    // DEFAULT - Very basic patterns
+    else {
+        weights[i] = 3;
+    }
+    }
     
     // Build PFAC Trie
     PFACTrie trie;
@@ -479,22 +541,65 @@ int main(int argc, char** argv) {
     string line;
     vector<string> queries;
     vector<string> expected;
-    vector<string> originalQueries; // Keep original for debugging
+    vector<string> originalQueries;
     
     // Skip header
     getline(infile, line);
     
+    int lineNum = 0;
     while (getline(infile, line)) {
+        lineNum++;
         if (line.empty()) continue;
-        stringstream ss(line);
-        string q, expRisk, expScore;
-        getline(ss, q, ',');
-        getline(ss, expRisk, ',');
-        getline(ss, expScore, ',');
         
-        originalQueries.push_back(q);
-        queries.push_back(normalize(q));
-        expected.push_back(expRisk);
+        // Robust CSV parsing untuk handle quoted strings dengan koma
+        vector<string> fields;
+        string current_field = "";
+        bool in_quotes = false;
+        
+        for (size_t i = 0; i < line.length(); i++) {
+            char c = line[i];
+            
+            if (c == '"') {
+                in_quotes = !in_quotes;
+            }
+            else if (c == ',' && !in_quotes) {
+                // Field separator - simpan field dan reset
+                fields.push_back(current_field);
+                current_field = "";
+            }
+            else {
+                current_field += c;
+            }
+        }
+        
+        fields.push_back(current_field);
+        
+        if (fields.size() >= 2) {
+            string query_field = fields[0];
+            string risk_field = fields[1];
+            
+            if (query_field.length() >= 2 && query_field.front() == '"' && query_field.back() == '"') {
+                query_field = query_field.substr(1, query_field.length() - 2);
+            }
+            if (risk_field.length() >= 2 && risk_field.front() == '"' && risk_field.back() == '"') {
+                risk_field = risk_field.substr(1, risk_field.length() - 2);
+            }
+            
+            query_field.erase(0, query_field.find_first_not_of(" \t\r\n"));
+            query_field.erase(query_field.find_last_not_of(" \t\r\n") + 1);
+            risk_field.erase(0, risk_field.find_first_not_of(" \t\r\n"));
+            risk_field.erase(risk_field.find_last_not_of(" \t\r\n") + 1);
+            
+            if (risk_field != "low" && risk_field != "medium" && 
+                risk_field != "high" && risk_field != "critical") {
+                // Jika bukan label valid, skip entry ini
+                continue;
+            }
+            
+            originalQueries.push_back(query_field);
+            queries.push_back(normalize(query_field));
+            expected.push_back(risk_field);
+        }
     }
     infile.close();
     

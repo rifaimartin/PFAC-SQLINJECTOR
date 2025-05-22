@@ -1,11 +1,11 @@
-query,risk,score
-'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users; --,critical,100
-'; SELECT * FROM mysql.user; --,critical,100
-'; DROP TABLE users; -- /* test */,critical,100
-'; USE information_schema; SELECT table_schema FROM tables; --,critical,100
-'; DECLARE @cmd VARCHAR(4000); SET @cmd = 'xp_cmdshell ''dir'''; EXEC(@cmd); --,critical,100
-'; DECLARE @cmd VARCHAR(4000); SET @cmd = 'xp_cmdshell ''dir'''; EXEC(@cmd); --,critical,100
-'; EXEC xp_cmdshell('net user hack hack /add'); --,critical,100
-'; CREATE TRIGGER malicious_trigger BEFORE INSERT ON users FOR EACH ROW SET NEW.admin = 1; --,critical,100
-'; SELECT * FROM mysql.user; --,critical,100
-'; DECLARE @cmd VARCHAR(4000); SET @cmd = 'xp_cmdshell ''dir'''; EXEC(@cmd); --,critical,100
+query,risk
+'; CREATE USER 'hack'@'%' IDENTIFIED BY 'pass' --,critical
+"'; CALL mysql.lambda_async('127.0.0.1', 1234) --",critical
+'; SELECT table_name FROM information_schema.tables -- AND load_file('test'),critical
+'; EXEC(@cmd) -- OR xp_cmdshell,critical
+'; EXEC(@cmd) -- OR xp_cmdshell,critical
+'; EXEC(@cmd) -- AND load_file('test'),critical
+' INTO OUTFILE '/var/www/shell.php' --,critical
+'; SELECT * FROM mysql.user -- AND load_file('test'),critical
+'; SELECT table_name FROM information_schema.tables -- OR xp_cmdshell,critical
+'; EXEC(@cmd) -- OR xp_cmdshell,critical

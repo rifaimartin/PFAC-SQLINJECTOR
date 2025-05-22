@@ -3,7 +3,8 @@
         "*.embeddedhtml": "html",
         "string.h": "c",
         "iosfwd": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "xstring": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.default.compilerPath": "cl.exe"

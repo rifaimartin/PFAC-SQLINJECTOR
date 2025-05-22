@@ -1,11 +1,11 @@
-query,risk,score
-' OR 1=1; DROP TABLE temp; --,high,70
-'; ALTER TABLE users ADD column VARCHAR(255),high,70
-'; EXEC master..xp_cmdshell 'ping 127.0.0.1'--,high,70
-"' UNION ALL SELECT username, password FROM users",high,70
-' OR 1=1; INSERT INTO logs VALUES('hack'),high,70
-'; ALTER TABLE users ADD column VARCHAR(255),high,70
-"'; INSERT INTO users VALUES ('hack', 'hack')",high,70
-"' UNION ALL SELECT username, password FROM users",high,70
-'; WAITFOR DELAY '0:0:5'--,high,70
-'; DECLARE @s VARCHAR(4000) SET @s=CAST(0x73 AS VARCHAR(4000)) --,high,70
+query,risk
+'; DROP TABLE temp --,high
+'; DROP PROCEDURE admin_login --,high
+'; UPDATE users SET pass='hack' --,high
+'; INSERT INTO logs VALUES('hack') --,high
+' UNION SELECT @@version --,high
+'; SELECT PG_SLEEP(5) --,high
+'; EXEC master..xp_cmdshell 'ping' --,high
+'; UPDATE users SET pass='hack' --,high
+'; DELETE FROM users --,high
+'; SELECT SLEEP(5) --,high

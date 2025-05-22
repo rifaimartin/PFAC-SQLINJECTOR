@@ -1,0 +1,52 @@
+Extracted 73 patterns using regex
+Successfully read 73 patterns from patterns.txt
+First 10 patterns:
+1. xp_cmdshell
+2. exec xp_
+3. into outfile
+4. load_file
+5. load data infile
+6. /etc/passwd
+7. shell.php
+8. net user hack
+9. lambda_async
+10. create user
+... and 63 more patterns
+Weight distribution: 1=8, 2=0, 4=0, 6=0, 12=0, 30=10
+Automaton built with 489 nodes for 73 patterns.
+Loaded 10 queries.
+Launching kernel with 1 blocks and 256 threads per block...
+Query 0: "'; CREATE USER 'hack'@'%' IDENTIFIED BY 'pass' --"
+  Normalized: "'; create user 'hack'@'%' identified by 'pass' --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 1: "'; CALL mysql.lambda_async('127.0.0.1', 1234) --"
+  Normalized: "'; call mysql.lambda_async('127.0.0.1', 1234) --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 2: "'; SELECT table_name FROM information_schema.tables -- AND load_file('test')"
+  Normalized: "'; select table_name from information_schema.tables -- and load_file('test')"
+  Score: 156, computed risk: critical, expected: critical [OK]
+Query 3: "'; EXEC(@cmd) -- OR xp_cmdshell"
+  Normalized: "'; exec(@cmd) -- or xp_cmdshell"
+  Score: 146, computed risk: critical, expected: critical [OK]
+Query 4: "'; EXEC(@cmd) -- OR xp_cmdshell"
+  Normalized: "'; exec(@cmd) -- or xp_cmdshell"
+  Score: 146, computed risk: critical, expected: critical [OK]
+Query 5: "'; EXEC(@cmd) -- AND load_file('test')"
+  Normalized: "'; exec(@cmd) -- and load_file('test')"
+  Score: 146, computed risk: critical, expected: critical [OK]
+Query 6: "' INTO OUTFILE '/var/www/shell.php' --"
+  Normalized: "' into outfile '/var/www/shell.php' --"
+  Score: 185, computed risk: critical, expected: critical [OK]
+Query 7: "'; SELECT * FROM mysql.user -- AND load_file('test')"
+  Normalized: "'; select * from mysql.user -- and load_file('test')"
+  Score: 146, computed risk: critical, expected: critical [OK]
+Query 8: "'; SELECT table_name FROM information_schema.tables -- OR xp_cmdshell"
+  Normalized: "'; select table_name from information_schema.tables -- or xp_cmdshell"
+  Score: 156, computed risk: critical, expected: critical [OK]
+Query 9: "'; EXEC(@cmd) -- OR xp_cmdshell"
+  Normalized: "'; exec(@cmd) -- or xp_cmdshell"
+  Score: 146, computed risk: critical, expected: critical [OK]
+
+Total: 10, Correct: 10, Accuracy: 100%
+Queries with zero score: 0 (0%)
+Aho-Corasick kernel execution time: 0.086816 ms

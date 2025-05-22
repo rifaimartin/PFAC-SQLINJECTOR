@@ -1,1001 +1,1001 @@
-query,risk,score
-' OR 1=1 LIMIT 1 --,low,10
-1' or 1=1 --,low,10
-1' OR '1'='1,low,10
-' OR 1=1 LIMIT 1 --,low,10
-' || 1=1 --,low,10
-admin' --,low,10
-""" OR ""1""=""1",low,10
-""" OR ""1""=""1",low,10
-' or 'a'='a,low,10
-admin' /**/,low,10
-1' or '1'='1,low,10
-1' or '1'='1,low,10
-' || 1=1 --,low,10
-""" OR ""1""=""1",low,10
-' OR 'a'='a,low,10
-admin' --,low,10
-1' or true --,low,10
-' OR 'a'='a,low,10
-admin' --,low,10
-admin' /**/,low,10
-' OR 1=1 LIMIT 1 --,low,10
-' OR 'x'='x,low,10
-' OR 'a'='a,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-' OR 'a'='a,low,10
-admin' --,low,10
-admin' /**/,low,10
-""" OR ""1""=""1",low,10
-' OR 1 IN (SELECT @@version) --,low,10
-' OR 1=1 LIMIT 1 --,low,10
-' || 1=1 --,low,10
-' OR 1=1 LIMIT 1 --,low,10
-admin' --,low,10
-' OR 1=1 --,low,10
-1' OR '1'='1,low,10
-1' or '1'='1,low,10
-""" OR ""1""=""1",low,10
-' OR 1=1 --,low,10
-1' OR '1'='1,low,10
-admin' --,low,10
-' OR 'x'='x,low,10
-' OR 1=1 --,low,10
-' OR 1=1 LIMIT 1 --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-admin' --,low,10
-""" OR ""1""=""1",low,10
-admin' /**/,low,10
-' or 'a'='a,low,10
-""" OR ""1""=""1",low,10
-' || 1=1 --,low,10
-1' OR '1'='1,low,10
-' or 'a'='a,low,10
-admin' --,low,10
-' OR 'a'='a,low,10
-' || 1=1 --,low,10
-1' or true --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-' OR 'x'='x,low,10
-1' or true --,low,10
-1' OR '1'='1,low,10
-' OR 'a'='a,low,10
-admin' /**/,low,10
-' OR 1=1 LIMIT 1 --,low,10
-1' OR '1'='1,low,10
-' OR 1=1 --,low,10
-admin' /**/,low,10
-' or 'a'='a,low,10
-' OR 'x'='x,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-1' or '1'='1,low,10
-' OR 'a'='a,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-' OR 1=1 --,low,10
-1' or '1'='1,low,10
-admin' --,low,10
-""" OR ""1""=""1",low,10
-' OR 1=1 --,low,10
-1' or '1'='1,low,10
-' OR 'x'='x,low,10
-' || 1=1 --,low,10
-1' or '1'='1,low,10
-admin' --,low,10
-' OR 'x'='x,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-1' or '1'='1,low,10
-' OR 'x'='x,low,10
-' OR 'x'='x,low,10
-1' or 1=1 --,low,10
-1' or '1'='1,low,10
-' OR 'a'='a,low,10
-1' or 1=1 --,low,10
-' || 1=1 --,low,10
-' || 1=1 --,low,10
-' or 'a'='a,low,10
-' or 'a'='a,low,10
-admin' --,low,10
-admin' --,low,10
-""" OR ""1""=""1",low,10
-' OR 1=1 LIMIT 1 --,low,10
-admin' /**/,low,10
-1' OR '1'='1,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-1' or true --,low,10
-' OR 1=1 --,low,10
-' OR 1=1 LIMIT 1 --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-' OR 1=1 LIMIT 1 --,low,10
-1' or '1'='1,low,10
-admin' /**/,low,10
-1' or '1'='1,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-1' or 1=1 --,low,10
-' OR 1=1 LIMIT 1 --,low,10
-' || 1=1 --,low,10
-' or 'a'='a,low,10
-' OR 'a'='a,low,10
-admin' --,low,10
-1' or true --,low,10
-1' or '1'='1,low,10
-' OR 'x'='x,low,10
-1' OR '1'='1,low,10
-' OR 1=1 --,low,10
-admin' --,low,10
-admin' /**/,low,10
-' OR 'x'='x,low,10
-admin' /**/,low,10
-admin' /**/,low,10
-' or 'a'='a,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-admin' --,low,10
-1' or true --,low,10
-admin' --,low,10
-' OR 'x'='x,low,10
-' OR 1=1 --,low,10
-1' or '1'='1,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-' OR 'a'='a,low,10
-1' OR '1'='1,low,10
-admin' --,low,10
-admin' --,low,10
-' OR 1=1 LIMIT 1 --,low,10
-1' OR '1'='1,low,10
-1' OR '1'='1,low,10
-' OR 1=1 --,low,10
-1' or true --,low,10
-' OR 'a'='a,low,10
-admin' --,low,10
-admin' /**/,low,10
-admin' --,low,10
-' OR 'a'='a,low,10
-' OR 'a'='a,low,10
-""" OR ""1""=""1",low,10
-1' or true --,low,10
-1' OR '1'='1,low,10
-admin' --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-' or 'a'='a,low,10
-1' OR '1'='1,low,10
-1' OR '1'='1,low,10
-' OR 1=1 LIMIT 1 --,low,10
-' or 'a'='a,low,10
-1' or 1=1 --,low,10
-' OR 1=1 --,low,10
-""" OR ""1""=""1",low,10
-""" OR ""1""=""1",low,10
-1' or 1=1 --,low,10
-' OR 'a'='a,low,10
-1' or '1'='1,low,10
-' OR 1=1 --,low,10
-' OR 'x'='x,low,10
-admin' --,low,10
-' OR 1=1 --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-admin' /**/,low,10
-' OR 1=1 LIMIT 1 --,low,10
-' OR 'a'='a,low,10
-1' or 1=1 --,low,10
-' or 'a'='a,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-admin' /**/,low,10
-' OR 1=1 --,low,10
-1' or 1=1 --,low,10
-' OR 'a'='a,low,10
-admin' --,low,10
-admin' /**/,low,10
-' OR 'a'='a,low,10
-1' or true --,low,10
-1' or '1'='1,low,10
-1' or 1=1 --,low,10
-""" OR ""1""=""1",low,10
-1' or 1=1 --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-admin' /**/,low,10
-' OR 'a'='a,low,10
-""" OR ""1""=""1",low,10
-1' OR '1'='1,low,10
-1' OR '1'='1,low,10
-admin' --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-1' OR '1'='1,low,10
-1' or '1'='1,low,10
-admin' --,low,10
-1' or '1'='1,low,10
-' OR 'a'='a,low,10
-1' or 1=1 --,low,10
-1' or '1'='1,low,10
-1' or true --,low,10
-admin' /**/,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-1' or 1=1 --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-admin' --,low,10
-' or 'a'='a,low,10
-1' or true --,low,10
-admin' --,low,10
-""" OR ""1""=""1",low,10
-' OR 'x'='x,low,10
-admin' --,low,10
-1' or '1'='1,low,10
-1' or '1'='1,low,10
-' OR 'a'='a,low,10
-1' or true --,low,10
-admin' --,low,10
-""" OR ""1""=""1",low,10
-admin' --,low,10
-admin' /**/,low,10
-' OR 1=1 --,low,10
-' || 1=1 --,low,10
-admin' --,low,10
-' OR 1=1 LIMIT 1 --,low,10
-1' or true --,low,10
-' OR 1=1 --,low,10
-' OR 'x'='x,low,10
-1' or true --,low,10
-1' or '1'='1,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-1' or true --,low,10
-' || 1=1 --,low,10
-' OR 1=1 LIMIT 1 --,low,10
-' OR 1=1 --,low,10
-""" OR ""1""=""1",low,10
-' OR 'x'='x,low,10
-' OR 1=1 --,low,10
-' OR 1=1 --,low,10
-admin' --,low,10
-1' or '1'='1,low,10
-admin' /**/,low,10
-1' OR '1'='1,low,10
-' OR 'a'='a,low,10
-' || 1=1 --,low,10
-' || 1=1 --,low,10
-1' or true --,low,10
-' OR 1=1 --,low,10
-admin' --,low,10
-""" OR ""1""=""1",low,10
-1' or true --,low,10
-' OR 'a'='a,low,10
-1' or 1=1 --,low,10
-' || 1=1 --,low,10
-""" OR ""1""=""1",low,10
-1' or 1=1 --,low,10
-1' or '1'='1,low,10
-' || 1=1 --,low,10
-' or 'a'='a,low,10
-""" OR ""1""=""1",low,10
-' or 'a'='a,low,10
-' OR 1=1 LIMIT 1 --,low,10
-admin' --,low,10
-' || 1=1 --,low,10
-' OR 'a'='a,low,10
-admin' --,low,10
-' OR 1=1 --,low,10
-""" OR ""1""=""1",low,10
-admin' --,low,10
-1' or 1=1 --,low,10
-1' OR '1'='1,low,10
-' OR 1=1 --,low,10
-1' or true --,low,10
-' OR 1=1 LIMIT 1 --,low,10
-' || 1=1 --,low,10
-admin' --,low,10
-admin' --,low,10
-' or 'a'='a,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-admin' --,low,10
-admin' --,low,10
-' OR 'x'='x,low,10
-admin' /**/,low,10
-1' OR '1'='1,low,10
-' OR 1=1 --,low,10
-admin' --,low,10
-' OR 'x'='x,low,10
-' OR 1=1 LIMIT 1 --,low,10
-1' or 1=1 --,low,10
-' OR 'x'='x,low,10
-1' or true --,low,10
-' OR 'x'='x,low,10
-' || 1=1 --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-' OR 1=1 LIMIT 1 --,low,10
-' OR 1 IN (SELECT @@version) --,low,10
-1' OR '1'='1,low,10
-' OR 1=1 --,low,10
-1' or '1'='1,low,10
-1' OR '1'='1,low,10
-1' or 1=1 --,low,10
-' || 1=1 --,low,10
-admin' --,low,10
-1' OR '1'='1,low,10
-admin' --,low,10
-1' or '1'='1,low,10
-admin' --,low,10
-admin' /**/,low,10
-1' or '1'='1,low,10
-admin' /**/,low,10
-' or 'a'='a,low,10
-' || 1=1 --,low,10
-' OR 'a'='a,low,10
-admin' --,low,10
-' OR 1=1 --,low,10
-admin' --,low,10
-1' or 1=1 --,low,10
-1' or 1=1 --,low,10
-""" OR ""1""=""1",low,10
-' or 'a'='a,low,10
-admin' --,low,10
-1' or true --,low,10
-' OR 1=1 --,low,10
-admin' --,low,10
-""" OR ""1""=""1",low,10
-1' or true -- -- ,low,10
-' OR 'a'='a -- ,low,10
-1' or true -- -- ,low,10
-admin' -- -- ,low,10
-' || 1=1 -- -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-admin' -- -- ,low,10
-' OR 'x'='x -- ,low,10
-admin' /**/ -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-admin' -- -- ,low,10
-' OR 'a'='a -- ,low,10
-admin' -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-' OR 'x'='x -- ,low,10
-' OR 1=1 -- -- ,low,10
-' or 'a'='a -- ,low,10
-1' OR '1'='1 -- ,low,10
-' or 'a'='a -- ,low,10
-' OR 'a'='a -- ,low,10
-1' or '1'='1 -- ,low,10
-' || 1=1 -- -- ,low,10
-admin' -- -- ,low,10
-admin' -- -- ,low,10
-' OR 1=1 -- -- ,low,10
-admin' /**/ -- ,low,10
-1' OR '1'='1 -- ,low,10
-admin' -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-' OR 'a'='a -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-admin' -- -- ,low,10
-admin' /**/ -- ,low,10
-1' or 1=1 -- -- ,low,10
-' OR 'a'='a -- ,low,10
-' || 1=1 -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-' or 'a'='a -- ,low,10
-1' or true -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-1' or '1'='1 -- ,low,10
-' OR 1=1 -- -- ,low,10
-' OR 'a'='a -- ,low,10
-admin' -- -- ,low,10
-admin' -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-1' or true -- -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-admin' -- -- ,low,10
-' OR 1=1 -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-admin' -- -- ,low,10
-' OR 'a'='a -- ,low,10
-' or 'a'='a -- ,low,10
-' || 1=1 -- -- ,low,10
-' OR 'a'='a -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' or 'a'='a -- ,low,10
-admin' /**/ -- ,low,10
-' OR 'x'='x -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-1' OR '1'='1 -- ,low,10
-admin' -- -- ,low,10
-' OR 'a'='a -- ,low,10
-admin' -- -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' or 'a'='a -- ,low,10
-admin' -- -- ,low,10
-' OR 1=1 -- -- ,low,10
-' OR 'a'='a -- ,low,10
-' or 'a'='a -- ,low,10
-' OR 'a'='a -- ,low,10
-' or 'a'='a -- ,low,10
-1' or '1'='1 -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' || 1=1 -- -- ,low,10
-' OR 'a'='a -- ,low,10
-' OR 1=1 -- -- ,low,10
-1' OR '1'='1 -- ,low,10
-admin' -- -- ,low,10
-1' OR '1'='1 -- ,low,10
-' or 'a'='a -- ,low,10
-admin' -- -- ,low,10
-admin' /**/ -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-' || 1=1 -- -- ,low,10
-1' OR '1'='1 -- ,low,10
-1' or true -- -- ,low,10
-1' OR '1'='1 -- ,low,10
-admin' -- -- ,low,10
-admin' -- -- ,low,10
-' OR 'a'='a -- ,low,10
-admin' -- -- ,low,10
-admin' -- -- ,low,10
-' or 'a'='a -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-' || 1=1 -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-' or 'a'='a -- ,low,10
-1' OR '1'='1 -- ,low,10
-1' or '1'='1 -- ,low,10
-' or 'a'='a -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' || 1=1 -- -- ,low,10
-1' or '1'='1 -- ,low,10
-admin' /**/ -- ,low,10
-1' or true -- -- ,low,10
-admin' -- -- ,low,10
-1' OR '1'='1 -- ,low,10
-1' or '1'='1 -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' OR 1=1 -- -- ,low,10
-' OR 'x'='x -- ,low,10
-1' or 1=1 -- -- ,low,10
-' or 'a'='a -- ,low,10
-1' or '1'='1 -- ,low,10
-1' or 1=1 -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-1' or true -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-1' or true -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-1' or '1'='1 -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-admin' -- -- ,low,10
-1' or '1'='1 -- ,low,10
-1' or 1=1 -- -- ,low,10
-' OR 1=1 -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-' or 'a'='a -- ,low,10
-1' or '1'='1 -- ,low,10
-' or 'a'='a -- ,low,10
-' OR 1=1 -- -- ,low,10
-' OR 1=1 -- -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' or 'a'='a -- ,low,10
-' OR 1=1 -- -- ,low,10
-1' OR '1'='1 -- ,low,10
-1' or '1'='1 -- ,low,10
-admin' /**/ -- ,low,10
-' || 1=1 -- -- ,low,10
-' OR 'a'='a -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-1' or true -- -- ,low,10
-' || 1=1 -- -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-1' or true -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' or 'a'='a -- ,low,10
-1' OR '1'='1 -- ,low,10
-' or 'a'='a -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-' OR 'x'='x -- ,low,10
-' || 1=1 -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-1' OR '1'='1 -- ,low,10
-' OR 1=1 -- -- ,low,10
-' or 'a'='a -- ,low,10
-' OR 'x'='x -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-admin' -- -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' OR 1=1 -- -- ,low,10
-' OR 'a'='a -- ,low,10
-' OR 'x'='x -- ,low,10
-1' OR '1'='1 -- ,low,10
-1' or '1'='1 -- ,low,10
-' OR 'x'='x -- ,low,10
-1' or true -- -- ,low,10
-' OR 'x'='x -- ,low,10
-' OR 'a'='a -- ,low,10
-admin' /**/ -- ,low,10
-' or 'a'='a -- ,low,10
-admin' -- -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' OR 1=1 -- -- ,low,10
-admin' -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-' || 1=1 -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' OR 'x'='x -- ,low,10
-1' OR '1'='1 -- ,low,10
-' OR 'x'='x -- ,low,10
-admin' /**/ -- ,low,10
-admin' -- -- ,low,10
-' OR 1=1 -- -- ,low,10
-' OR 1=1 -- -- ,low,10
-' or 'a'='a -- ,low,10
-' or 'a'='a -- ,low,10
-admin' /**/ -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-1' OR '1'='1 -- ,low,10
-admin' /**/ -- ,low,10
-' || 1=1 -- -- ,low,10
-' || 1=1 -- -- ,low,10
-admin' /**/ -- ,low,10
-' OR 1=1 -- -- ,low,10
-1' or '1'='1 -- ,low,10
-admin' /**/ -- ,low,10
-1' or true -- -- ,low,10
-' or 'a'='a -- ,low,10
-admin' -- -- ,low,10
-1' or true -- -- ,low,10
-admin' -- -- ,low,10
-1' or true -- -- ,low,10
-1' or true -- -- ,low,10
-admin' -- -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-admin' /**/ -- ,low,10
-' OR 'a'='a -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' || 1=1 -- -- ,low,10
-1' or '1'='1 -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' or 'a'='a -- ,low,10
-' OR 1=1 -- -- ,low,10
-' OR 'a'='a -- ,low,10
-' OR 'x'='x -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-admin' -- -- ,low,10
-1' or true -- -- ,low,10
-1' OR '1'='1 -- ,low,10
-1' or true -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-admin' -- -- ,low,10
-' or 'a'='a -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' OR 'a'='a -- ,low,10
-' OR 'x'='x -- ,low,10
-' OR 'x'='x -- ,low,10
-1' or '1'='1 -- ,low,10
-' OR 'x'='x -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-1' or '1'='1 -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-1' or '1'='1 -- ,low,10
-admin' -- -- ,low,10
-1' or '1'='1 -- ,low,10
-admin' -- -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-admin' /**/ -- ,low,10
-' OR 1=1 -- -- ,low,10
-admin' /**/ -- ,low,10
-' OR 1=1 -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-admin' /**/ -- ,low,10
-admin' /**/ -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' OR 'x'='x -- ,low,10
-' or 'a'='a -- ,low,10
-admin' -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-' or 'a'='a -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-' or 'a'='a -- ,low,10
-' || 1=1 -- -- ,low,10
-admin' -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-admin' /**/ -- ,low,10
-admin' -- -- ,low,10
-admin' -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-1' or true -- -- ,low,10
-admin' -- -- ,low,10
-' OR 1=1 -- -- ,low,10
-1' or '1'='1 -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-1' or '1'='1 -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' || 1=1 -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-' || 1=1 -- -- ,low,10
-' OR 1=1 -- -- ,low,10
-' OR 'x'='x -- ,low,10
-' OR 1=1 -- -- ,low,10
-1' or 1=1 -- -- ,low,10
-' OR 'x'='x -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' or 'a'='a -- ,low,10
-' OR 'x'='x -- ,low,10
-""" OR ""1""=""1 -- ",low,10
-admin' -- -- ,low,10
-' || 1=1 -- -- ,low,10
-1' or true -- -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' OR 'a'='a -- ,low,10
-1' OR '1'='1 -- ,low,10
-admin' -- -- ,low,10
-1' or true -- -- ,low,10
-admin' /**/ -- ,low,10
-admin' /**/ -- ,low,10
-1' or '1'='1 -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' OR 'x'='x -- ,low,10
-' || 1=1 -- -- ,low,10
-' OR 1=1 -- -- ,low,10
-' OR 'x'='x -- ,low,10
-' OR 'x'='x -- ,low,10
-1' OR '1'='1 -- ,low,10
-admin' -- -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' or 'a'='a -- ,low,10
-1' OR '1'='1 -- ,low,10
-admin' -- -- ,low,10
-admin' /**/ -- ,low,10
-1' OR '1'='1 -- ,low,10
-admin' -- -- ,low,10
-' || 1=1 -- -- ,low,10
-' OR 'a'='a -- ,low,10
-admin' -- -- ,low,10
-' || 1=1 -- -- ,low,10
-' OR 1=1 LIMIT 1 -- -- ,low,10
-1' or '1'='1 -- ,low,10
-admin' /**/ -- ,low,10
-' OR 1 IN (SELECT @@version) -- -- ,low,10
-' or 'a'='a # r6,low,10
-' OR 'x'='x # 0s,low,10
-1' or 1=1 -- # e6,low,10
-' OR 'x'='x # 8t,low,10
-admin' -- -- g,low,10
-admin' -- # 7i,low,10
-' or 'a'='a -- 0,low,10
-' OR 'a'='a # 9x,low,10
-' || 1=1 -- # tp,low,10
-admin' /**/ -- t,low,10
-admin' -- # d2,low,10
-' or 'a'='a -- q,low,10
-' or 'a'='a -- 5,low,10
-' OR 1=1 -- /**/,low,10
-' OR 1 IN (SELECT @@version) -- /**/,low,10
-' OR 'x'='x /**/,low,10
-1' or true -- /**/,low,10
-' || 1=1 -- # 2p,low,10
-' || 1=1 -- /**/,low,10
-1' or '1'='1 /**/,low,10
-1' or 1=1 -- /**/,low,10
-' OR 'x'='x /**/,low,10
-1' or 1=1 -- /**/,low,10
-' OR 1=1 -- # l1,low,10
-1' or '1'='1 /**/,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-admin' -- -- u,low,10
-admin' -- -- j,low,10
-""" OR ""1""=""1 /**/",low,10
-' OR 1=1 -- -- 8,low,10
-admin' -- -- d,low,10
-admin' -- /**/,low,10
-' OR 1 IN (SELECT @@version) -- # xs,low,10
-1' or '1'='1 # i9,low,10
-' OR 1=1 LIMIT 1 -- -- i,low,10
-' OR 'x'='x /**/,low,10
-admin' -- /**/,low,10
-' or 'a'='a /**/,low,10
-1' or true -- /**/,low,10
-' OR 'x'='x /**/,low,10
-1' or true -- -- 3,low,10
-' OR 'x'='x /**/,low,10
-' OR 1 IN (SELECT @@version) -- /**/,low,10
-' OR 'x'='x /**/,low,10
-' OR 1=1 -- # mt,low,10
-admin' -- # ix,low,10
-admin' -- /**/,low,10
-' OR 1=1 LIMIT 1 -- # g5,low,10
-' OR 'x'='x -- m,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-' OR 'a'='a # 0u,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-' OR 1 IN (SELECT @@version) -- /**/,low,10
-admin' -- -- b,low,10
-' OR 1=1 LIMIT 1 -- # e1,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-1' OR '1'='1 -- k,low,10
-' or 'a'='a # vg,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-' OR 'a'='a -- 4,low,10
-admin' /**/ # at,low,10
-1' OR '1'='1 # hb,low,10
-admin' -- -- 6,low,10
-admin' /**/ -- f,low,10
-1' or '1'='1 # cr,low,10
-' or 'a'='a /**/,low,10
-admin' /**/ # v5,low,10
-admin' -- /**/,low,10
-1' or '1'='1 /**/,low,10
-1' or 1=1 -- /**/,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-admin' /**/ # h9,low,10
-' OR 1 IN (SELECT @@version) -- # 31,low,10
-1' or '1'='1 /**/,low,10
-admin' -- -- 7,low,10
-1' or 1=1 -- /**/,low,10
-""" OR ""1""=""1 # ge",low,10
-' OR 1=1 LIMIT 1 -- # 7c,low,10
-""" OR ""1""=""1 # q3",low,10
-1' or '1'='1 -- m,low,10
-admin' /**/ -- d,low,10
-' OR 'x'='x /**/,low,10
-1' OR '1'='1 /**/,low,10
-' OR 'a'='a # ul,low,10
-""" OR ""1""=""1 -- h",low,10
-' OR 1=1 -- -- 4,low,10
-' || 1=1 -- # cx,low,10
-' OR 1=1 -- # ps,low,10
-' OR 'x'='x # 0p,low,10
-' OR 1=1 -- # tp,low,10
-' || 1=1 -- # yu,low,10
-' OR 1=1 -- # a4,low,10
-admin' -- /**/,low,10
-admin' /**/ # 1p,low,10
-' OR 1=1 -- -- t,low,10
-' OR 1=1 -- # vo,low,10
-' OR 'a'='a -- i,low,10
-' OR 1 IN (SELECT @@version) -- -- 2,low,10
-' OR 'a'='a -- j,low,10
-""" OR ""1""=""1 -- 0",low,10
-1' or true -- # r5,low,10
-admin' -- # h0,low,10
-' OR 1=1 -- /**/,low,10
-""" OR ""1""=""1 /**/",low,10
-1' or '1'='1 -- 6,low,10
-' or 'a'='a # vk,low,10
-admin' -- -- i,low,10
-1' or '1'='1 # fs,low,10
-1' or 1=1 -- # pq,low,10
-admin' -- /**/,low,10
-1' or true -- -- 9,low,10
-1' or true -- -- o,low,10
-' OR 'a'='a -- c,low,10
-""" OR ""1""=""1 /**/",low,10
-' OR 1=1 -- /**/,low,10
-""" OR ""1""=""1 -- c",low,10
-admin' /**/ /**/,low,10
-' or 'a'='a -- g,low,10
-admin' -- -- l,low,10
-1' or '1'='1 # pm,low,10
-' OR 'x'='x # 7a,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-1' or '1'='1 -- m,low,10
-1' or 1=1 -- /**/,low,10
-' OR 'x'='x -- t,low,10
-1' OR '1'='1 -- s,low,10
-' or 'a'='a -- i,low,10
-""" OR ""1""=""1 /**/",low,10
-1' or '1'='1 /**/,low,10
-admin' -- # lh,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-1' or true -- # 84,low,10
-admin' -- # b5,low,10
-' OR 1=1 LIMIT 1 -- # sg,low,10
-1' or true -- /**/,low,10
-admin' /**/ # ek,low,10
-admin' /**/ /**/,low,10
-' or 'a'='a /**/,low,10
-""" OR ""1""=""1 /**/",low,10
-1' OR '1'='1 -- f,low,10
-1' or '1'='1 # d3,low,10
-1' OR '1'='1 /**/,low,10
-' || 1=1 -- # us,low,10
-' OR 1 IN (SELECT @@version) -- # jv,low,10
-1' or '1'='1 -- o,low,10
-' OR 'a'='a -- s,low,10
-' || 1=1 -- # tk,low,10
-""" OR ""1""=""1 -- a",low,10
-1' OR '1'='1 /**/,low,10
-' OR 'a'='a -- l,low,10
-admin' /**/ /**/,low,10
-' OR 1 IN (SELECT @@version) -- # kz,low,10
-1' or '1'='1 /**/,low,10
-' OR 'a'='a -- a,low,10
-admin' -- # ac,low,10
-1' or 1=1 -- /**/,low,10
-' OR 1=1 -- /**/,low,10
-1' or 1=1 -- -- a,low,10
-' OR 'a'='a # lk,low,10
-1' or true -- /**/,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-admin' -- /**/,low,10
-' || 1=1 -- # yo,low,10
-1' or true -- /**/,low,10
-""" OR ""1""=""1 # mm",low,10
-1' OR '1'='1 # 2n,low,10
-""" OR ""1""=""1 -- 3",low,10
-' OR 1 IN (SELECT @@version) -- -- b,low,10
-' OR 1 IN (SELECT @@version) -- /**/,low,10
-1' or true -- # de,low,10
-""" OR ""1""=""1 # fm",low,10
-' || 1=1 -- # ag,low,10
-' OR 1=1 -- # ya,low,10
-' OR 'a'='a # zm,low,10
-' OR 'x'='x # ei,low,10
-' or 'a'='a # 6s,low,10
-' OR 'x'='x # 85,low,10
-' OR 'x'='x # dh,low,10
-1' OR '1'='1 /**/,low,10
-1' or 1=1 -- /**/,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-""" OR ""1""=""1 /**/",low,10
-1' or 1=1 -- -- 1,low,10
-1' or '1'='1 -- l,low,10
-""" OR ""1""=""1 /**/",low,10
-' OR 1=1 -- /**/,low,10
-1' or '1'='1 /**/,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-' OR 'x'='x /**/,low,10
-""" OR ""1""=""1 /**/",low,10
-""" OR ""1""=""1 /**/",low,10
-1' OR '1'='1 # 5j,low,10
-' OR 'x'='x -- j,low,10
-1' or true -- /**/,low,10
-admin' /**/ # lp,low,10
-' OR 1=1 -- -- i,low,10
-' OR 1 IN (SELECT @@version) -- -- d,low,10
-1' or '1'='1 /**/,low,10
-1' or true -- -- 4,low,10
-1' OR '1'='1 /**/,low,10
-' OR 1 IN (SELECT @@version) -- -- u,low,10
-' OR 'a'='a -- 9,low,10
-admin' -- -- j,low,10
-' or 'a'='a /**/,low,10
-' or 'a'='a -- v,low,10
-' OR 'a'='a -- x,low,10
-1' or 1=1 -- /**/,low,10
-admin' /**/ # 2x,low,10
-' or 'a'='a # 25,low,10
-' || 1=1 -- /**/,low,10
-' || 1=1 -- # p7,low,10
-1' or '1'='1 /**/,low,10
-' OR 1=1 -- /**/,low,10
-' || 1=1 -- # d4,low,10
-1' or 1=1 -- /**/,low,10
-' OR 'a'='a -- 5,low,10
-' OR 1 IN (SELECT @@version) -- # 97,low,10
-' OR 1 IN (SELECT @@version) -- # ew,low,10
-1' or true -- # 54,low,10
-' or 'a'='a -- k,low,10
-' OR 1=1 LIMIT 1 -- # 1x,low,10
-1' or true -- /**/,low,10
-admin' -- /**/,low,10
-1' or 1=1 -- /**/,low,10
-' OR 'a'='a /**/,low,10
-""" OR ""1""=""1 /**/",low,10
-1' or true -- /**/,low,10
-admin' -- # 5f,low,10
-1' or 1=1 -- /**/,low,10
-' OR 1=1 LIMIT 1 -- # kz,low,10
-admin' -- /**/,low,10
-admin' -- /**/,low,10
-' OR 1=1 -- -- 4,low,10
-' OR 1 IN (SELECT @@version) -- /**/,low,10
-1' or '1'='1 /**/,low,10
-' OR 1=1 -- # s9,low,10
-1' or 1=1 -- -- 1,low,10
-' OR 1 IN (SELECT @@version) -- -- 6,low,10
-admin' -- -- c,low,10
-1' OR '1'='1 -- u,low,10
-admin' /**/ # f3,low,10
-' OR 'a'='a # zo,low,10
-' OR 'x'='x -- 6,low,10
-' OR 1 IN (SELECT @@version) -- -- x,low,10
-1' or '1'='1 # jk,low,10
-' || 1=1 -- /**/,low,10
-' OR 1 IN (SELECT @@version) -- /**/,low,10
-' OR 1 IN (SELECT @@version) -- /**/,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-' OR 1=1 -- /**/,low,10
-' OR 1=1 LIMIT 1 -- -- e,low,10
-admin' /**/ -- j,low,10
-1' or '1'='1 -- w,low,10
-' OR 1=1 -- # l9,low,10
-""" OR ""1""=""1 -- l",low,10
-1' OR '1'='1 /**/,low,10
-' or 'a'='a # yc,low,10
-' OR 1 IN (SELECT @@version) -- -- g,low,10
-' OR 'a'='a # we,low,10
-' OR 'a'='a -- j,low,10
-admin' -- -- 8,low,10
-admin' -- -- 7,low,10
-admin' -- # rd,low,10
-""" OR ""1""=""1 /**/",low,10
-admin' /**/ /**/,low,10
-""" OR ""1""=""1 /**/",low,10
-admin' -- -- d,low,10
-' || 1=1 -- -- l,low,10
-""" OR ""1""=""1 # se",low,10
-' OR 'a'='a /**/,low,10
-admin' -- # kw,low,10
-' OR 1=1 -- -- 0,low,10
-' OR 'x'='x -- 6,low,10
-1' or true -- /**/,low,10
-admin' /**/ /**/,low,10
-' OR 1=1 -- -- 5,low,10
-' OR 'a'='a -- v,low,10
-admin' -- # i0,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-' or 'a'='a /**/,low,10
-' OR 1=1 LIMIT 1 -- # he,low,10
-' OR 'a'='a # a0,low,10
-' OR 1=1 LIMIT 1 -- /**/,low,10
-1' or 1=1 -- /**/,low,10
-' OR 1=1 LIMIT 1 -- # ld,low,10
-admin' -- -- u,low,10
-' OR 1=1 LIMIT 1 -- -- o,low,10
-' OR 'x'='x # t9,low,10
-' OR 1=1 -- /**/,low,10
-1' OR '1'='1 # 8h,low,10
-' || 1=1 -- # g8,low,10
-admin' -- -- n,low,10
-' || 1=1 -- /**/,low,10
-' OR 1=1 -- # ch,low,10
-1' or '1'='1 /**/,low,10
-1' OR '1'='1 # 2y,low,10
-' OR 1=1 LIMIT 1 -- -- r,low,10
-""" OR ""1""=""1 /**/",low,10
-1' or '1'='1 -- 5,low,10
-admin' -- /**/,low,10
-admin' -- # ft,low,10
-admin' /**/ # a3,low,10
-' OR 1 IN (SELECT @@version) -- -- e,low,10
-1' OR '1'='1 # 64,low,10
-' or 'a'='a # zz,low,10
-admin' -- # w5,low,10
-""" OR ""1""=""1 # xw",low,10
-' OR 'x'='x /**/,low,10
-' OR 1=1 LIMIT 1 -- -- 6,low,10
-admin' -- -- e,low,10
-' OR 1=1 LIMIT 1 -- # l5,low,10
-' OR 'x'='x /**/,low,10
-' OR 1 IN (SELECT @@version) -- # xe,low,10
-' OR 'x'='x # lz,low,10
-admin' -- # jx,low,10
-1' OR '1'='1 /**/,low,10
-' OR 'a'='a /**/,low,10
-admin' -- -- g,low,10
-admin' /**/ -- u,low,10
-admin' /**/ -- g,low,10
-""" OR ""1""=""1 -- r",low,10
-' || 1=1 -- /**/,low,10
-' OR 'x'='x # de,low,10
-""" OR ""1""=""1 -- p",low,10
-' or 'a'='a # ot,low,10
-1' or true -- # pu,low,10
-1' or true -- # vc,low,10
-' OR 1=1 -- # d6,low,10
-' || 1=1 -- /**/,low,10
-admin' /**/ /**/,low,10
-' or 'a'='a # c1,low,10
-' OR 1 IN (SELECT @@version) -- /**/,low,10
-1' or true -- -- e,low,10
-' OR 1=1 -- # 07,low,10
+query,risk
+' >= 1,low
+' OR 'x'='x,low
+' = 1,low
+""" = 1",low
+1' OR '1'='1,low
+admin' --,low
+' = 1,low
+' || 1=1 --,low
+' >= 1,low
+1' OR '1'='1,low
+' OR 'a'='a,low
+OR 1=1,low
+' <> 1,low
+' OR 1=1,low
+' OR 1=1,low
+' = 1,low
+1' OR '1'='1,low
+' OR 1=1,low
+OR 1=1,low
+' <= 1,low
+' OR 1=1,low
+' OR 1=1,low
+' || 1=1 --,low
+OR 1=1,low
+1' OR '1'='1,low
+""" OR ""1""=""1",low
+' OR 'x'='x,low
+' = 1,low
+' >= 1,low
+""" OR ""1""=""1",low
+' OR 1=1,low
+' OR 1=1,low
+' OR 1=1,low
+' >= 1,low
+' <> 1,low
+' OR 'a'='a,low
+' OR 1=1,low
+' >= 1,low
+OR 1=1,low
+' = 1,low
+""" = 1",low
+' <= 1,low
+OR 1=1,low
+' || 1=1 --,low
+' OR 'x'='x,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+' <= 1,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+admin' --,low
+' OR 1=1 --,low
+' OR 1=1,low
+' <> 1,low
+' = 1,low
+' = 1,low
+' = 1,low
+' <= 1,low
+' <> 1,low
+' <> 1,low
+' OR 1=1,low
+' <= 1,low
+""" = 1",low
+' OR 1=1,low
+' = 1,low
+' OR 1=1,low
+""" = 1",low
+1' OR '1'='1,low
+1' OR '1'='1,low
+' OR 'x'='x,low
+' <= 1,low
+' = 1,low
+' >= 1,low
+' OR 1=1,low
+' = 1,low
+' >= 1,low
+' = 1,low
+' <> 1,low
+""" OR ""1""=""1",low
+' = 1,low
+' = 1,low
+' = 1,low
+' >= 1,low
+' <> 1,low
+' = 1,low
+' = 1,low
+' >= 1,low
+""" OR ""1""=""1",low
+""" = 1",low
+""" OR ""1""=""1",low
+""" = 1",low
+' <> 1,low
+' <> 1,low
+' OR 'x'='x,low
+""" = 1",low
+""" OR ""1""=""1",low
+""" = 1",low
+admin' --,low
+' = 1,low
+' <> 1,low
+OR 1=1,low
+' = 1,low
+' >= 1,low
+' = 1,low
+' = 1,low
+""" OR ""1""=""1",low
+""" OR ""1""=""1",low
+' <> 1,low
+OR 1=1,low
+' <= 1,low
+' <> 1,low
+' = 1,low
+""" OR ""1""=""1",low
+' <= 1,low
+""" = 1",low
+' <= 1,low
+' = 1,low
+' <= 1,low
+' <> 1,low
+""" = 1",low
+OR 1=1,low
+' <> 1,low
+' = 1,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+1' OR '1'='1,low
+""" = 1",low
+' OR 'x'='x,low
+' OR 1=1,low
+OR 1=1,low
+""" = 1",low
+' >= 1,low
+' = 1,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+' <= 1,low
+' OR 'x'='x,low
+' OR 'a'='a,low
+' = 1,low
+' OR 'a'='a,low
+""" OR ""1""=""1",low
+""" OR ""1""=""1",low
+OR 1=1,low
+' = 1,low
+' = 1,low
+' <= 1,low
+' = 1,low
+""" = 1",low
+' <= 1,low
+' = 1,low
+""" OR ""1""=""1",low
+""" = 1",low
+' <> 1,low
+' <= 1,low
+' OR 1=1,low
+' = 1,low
+' <= 1,low
+""" OR ""1""=""1",low
+OR 1=1,low
+' = 1,low
+' OR 'x'='x,low
+' OR 1=1,low
+OR 1=1,low
+1' OR '1'='1,low
+""" = 1",low
+""" = 1",low
+' <> 1,low
+' <= 1,low
+' >= 1,low
+""" OR ""1""=""1",low
+""" = 1",low
+' || 1=1 --,low
+' <= 1,low
+' = 1,low
+' OR 1=1 --,low
+' = 1,low
+' <= 1,low
+' OR 1=1,low
+' OR 1=1 --,low
+' <= 1,low
+""" OR ""1""=""1",low
+' <> 1,low
+admin' --,low
+admin' --,low
+""" = 1",low
+' OR 1=1,low
+' = 1,low
+' >= 1,low
+OR 1=1,low
+' >= 1,low
+OR 1=1,low
+' = 1,low
+' <> 1,low
+' OR 1=1,low
+' OR 1=1,low
+OR 1=1,low
+' <> 1,low
+' = 1,low
+' <= 1,low
+' <= 1,low
+' OR 1=1,low
+1' OR '1'='1,low
+""" OR ""1""=""1",low
+' >= 1,low
+' >= 1,low
+' OR 1=1,low
+' OR 1=1,low
+' OR 1=1,low
+OR 1=1,low
+""" = 1",low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+' <> 1,low
+' OR 1=1,low
+' = 1,low
+' = 1,low
+' >= 1,low
+' OR 1=1,low
+' OR 1=1,low
+' = 1,low
+' <= 1,low
+' = 1,low
+' <= 1,low
+' = 1,low
+' = 1,low
+' OR 'a'='a,low
+1' OR '1'='1,low
+' OR 'a'='a,low
+' = 1,low
+' = 1,low
+""" OR ""1""=""1",low
+OR 1=1,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+' <> 1,low
+' = 1,low
+' >= 1,low
+OR 1=1,low
+' || 1=1 --,low
+1' OR '1'='1,low
+' OR 1=1,low
+' <> 1,low
+admin' --,low
+' = 1,low
+admin' --,low
+' = 1,low
+' <= 1,low
+' = 1,low
+' <= 1,low
+' <= 1,low
+' = 1,low
+' = 1,low
+OR 1=1,low
+' <= 1,low
+' = 1,low
+OR 1=1,low
+""" OR ""1""=""1",low
+' = 1,low
+OR 1=1,low
+' <> 1,low
+' OR 'x'='x,low
+' || 1=1 --,low
+' OR 1=1,low
+' <= 1,low
+OR 1=1,low
+' OR 'a'='a,low
+""" = 1",low
+' = 1,low
+' <> 1,low
+""" OR ""1""=""1",low
+""" = 1",low
+' OR 1=1,low
+' >= 1,low
+' = 1,low
+""" OR ""1""=""1",low
+admin' --,low
+""" = 1",low
+' OR 'a'='a,low
+""" OR ""1""=""1",low
+' <> 1,low
+' = 1,low
+' = 1,low
+""" = 1",low
+' = 1,low
+admin' --,low
+' >= 1,low
+' OR 1=1,low
+' = 1,low
+' OR 'x'='x,low
+' >= 1,low
+""" OR ""1""=""1",low
+' = 1,low
+' || 1=1 --,low
+' OR 1=1 --,low
+' <> 1,low
+' OR 1=1 --,low
+""" OR ""1""=""1",low
+' OR 1=1,low
+admin' --,low
+' = 1,low
+' = 1,low
+""" OR ""1""=""1",low
+""" OR ""1""=""1",low
+' = 1,low
+' = 1,low
+' <= 1,low
+OR 1=1,low
+' OR 1=1,low
+OR 1=1,low
+' <= 1,low
+1' OR '1'='1,low
+' OR 1=1,low
+' = 1,low
+' OR 1=1 --,low
+' OR 'x'='x,low
+OR 1=1,low
+""" = 1",low
+' = 1,low
+""" OR ""1""=""1",low
+' <> 1,low
+admin' --,low
+' <= 1,low
+' = 1,low
+' <= 1,low
+' = 1,low
+admin' --,low
+' OR 1=1 --,low
+' = 1,low
+' <> 1,low
+' <> 1,low
+""" OR ""1""=""1",low
+' || 1=1 --,low
+' OR 1=1,low
+' = 1,low
+admin' --,low
+' || 1=1 --,low
+' = 1,low
+' <= 1,low
+' <> 1,low
+""" OR ""1""=""1",low
+OR 1=1,low
+OR 1=1,low
+' = 1,low
+""" OR ""1""=""1",low
+' >= 1,low
+' OR 1=1,low
+' = 1,low
+' = 1,low
+admin' --,low
+' >= 1,low
+' OR 1=1,low
+' = 1,low
+' <= 1,low
+' <= 1,low
+OR 1=1,low
+' OR 1=1,low
+' OR 'x'='x,low
+' <> 1,low
+""" OR ""1""=""1",low
+admin' --,low
+' OR 1=1,low
+""" OR ""1""=""1",low
+' = 1,low
+""" OR ""1""=""1",low
+""" = 1",low
+1' OR '1'='1,low
+1' OR '1'='1,low
+' = 1,low
+' = 1,low
+""" OR ""1""=""1",low
+' OR 1=1,low
+' || 1=1 --,low
+""" = 1",low
+OR 1=1,low
+' = 1,low
+' = 1,low
+admin' --,low
+' OR 1=1 --,low
+' <= 1,low
+""" OR ""1""=""1",low
+' >= 1,low
+""" = 1",low
+' >= 1,low
+' = 1,low
+' = 1,low
+' = 1,low
+OR 1=1,low
+' = 1,low
+' <> 1,low
+' OR 'x'='x,low
+' || 1=1 --,low
+' = 1,low
+' OR 'a'='a,low
+' >= 1,low
+' OR 1=1,low
+' <= 1,low
+OR 1=1,low
+' >= 1,low
+OR 1=1,low
+""" = 1",low
+' <> 1,low
+' OR 1=1,low
+' OR 'a'='a,low
+""" = 1",low
+' <> 1,low
+' >= 1,low
+admin' --,low
+' = 1,low
+' OR 1=1 --,low
+' <> 1,low
+""" OR ""1""=""1",low
+' >= 1,low
+""" = 1",low
+""" = 1",low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+' = 1,low
+' = 1,low
+' = 1,low
+' <= 1,low
+admin' --,low
+' OR 1=1 --,low
+""" = 1",low
+""" OR ""1""=""1",low
+1' OR '1'='1,low
+' <= 1,low
+' >= 1,low
+""" OR ""1""=""1",low
+' = 1,low
+' <> 1,low
+OR 1=1,low
+' = 1,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+OR 1=1,low
+' <> 1,low
+' = 1,low
+' = 1,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+OR 1=1,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+admin' --,low
+' OR 'x'='x,low
+' OR 1=1,low
+' = 1,low
+' OR 1=1,low
+' OR 1=1,low
+' = 1,low
+""" OR ""1""=""1",low
+' = 1,low
+admin' --,low
+' = 1,low
+' || 1=1 --,low
+' = 1,low
+OR 1=1,low
+' = 1,low
+OR 1=1,low
+' OR 1=1,low
+' = 1,low
+' OR 1=1,low
+""" OR ""1""=""1",low
+' = 1,low
+' >= 1,low
+' = 1,low
+' OR 1=1,low
+' || 1=1 --,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+' OR 1=1 --,low
+' = 1,low
+' = 1,low
+""" OR ""1""=""1",low
+' OR 'a'='a,low
+""" OR ""1""=""1",low
+' <= 1,low
+' <> 1,low
+' OR 1=1 --,low
+' <> 1,low
+' || 1=1 --,low
+' >= 1,low
+' OR 'x'='x,low
+' OR 1=1,low
+' OR 1=1,low
+""" = 1",low
+' OR 'a'='a,low
+' = 1,low
+' = 1,low
+' >= 1,low
+' OR 'x'='x,low
+""" OR ""1""=""1",low
+' = 1,low
+' = 1,low
+' <> 1,low
+' <= 1,low
+' <> 1,low
+' = 1,low
+' = 1,low
+OR 1=1,low
+' OR 1=1,low
+""" = 1",low
+' <> 1,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+' >= 1,low
+OR 1=1,low
+' OR 1=1 --,low
+' = 1,low
+""" OR ""1""=""1",low
+' = 1,low
+' <> 1,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+""" = 1",low
+' = 1,low
+' = 1,low
+""" OR ""1""=""1",low
+admin' --,low
+' || 1=1 --,low
+' = 1,low
+""" OR ""1""=""1",low
+OR 1=1,low
+' = 1,low
+""" = 1",low
+' <> 1,low
+' = 1,low
+' <> 1,low
+' <> 1,low
+OR 1=1,low
+' <> 1,low
+' = 1,low
+' OR 'a'='a,low
+' <> 1,low
+' = 1,low
+""" OR ""1""=""1",low
+admin' --,low
+' OR 1=1,low
+' OR 'x'='x,low
+' = 1,low
+' = 1,low
+""" = 1",low
+' = 1,low
+' >= 1,low
+' >= 1,low
+""" OR ""1""=""1",low
+""" = 1",low
+' OR 1=1,low
+' <> 1,low
+' <> 1,low
+""" OR ""1""=""1",low
+""" OR ""1""=""1",low
+""" OR ""1""=""1",low
+OR 1=1,low
+""" OR ""1""=""1",low
+' OR 1=1,low
+' = 1,low
+' = 1,low
+' <= 1,low
+' OR 1=1,low
+OR 1=1,low
+' = 1,low
+' OR 1=1 --,low
+' = 1,low
+""" OR ""1""=""1",low
+' >= 1,low
+admin' --,low
+1' OR '1'='1,low
+' OR 'a'='a,low
+1' OR '1'='1,low
+' <> 1,low
+' OR 1=1,low
+' >= 1,low
+' >= 1,low
+""" OR ""1""=""1",low
+' <> 1,low
+' OR 1=1 --,low
+admin' --,low
+' <> 1,low
+' = 1,low
+""" OR ""1""=""1",low
+' >= 1,low
+""" = 1",low
+' = 1,low
+' <= 1,low
+' = 1,low
+1' OR '1'='1,low
+' = 1,low
+' = 1,low
+' <= 1,low
+' OR 1=1,low
+' OR 1=1,low
+' = 1,low
+""" OR ""1""=""1",low
+' = 1,low
+' OR 1=1 --,low
+' >= 1,low
+' OR 1=1,low
+' = 1,low
+""" OR ""1""=""1",low
+' >= 1,low
+' OR 1=1,low
+' = 1,low
+' <= 1,low
+' = 1,low
+""" = 1",low
+""" OR ""1""=""1",low
+' OR 1=1,low
+' <= 1,low
+""" OR ""1""=""1",low
+OR 1=1,low
+' <> 1,low
+' = 1,low
+admin' --,low
+' <> 1,low
+' OR 1=1,low
+' = 1,low
+admin' --,low
+OR 1=1,low
+' >= 1,low
+' = 1,low
+""" OR ""1""=""1",low
+OR 1=1,low
+' <= 1,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+' >= 1,low
+' >= 1,low
+' OR 1=1,low
+' <> 1,low
+' || 1=1 --,low
+' OR 1=1,low
+OR 1=1,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+' OR 'x'='x,low
+' = 1,low
+admin' --,low
+' OR 1=1,low
+' <> 1,low
+' OR 1=1 --,low
+admin' --,low
+' = 1,low
+""" OR ""1""=""1",low
+' OR 1=1,low
+OR 1=1,low
+' OR 1=1,low
+' OR 'x'='x,low
+' OR 1=1,low
+' = 1,low
+' <= 1,low
+' OR 1=1,low
+admin' --,low
+' = 1,low
+' <= 1,low
+' OR 'a'='a,low
+""" = 1",low
+' = 1,low
+""" OR ""1""=""1",low
+""" = 1",low
+' >= 1,low
+' = 1,low
+1' OR '1'='1,low
+' OR 1=1 --,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+' || 1=1 --,low
+' <= 1,low
+' OR 1=1,low
+' >= 1,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+' OR 1=1,low
+' || 1=1 --,low
+' OR 1=1,low
+' <= 1,low
+' = 1,low
+' <= 1,low
+OR 1=1,low
+OR 1=1,low
+' = 1,low
+""" = 1",low
+' OR 1=1,low
+' OR 'x'='x,low
+' = 1,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+' || 1=1 --,low
+' OR 1=1 --,low
+' OR 1=1,low
+""" = 1",low
+' OR 'a'='a,low
+OR 1=1,low
+' = 1,low
+""" OR ""1""=""1",low
+' OR 1=1,low
+' <= 1,low
+' >= 1,low
+OR 1=1,low
+admin' --,low
+' = 1,low
+' OR 1=1,low
+""" OR ""1""=""1",low
+OR 1=1,low
+' || 1=1 --,low
+' >= 1,low
+' >= 1,low
+' = 1,low
+' = 1,low
+' OR 1=1 --,low
+' <> 1,low
+OR 1=1,low
+' = 1,low
+admin' --,low
+' = 1,low
+""" OR ""1""=""1",low
+' = 1,low
+' OR 1=1,low
+' || 1=1 --,low
+' OR 1=1,low
+' <> 1,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+' >= 1,low
+' <= 1,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+""" = 1",low
+""" = 1",low
+' = 1,low
+' <= 1,low
+1' OR '1'='1,low
+' OR 'a'='a,low
+' <= 1,low
+' = 1,low
+' = 1,low
+' = 1,low
+' >= 1,low
+' OR 1=1,low
+OR 1=1,low
+' <> 1,low
+' <= 1,low
+""" OR ""1""=""1",low
+' <= 1,low
+""" OR ""1""=""1",low
+' <= 1,low
+' >= 1,low
+' = 1,low
+""" = 1",low
+OR 1=1,low
+' OR 'x'='x,low
+' OR 1=1 --,low
+' = 1,low
+' = 1,low
+' <> 1,low
+' <= 1,low
+' <> 1,low
+' = 1,low
+' <= 1,low
+""" = 1",low
+""" OR ""1""=""1",low
+' = 1,low
+' >= 1,low
+' >= 1,low
+' >= 1,low
+' OR 'a'='a,low
+' = 1,low
+' <> 1,low
+' = 1,low
+' OR 1=1,low
+""" = 1",low
+' || 1=1 --,low
+' <= 1,low
+' || 1=1 --,low
+' <= 1,low
+OR 1=1,low
+""" = 1",low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+' <= 1,low
+""" OR ""1""=""1",low
+""" = 1",low
+' = 1,low
+' <= 1,low
+' = 1,low
+' = 1,low
+OR 1=1,low
+' <= 1,low
+""" = 1",low
+' || 1=1 --,low
+' = 1,low
+OR 1=1,low
+OR 1=1,low
+' OR 'x'='x,low
+' = 1,low
+OR 1=1,low
+""" = 1",low
+' OR 1=1,low
+' = 1,low
+' <= 1,low
+' = 1,low
+' <> 1,low
+' >= 1,low
+' OR 1=1,low
+' >= 1,low
+' = 1,low
+' >= 1,low
+' <= 1,low
+' <= 1,low
+""" = 1",low
+' OR 1=1 --,low
+' <> 1,low
+' OR 'x'='x,low
+' = 1,low
+""" = 1",low
+' OR 'a'='a,low
+' OR 1=1,low
+' >= 1,low
+""" = 1",low
+' <> 1,low
+' <> 1,low
+' OR 1=1,low
+""" = 1",low
+' = 1,low
+' = 1,low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+""" OR ""1""=""1",low
+' = 1,low
+""" OR ""1""=""1",low
+OR 1=1,low
+' = 1,low
+' >= 1,low
+' = 1,low
+' OR 1=1,low
+' OR 'a'='a,low
+' OR 1=1,low
+""" OR ""1""=""1",low
+' || 1=1 --,low
+' >= 1,low
+""" = 1",low
+' OR 1=1,low
+' >= 1,low
+' OR 1=1,low
+""" = 1",low
+OR 1=1,low
+' OR 1=1,low
+' >= 1,low
+""" OR ""1""=""1",low
+' OR 1=1,low
+' OR 1=1,low
+' = 1,low
+""" OR ""1""=""1",low
+' <= 1,low
+' = 1,low
+OR 1=1,low
+' OR 'a'='a,low
+' OR 1=1,low
+' <> 1,low
+' OR 1=1,low
+""" OR ""1""=""1",low
+admin' --,low
+""" = 1",low
+' = 1,low
+' <= 1,low
+' OR 1=1,low
+' = 1,low
+' = 1,low
+' = 1,low
+' >= 1,low
+' || 1=1 --,low
+' OR 1=1,low
+' >= 1,low
+' = 1,low
+OR 1=1,low
+' <> 1,low
+' OR 1=1 --,low
+' <= 1,low
+' >= 1,low
+' <= 1,low
+' OR 1=1,low
+""" = 1",low
+OR 1=1,low
+' <= 1,low
+OR 1=1,low
+' = 1,low
+' <= 1,low
+' OR 'a'='a,low
+""" = 1",low
+""" = 1",low
+' <= 1,low
+""" OR ""1""=""1",low
+' = 1,low
+' = 1,low
+""" = 1",low
+' OR 1=1,low
+""" OR ""1""=""1",low
+admin' --,low
+""" = 1",low
+' OR 1=1,low
+""" OR ""1""=""1",low
+' <> 1,low
+' OR 'x'='x,low
+""" OR ""1""=""1",low
+' >= 1,low
+' <= 1,low
+""" OR ""1""=""1",low
+' OR 1=1,low
+""" OR ""1""=""1",low
+OR 1=1,low
+' >= 1,low
+' = 1,low
+' OR 1=1,low
+""" OR ""1""=""1",low
+' OR 1=1,low
+OR 1=1,low
+' <= 1,low
+' = 1,low
+1' OR '1'='1,low
+' OR 1=1,low
+""" = 1",low
+' >= 1,low
+' = 1,low
+' OR 1=1,low
+1' OR '1'='1,low
+' OR 1=1,low
+' = 1,low
+' <= 1,low
+' = 1,low
+' = 1,low
+' = 1,low
+admin' --,low
+' OR 1=1 --,low
+' OR 1=1,low
+' = 1,low
+' <= 1,low
+' <= 1,low
+' OR 1=1,low
+' OR 1=1 --,low
+' || 1=1 --,low
+admin' --,low
+' OR 1=1 --,low
+' OR 1=1,low
+""" OR ""1""=""1",low
+' = 1,low
+' <= 1,low
+' <> 1,low
+' <> 1,low
+admin' --,low
+""" OR ""1""=""1",low
+' OR 'x'='x,low
+' || 1=1 --,low
+' <> 1,low
+' = 1,low
+' <> 1,low
+' >= 1,low
+OR 1=1,low
+' = 1,low
+""" OR ""1""=""1",low
+' = 1,low
+' = 1,low
+' OR 1=1,low
+' = 1,low
+OR 1=1,low
+""" = 1",low
+' OR 1=1,low
+' || 1=1 --,low
+""" OR ""1""=""1",low
+' OR 1=1,low
+' = 1,low
+' <> 1,low
+""" OR ""1""=""1",low
+""" = 1",low
+' = 1,low

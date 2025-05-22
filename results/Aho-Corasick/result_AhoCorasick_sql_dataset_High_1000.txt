@@ -1,0 +1,52 @@
+Extracted 73 patterns using regex
+Successfully read 73 patterns from patterns.txt
+First 10 patterns:
+1. xp_cmdshell
+2. exec xp_
+3. into outfile
+4. load_file
+5. load data infile
+6. /etc/passwd
+7. shell.php
+8. net user hack
+9. lambda_async
+10. create user
+... and 63 more patterns
+Weight distribution: 1=8, 2=0, 4=0, 6=0, 12=0, 30=10
+Automaton built with 489 nodes for 73 patterns.
+Loaded 1000 queries.
+Launching kernel with 4 blocks and 256 threads per block...
+Query 0: "'; WAITFOR DELAY '0:0:5' --"
+  Normalized: "'; waitfor delay '0:0:5' --"
+  Score: 55, computed risk: high, expected: high [OK]
+Query 1: "'; DROP TABLE temp"
+  Normalized: "'; drop table temp"
+  Score: 50, computed risk: high, expected: high [OK]
+Query 2: "' OR 1=1; DROP TABLE users --"
+  Normalized: "' or 1=1; drop table users --"
+  Score: 77, computed risk: critical, expected: high [Mismatch]
+Query 3: "'; EXEC sp_configure 'options', 1 --"
+  Normalized: "'; exec sp_configure 'options', 1 --"
+  Score: 55, computed risk: high, expected: high [OK]
+Query 4: "'; DROP TABLE temp --"
+  Normalized: "'; drop table temp --"
+  Score: 55, computed risk: high, expected: high [OK]
+Query 5: "'; DROP PROCEDURE admin_login --"
+  Normalized: "'; drop procedure admin_login --"
+  Score: 55, computed risk: high, expected: high [OK]
+Query 6: "'; SELECT PG_SLEEP(5) --"
+  Normalized: "'; select pg_sleep(5) --"
+  Score: 105, computed risk: critical, expected: high [Mismatch]
+Query 7: "'; ALTER TABLE users ADD col --"
+  Normalized: "'; alter table users add col --"
+  Score: 55, computed risk: high, expected: high [OK]
+Query 8: "'; UPDATE users SET pass='hack' --"
+  Normalized: "'; update users set pass='hack' --"
+  Score: 56, computed risk: high, expected: high [OK]
+Query 9: "'; UPDATE users SET pass='hack' --"
+  Normalized: "'; update users set pass='hack' --"
+  Score: 56, computed risk: high, expected: high [OK]
+
+Total: 1000, Correct: 852, Accuracy: 85.2%
+Queries with zero score: 0 (0%)
+Aho-Corasick kernel execution time: 0.062464 ms

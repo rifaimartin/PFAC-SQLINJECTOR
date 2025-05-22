@@ -1,0 +1,11 @@
+query,risk,score
+1' OR 1=1; SELECT * FROM users --,medium,40
+'; SELECT @@version --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+1' OR '1' = '1' GROUP BY 1 --,medium,40
+"' UNION ALL SELECT 1,2 FROM users --",medium,40
+' or 1 = 1 LIMIT 1 --,medium,40
+"' UNION SELECT username, password FROM users --",medium,40
+"' OR '1'='1' UNION SELECT 1,2 --",medium,40
+'; UPDATE users SET password='pass',medium,40

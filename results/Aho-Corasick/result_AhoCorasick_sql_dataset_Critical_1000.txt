@@ -1,0 +1,52 @@
+Extracted 73 patterns using regex
+Successfully read 73 patterns from patterns.txt
+First 10 patterns:
+1. xp_cmdshell
+2. exec xp_
+3. into outfile
+4. load_file
+5. load data infile
+6. /etc/passwd
+7. shell.php
+8. net user hack
+9. lambda_async
+10. create user
+... and 63 more patterns
+Weight distribution: 1=8, 2=0, 4=0, 6=0, 12=0, 30=10
+Automaton built with 489 nodes for 73 patterns.
+Loaded 1000 queries.
+Launching kernel with 4 blocks and 256 threads per block...
+Query 0: "'; SELECT * FROM mysql.user -- OR xp_cmdshell"
+  Normalized: "'; select * from mysql.user -- or xp_cmdshell"
+  Score: 146, computed risk: critical, expected: critical [OK]
+Query 1: "' UNION ALL SELECT username, password FROM users --"
+  Normalized: "' union all select username, password from users --"
+  Score: 131, computed risk: critical, expected: critical [OK]
+Query 2: "'; SELECT * FROM mysql.user -- OR xp_cmdshell"
+  Normalized: "'; select * from mysql.user -- or xp_cmdshell"
+  Score: 146, computed risk: critical, expected: critical [OK]
+Query 3: "'; EXEC xp_cmdshell('dir')"
+  Normalized: "'; exec xp_cmdshell('dir')"
+  Score: 180, computed risk: critical, expected: critical [OK]
+Query 4: "'; SELECT table_name FROM information_schema.tables -- OR xp_cmdshell"
+  Normalized: "'; select table_name from information_schema.tables -- or xp_cmdshell"
+  Score: 156, computed risk: critical, expected: critical [OK]
+Query 5: "'; GRANT ALL PRIVILEGES ON *.* TO 'hack' --"
+  Normalized: "'; grant all privileges on *.* to 'hack' --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 6: "'; CALL mysql.lambda_async('127.0.0.1', 1234) --"
+  Normalized: "'; call mysql.lambda_async('127.0.0.1', 1234) --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 7: "'; GRANT ALL PRIVILEGES ON *.* TO 'hack' --"
+  Normalized: "'; grant all privileges on *.* to 'hack' --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 8: "'; CREATE USER 'hack'@'%' IDENTIFIED BY 'pass' --"
+  Normalized: "'; create user 'hack'@'%' identified by 'pass' --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 9: "'; SELECT table_name FROM information_schema.tables -- AND load_file('test')"
+  Normalized: "'; select table_name from information_schema.tables -- and load_file('test')"
+  Score: 156, computed risk: critical, expected: critical [OK]
+
+Total: 1000, Correct: 1000, Accuracy: 100%
+Queries with zero score: 0 (0%)
+Aho-Corasick kernel execution time: 0.084992 ms

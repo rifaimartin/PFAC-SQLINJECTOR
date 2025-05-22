@@ -1,0 +1,52 @@
+Extracted 73 patterns using regex
+Successfully read 73 patterns from patterns.txt
+First 10 patterns:
+1. xp_cmdshell
+2. exec xp_
+3. into outfile
+4. load_file
+5. load data infile
+6. /etc/passwd
+7. shell.php
+8. net user hack
+9. lambda_async
+10. create user
+... and 63 more patterns
+Weight distribution: 1=8, 2=0, 4=0, 6=0, 12=0, 30=10
+Automaton built with 489 nodes for 73 patterns.
+Loaded 10000 queries.
+Launching kernel with 40 blocks and 256 threads per block...
+Query 0: "' GROUP BY 1 --"
+  Normalized: "' group by 1 --"
+  Score: 35, computed risk: medium, expected: medium [OK]
+Query 1: "' OR CAST('1' as int) --"
+  Normalized: "' or cast('1' as int) --"
+  Score: 34, computed risk: medium, expected: medium [OK]
+Query 2: "' GROUP BY 1"
+  Normalized: "' group by 1"
+  Score: 30, computed risk: medium, expected: medium [OK]
+Query 3: "' GROUP BY 1"
+  Normalized: "' group by 1"
+  Score: 30, computed risk: medium, expected: medium [OK]
+Query 4: "' OR CAST('1' as int) --"
+  Normalized: "' or cast('1' as int) --"
+  Score: 34, computed risk: medium, expected: medium [OK]
+Query 5: "' GROUP BY 1"
+  Normalized: "' group by 1"
+  Score: 30, computed risk: medium, expected: medium [OK]
+Query 6: "' GROUP BY 1 --"
+  Normalized: "' group by 1 --"
+  Score: 35, computed risk: medium, expected: medium [OK]
+Query 7: "' HAVING 1=1 #"
+  Normalized: "' having 1=1 #"
+  Score: 41, computed risk: medium, expected: medium [OK]
+Query 8: "1' OR admin' --"
+  Normalized: "1' or admin' --"
+  Score: 34, computed risk: medium, expected: medium [OK]
+Query 9: "' HAVING 1=1 #"
+  Normalized: "' having 1=1 #"
+  Score: 41, computed risk: medium, expected: medium [OK]
+
+Total: 10000, Correct: 8560, Accuracy: 85.6%
+Queries with zero score: 0 (0%)
+Aho-Corasick kernel execution time: 0.078656 ms
