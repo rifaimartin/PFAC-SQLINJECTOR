@@ -49,4 +49,4 @@ Query 9: "'; EXEC(@cmd) -- OR xp_cmdshell"
 
 Total: 10, Correct: 10, Accuracy: 100%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.086816 ms
+Aho-Corasick kernel execution time: 0.115712 ms

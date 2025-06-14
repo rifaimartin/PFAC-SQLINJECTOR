@@ -51,4 +51,4 @@ Query 9: "'; SELECT load_file('/etc/passwd') --"
 
 Total: 100, Correct: 100, Accuracy: 100%
 Queries with zero score: 0 (0%)
-Optimized Sparse PFAC kernel execution time: 0.267392 ms
+Optimized Sparse PFAC kernel execution time: 0.304896 ms

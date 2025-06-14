@@ -49,4 +49,4 @@ Query 9: "'; SELECT load_file('/etc/passwd') --"
 
 Total: 100, Correct: 100, Accuracy: 100%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.08272 ms
+Aho-Corasick kernel execution time: 0.116736 ms

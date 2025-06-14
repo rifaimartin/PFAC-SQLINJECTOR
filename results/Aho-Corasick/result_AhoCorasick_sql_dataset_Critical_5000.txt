@@ -49,4 +49,4 @@ Query 9: "'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users --"
 
 Total: 5000, Correct: 5000, Accuracy: 100%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.088064 ms
+Aho-Corasick kernel execution time: 0.11776 ms

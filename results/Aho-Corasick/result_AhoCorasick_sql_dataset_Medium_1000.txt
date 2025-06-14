@@ -49,4 +49,4 @@ Query 9: "' OR CAST('1' as int) --"
 
 Total: 1000, Correct: 857, Accuracy: 85.7%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.055296 ms
+Aho-Corasick kernel execution time: 0.0256 ms

@@ -12,7 +12,6 @@ First 10 patterns:
 9. lambda_async
 10. create user
 ... and 63 more patterns
-Weight distribution: 1=0, 2=0, 4=0, 6=0, 12=0, 30=10
 Trie node count: 489
 Transitions count: 488
 Average transitions per node: 0.997955
@@ -26,7 +25,7 @@ Query 1: "'; SELECT load_file('/etc/passwd') --"
   Score: 185, computed risk: critical, expected: critical [OK]
 Query 2: "'; SELECT table_name FROM information_schema.tables -- AND load_file('test')"
   Normalized: "'; select table_name from information_schema.tables -- and load_file('test')"
-  Score: 158, computed risk: critical, expected: critical [OK]
+  Score: 156, computed risk: critical, expected: critical [OK]
 Query 3: "'; GRANT ALL PRIVILEGES ON *.* TO 'hack' --"
   Normalized: "'; grant all privileges on *.* to 'hack' --"
   Score: 95, computed risk: critical, expected: critical [OK]
@@ -51,4 +50,4 @@ Query 9: "' INTO OUTFILE '/tmp/test'"
 
 Total: 10000, Correct: 10000, Accuracy: 100%
 Queries with zero score: 0 (0%)
-Optimized Sparse PFAC kernel execution time: 0.273312 ms
+Optimized Sparse PFAC kernel execution time: 0.2304 ms

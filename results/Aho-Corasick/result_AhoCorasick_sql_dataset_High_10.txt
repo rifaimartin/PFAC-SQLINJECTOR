@@ -49,4 +49,4 @@ Query 9: "'; SELECT SLEEP(5) --"
 
 Total: 10, Correct: 6, Accuracy: 60%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.0768 ms
+Aho-Corasick kernel execution time: 0.10752 ms

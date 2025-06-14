@@ -12,7 +12,6 @@ First 10 patterns:
 9. lambda_async
 10. create user
 ... and 63 more patterns
-Weight distribution: 1=0, 2=0, 4=0, 6=0, 12=0, 30=10
 Trie node count: 489
 Transitions count: 488
 Average transitions per node: 0.997955
@@ -51,4 +50,4 @@ Query 9: "'; DELETE FROM users --"
 
 Total: 100, Correct: 86, Accuracy: 86%
 Queries with zero score: 0 (0%)
-Optimized Sparse PFAC kernel execution time: 0.16384 ms
+Optimized Sparse PFAC kernel execution time: 0.177152 ms

@@ -1,0 +1,54 @@
+Extracted 73 patterns using regex
+Successfully read 73 patterns from patterns.txt
+First 10 patterns:
+1. xp_cmdshell
+2. exec xp_
+3. into outfile
+4. load_file
+5. load data infile
+6. /etc/passwd
+7. shell.php
+8. net user hack
+9. lambda_async
+10. create user
+... and 63 more patterns
+Weight distribution: 1=0, 2=0, 4=0, 6=0, 12=0, 30=10
+Trie node count: 489
+Transitions count: 488
+Average transitions per node: 0.997955
+Loaded 10000 queries.
+Launching kernel with 40 blocks and 256 threads per block...
+Query 0: "' UNION ALL SELECT username, password FROM users --"
+  Normalized: "' union all select username, password from users --"
+  Score: 131, computed risk: critical, expected: critical [OK]
+Query 1: "'; SELECT load_file('/etc/passwd') --"
+  Normalized: "'; select load_file('/etc/passwd') --"
+  Score: 185, computed risk: critical, expected: critical [OK]
+Query 2: "'; SELECT table_name FROM information_schema.tables -- AND load_file('test')"
+  Normalized: "'; select table_name from information_schema.tables -- and load_file('test')"
+  Score: 158, computed risk: critical, expected: critical [OK]
+Query 3: "'; GRANT ALL PRIVILEGES ON *.* TO 'hack' --"
+  Normalized: "'; grant all privileges on *.* to 'hack' --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 4: "' UNION ALL SELECT username, password FROM users --"
+  Normalized: "' union all select username, password from users --"
+  Score: 131, computed risk: critical, expected: critical [OK]
+Query 5: "'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users --"
+  Normalized: "'; load data infile '/etc/passwd' into table users --"
+  Score: 185, computed risk: critical, expected: critical [OK]
+Query 6: "'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users --"
+  Normalized: "'; load data infile '/etc/passwd' into table users --"
+  Score: 185, computed risk: critical, expected: critical [OK]
+Query 7: "' UNION ALL SELECT username, password FROM users --"
+  Normalized: "' union all select username, password from users --"
+  Score: 131, computed risk: critical, expected: critical [OK]
+Query 8: "'; GRANT ALL PRIVILEGES ON *.* TO 'hack' --"
+  Normalized: "'; grant all privileges on *.* to 'hack' --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 9: "' INTO OUTFILE '/tmp/test'"
+  Normalized: "' into outfile '/tmp/test'"
+  Score: 90, computed risk: critical, expected: critical [OK]
+
+Total: 10000, Correct: 10000, Accuracy: 100%
+Queries with zero score: 0 (0%)
+Optimized Sparse PFAC kernel execution time: 0.273312 ms

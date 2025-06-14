@@ -49,4 +49,4 @@ Query 9: "admin' --"
 
 Total: 10, Correct: 7, Accuracy: 70%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.060064 ms
+Aho-Corasick kernel execution time: 0.016384 ms

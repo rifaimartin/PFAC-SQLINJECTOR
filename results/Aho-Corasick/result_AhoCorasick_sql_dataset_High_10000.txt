@@ -49,4 +49,4 @@ Query 9: "'; DROP TABLE temp --"
 
 Total: 10000, Correct: 8410, Accuracy: 84.1%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.0768 ms
+Aho-Corasick kernel execution time: 0.234496 ms

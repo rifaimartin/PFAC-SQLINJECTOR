@@ -49,4 +49,4 @@ Query 9: "'; UPDATE users SET pass='hack' --"
 
 Total: 1000, Correct: 852, Accuracy: 85.2%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.062464 ms
+Aho-Corasick kernel execution time: 0.106496 ms

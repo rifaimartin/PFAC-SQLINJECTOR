@@ -49,4 +49,4 @@ Query 9: "'; SELECT table_name FROM information_schema.tables -- AND load_file('
 
 Total: 1000, Correct: 1000, Accuracy: 100%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.084992 ms
+Aho-Corasick kernel execution time: 0.117504 ms

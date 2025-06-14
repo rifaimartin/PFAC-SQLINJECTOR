@@ -480,7 +480,7 @@ int main(int argc, char** argv) {
     
     // DEFAULT - Very basic patterns
     else {
-        weights[i] = 3;
+        weights[i] = 1;
     }
     }
     

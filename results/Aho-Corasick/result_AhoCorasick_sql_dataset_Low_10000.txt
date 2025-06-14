@@ -49,4 +49,4 @@ Query 9: "= 1"
 
 Total: 10000, Correct: 7160, Accuracy: 71.6%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.07152 ms
+Aho-Corasick kernel execution time: 0.017408 ms

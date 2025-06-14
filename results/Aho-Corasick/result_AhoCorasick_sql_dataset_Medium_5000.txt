@@ -49,4 +49,4 @@ Query 9: "' OR MD5('test') --"
 
 Total: 5000, Correct: 4295, Accuracy: 85.9%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.069632 ms
+Aho-Corasick kernel execution time: 0.026624 ms

@@ -49,4 +49,4 @@ Query 9: "' HAVING 1=1 #"
 
 Total: 10000, Correct: 8560, Accuracy: 85.6%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.078656 ms
+Aho-Corasick kernel execution time: 0.026624 ms

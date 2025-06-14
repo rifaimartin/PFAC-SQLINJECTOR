@@ -12,7 +12,6 @@ First 10 patterns:
 9. lambda_async
 10. create user
 ... and 63 more patterns
-Weight distribution: 1=0, 2=0, 4=0, 6=0, 12=0, 30=10
 Trie node count: 489
 Transitions count: 488
 Average transitions per node: 0.997955
@@ -23,7 +22,7 @@ Query 0: "' GROUP BY 1 --"
   Score: 35, computed risk: medium, expected: medium [OK]
 Query 1: "' OR CAST('1' as int) --"
   Normalized: "' or cast('1' as int) --"
-  Score: 36, computed risk: medium, expected: medium [OK]
+  Score: 34, computed risk: medium, expected: medium [OK]
 Query 2: "' GROUP BY 1"
   Normalized: "' group by 1"
   Score: 30, computed risk: medium, expected: medium [OK]
@@ -32,7 +31,7 @@ Query 3: "' GROUP BY 1"
   Score: 30, computed risk: medium, expected: medium [OK]
 Query 4: "' OR CAST('1' as int) --"
   Normalized: "' or cast('1' as int) --"
-  Score: 36, computed risk: medium, expected: medium [OK]
+  Score: 34, computed risk: medium, expected: medium [OK]
 Query 5: "' GROUP BY 1"
   Normalized: "' group by 1"
   Score: 30, computed risk: medium, expected: medium [OK]
@@ -41,14 +40,14 @@ Query 6: "' GROUP BY 1 --"
   Score: 35, computed risk: medium, expected: medium [OK]
 Query 7: "' HAVING 1=1 #"
   Normalized: "' having 1=1 #"
-  Score: 43, computed risk: medium, expected: medium [OK]
+  Score: 41, computed risk: medium, expected: medium [OK]
 Query 8: "1' OR admin' --"
   Normalized: "1' or admin' --"
-  Score: 36, computed risk: medium, expected: medium [OK]
+  Score: 34, computed risk: medium, expected: medium [OK]
 Query 9: "' HAVING 1=1 #"
   Normalized: "' having 1=1 #"
-  Score: 43, computed risk: medium, expected: medium [OK]
+  Score: 41, computed risk: medium, expected: medium [OK]
 
 Total: 10000, Correct: 8560, Accuracy: 85.6%
 Queries with zero score: 0 (0%)
-Optimized Sparse PFAC kernel execution time: 0.12288 ms
+Optimized Sparse PFAC kernel execution time: 0.135168 ms

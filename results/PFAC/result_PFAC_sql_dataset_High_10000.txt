@@ -12,7 +12,6 @@ First 10 patterns:
 9. lambda_async
 10. create user
 ... and 63 more patterns
-Weight distribution: 1=0, 2=0, 4=0, 6=0, 12=0, 30=10
 Trie node count: 489
 Transitions count: 488
 Average transitions per node: 0.997955
@@ -20,7 +19,7 @@ Loaded 10000 queries.
 Launching kernel with 40 blocks and 256 threads per block...
 Query 0: "' OR @@version"
   Normalized: "' or @@version"
-  Score: 63, computed risk: high, expected: high [OK]
+  Score: 61, computed risk: high, expected: high [OK]
 Query 1: "'; INSERT INTO logs VALUES('hack') --"
   Normalized: "'; insert into logs values('hack') --"
   Score: 55, computed risk: high, expected: high [OK]
@@ -41,7 +40,7 @@ Query 6: "'; DROP TABLE temp"
   Score: 50, computed risk: high, expected: high [OK]
 Query 7: "' OR 1=1; DROP TABLE users --"
   Normalized: "' or 1=1; drop table users --"
-  Score: 81, computed risk: critical, expected: high [Mismatch]
+  Score: 77, computed risk: critical, expected: high [Mismatch]
 Query 8: "'; EXEC sp_configure 'options', 1 --"
   Normalized: "'; exec sp_configure 'options', 1 --"
   Score: 55, computed risk: high, expected: high [OK]
@@ -51,4 +50,4 @@ Query 9: "'; DROP TABLE temp --"
 
 Total: 10000, Correct: 8410, Accuracy: 84.1%
 Queries with zero score: 0 (0%)
-Optimized Sparse PFAC kernel execution time: 0.16048 ms
+Optimized Sparse PFAC kernel execution time: 0.185344 ms

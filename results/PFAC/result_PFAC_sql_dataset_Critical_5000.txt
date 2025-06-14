@@ -12,7 +12,6 @@ First 10 patterns:
 9. lambda_async
 10. create user
 ... and 63 more patterns
-Weight distribution: 1=0, 2=0, 4=0, 6=0, 12=0, 30=10
 Trie node count: 489
 Transitions count: 488
 Average transitions per node: 0.997955
@@ -23,16 +22,16 @@ Query 0: "'; CALL mysql.lambda_async('127.0.0.1', 1234) --"
   Score: 95, computed risk: critical, expected: critical [OK]
 Query 1: "'; EXEC(@cmd) -- AND load_file('test')"
   Normalized: "'; exec(@cmd) -- and load_file('test')"
-  Score: 148, computed risk: critical, expected: critical [OK]
+  Score: 146, computed risk: critical, expected: critical [OK]
 Query 2: "'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users --"
   Normalized: "'; load data infile '/etc/passwd' into table users --"
   Score: 185, computed risk: critical, expected: critical [OK]
 Query 3: "'; SELECT * FROM mysql.user -- AND load_file('test')"
   Normalized: "'; select * from mysql.user -- and load_file('test')"
-  Score: 148, computed risk: critical, expected: critical [OK]
+  Score: 146, computed risk: critical, expected: critical [OK]
 Query 4: "'; EXEC(@cmd) -- AND load_file('test')"
   Normalized: "'; exec(@cmd) -- and load_file('test')"
-  Score: 148, computed risk: critical, expected: critical [OK]
+  Score: 146, computed risk: critical, expected: critical [OK]
 Query 5: "'; CALL mysql.lambda_async('127.0.0.1', 1234) --"
   Normalized: "'; call mysql.lambda_async('127.0.0.1', 1234) --"
   Score: 95, computed risk: critical, expected: critical [OK]
@@ -51,4 +50,4 @@ Query 9: "'; LOAD DATA INFILE '/etc/passwd' INTO TABLE users --"
 
 Total: 5000, Correct: 5000, Accuracy: 100%
 Queries with zero score: 0 (0%)
-Optimized Sparse PFAC kernel execution time: 0.260096 ms
+Optimized Sparse PFAC kernel execution time: 0.263168 ms

@@ -1,0 +1,52 @@
+Extracted 73 patterns using regex
+Successfully read 73 patterns from patterns.txt
+First 10 patterns:
+1. xp_cmdshell
+2. exec xp_
+3. into outfile
+4. load_file
+5. load data infile
+6. /etc/passwd
+7. shell.php
+8. net user hack
+9. lambda_async
+10. create user
+... and 63 more patterns
+Weight distribution: 1=8, 2=0, 4=0, 6=0, 12=0, 30=10
+Automaton built with 489 nodes for 73 patterns.
+Loaded 100 queries.
+Launching kernel with 1 blocks and 256 threads per block...
+Query 0: "'; CREATE TRIGGER evil BEFORE INSERT ON users --"
+  Normalized: "'; create trigger evil before insert on users --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 1: "'; SELECT COUNT(*) FROM information_schema.tables -- AND load_file('test')"
+  Normalized: "'; select count(*) from information_schema.tables -- and load_file('test')"
+  Score: 156, computed risk: critical, expected: critical [OK]
+Query 2: "'; EXEC(@cmd) -- AND load_file('test')"
+  Normalized: "'; exec(@cmd) -- and load_file('test')"
+  Score: 146, computed risk: critical, expected: critical [OK]
+Query 3: "'; GRANT ALL PRIVILEGES ON *.* TO 'hack' --"
+  Normalized: "'; grant all privileges on *.* to 'hack' --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 4: "'; GRANT ALL PRIVILEGES ON *.* TO 'hack' --"
+  Normalized: "'; grant all privileges on *.* to 'hack' --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 5: "'; SELECT COUNT(*) FROM information_schema.tables -- AND load_file('test')"
+  Normalized: "'; select count(*) from information_schema.tables -- and load_file('test')"
+  Score: 156, computed risk: critical, expected: critical [OK]
+Query 6: "'; CREATE USER 'hack'@'%' IDENTIFIED BY 'pass' --"
+  Normalized: "'; create user 'hack'@'%' identified by 'pass' --"
+  Score: 95, computed risk: critical, expected: critical [OK]
+Query 7: "' UNION ALL SELECT username, password FROM users --"
+  Normalized: "' union all select username, password from users --"
+  Score: 131, computed risk: critical, expected: critical [OK]
+Query 8: "'; UNION SELECT username, password FROM users --"
+  Normalized: "'; union select username, password from users --"
+  Score: 131, computed risk: critical, expected: critical [OK]
+Query 9: "'; SELECT load_file('/etc/passwd') --"
+  Normalized: "'; select load_file('/etc/passwd') --"
+  Score: 185, computed risk: critical, expected: critical [OK]
+
+Total: 100, Correct: 100, Accuracy: 100%
+Queries with zero score: 0 (0%)
+Aho-Corasick kernel execution time: 0.08272 ms

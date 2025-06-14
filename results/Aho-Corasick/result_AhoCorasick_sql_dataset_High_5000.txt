@@ -49,4 +49,4 @@ Query 9: "'; SELECT BENCHMARK(10000,MD5('x')) --"
 
 Total: 5000, Correct: 4249, Accuracy: 84.98%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.142336 ms
+Aho-Corasick kernel execution time: 0.106496 ms

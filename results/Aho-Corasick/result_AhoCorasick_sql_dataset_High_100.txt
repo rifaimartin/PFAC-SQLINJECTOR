@@ -49,4 +49,4 @@ Query 9: "'; DELETE FROM users --"
 
 Total: 100, Correct: 86, Accuracy: 86%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.063488 ms
+Aho-Corasick kernel execution time: 0.101376 ms

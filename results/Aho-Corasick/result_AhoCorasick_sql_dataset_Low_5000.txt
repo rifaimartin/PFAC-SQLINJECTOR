@@ -49,4 +49,4 @@ Query 9: "OR 1=1"
 
 Total: 5000, Correct: 3560, Accuracy: 71.2%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.113664 ms
+Aho-Corasick kernel execution time: 0.017152 ms

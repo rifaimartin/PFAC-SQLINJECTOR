@@ -12,7 +12,6 @@ First 10 patterns:
 9. lambda_async
 10. create user
 ... and 63 more patterns
-Weight distribution: 1=0, 2=0, 4=0, 6=0, 12=0, 30=10
 Trie node count: 489
 Transitions count: 488
 Average transitions per node: 0.997955
@@ -20,35 +19,35 @@ Loaded 100 queries.
 Launching kernel with 1 blocks and 256 threads per block...
 Query 0: "' OR 1=1"
   Normalized: "' or 1=1"
-  Score: 26, computed risk: medium, expected: low [Mismatch]
+  Score: 22, computed risk: medium, expected: low [Mismatch]
 Query 1: "' >= 1"
   Normalized: "' >= 1"
-  Score: 8, computed risk: low, expected: low [OK]
+  Score: 6, computed risk: low, expected: low [OK]
 Query 2: "= 1"
   Normalized: "= 1"
-  Score: 3, computed risk: low, expected: low [OK]
+  Score: 1, computed risk: low, expected: low [OK]
 Query 3: "' || 1=1 --"
   Normalized: "' || 1=1 --"
-  Score: 21, computed risk: medium, expected: low [Mismatch]
+  Score: 17, computed risk: low, expected: low [OK]
 Query 4: "' = 1"
   Normalized: "' = 1"
-  Score: 11, computed risk: low, expected: low [OK]
+  Score: 7, computed risk: low, expected: low [OK]
 Query 5: "OR 1=1"
   Normalized: "or 1=1"
-  Score: 13, computed risk: low, expected: low [OK]
+  Score: 11, computed risk: low, expected: low [OK]
 Query 6: "' OR 1=1"
   Normalized: "' or 1=1"
-  Score: 26, computed risk: medium, expected: low [Mismatch]
+  Score: 22, computed risk: medium, expected: low [Mismatch]
 Query 7: "' OR 1=1"
   Normalized: "' or 1=1"
-  Score: 26, computed risk: medium, expected: low [Mismatch]
+  Score: 22, computed risk: medium, expected: low [Mismatch]
 Query 8: "OR 1=1"
   Normalized: "or 1=1"
-  Score: 13, computed risk: low, expected: low [OK]
+  Score: 11, computed risk: low, expected: low [OK]
 Query 9: "' <= 1"
   Normalized: "' <= 1"
-  Score: 8, computed risk: low, expected: low [OK]
+  Score: 6, computed risk: low, expected: low [OK]
 
-Total: 100, Correct: 64, Accuracy: 64%
+Total: 100, Correct: 68, Accuracy: 68%
 Queries with zero score: 0 (0%)
-Optimized Sparse PFAC kernel execution time: 0.08192 ms
+Optimized Sparse PFAC kernel execution time: 0.142336 ms

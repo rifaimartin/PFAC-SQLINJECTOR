@@ -49,4 +49,4 @@ Query 9: "' INTO OUTFILE '/tmp/test'"
 
 Total: 10000, Correct: 10000, Accuracy: 100%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.107328 ms
+Aho-Corasick kernel execution time: 0.11776 ms

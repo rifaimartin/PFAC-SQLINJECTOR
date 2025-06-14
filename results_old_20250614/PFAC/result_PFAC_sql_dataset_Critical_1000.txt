@@ -12,25 +12,27 @@ First 10 patterns:
 9. lambda_async
 10. create user
 ... and 63 more patterns
-Weight distribution: 1=8, 2=0, 4=0, 6=0, 12=0, 30=10
-Automaton built with 489 nodes for 73 patterns.
+Weight distribution: 1=0, 2=0, 4=0, 6=0, 12=0, 30=10
+Trie node count: 489
+Transitions count: 488
+Average transitions per node: 0.997955
 Loaded 1000 queries.
 Launching kernel with 4 blocks and 256 threads per block...
 Query 0: "'; SELECT * FROM mysql.user -- OR xp_cmdshell"
   Normalized: "'; select * from mysql.user -- or xp_cmdshell"
-  Score: 146, computed risk: critical, expected: critical [OK]
+  Score: 148, computed risk: critical, expected: critical [OK]
 Query 1: "' UNION ALL SELECT username, password FROM users --"
   Normalized: "' union all select username, password from users --"
   Score: 131, computed risk: critical, expected: critical [OK]
 Query 2: "'; SELECT * FROM mysql.user -- OR xp_cmdshell"
   Normalized: "'; select * from mysql.user -- or xp_cmdshell"
-  Score: 146, computed risk: critical, expected: critical [OK]
+  Score: 148, computed risk: critical, expected: critical [OK]
 Query 3: "'; EXEC xp_cmdshell('dir')"
   Normalized: "'; exec xp_cmdshell('dir')"
   Score: 180, computed risk: critical, expected: critical [OK]
 Query 4: "'; SELECT table_name FROM information_schema.tables -- OR xp_cmdshell"
   Normalized: "'; select table_name from information_schema.tables -- or xp_cmdshell"
-  Score: 156, computed risk: critical, expected: critical [OK]
+  Score: 158, computed risk: critical, expected: critical [OK]
 Query 5: "'; GRANT ALL PRIVILEGES ON *.* TO 'hack' --"
   Normalized: "'; grant all privileges on *.* to 'hack' --"
   Score: 95, computed risk: critical, expected: critical [OK]
@@ -45,8 +47,8 @@ Query 8: "'; CREATE USER 'hack'@'%' IDENTIFIED BY 'pass' --"
   Score: 95, computed risk: critical, expected: critical [OK]
 Query 9: "'; SELECT table_name FROM information_schema.tables -- AND load_file('test')"
   Normalized: "'; select table_name from information_schema.tables -- and load_file('test')"
-  Score: 156, computed risk: critical, expected: critical [OK]
+  Score: 158, computed risk: critical, expected: critical [OK]
 
 Total: 1000, Correct: 1000, Accuracy: 100%
 Queries with zero score: 0 (0%)
-Aho-Corasick kernel execution time: 0.113728 ms
+Optimized Sparse PFAC kernel execution time: 0.321504 ms
